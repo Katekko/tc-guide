@@ -1,0 +1,108 @@
+{
+  "id": 55007,
+  "name": "Jeanne",
+  "fullName": "God - Jeanne",
+  "epithet": "Glory Saintess",
+  "heroClass": "Guard",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "AOE DMG RED",
+    "AOE Heal"
+  ],
+  "bio": "Former Mortal Female Warrior who sacrificed heroically to resist invasion. She was given a new life by the Spirit Heroes Faction, becoming the Flame Saintess and continuing to protect justice with the Seraph Spear.<br/><br/><color=#bde141>Role: Group Damage Reduction</color><br/><color=#bde141>Specialty: A frontline Defense-type hero that can increase Physical Damage Reduction and Magical Damage Reduction for all allies; its Ultimate can share damage to protect allies.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Zhaoyang"
+  },
+  "baseStats": {
+    "hp": 2550,
+    "atk": 165,
+    "def": 112,
+    "spd": 1280
+  },
+  "spineId": "55007",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Divine Aura Blessing",
+      "type": "Feat",
+      "description": "Applies [Divine Light Blessing] to self: When taking DMG, heals self and lowest HP percentage ally for 10% of Jeanne's Max HP (max 3 triggers per turn; lasts 2 turns; cannot be dispelled).",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Radiant Barrier",
+      "type": "Ultimate",
+      "description": "Holy Light shines upon all. Activates [Radiant Barrier] to evenly distribute ATK DMG among All Heroes (Negative Status and Reflection DMG excluded) for 2 turns.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Leader's Aura",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Leader's Aura",
+          "description": "Final DMG RED +10%; during [Radiant Barrier], increases all allies' Effect Resist Rate by 10%."
+        },
+        {
+          "tier": 2,
+          "name": "Leader's Aura",
+          "description": "Jeanne gains 20% Final DMG RED while [Divine Light Blessing] is active."
+        },
+        {
+          "tier": 3,
+          "name": "Leader's Aura",
+          "description": "Dispels 2 Debuffs from self when activating [Radiant Barrier]."
+        },
+        {
+          "tier": 4,
+          "name": "Leader's Aura",
+          "description": "During [Radiant Barrier], heals all allies for 5% of Jeanne's Max HP at turn end."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "Applies 1 stack of [Punitive] when healing allies: Active Attacks deal extra True DMG equal to 10%*[Punitive] stacks of ATK (consumes 1 stack per attack; max 10 stacks; cannot be dispelled)."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "[Divine Light Blessing] applies 2 stacks of [Punitive] to highest-ATK Ally: Active Attacks deal extra True DMG equal to 10%*[Punitive] stacks of ATK (consumes 1 stack per attack; max 10 stacks; cannot be dispelled)."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "[Radiant Barrier] can be activated on turn 1 and increases Jeanne's Crit Resistance by 20% for 3 turns."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "Heals all allies for 20% of Jeanne's Max HP when activating [Radiant Barrier]."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "[Radiant Barrier] duration +1 turn; Cooldown reduced to 3 turns."
+        }
+      ]
+    }
+  ]
+}

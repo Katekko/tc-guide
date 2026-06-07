@@ -1,0 +1,1653 @@
+import 'dart:async';
+
+import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart' as intl;
+
+import 'app_localizations_en.dart';
+import 'app_localizations_pt.dart';
+
+// ignore_for_file: type=lint
+
+/// Callers can lookup localized strings with an instance of AppLocalizations
+/// returned by `AppLocalizations.of(context)`.
+///
+/// Applications need to include `AppLocalizations.delegate()` in their app's
+/// `localizationDelegates` list, and the locales they support in the app's
+/// `supportedLocales` list. For example:
+///
+/// ```dart
+/// import 'generated/app_localizations.dart';
+///
+/// return MaterialApp(
+///   localizationsDelegates: AppLocalizations.localizationsDelegates,
+///   supportedLocales: AppLocalizations.supportedLocales,
+///   home: MyApplicationHome(),
+/// );
+/// ```
+///
+/// ## Update pubspec.yaml
+///
+/// Please make sure to update your pubspec.yaml to include the following
+/// packages:
+///
+/// ```yaml
+/// dependencies:
+///   # Internationalization support.
+///   flutter_localizations:
+///     sdk: flutter
+///   intl: any # Use the pinned version from flutter_localizations
+///
+///   # Rest of dependencies
+/// ```
+///
+/// ## iOS Applications
+///
+/// iOS applications define key application metadata, including supported
+/// locales, in an Info.plist file that is built into the application bundle.
+/// To configure the locales supported by your app, you’ll need to edit this
+/// file.
+///
+/// First, open your project’s ios/Runner.xcworkspace Xcode workspace file.
+/// Then, in the Project Navigator, open the Info.plist file under the Runner
+/// project’s Runner folder.
+///
+/// Next, select the Information Property List item, select Add Item from the
+/// Editor menu, then select Localizations from the pop-up menu.
+///
+/// Select and expand the newly-created Localizations item then, for each
+/// locale your application supports, add a new item and select the locale
+/// you wish to add from the pop-up menu in the Value field. This list should
+/// be consistent with the languages listed in the AppLocalizations.supportedLocales
+/// property.
+abstract class AppLocalizations {
+  AppLocalizations(String locale)
+    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+
+  final String localeName;
+
+  static AppLocalizations of(BuildContext context) {
+    return Localizations.of<AppLocalizations>(context, AppLocalizations)!;
+  }
+
+  static const LocalizationsDelegate<AppLocalizations> delegate =
+      _AppLocalizationsDelegate();
+
+  /// A list of this localizations delegate along with the default localizations
+  /// delegates.
+  ///
+  /// Returns a list of localizations delegates containing this delegate along with
+  /// GlobalMaterialLocalizations.delegate, GlobalCupertinoLocalizations.delegate,
+  /// and GlobalWidgetsLocalizations.delegate.
+  ///
+  /// Additional delegates can be added by appending to this list in
+  /// MaterialApp. This list does not have to be used at all if a custom list
+  /// of delegates is preferred or required.
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
+        delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ];
+
+  /// A list of this localizations delegate's supported locales.
+  static const List<Locale> supportedLocales = <Locale>[
+    Locale('en'),
+    Locale('pt'),
+    Locale('pt', 'BR'),
+  ];
+
+  /// No description provided for @appTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Twilight Chronicle Guides'**
+  String get appTitle;
+
+  /// No description provided for @appDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Structured Twilight Chronicle community guides'**
+  String get appDescription;
+
+  /// No description provided for @heroEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Community Guide Dashboard'**
+  String get heroEyebrow;
+
+  /// No description provided for @heroSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Structured progression, hero, team, gear, and currency guides for Twilight Chronicle.'**
+  String get heroSubtitle;
+
+  /// No description provided for @ctaStartHere.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Here'**
+  String get ctaStartHere;
+
+  /// No description provided for @ctaUrGuide.
+  ///
+  /// In en, this message translates to:
+  /// **'UR Guide'**
+  String get ctaUrGuide;
+
+  /// No description provided for @ctaTeamComps.
+  ///
+  /// In en, this message translates to:
+  /// **'Team Comps'**
+  String get ctaTeamComps;
+
+  /// No description provided for @recommendedStartTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommended Start'**
+  String get recommendedStartTitle;
+
+  /// No description provided for @recommendedStartText.
+  ///
+  /// In en, this message translates to:
+  /// **'Follow this route first if you are setting up a new account or cleaning up early progression.'**
+  String get recommendedStartText;
+
+  /// No description provided for @starterRerollTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reroll'**
+  String get starterRerollTitle;
+
+  /// No description provided for @starterRerollText.
+  ///
+  /// In en, this message translates to:
+  /// **'Start with a strong SSR+ carry instead of spending weeks fixing the account.'**
+  String get starterRerollText;
+
+  /// No description provided for @starterCarryTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Pick a Carry'**
+  String get starterCarryTitle;
+
+  /// No description provided for @starterCarryText.
+  ///
+  /// In en, this message translates to:
+  /// **'Renais, Adele, and Ling are the current starter-route anchors in the notes.'**
+  String get starterCarryText;
+
+  /// No description provided for @starterSpendTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Spend Cleanly'**
+  String get starterSpendTitle;
+
+  /// No description provided for @starterSpendText.
+  ///
+  /// In en, this message translates to:
+  /// **'Use gems and shop buys where they move progression instead of noise.'**
+  String get starterSpendText;
+
+  /// No description provided for @starterUrTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Plan UR Pulls'**
+  String get starterUrTitle;
+
+  /// No description provided for @starterUrText.
+  ///
+  /// In en, this message translates to:
+  /// **'Avoid scattering UR resources before the account has a clear direction.'**
+  String get starterUrText;
+
+  /// No description provided for @featuredHeroesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Featured Heroes'**
+  String get featuredHeroesTitle;
+
+  /// No description provided for @featuredHeroesText.
+  ///
+  /// In en, this message translates to:
+  /// **'Fast links for hero names already used in the guide text.'**
+  String get featuredHeroesText;
+
+  /// No description provided for @roleStarterCarry.
+  ///
+  /// In en, this message translates to:
+  /// **'Starter Carry'**
+  String get roleStarterCarry;
+
+  /// No description provided for @roleUrGuide.
+  ///
+  /// In en, this message translates to:
+  /// **'UR Guide'**
+  String get roleUrGuide;
+
+  /// No description provided for @guideSectionsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Guide Sections'**
+  String get guideSectionsTitle;
+
+  /// No description provided for @guideSectionsText.
+  ///
+  /// In en, this message translates to:
+  /// **'Use these sections when you already know what system you need to check.'**
+  String get guideSectionsText;
+
+  /// No description provided for @guideGettingStartedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Getting Started'**
+  String get guideGettingStartedTitle;
+
+  /// No description provided for @guideGettingStartedText.
+  ///
+  /// In en, this message translates to:
+  /// **'Rerolling, starter carry choices, and the first route through early progression.'**
+  String get guideGettingStartedText;
+
+  /// No description provided for @guideResourcesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Resources'**
+  String get guideResourcesTitle;
+
+  /// No description provided for @guideResourcesText.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop priorities, spending notes, and where to avoid wasting scarce currency.'**
+  String get guideResourcesText;
+
+  /// No description provided for @guideUrTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'UR and UR+'**
+  String get guideUrTitle;
+
+  /// No description provided for @guideUrText.
+  ///
+  /// In en, this message translates to:
+  /// **'UR priorities, hero-specific notes, and long-term upgrade planning.'**
+  String get guideUrText;
+
+  /// No description provided for @guideGearTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Gear and Stats'**
+  String get guideGearTitle;
+
+  /// No description provided for @guideGearText.
+  ///
+  /// In en, this message translates to:
+  /// **'Stat targets, gear systems, and upgrade choices for damage and survivability.'**
+  String get guideGearText;
+
+  /// No description provided for @guideBeastTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Beast Spirit'**
+  String get guideBeastTitle;
+
+  /// No description provided for @guideBeastText.
+  ///
+  /// In en, this message translates to:
+  /// **'Soul mirror and beast spirit notes for common team paths.'**
+  String get guideBeastText;
+
+  /// No description provided for @guideTeamTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Team Comps'**
+  String get guideTeamTitle;
+
+  /// No description provided for @guideTeamText.
+  ///
+  /// In en, this message translates to:
+  /// **'Team-building notes, tier-list material, and formation guidance.'**
+  String get guideTeamText;
+
+  /// No description provided for @note.
+  ///
+  /// In en, this message translates to:
+  /// **'Adapted from credited guide material and maintained separately on this site.'**
+  String get note;
+
+  /// No description provided for @backHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Back Home'**
+  String get backHome;
+
+  /// No description provided for @startHereEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Here'**
+  String get startHereEyebrow;
+
+  /// No description provided for @startHereTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'New Player Guide'**
+  String get startHereTitle;
+
+  /// No description provided for @startHereIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'A simple first route for free-to-play and light-spending players. The goal is to start clean, build one carry first, and avoid wasting scarce resources.'**
+  String get startHereIntro;
+
+  /// No description provided for @quickStartTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Quick Start'**
+  String get quickStartTitle;
+
+  /// No description provided for @quickStartOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Start on the newest open server if you are rerolling.'**
+  String get quickStartOne;
+
+  /// No description provided for @quickStartTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Use the free 1k summon at the beginning.'**
+  String get quickStartTwo;
+
+  /// No description provided for @quickStartThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep the account if it starts with Renais or Adele.'**
+  String get quickStartThree;
+
+  /// No description provided for @quickStartFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Ling can also work with Ying Gou if you specifically want that route.'**
+  String get quickStartFour;
+
+  /// No description provided for @quickStartFive.
+  ///
+  /// In en, this message translates to:
+  /// **'If the free 1k misses your target, reroll before investing serious time.'**
+  String get quickStartFive;
+
+  /// No description provided for @quickStartSix.
+  ///
+  /// In en, this message translates to:
+  /// **'Build around your starter carry first, then plan the full team.'**
+  String get quickStartSix;
+
+  /// No description provided for @starterTargetTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Starter Target'**
+  String get starterTargetTitle;
+
+  /// No description provided for @starterTargetIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Your first account decision is simple: get one reliable carry, then stop chasing a perfect reroll.'**
+  String get starterTargetIntro;
+
+  /// No description provided for @targetRenais.
+  ///
+  /// In en, this message translates to:
+  /// **'Renais: preferred beginner carry target.'**
+  String get targetRenais;
+
+  /// No description provided for @targetAdele.
+  ///
+  /// In en, this message translates to:
+  /// **'Adele: follows the same general starter plan.'**
+  String get targetAdele;
+
+  /// No description provided for @targetLing.
+  ///
+  /// In en, this message translates to:
+  /// **'Ling: optional route when paired with Ying Gou.'**
+  String get targetLing;
+
+  /// No description provided for @starterCarryPlanTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Starter Carry Plan'**
+  String get starterCarryPlanTitle;
+
+  /// No description provided for @starterCarryPlanText.
+  ///
+  /// In en, this message translates to:
+  /// **'The early route is built around pushing your starter carry quickly. Treat random drops as a bonus, not the foundation of the account.'**
+  String get starterCarryPlanText;
+
+  /// No description provided for @copySourcesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Main copy sources'**
+  String get copySourcesTitle;
+
+  /// No description provided for @copySourceStarter.
+  ///
+  /// In en, this message translates to:
+  /// **'Starter summons and early account rewards.'**
+  String get copySourceStarter;
+
+  /// No description provided for @copySourceRace.
+  ///
+  /// In en, this message translates to:
+  /// **'Race tokens from race summons.'**
+  String get copySourceRace;
+
+  /// No description provided for @copySourceShards.
+  ///
+  /// In en, this message translates to:
+  /// **'Hero shard drops, if lucky.'**
+  String get copySourceShards;
+
+  /// No description provided for @copySourceBattle.
+  ///
+  /// In en, this message translates to:
+  /// **'King Final Battle platinum division rewards.'**
+  String get copySourceBattle;
+
+  /// No description provided for @copySourceCrates.
+  ///
+  /// In en, this message translates to:
+  /// **'Selection crates from UR summon rewards.'**
+  String get copySourceCrates;
+
+  /// No description provided for @copySourceLightSpender.
+  ///
+  /// In en, this message translates to:
+  /// **'First top-up or voucher options for light spenders.'**
+  String get copySourceLightSpender;
+
+  /// No description provided for @urDisciplineTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'UR Scroll Discipline'**
+  String get urDisciplineTitle;
+
+  /// No description provided for @urDisciplineText.
+  ///
+  /// In en, this message translates to:
+  /// **'Do not spend UR scrolls randomly across every banner. Save for useful reward thresholds so early progress has a direction.'**
+  String get urDisciplineText;
+
+  /// No description provided for @gemSpendingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Gem Spending'**
+  String get gemSpendingTitle;
+
+  /// No description provided for @gemSpendingIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Gems become tighter later, especially around day 50 and beyond. Treat early gems as progression fuel, not disposable currency.'**
+  String get gemSpendingIntro;
+
+  /// No description provided for @gemSpendingOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Avoid impulse spending.'**
+  String get gemSpendingOne;
+
+  /// No description provided for @gemSpendingTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Save for milestone events when possible.'**
+  String get gemSpendingTwo;
+
+  /// No description provided for @gemSpendingThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Check spending priorities before committing to banners or packs.'**
+  String get gemSpendingThree;
+
+  /// No description provided for @gemSpendingFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Prioritize resources that improve your main carry and core team.'**
+  String get gemSpendingFour;
+
+  /// No description provided for @milestoneEventsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Milestone Events'**
+  String get milestoneEventsTitle;
+
+  /// No description provided for @milestoneEventsText.
+  ///
+  /// In en, this message translates to:
+  /// **'Some events reward you for spending specific currencies after reaching milestones. Saving can be stronger than spending immediately.'**
+  String get milestoneEventsText;
+
+  /// No description provided for @day46EventsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Day 46 Rotational Events'**
+  String get day46EventsTitle;
+
+  /// No description provided for @day46EventsText.
+  ///
+  /// In en, this message translates to:
+  /// **'Earlier notes say rotational events begin around day 46. Each event lasts about two weeks, then rotates out for about two weeks.'**
+  String get day46EventsText;
+
+  /// No description provided for @day46UrPlus.
+  ///
+  /// In en, this message translates to:
+  /// **'UR+'**
+  String get day46UrPlus;
+
+  /// No description provided for @day46Beasts.
+  ///
+  /// In en, this message translates to:
+  /// **'UR beasts'**
+  String get day46Beasts;
+
+  /// No description provided for @day46Mirrors.
+  ///
+  /// In en, this message translates to:
+  /// **'UR mirrors'**
+  String get day46Mirrors;
+
+  /// No description provided for @day46UrPlusMirrors.
+  ///
+  /// In en, this message translates to:
+  /// **'UR+ mirrors'**
+  String get day46UrPlusMirrors;
+
+  /// No description provided for @phaseOneTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your First Session'**
+  String get phaseOneTitle;
+
+  /// No description provided for @phaseOneText.
+  ///
+  /// In en, this message translates to:
+  /// **'Day one — get oriented and lock your account\'s direction.'**
+  String get phaseOneText;
+
+  /// No description provided for @phaseTwoTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your First Week'**
+  String get phaseTwoTitle;
+
+  /// No description provided for @phaseTwoText.
+  ///
+  /// In en, this message translates to:
+  /// **'Build one carry and spend your resources with intent.'**
+  String get phaseTwoText;
+
+  /// No description provided for @phaseThreeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your First Month & Beyond'**
+  String get phaseThreeTitle;
+
+  /// No description provided for @phaseThreeText.
+  ///
+  /// In en, this message translates to:
+  /// **'Settle into the long-term loops and your endgame anchor.'**
+  String get phaseThreeText;
+
+  /// No description provided for @heroRenaisDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'The preferred beginner carry target.'**
+  String get heroRenaisDesc;
+
+  /// No description provided for @heroAdeleDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Follows the same general starter plan as Renais.'**
+  String get heroAdeleDesc;
+
+  /// No description provided for @heroLingDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Optional route when paired with Ying Gou.'**
+  String get heroLingDesc;
+
+  /// No description provided for @gemTipTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'When in Doubt, Save'**
+  String get gemTipTitle;
+
+  /// No description provided for @gemTipText.
+  ///
+  /// In en, this message translates to:
+  /// **'Early gems usually do more on guaranteed progression than on extra pulls. If a purchase is not clearly worth it, hold.'**
+  String get gemTipText;
+
+  /// No description provided for @jeanneSpotlightEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Long-Term Anchor'**
+  String get jeanneSpotlightEyebrow;
+
+  /// No description provided for @jeanneSpotlightText.
+  ///
+  /// In en, this message translates to:
+  /// **'One of the few heroes you can pick up early and keep all the way to endgame. Investing in her rarely goes to waste.'**
+  String get jeanneSpotlightText;
+
+  /// No description provided for @jeanneSpotlightCta.
+  ///
+  /// In en, this message translates to:
+  /// **'View Jeanne'**
+  String get jeanneSpotlightCta;
+
+  /// No description provided for @nextStepsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Next Steps'**
+  String get nextStepsTitle;
+
+  /// No description provided for @navGuideIndex.
+  ///
+  /// In en, this message translates to:
+  /// **'Guide Index'**
+  String get navGuideIndex;
+
+  /// No description provided for @navSectionGettingStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Getting Started'**
+  String get navSectionGettingStarted;
+
+  /// No description provided for @navGettingStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'New Player Guide'**
+  String get navGettingStarted;
+
+  /// No description provided for @navReroll.
+  ///
+  /// In en, this message translates to:
+  /// **'Reroll Guide'**
+  String get navReroll;
+
+  /// No description provided for @navStarterCarry.
+  ///
+  /// In en, this message translates to:
+  /// **'Starter Carry Route'**
+  String get navStarterCarry;
+
+  /// No description provided for @navSectionResources.
+  ///
+  /// In en, this message translates to:
+  /// **'Resources'**
+  String get navSectionResources;
+
+  /// No description provided for @navShopPriority.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Priority'**
+  String get navShopPriority;
+
+  /// No description provided for @navSpending.
+  ///
+  /// In en, this message translates to:
+  /// **'Spending Guide'**
+  String get navSpending;
+
+  /// No description provided for @navSectionUr.
+  ///
+  /// In en, this message translates to:
+  /// **'UR'**
+  String get navSectionUr;
+
+  /// No description provided for @navUrIntroduction.
+  ///
+  /// In en, this message translates to:
+  /// **'UR Introduction'**
+  String get navUrIntroduction;
+
+  /// No description provided for @navUrPriority.
+  ///
+  /// In en, this message translates to:
+  /// **'UR Priority'**
+  String get navUrPriority;
+
+  /// No description provided for @navUrPlus.
+  ///
+  /// In en, this message translates to:
+  /// **'UR+'**
+  String get navUrPlus;
+
+  /// No description provided for @navJeanne.
+  ///
+  /// In en, this message translates to:
+  /// **'Jeanne'**
+  String get navJeanne;
+
+  /// No description provided for @navSectionUrPlus.
+  ///
+  /// In en, this message translates to:
+  /// **'UR+'**
+  String get navSectionUrPlus;
+
+  /// No description provided for @navNyx.
+  ///
+  /// In en, this message translates to:
+  /// **'Nyx Weapon'**
+  String get navNyx;
+
+  /// No description provided for @navSectionGears.
+  ///
+  /// In en, this message translates to:
+  /// **'Gears and Stats'**
+  String get navSectionGears;
+
+  /// No description provided for @navStats.
+  ///
+  /// In en, this message translates to:
+  /// **'Stats'**
+  String get navStats;
+
+  /// No description provided for @navGears.
+  ///
+  /// In en, this message translates to:
+  /// **'Gear'**
+  String get navGears;
+
+  /// No description provided for @navSectionBeast.
+  ///
+  /// In en, this message translates to:
+  /// **'Beast Spirit'**
+  String get navSectionBeast;
+
+  /// No description provided for @navSoulMirrors.
+  ///
+  /// In en, this message translates to:
+  /// **'Soul Mirrors'**
+  String get navSoulMirrors;
+
+  /// No description provided for @navSectionTeam.
+  ///
+  /// In en, this message translates to:
+  /// **'Team Comps'**
+  String get navSectionTeam;
+
+  /// No description provided for @navTeamComps.
+  ///
+  /// In en, this message translates to:
+  /// **'Team Comps'**
+  String get navTeamComps;
+
+  /// No description provided for @navTierList.
+  ///
+  /// In en, this message translates to:
+  /// **'Tier List'**
+  String get navTierList;
+
+  /// No description provided for @toExtractTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'To Extract'**
+  String get toExtractTitle;
+
+  /// No description provided for @statusDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Status: draft'**
+  String get statusDraft;
+
+  /// No description provided for @statusNeedsReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Status: needs review'**
+  String get statusNeedsReview;
+
+  /// No description provided for @introTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Twilight Chronicle Guides'**
+  String get introTitle;
+
+  /// No description provided for @introIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'A structured rewrite of community guide material, maintained and reviewed on this site.'**
+  String get introIntro;
+
+  /// No description provided for @introMainSectionsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Main Sections'**
+  String get introMainSectionsTitle;
+
+  /// No description provided for @introSourcePolicyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Source Policy'**
+  String get introSourcePolicyTitle;
+
+  /// No description provided for @introSourcePolicyText.
+  ///
+  /// In en, this message translates to:
+  /// **'Each page tracks its source capture, verification date, and whether the information is current.'**
+  String get introSourcePolicyText;
+
+  /// No description provided for @introStatusDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'draft: copied or summarized, not fully reviewed.'**
+  String get introStatusDraft;
+
+  /// No description provided for @introStatusNeedsReview.
+  ///
+  /// In en, this message translates to:
+  /// **'needs review: likely useful but may be outdated or incomplete.'**
+  String get introStatusNeedsReview;
+
+  /// No description provided for @introStatusCurrent.
+  ///
+  /// In en, this message translates to:
+  /// **'current: reviewed against the current game state.'**
+  String get introStatusCurrent;
+
+  /// No description provided for @introStatusOutdated.
+  ///
+  /// In en, this message translates to:
+  /// **'outdated: kept for history, not recommended as current advice.'**
+  String get introStatusOutdated;
+
+  /// No description provided for @introStartHereTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Here'**
+  String get introStartHereTitle;
+
+  /// No description provided for @introStartHereText.
+  ///
+  /// In en, this message translates to:
+  /// **'New to the game? Follow these four steps in order.'**
+  String get introStartHereText;
+
+  /// No description provided for @introBrowseTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Browse Guides'**
+  String get introBrowseTitle;
+
+  /// No description provided for @introBrowseText.
+  ///
+  /// In en, this message translates to:
+  /// **'Every guide, grouped by topic. Pick a category to dive in.'**
+  String get introBrowseText;
+
+  /// No description provided for @introStatusKeyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Status key'**
+  String get introStatusKeyTitle;
+
+  /// No description provided for @statusLabelDraft.
+  ///
+  /// In en, this message translates to:
+  /// **'Draft'**
+  String get statusLabelDraft;
+
+  /// No description provided for @statusLabelNeedsReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Needs review'**
+  String get statusLabelNeedsReview;
+
+  /// No description provided for @statusLabelCurrent.
+  ///
+  /// In en, this message translates to:
+  /// **'Current'**
+  String get statusLabelCurrent;
+
+  /// No description provided for @statusLabelOutdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Outdated'**
+  String get statusLabelOutdated;
+
+  /// No description provided for @guideCountLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 guide} other{{count} guides}}'**
+  String guideCountLabel(int count);
+
+  /// No description provided for @rerollTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reroll Guide'**
+  String get rerollTitle;
+
+  /// No description provided for @rerollGoalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Goal'**
+  String get rerollGoalTitle;
+
+  /// No description provided for @rerollGoalText.
+  ///
+  /// In en, this message translates to:
+  /// **'Rerolling is only about the free 1k summon you get at the start. Do not build a complicated route around it, and do not spend extra resources trying to force the account.'**
+  String get rerollGoalText;
+
+  /// No description provided for @rerollLoopTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'The Loop'**
+  String get rerollLoopTitle;
+
+  /// No description provided for @rerollLoopOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a new account on the newest open server.'**
+  String get rerollLoopOne;
+
+  /// No description provided for @rerollLoopTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Claim the free 1k summon.'**
+  String get rerollLoopTwo;
+
+  /// No description provided for @rerollLoopThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Use that free 1k summon.'**
+  String get rerollLoopThree;
+
+  /// No description provided for @rerollLoopFour.
+  ///
+  /// In en, this message translates to:
+  /// **'If you get the target character, keep the account.'**
+  String get rerollLoopFour;
+
+  /// No description provided for @rerollLoopFive.
+  ///
+  /// In en, this message translates to:
+  /// **'If you miss, start over with a new account.'**
+  String get rerollLoopFive;
+
+  /// No description provided for @rerollTargetsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Targets'**
+  String get rerollTargetsTitle;
+
+  /// No description provided for @rerollTargetsText.
+  ///
+  /// In en, this message translates to:
+  /// **'Stop as soon as the free 1k gives you one of the recommended starter carries:'**
+  String get rerollTargetsText;
+
+  /// No description provided for @rerollTargetOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Renais'**
+  String get rerollTargetOne;
+
+  /// No description provided for @rerollTargetTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Adele'**
+  String get rerollTargetTwo;
+
+  /// No description provided for @rerollTargetThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Ling with Ying Gou, if you specifically want to play that route.'**
+  String get rerollTargetThree;
+
+  /// No description provided for @rerollDontTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'What Not to Do'**
+  String get rerollDontTitle;
+
+  /// No description provided for @rerollDontOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Do not chase a perfect roll after getting a good starter carry.'**
+  String get rerollDontOne;
+
+  /// No description provided for @rerollDontTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Do not spend paid currency on the reroll.'**
+  String get rerollDontTwo;
+
+  /// No description provided for @rerollDontThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Do not continue rerolling for extra copies once you hit the character you wanted.'**
+  String get rerollDontThree;
+
+  /// No description provided for @rerollDontFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Do not keep an account only because it has random SSRs if it missed the starter carry.'**
+  String get rerollDontFour;
+
+  /// No description provided for @starterCarryPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Starter Carry Route'**
+  String get starterCarryPageTitle;
+
+  /// No description provided for @starterCarryScopeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Scope'**
+  String get starterCarryScopeTitle;
+
+  /// No description provided for @starterCarryScopeText.
+  ///
+  /// In en, this message translates to:
+  /// **'The notes focus on Renais, but the same strategy works for Adele or Ling. The goal is to push your starter carry high enough to carry early progression without relying heavily on luck.'**
+  String get starterCarryScopeText;
+
+  /// No description provided for @starterCarryMainIdeaTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Main Idea'**
+  String get starterCarryMainIdeaTitle;
+
+  /// No description provided for @starterCarryMainIdeaText.
+  ///
+  /// In en, this message translates to:
+  /// **'A free-to-play route toward Opal Renais within roughly the first month. The exact numbers need review against the current version, but the structure is useful:'**
+  String get starterCarryMainIdeaText;
+
+  /// No description provided for @starterCarryIdeaOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Get the first copy from starter summons.'**
+  String get starterCarryIdeaOne;
+
+  /// No description provided for @starterCarryIdeaTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Use race tokens from race summons for more copies.'**
+  String get starterCarryIdeaTwo;
+
+  /// No description provided for @starterCarryIdeaThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Use King Final Battle platinum rewards where available.'**
+  String get starterCarryIdeaThree;
+
+  /// No description provided for @starterCarryIdeaFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Use UR summon reward selection crates.'**
+  String get starterCarryIdeaFour;
+
+  /// No description provided for @starterCarryIdeaFive.
+  ///
+  /// In en, this message translates to:
+  /// **'Treat random hero shard drops as a bonus, not the foundation of the plan.'**
+  String get starterCarryIdeaFive;
+
+  /// No description provided for @starterCarryScrollTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'UR Scroll Discipline'**
+  String get starterCarryScrollTitle;
+
+  /// No description provided for @starterCarryScrollText.
+  ///
+  /// In en, this message translates to:
+  /// **'Do not spend UR scrolls casually across every banner. Spend around useful thresholds, since selection rewards can give important starter carry copies. Scrolls carry over, so wasting partial progress on the wrong banner can delay the route.'**
+  String get starterCarryScrollText;
+
+  /// No description provided for @starterCarryLightTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Light Spender Note'**
+  String get starterCarryLightTitle;
+
+  /// No description provided for @starterCarryLightText.
+  ///
+  /// In en, this message translates to:
+  /// **'Light spenders may get extra Renais copies through voucher spending and first top-up rewards. This needs current validation before becoming a firm recommendation.'**
+  String get starterCarryLightText;
+
+  /// No description provided for @starterCarryCleanupTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Cleanup Tasks'**
+  String get starterCarryCleanupTitle;
+
+  /// No description provided for @starterCarryCleanupOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm current copy counts and reward thresholds.'**
+  String get starterCarryCleanupOne;
+
+  /// No description provided for @starterCarryCleanupTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm whether Renais, Adele, and Ling still share the same practical route.'**
+  String get starterCarryCleanupTwo;
+
+  /// No description provided for @starterCarryCleanupThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a table of copy sources.'**
+  String get starterCarryCleanupThree;
+
+  /// No description provided for @starterCarryCleanupFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a warning box for common early spending mistakes.'**
+  String get starterCarryCleanupFour;
+
+  /// No description provided for @shopPriorityTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Priority'**
+  String get shopPriorityTitle;
+
+  /// No description provided for @shopPriorityExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily shop purchases.'**
+  String get shopPriorityExtractOne;
+
+  /// No description provided for @shopPriorityExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Quick AFK priority.'**
+  String get shopPriorityExtractTwo;
+
+  /// No description provided for @shopPriorityExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Event or limited shop priorities.'**
+  String get shopPriorityExtractThree;
+
+  /// No description provided for @shopPriorityExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Differences by spending level.'**
+  String get shopPriorityExtractFour;
+
+  /// No description provided for @spendingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Spending Guide'**
+  String get spendingTitle;
+
+  /// No description provided for @spendingExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'High-value purchases.'**
+  String get spendingExtractOne;
+
+  /// No description provided for @spendingExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Low-value traps.'**
+  String get spendingExtractTwo;
+
+  /// No description provided for @spendingExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Spending priorities by budget.'**
+  String get spendingExtractThree;
+
+  /// No description provided for @spendingExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Banner and event timing.'**
+  String get spendingExtractFour;
+
+  /// No description provided for @urIntroductionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'UR Introduction'**
+  String get urIntroductionTitle;
+
+  /// No description provided for @urIntroductionExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'What UR heroes are.'**
+  String get urIntroductionExtractOne;
+
+  /// No description provided for @urIntroductionExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'How UR heroes link to regular heroes.'**
+  String get urIntroductionExtractTwo;
+
+  /// No description provided for @urIntroductionExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Genesis level basics.'**
+  String get urIntroductionExtractThree;
+
+  /// No description provided for @urIntroductionExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Scroll and banner timing.'**
+  String get urIntroductionExtractFour;
+
+  /// No description provided for @urIntroductionExtractFive.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade priority overview.'**
+  String get urIntroductionExtractFive;
+
+  /// No description provided for @urPriorityTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'UR Priority'**
+  String get urPriorityTitle;
+
+  /// No description provided for @urPriorityExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommended UR order.'**
+  String get urPriorityExtractOne;
+
+  /// No description provided for @urPriorityExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Jeanne, Lucifer, Wu Kong, Albella, and Enchantress notes.'**
+  String get urPriorityExtractTwo;
+
+  /// No description provided for @urPriorityExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Niche or skipped URs.'**
+  String get urPriorityExtractThree;
+
+  /// No description provided for @urPriorityExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Spender versus free-to-play differences.'**
+  String get urPriorityExtractFour;
+
+  /// No description provided for @urPlusTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'UR+'**
+  String get urPlusTitle;
+
+  /// No description provided for @urPlusExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'UR+ banner cadence.'**
+  String get urPlusExtractOne;
+
+  /// No description provided for @urPlusExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Required summon types.'**
+  String get urPlusExtractTwo;
+
+  /// No description provided for @urPlusExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade system differences.'**
+  String get urPlusExtractThree;
+
+  /// No description provided for @urPlusExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Priority targets.'**
+  String get urPlusExtractFour;
+
+  /// No description provided for @jeanneTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Jeanne'**
+  String get jeanneTitle;
+
+  /// No description provided for @jeanneExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Jeanne role.'**
+  String get jeanneExtractOne;
+
+  /// No description provided for @jeanneExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'When to build her.'**
+  String get jeanneExtractTwo;
+
+  /// No description provided for @jeanneExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Team usage.'**
+  String get jeanneExtractThree;
+
+  /// No description provided for @jeanneExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade breakpoints.'**
+  String get jeanneExtractFour;
+
+  /// No description provided for @nyxTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Nyx Weapon'**
+  String get nyxTitle;
+
+  /// No description provided for @nyxExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Nyx weapon target.'**
+  String get nyxExtractOne;
+
+  /// No description provided for @nyxExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'When to exchange only for Nyx.'**
+  String get nyxExtractTwo;
+
+  /// No description provided for @nyxExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Follow-up priorities after Nyx.'**
+  String get nyxExtractThree;
+
+  /// No description provided for @statsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Stats'**
+  String get statsTitle;
+
+  /// No description provided for @statsExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Important stat categories.'**
+  String get statsExtractOne;
+
+  /// No description provided for @statsExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Stat priority by role.'**
+  String get statsExtractTwo;
+
+  /// No description provided for @statsExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Where to gain each stat.'**
+  String get statsExtractThree;
+
+  /// No description provided for @statsExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Common stat mistakes.'**
+  String get statsExtractFour;
+
+  /// No description provided for @gearsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Gear'**
+  String get gearsTitle;
+
+  /// No description provided for @gearsExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Gear unlock timing.'**
+  String get gearsExtractOne;
+
+  /// No description provided for @gearsExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Gear slots and stat slots.'**
+  String get gearsExtractTwo;
+
+  /// No description provided for @gearsExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Important stat tiers.'**
+  String get gearsExtractThree;
+
+  /// No description provided for @gearsExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Saint Hill Trial connection.'**
+  String get gearsExtractFour;
+
+  /// No description provided for @soulMirrorsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Soul Mirrors'**
+  String get soulMirrorsTitle;
+
+  /// No description provided for @soulMirrorsExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Soul mirror unlock and upgrade priorities.'**
+  String get soulMirrorsExtractOne;
+
+  /// No description provided for @soulMirrorsExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommended first mirrors.'**
+  String get soulMirrorsExtractTwo;
+
+  /// No description provided for @soulMirrorsExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Situational mirrors by team.'**
+  String get soulMirrorsExtractThree;
+
+  /// No description provided for @soulMirrorsExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Beast spirit slot planning.'**
+  String get soulMirrorsExtractFour;
+
+  /// No description provided for @teamCompsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Team Comps'**
+  String get teamCompsTitle;
+
+  /// No description provided for @teamCompsExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Frontline guidance.'**
+  String get teamCompsExtractOne;
+
+  /// No description provided for @teamCompsExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Tank usage.'**
+  String get teamCompsExtractTwo;
+
+  /// No description provided for @teamCompsExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Core DPS/support choices.'**
+  String get teamCompsExtractThree;
+
+  /// No description provided for @teamCompsExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'Example teams by progression stage.'**
+  String get teamCompsExtractFour;
+
+  /// No description provided for @tierListTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Tier List'**
+  String get tierListTitle;
+
+  /// No description provided for @tierListExtractOne.
+  ///
+  /// In en, this message translates to:
+  /// **'Tier definitions.'**
+  String get tierListExtractOne;
+
+  /// No description provided for @tierListExtractTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Build order caveats.'**
+  String get tierListExtractTwo;
+
+  /// No description provided for @tierListExtractThree.
+  ///
+  /// In en, this message translates to:
+  /// **'Separate notes for UR and UR+ heroes.'**
+  String get tierListExtractThree;
+
+  /// No description provided for @tierListExtractFour.
+  ///
+  /// In en, this message translates to:
+  /// **'PvE versus PvP differences.'**
+  String get tierListExtractFour;
+
+  /// No description provided for @heroBackground.
+  ///
+  /// In en, this message translates to:
+  /// **'Background'**
+  String get heroBackground;
+
+  /// No description provided for @heroHeightLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Height'**
+  String get heroHeightLabel;
+
+  /// No description provided for @heroIllustratorLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Illustrator'**
+  String get heroIllustratorLabel;
+
+  /// No description provided for @heroClassFormat.
+  ///
+  /// In en, this message translates to:
+  /// **'{name} Class'**
+  String heroClassFormat(Object name);
+
+  /// No description provided for @skillReleaseLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Released on Turn'**
+  String get skillReleaseLabel;
+
+  /// No description provided for @skillCooldownLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cooldown'**
+  String get skillCooldownLabel;
+
+  /// No description provided for @turnsLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Turns'**
+  String get turnsLabel;
+
+  /// No description provided for @statHp.
+  ///
+  /// In en, this message translates to:
+  /// **'HP'**
+  String get statHp;
+
+  /// No description provided for @statAtk.
+  ///
+  /// In en, this message translates to:
+  /// **'ATK'**
+  String get statAtk;
+
+  /// No description provided for @statDef.
+  ///
+  /// In en, this message translates to:
+  /// **'DEF'**
+  String get statDef;
+
+  /// No description provided for @statSpd.
+  ///
+  /// In en, this message translates to:
+  /// **'SPD'**
+  String get statSpd;
+
+  /// No description provided for @heroEvolutionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Evolution'**
+  String get heroEvolutionLabel;
+
+  /// No description provided for @levelCapLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Max Lv.'**
+  String get levelCapLabel;
+
+  /// No description provided for @genesisSkillTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Genesis Skill'**
+  String get genesisSkillTitle;
+
+  /// No description provided for @genesisFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'Otherworld Hero Genesis Advance grants exclusive battle traits'**
+  String get genesisFooter;
+
+  /// No description provided for @genesisLevelLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Genesis'**
+  String get genesisLevelLabel;
+}
+
+class _AppLocalizationsDelegate
+    extends LocalizationsDelegate<AppLocalizations> {
+  const _AppLocalizationsDelegate();
+
+  @override
+  Future<AppLocalizations> load(Locale locale) {
+    return SynchronousFuture<AppLocalizations>(lookupAppLocalizations(locale));
+  }
+
+  @override
+  bool isSupported(Locale locale) =>
+      <String>['en', 'pt'].contains(locale.languageCode);
+
+  @override
+  bool shouldReload(_AppLocalizationsDelegate old) => false;
+}
+
+AppLocalizations lookupAppLocalizations(Locale locale) {
+  // Lookup logic when language+country codes are specified.
+  switch (locale.languageCode) {
+    case 'pt':
+      {
+        switch (locale.countryCode) {
+          case 'BR':
+            return AppLocalizationsPtBr();
+        }
+        break;
+      }
+  }
+
+  // Lookup logic when only language code is specified.
+  switch (locale.languageCode) {
+    case 'en':
+      return AppLocalizationsEn();
+    case 'pt':
+      return AppLocalizationsPt();
+  }
+
+  throw FlutterError(
+    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'an issue with the localizations generation tool. Please file an issue '
+    'on GitHub with a reproducible sample app and the gen-l10n configuration '
+    'that was used.',
+  );
+}

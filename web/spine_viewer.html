@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>Hero</title>
+  <link rel="stylesheet" href="/spine/spine-player.css">
+  <script src="/spine/spine-player.js"></script>
+  <style>
+    html, body { margin:0; height:100%; background:transparent; overflow:hidden; }
+    #player { width:100vw; height:100vh; }
+    /* hide the player's control bar — this is a decorative embed, not a tool */
+    .spine-player-controls { display:none !important; }
+    #msg { color:#888; font:13px system-ui,sans-serif; padding:12px; }
+  </style>
+</head>
+<body>
+  <div id="player"></div>
+  <div id="msg"></div>
+  <script>
+    function qp(name) {
+      return new URLSearchParams(location.search).get(name);
+    }
+    const hero = (qp('hero') || '').replace(/[^0-9]/g, '');
+    const anim = qp('anim') || '';           // optional: force a specific clip
+    const bg   = qp('bg') || '00000000';      // RRGGBBAA, default transparent
+    if (!hero) { document.getElementById('msg').textContent = 'No hero id.'; }
+    else {
+      new spine.SpinePlayer('player', {
+        skelUrl:  `/spines/${hero}/${hero}.skel`,
+        atlasUrl: `/spines/${hero}/${hero}.atlas`,
+        premultipliedAlpha: true,
+        alpha: true,
+        backgroundColor: '#' + bg,
+        showControls: false,
+        success: (p) => {
+          const names = p.skeleton.data.animations.map((a) => a.name);
+          const pick = anim && names.includes(anim) ? anim
+                     : (names.includes('Idle') ? 'Idle' : names[0]);
+          if (pick) p.setAnimation(pick, true);
+        },
+        error: (p, m) => { document.getElementById('msg').textContent = m; },
+      });
+    }
+  </script>
+</body>
+</html>

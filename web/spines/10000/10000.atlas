@@ -1,0 +1,13 @@
+
+10000.png
+size: 1075,1075
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tu
+  rotate: false
+  xy: 2, 2
+  size: 510, 1071
+  orig: 518, 1134
+  offset: 0, 48
+  index: -1

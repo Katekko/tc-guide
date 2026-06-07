@@ -1,0 +1,148 @@
+{
+  "ladder": [
+    {
+      "tier": "Rare",
+      "star": 0,
+      "levelCap": 60,
+      "label": "Rare"
+    },
+    {
+      "tier": "Epic",
+      "star": 0,
+      "levelCap": 80,
+      "label": "Epic"
+    },
+    {
+      "tier": "Legend",
+      "star": 0,
+      "levelCap": 100,
+      "label": "Legend"
+    },
+    {
+      "tier": "Dawn",
+      "star": 1,
+      "levelCap": 145,
+      "label": "Dawn 1★"
+    },
+    {
+      "tier": "Dawn",
+      "star": 2,
+      "levelCap": 165,
+      "label": "Dawn 2★"
+    },
+    {
+      "tier": "Dawn",
+      "star": 3,
+      "levelCap": 185,
+      "label": "Dawn 3★"
+    },
+    {
+      "tier": "Dawn",
+      "star": 4,
+      "levelCap": 205,
+      "label": "Dawn 4★"
+    },
+    {
+      "tier": "Dawn",
+      "star": 5,
+      "levelCap": 225,
+      "label": "Dawn 5★"
+    },
+    {
+      "tier": "Eternal",
+      "star": 1,
+      "levelCap": 240,
+      "label": "Eternal 1★"
+    },
+    {
+      "tier": "Eternal",
+      "star": 2,
+      "levelCap": 255,
+      "label": "Eternal 2★"
+    },
+    {
+      "tier": "Eternal",
+      "star": 3,
+      "levelCap": 270,
+      "label": "Eternal 3★"
+    },
+    {
+      "tier": "Eternal",
+      "star": 4,
+      "levelCap": 285,
+      "label": "Eternal 4★"
+    },
+    {
+      "tier": "Eternal",
+      "star": 5,
+      "levelCap": 300,
+      "label": "Eternal 5★"
+    },
+    {
+      "tier": "Anima",
+      "star": 1,
+      "levelCap": 350,
+      "label": "Anima 1★"
+    },
+    {
+      "tier": "Anima",
+      "star": 2,
+      "levelCap": 375,
+      "label": "Anima 2★"
+    },
+    {
+      "tier": "Anima",
+      "star": 3,
+      "levelCap": 400,
+      "label": "Anima 3★"
+    },
+    {
+      "tier": "Anima",
+      "star": 4,
+      "levelCap": 425,
+      "label": "Anima 4★"
+    },
+    {
+      "tier": "Anima",
+      "star": 5,
+      "levelCap": 450,
+      "label": "Anima 5★"
+    },
+    {
+      "tier": "Opal",
+      "star": 1,
+      "levelCap": 475,
+      "label": "Opal 1★"
+    },
+    {
+      "tier": "Opal",
+      "star": 2,
+      "levelCap": 500,
+      "label": "Opal 2★"
+    },
+    {
+      "tier": "Opal",
+      "star": 3,
+      "levelCap": 525,
+      "label": "Opal 3★"
+    },
+    {
+      "tier": "Opal",
+      "star": 4,
+      "levelCap": 550,
+      "label": "Opal 4★"
+    },
+    {
+      "tier": "Opal",
+      "star": 5,
+      "levelCap": 600,
+      "label": "Opal 5★"
+    }
+  ],
+  "awakenUnlock": [
+    6,
+    8,
+    10,
+    13
+  ]
+}

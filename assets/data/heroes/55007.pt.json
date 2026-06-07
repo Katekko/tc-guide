@@ -1,0 +1,109 @@
+{
+  "id": 55007,
+  "name": "Jeanne",
+  "fullName": "Deusa - Jeanne",
+  "epithet": "Santa da Glória",
+  "element": "Anima",
+  "heroClass": "Guardião",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "Red. de Dano em Área",
+    "Cura em Área"
+  ],
+  "bio": "Antiga guerreira mortal que se sacrificou heroicamente para resistir à invasão. Recebeu uma nova vida da Facção dos Heróis Espirituais, tornando-se a Santa das Chamas e continuando a proteger a justiça com a Lança do Serafim.<br/><br/><color=#bde141>Função: Redução de Dano em Grupo</color><br/><color=#bde141>Especialidade: Herói de defesa de linha de frente que aumenta a Redução de Dano Físico e Mágico de todos os aliados; sua Suprema pode dividir o dano para proteger os aliados.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Zhaoyang"
+  },
+  "baseStats": {
+    "hp": 2550,
+    "atk": 165,
+    "def": 112,
+    "spd": 1280
+  },
+  "spineId": "55007",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Habilidades",
+      "name": "Bênção da Aura Divina",
+      "type": "Talento",
+      "description": "Aplica [Bênção da Aura Divina] em si: ao receber dano, cura a si mesma e o aliado com menor porcentagem de HP em 10% do HP Máx. de Jeanne (máx. 3 ativações por turno; dura 2 turnos; não pode ser dissipada).",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Suprema",
+      "name": "Barreira Radiante",
+      "type": "Suprema",
+      "description": "A Luz Sagrada brilha sobre todos. Ativa [Barreira Radiante] para distribuir igualmente o dano de ATQ entre Todos os Heróis (Status Negativos e dano de Reflexão excluídos) por 2 turnos.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Despertar",
+      "name": "Aura de Líder",
+      "type": "Despertar",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Aura de Líder",
+          "description": "Red. de Dano Final +10%; durante [Barreira Radiante], aumenta a Taxa de Resistência a Efeitos de todos os aliados em 10%."
+        },
+        {
+          "tier": 2,
+          "name": "Aura de Líder",
+          "description": "Jeanne ganha 20% de Red. de Dano Final enquanto [Bênção da Aura Divina] estiver ativa."
+        },
+        {
+          "tier": 3,
+          "name": "Aura de Líder",
+          "description": "Dissipa 2 Debuffs de si mesma ao ativar [Barreira Radiante]."
+        },
+        {
+          "tier": 4,
+          "name": "Aura de Líder",
+          "description": "Durante [Barreira Radiante], cura todos os aliados em 5% do HP Máx. de Jeanne ao fim do turno."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Gênese",
+      "name": "Gênese",
+      "type": "Gênese",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Gênese I",
+          "description": "Aplica 1 acúmulo de [Punição] ao curar aliados: Ataques Ativos causam Dano Verdadeiro extra igual a 10%*acúmulos de [Punição] do ATQ (consome 1 acúmulo por ataque; máx. 10 acúmulos; não pode ser dissipado)."
+        },
+        {
+          "tier": 2,
+          "name": "Gênese II",
+          "description": "[Bênção da Aura Divina] aplica 2 acúmulos de [Punição] no aliado de maior ATQ: Ataques Ativos causam Dano Verdadeiro extra igual a 10%*acúmulos de [Punição] do ATQ (consome 1 acúmulo por ataque; máx. 10 acúmulos; não pode ser dissipado)."
+        },
+        {
+          "tier": 3,
+          "name": "Gênese III",
+          "description": "[Barreira Radiante] pode ser ativada no turno 1 e aumenta a Resistência a Crítico de Jeanne em 20% por 3 turnos."
+        },
+        {
+          "tier": 4,
+          "name": "Gênese IV",
+          "description": "Cura todos os aliados em 20% do HP Máx. de Jeanne ao ativar [Barreira Radiante]."
+        },
+        {
+          "tier": 5,
+          "name": "Gênese V",
+          "description": "Duração de [Barreira Radiante] +1 turno; Recarga reduzida para 3 turnos."
+        }
+      ]
+    }
+  ]
+}
