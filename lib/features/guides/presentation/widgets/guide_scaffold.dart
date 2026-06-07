@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:tc_flutter_web/core/di/injection_container.dart';
+import 'package:tc_flutter_web/features/feedback/presentation/widgets/feedback_fab.dart';
+import 'package:tc_flutter_web/features/feedback/presentation/widgets/helpful_vote.dart';
 import 'package:tc_flutter_web/l10n/generated/app_localizations.dart';
 
 import '../../domain/repositories/guides_repository.dart';
@@ -39,6 +41,7 @@ class DocsScaffold extends StatelessWidget {
 
     return Scaffold(
       appBar: GuideAppBar(title: title),
+      floatingActionButton: const FeedbackFab(),
       body: LayoutBuilder(
         builder: (context, constraints) {
           if (constraints.maxWidth < 900) {
@@ -100,6 +103,7 @@ class GuideScaffold extends StatelessWidget {
         children: [
           GuideHeader(title: title, eyebrow: eyebrow, intro: intro),
           GuideContent(children: children),
+          const HelpfulVote(),
         ],
       ),
     );

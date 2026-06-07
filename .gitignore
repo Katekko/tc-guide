@@ -30,6 +30,10 @@ migrate_working_dir/
 # is commented out by default.
 #.vscode/
 
+# launch.json carries the local WEB3FORMS_ACCESS_KEY via --dart-define, so it
+# is kept out of version control.
+.vscode/launch.json
+
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id

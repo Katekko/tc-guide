@@ -1604,6 +1604,186 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Genesis'**
   String get genesisLevelLabel;
+
+  /// No description provided for @feedbackFabTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Feedback & requests'**
+  String get feedbackFabTooltip;
+
+  /// No description provided for @feedbackTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Help improve the guides'**
+  String get feedbackTitle;
+
+  /// No description provided for @feedbackSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Request a guide, report a bug, or suggest a fix. Email is optional — add it only if you\'d like a reply.'**
+  String get feedbackSubtitle;
+
+  /// No description provided for @feedbackCategoryLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Category'**
+  String get feedbackCategoryLabel;
+
+  /// No description provided for @feedbackCategoryFeature.
+  ///
+  /// In en, this message translates to:
+  /// **'Feature'**
+  String get feedbackCategoryFeature;
+
+  /// No description provided for @feedbackCategoryBug.
+  ///
+  /// In en, this message translates to:
+  /// **'Bug'**
+  String get feedbackCategoryBug;
+
+  /// No description provided for @feedbackCategoryFix.
+  ///
+  /// In en, this message translates to:
+  /// **'Fix'**
+  String get feedbackCategoryFix;
+
+  /// No description provided for @feedbackCategoryGuide.
+  ///
+  /// In en, this message translates to:
+  /// **'Guide'**
+  String get feedbackCategoryGuide;
+
+  /// No description provided for @feedbackTitleLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Title'**
+  String get feedbackTitleLabel;
+
+  /// No description provided for @feedbackTitleHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Short summary'**
+  String get feedbackTitleHint;
+
+  /// No description provided for @feedbackEmailLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Email (optional)'**
+  String get feedbackEmailLabel;
+
+  /// No description provided for @feedbackEmailHint.
+  ///
+  /// In en, this message translates to:
+  /// **'you@example.com'**
+  String get feedbackEmailHint;
+
+  /// No description provided for @feedbackMessageLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Message'**
+  String get feedbackMessageLabel;
+
+  /// No description provided for @feedbackMessageHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Describe your request or the problem'**
+  String get feedbackMessageHint;
+
+  /// No description provided for @feedbackSend.
+  ///
+  /// In en, this message translates to:
+  /// **'Send'**
+  String get feedbackSend;
+
+  /// No description provided for @feedbackSending.
+  ///
+  /// In en, this message translates to:
+  /// **'Sending…'**
+  String get feedbackSending;
+
+  /// No description provided for @feedbackSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Thanks! Your message was sent.'**
+  String get feedbackSuccess;
+
+  /// No description provided for @feedbackError.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t send. Try again, or use GitHub / Discord below.'**
+  String get feedbackError;
+
+  /// No description provided for @feedbackErrorTitleRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please add a title.'**
+  String get feedbackErrorTitleRequired;
+
+  /// No description provided for @feedbackErrorMessageRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please add a message.'**
+  String get feedbackErrorMessageRequired;
+
+  /// No description provided for @feedbackErrorInvalidEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid email.'**
+  String get feedbackErrorInvalidEmail;
+
+  /// No description provided for @feedbackEmailUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Email isn\'t set up yet — please use GitHub or Discord.'**
+  String get feedbackEmailUnavailable;
+
+  /// No description provided for @feedbackPageNotice.
+  ///
+  /// In en, this message translates to:
+  /// **'Your current page is included automatically.'**
+  String get feedbackPageNotice;
+
+  /// No description provided for @feedbackChannelsLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Prefer another way? Reach out via'**
+  String get feedbackChannelsLabel;
+
+  /// No description provided for @feedbackGithub.
+  ///
+  /// In en, this message translates to:
+  /// **'GitHub'**
+  String get feedbackGithub;
+
+  /// No description provided for @feedbackDiscord.
+  ///
+  /// In en, this message translates to:
+  /// **'Discord'**
+  String get feedbackDiscord;
+
+  /// No description provided for @helpfulQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Was this guide helpful?'**
+  String get helpfulQuestion;
+
+  /// No description provided for @helpfulYes.
+  ///
+  /// In en, this message translates to:
+  /// **'Yes'**
+  String get helpfulYes;
+
+  /// No description provided for @helpfulNo.
+  ///
+  /// In en, this message translates to:
+  /// **'No'**
+  String get helpfulNo;
+
+  /// No description provided for @helpfulThanks.
+  ///
+  /// In en, this message translates to:
+  /// **'Thanks for the feedback!'**
+  String get helpfulThanks;
 }
 
 class _AppLocalizationsDelegate

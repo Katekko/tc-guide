@@ -836,4 +836,98 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get genesisLevelLabel => 'Genesis';
+
+  @override
+  String get feedbackFabTooltip => 'Feedback & requests';
+
+  @override
+  String get feedbackTitle => 'Help improve the guides';
+
+  @override
+  String get feedbackSubtitle =>
+      'Request a guide, report a bug, or suggest a fix. Email is optional — add it only if you\'d like a reply.';
+
+  @override
+  String get feedbackCategoryLabel => 'Category';
+
+  @override
+  String get feedbackCategoryFeature => 'Feature';
+
+  @override
+  String get feedbackCategoryBug => 'Bug';
+
+  @override
+  String get feedbackCategoryFix => 'Fix';
+
+  @override
+  String get feedbackCategoryGuide => 'Guide';
+
+  @override
+  String get feedbackTitleLabel => 'Title';
+
+  @override
+  String get feedbackTitleHint => 'Short summary';
+
+  @override
+  String get feedbackEmailLabel => 'Email (optional)';
+
+  @override
+  String get feedbackEmailHint => 'you@example.com';
+
+  @override
+  String get feedbackMessageLabel => 'Message';
+
+  @override
+  String get feedbackMessageHint => 'Describe your request or the problem';
+
+  @override
+  String get feedbackSend => 'Send';
+
+  @override
+  String get feedbackSending => 'Sending…';
+
+  @override
+  String get feedbackSuccess => 'Thanks! Your message was sent.';
+
+  @override
+  String get feedbackError =>
+      'Couldn\'t send. Try again, or use GitHub / Discord below.';
+
+  @override
+  String get feedbackErrorTitleRequired => 'Please add a title.';
+
+  @override
+  String get feedbackErrorMessageRequired => 'Please add a message.';
+
+  @override
+  String get feedbackErrorInvalidEmail => 'Please enter a valid email.';
+
+  @override
+  String get feedbackEmailUnavailable =>
+      'Email isn\'t set up yet — please use GitHub or Discord.';
+
+  @override
+  String get feedbackPageNotice =>
+      'Your current page is included automatically.';
+
+  @override
+  String get feedbackChannelsLabel => 'Prefer another way? Reach out via';
+
+  @override
+  String get feedbackGithub => 'GitHub';
+
+  @override
+  String get feedbackDiscord => 'Discord';
+
+  @override
+  String get helpfulQuestion => 'Was this guide helpful?';
+
+  @override
+  String get helpfulYes => 'Yes';
+
+  @override
+  String get helpfulNo => 'No';
+
+  @override
+  String get helpfulThanks => 'Thanks for the feedback!';
 }

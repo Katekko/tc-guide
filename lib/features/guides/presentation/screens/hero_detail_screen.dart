@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:tc_flutter_web/core/di/injection_container.dart';
 import 'package:tc_flutter_web/core/theme/app_colors.dart';
 import 'package:tc_flutter_web/core/widgets/hero_spine_view.dart';
+import 'package:tc_flutter_web/features/feedback/presentation/widgets/feedback_fab.dart';
 import 'package:tc_flutter_web/l10n/generated/app_localizations.dart';
 
 import '../../domain/entities/hero_detail.dart';
@@ -32,6 +33,7 @@ class HeroDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.pageBackground,
+      floatingActionButton: const FeedbackFab(),
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 560),

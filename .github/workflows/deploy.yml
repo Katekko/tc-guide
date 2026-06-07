@@ -31,7 +31,7 @@ jobs:
         run: flutter pub get
 
       - name: Build web
-        run: flutter build web --release
+        run: flutter build web --release --dart-define=WEB3FORMS_ACCESS_KEY=${{ secrets.WEB3FORMS_ACCESS_KEY }}
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

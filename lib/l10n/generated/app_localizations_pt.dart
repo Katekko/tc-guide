@@ -846,6 +846,100 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get genesisLevelLabel => 'Gênese';
+
+  @override
+  String get feedbackFabTooltip => 'Feedback e pedidos';
+
+  @override
+  String get feedbackTitle => 'Ajude a melhorar os guias';
+
+  @override
+  String get feedbackSubtitle =>
+      'Peça um guia, relate um erro ou sugira uma correção. O e-mail é opcional — informe apenas se quiser uma resposta.';
+
+  @override
+  String get feedbackCategoryLabel => 'Categoria';
+
+  @override
+  String get feedbackCategoryFeature => 'Recurso';
+
+  @override
+  String get feedbackCategoryBug => 'Erro';
+
+  @override
+  String get feedbackCategoryFix => 'Correção';
+
+  @override
+  String get feedbackCategoryGuide => 'Guia';
+
+  @override
+  String get feedbackTitleLabel => 'Título';
+
+  @override
+  String get feedbackTitleHint => 'Resumo curto';
+
+  @override
+  String get feedbackEmailLabel => 'E-mail (opcional)';
+
+  @override
+  String get feedbackEmailHint => 'voce@exemplo.com';
+
+  @override
+  String get feedbackMessageLabel => 'Mensagem';
+
+  @override
+  String get feedbackMessageHint => 'Descreva seu pedido ou o problema';
+
+  @override
+  String get feedbackSend => 'Enviar';
+
+  @override
+  String get feedbackSending => 'Enviando…';
+
+  @override
+  String get feedbackSuccess => 'Obrigado! Sua mensagem foi enviada.';
+
+  @override
+  String get feedbackError =>
+      'Não foi possível enviar. Tente novamente ou use o GitHub / Discord abaixo.';
+
+  @override
+  String get feedbackErrorTitleRequired => 'Adicione um título.';
+
+  @override
+  String get feedbackErrorMessageRequired => 'Adicione uma mensagem.';
+
+  @override
+  String get feedbackErrorInvalidEmail => 'Informe um e-mail válido.';
+
+  @override
+  String get feedbackEmailUnavailable =>
+      'O e-mail ainda não está configurado — use o GitHub ou Discord.';
+
+  @override
+  String get feedbackPageNotice =>
+      'Sua página atual é incluída automaticamente.';
+
+  @override
+  String get feedbackChannelsLabel => 'Prefere outro meio? Fale conosco pelo';
+
+  @override
+  String get feedbackGithub => 'GitHub';
+
+  @override
+  String get feedbackDiscord => 'Discord';
+
+  @override
+  String get helpfulQuestion => 'Este guia foi útil?';
+
+  @override
+  String get helpfulYes => 'Sim';
+
+  @override
+  String get helpfulNo => 'Não';
+
+  @override
+  String get helpfulThanks => 'Obrigado pelo feedback!';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -1690,4 +1784,98 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get genesisLevelLabel => 'Gênese';
+
+  @override
+  String get feedbackFabTooltip => 'Feedback e pedidos';
+
+  @override
+  String get feedbackTitle => 'Ajude a melhorar os guias';
+
+  @override
+  String get feedbackSubtitle =>
+      'Peça um guia, relate um erro ou sugira uma correção. O e-mail é opcional — informe apenas se quiser uma resposta.';
+
+  @override
+  String get feedbackCategoryLabel => 'Categoria';
+
+  @override
+  String get feedbackCategoryFeature => 'Recurso';
+
+  @override
+  String get feedbackCategoryBug => 'Erro';
+
+  @override
+  String get feedbackCategoryFix => 'Correção';
+
+  @override
+  String get feedbackCategoryGuide => 'Guia';
+
+  @override
+  String get feedbackTitleLabel => 'Título';
+
+  @override
+  String get feedbackTitleHint => 'Resumo curto';
+
+  @override
+  String get feedbackEmailLabel => 'E-mail (opcional)';
+
+  @override
+  String get feedbackEmailHint => 'voce@exemplo.com';
+
+  @override
+  String get feedbackMessageLabel => 'Mensagem';
+
+  @override
+  String get feedbackMessageHint => 'Descreva seu pedido ou o problema';
+
+  @override
+  String get feedbackSend => 'Enviar';
+
+  @override
+  String get feedbackSending => 'Enviando…';
+
+  @override
+  String get feedbackSuccess => 'Obrigado! Sua mensagem foi enviada.';
+
+  @override
+  String get feedbackError =>
+      'Não foi possível enviar. Tente novamente ou use o GitHub / Discord abaixo.';
+
+  @override
+  String get feedbackErrorTitleRequired => 'Adicione um título.';
+
+  @override
+  String get feedbackErrorMessageRequired => 'Adicione uma mensagem.';
+
+  @override
+  String get feedbackErrorInvalidEmail => 'Informe um e-mail válido.';
+
+  @override
+  String get feedbackEmailUnavailable =>
+      'O e-mail ainda não está configurado — use o GitHub ou Discord.';
+
+  @override
+  String get feedbackPageNotice =>
+      'Sua página atual é incluída automaticamente.';
+
+  @override
+  String get feedbackChannelsLabel => 'Prefere outro meio? Fale conosco pelo';
+
+  @override
+  String get feedbackGithub => 'GitHub';
+
+  @override
+  String get feedbackDiscord => 'Discord';
+
+  @override
+  String get helpfulQuestion => 'Este guia foi útil?';
+
+  @override
+  String get helpfulYes => 'Sim';
+
+  @override
+  String get helpfulNo => 'Não';
+
+  @override
+  String get helpfulThanks => 'Obrigado pelo feedback!';
 }

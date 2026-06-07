@@ -5,6 +5,8 @@ import 'package:tc_flutter_web/core/widgets/flexible_card_grid.dart';
 import 'package:tc_flutter_web/core/widgets/responsive_grid.dart';
 import 'package:tc_flutter_web/l10n/generated/app_localizations.dart';
 
+import 'package:tc_flutter_web/features/feedback/presentation/widgets/feedback_fab.dart';
+
 import '../../domain/repositories/home_repository.dart';
 import '../widgets/guide_card.dart';
 import '../widgets/hero_header.dart';
@@ -29,6 +31,7 @@ class HomeScreen extends StatelessWidget {
     final guideSections = repository.guideSections(text);
 
     return Scaffold(
+      floatingActionButton: const FeedbackFab(),
       body: CustomScrollView(
         slivers: [
           SliverToBoxAdapter(child: HeroHeader(text: text)),
