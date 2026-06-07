@@ -44,6 +44,6 @@ The custom domain is configured via the [`web/CNAME`](web/CNAME) file
 
 A `CNAME` record points the subdomain at GitHub Pages:
 
-| Type  | Host    | Value                     |
-| ----- | ------- | ------------------------- |
-| CNAME | tcguide | gyanburuworld.github.io   |
+| Type  | Host    | Value                  |
+| ----- | ------- | ---------------------- |
+| CNAME | tcguide | katekko.github.io      |
