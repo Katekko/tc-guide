@@ -1,0 +1,490 @@
+{
+  "heroId": 65016,
+  "heroName": "Gaia",
+  "profile": "Gaia Suprema — tanque Guard do Outro Mundo construída inteiramente em torno da [Energia da Terra]: 100% do dano que ela causa torna-se Energia da Terra, que concede Dano Final + Redução de Dano Final e é consumida em acertos Letais para curar a si mesma/aliados, convertendo o excesso de cura em [Armadura Espiritual]. Suas habilidades escalam com o HP máximo do alvo e com seu próprio ATK/DEF; ela causa Dano Verdadeiro (Gênese) e seu Ultimate é AoE. Quer HP, Dano Final / Redução de Dano Final, Dano Verdadeiro, dano AoE, escudos e sobrevivência. Não tem Crítico, não usa ataque básico e não aplica Sangramento/Infecção.",
+  "ranking": [
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "Seu próprio mirror temático: HP% + Dano Verdadeiro AoE em acerto Letal (5%→11% do HP máximo para todos os inimigos) combina perfeitamente com seu kit de tanque/HP/AoE/Dano Verdadeiro. Razoável em 0-2★, S em 3★ onde salta para 11% e adiciona acúmulo de +5% ATK e DEF."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final + bônus de Cura é exatamente o multiplicador de durabilidade que sua sustentação de Energia da Terra quer; a cláusula de Divisão de Dano é bônus e a RD/cura base por si só já é central para um tanque."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final fixo +12% — a maior estatística pura de sobrevivência para um tanque que precisa receber acertos Letais para abastecer a Energia da Terra. Excelente desde 0★."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "Ela converte excesso de cura em [Armadura Espiritual], então carrega escudo de forma confiável: +ATK e DEF enquanto escudada (15% em 3★) mais auto-cura ao fim do turno. Forte sinergia com seu papel de Armadura Espiritual. A→S em 3★."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Dano Final fixo +12% amplifica diretamente seus acertos mágicos baseados em HP máximo% e seu Ultimate AoE; Dano Final é um dos dois multiplicadores nativos dela. Melhor desde 0★."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final que aumenta conforme é atacada (até +15%) — ideal para um tanque projetado para absorver acertos; sinergia defensiva pura."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "HP +15% no máximo — suas habilidades causam % do HP máximo do alvo, mas sua sustentação/Armadura Espiritual e sobrevivência escalam com seu próprio pool de HP; grande HP fixo é excelente para ela."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Todos os ataques adicionam 5% ATK como Dano Verdadeiro — ela é uma causadora nativa de Dano Verdadeiro (Gênese) e lançadora AoE, então isso acumula para cada alvo que ela acerta. Sinergia limpa e incondicional."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Seu Ultimate é AoE (acerta todos os inimigos): adiciona 100% ATK em Dano Verdadeiro dividido entre os alvos. Dano Verdadeiro + AoE ambos combinam com seu kit; confiável a cada Ultimate."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "HP +5% e +6% de Dano enquanto seu HP supera o do inimigo — como tanque de HP alto com forte auto-cura ela permanece acima dos inimigos, então ambas as metades geralmente estão ativas."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "HP +5% mais Cura Recebida que cresce conforme o HP cai — amplifica diretamente a cura Letal de Energia da Terra que a mantém (e a equipe) viva."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final +15% no máximo — mesma estatística primária de tanque que Frostglow, apenas uma versão legendary menor; forte preenchimento quando o anima não está disponível."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Limita um acerto enorme reduzindo o excesso acima de 50% do HP máximo em 30% — ajuda a sobreviver aos picos de burst que ela intencionalmente absorve para disparar as curas de Energia da Terra."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano de ataque em área +10% aumenta seu Ultimate AoE, mas não faz nada pelo seu Feat de alvo único/duplo; sinergia de dano parcial apenas."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "AoE + Dano Verdadeiro de HP atual combina com seu perfil de dano, mas está limitado a habilidades AoE disparadas PASSIVAMENTE, o que ela não tem de forma confiável; condicional."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final +5% base é útil, mas o rider de +15% precisa que o inimigo esteja em Divisão/Transferência de Dano, o que Gaia não aplica sozinha; valor apenas da base."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final +5% base ajuda; o bônus precisa que ELA esteja no estado de Divisão de Dano, o que é situacional em Gaia. Boa estatística de preenchimento."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Escudos Espirituais de equipe ao morrer combinam com seu papel de suporte tanque, mas ela é Imune a Letal e raramente morre, então o gatilho é pouco confiável. B em 3★."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Escudo de equipe no início da batalha escalando com seu grande HP Máximo oferece valor real à equipe e tem sinergia com seu tema de escudo; modesto mas útil."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final +4% base é adequado para ela; o +6% precisa que inimigos carreguem [Escudo], o que depende do confronto. Meia sinergia."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final + Redução de Dano Final escalando com HP perdido toca ambos os seus multiplicadores, mas ela se auto-cura de volta para cima então raramente fica com HP baixo por muito tempo; uptime parcial."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Reflexo de Dano Verdadeiro ao ser acertada, escalando com DEF — um tanque que é muito atacado o dispara com frequência, e Dano Verdadeiro combina; valor de chip modesto."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "DEF% fixo — seu Gênese V adiciona ATK/DEF e seus acertos usam ATK, então DEF é uma boa estatística de sobrevivência, mas pequena (nível epic)."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "HP% fixo — mesmo tipo de estatística que Albert, mas de valor epic baixo; preenchimento útil para um tanque, apenas pequeno."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final% fixo — estatística correta de tanque, mas apenas 5% máximo em nível epic; superado por Frostglow/Garvin."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final% fixo — combina com um multiplicador nativo, mas apenas +5% no máximo (epic); estritamente mais fraco que Firmament."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Rampa de acerto repetido no mesmo inimigo — seu Feat acerta dois alvos distintos e o Ultimate é AoE, então ela raramente acumula; combinação ruim."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Final frontal que decai por ataque e reseta ao abater — ela é um tanque lento e desgastante, não uma assassina rápida, então se esgota antes de render retorno."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Rampa de Dano Final em ataque/Ataque Básico — a parte de Dano Final ajuda um pouco, mas está ajustado para Ataques Básicos que ela raramente usa; a metade utilizável é pequena."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Final +5% base é razoável, mas o rider [Letal] anti-ressurreição é utilidade ofensiva sem relação com sua condição de vitória de tanque; apenas a base."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro que cresce com HP perdido — Dano Verdadeiro combina, mas ela se auto-cura de volta para HP alto, então poucos acúmulos de [Selo Temporal] se constroem; majoritariamente ocioso nela."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro bônus, mas apenas contra alvos com [Infecção] — Gaia não aplica Infecção, então depende inteiramente de um companheiro de equipe; pouco confiável."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro forte contra alvos com DoT, mas Gaia não aplica DoT sozinha, então o gatilho depende dos aliados; condicional mesmo no breakpoint de 3★."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Final por Buff próprio — ela ganha ATK/DEF e Armadura Espiritual, mas não acumula muitos buffs, então permanece perto do valor mínimo; medíocre."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano ATK contra inimigos com debuff — ela não aplica debuffs, então depende da equipe e aumenta apenas o dano ATK normal, não seu núcleo de HP%/Dano Verdadeiro."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano ATK contra inimigos controlados — Gaia não tem controle no kit, então a condição depende dos companheiros de equipe e está fora de sua condição de vitória."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "ATK% fixo — seus acertos usam ATK, mas ela é um tanque, não uma escaladora de ATK; valor epic ínfimo, marginal."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Ignorar DEF aumenta dano físico/mágico, mas ela já causa Dano Verdadeiro e dano de HP máximo% que ignoram DEF; pequena sobreposição, baixo retorno."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Auto-cura no início do turno é sustentação leve que se sobrepõe à sua cura de Energia da Terra muito mais forte; preenchimento de suporte fora do papel principal."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Revive na primeira morte — ela é Imune a Letal e se auto-ressuscita via Energia da Terra, então um revive pequeno de única vez é em grande parte redundante."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Ultimate +20% — seu Ultimate é AoE então há algum valor, mas seu dano é baseado em HP%/Dano Verdadeiro, não em escalonamento puro de Ultimate; modesto."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Bônus de Dano Ultimate que acumula via Ataques Básicos que ela nunca usa — o pedaço do início da batalha ajuda ligeiramente seu Ultimate AoE, mas a rampa de 3★ é inútil nela."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano ATK de alvo único — ela é uma escaladora de HP%/AoE/duplo alvo, então um bônus de dano de alvo único mal se aplica."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano de ataque único contra alvos com pouco HP — entrega errada (AoE, não execute) e ela não tem um nuke de alvo único verdadeiro."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Taxa de Resistência a Efeitos — utilidade de sobrevivência menor, mas ela já é Imune a Letal com forte sustentação; fora de seu núcleo."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Buff de Taxa de Resistência a Efeitos que é removido quando ela age — ela age todo turno, então o bônus quase nunca persiste; quase inativo."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Resistência a Efeitos escalando com expiração de buffs — estatística anti-CC de nicho sem ligação com seu kit de HP/Dano Final/Dano Verdadeiro."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Crítico defende contra críticos, mas é uma estatística epic estreita; menor para um tanque com opções de RD muito maiores disponíveis."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Aumenta a saída de Cura — ela cura via Energia da Terra, mas esta estatística de suporte é pequena e está fora de seus eixos primários de tanque/durabilidade."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Bônus de habilidade de cura de alvo único — a cura de Gaia é condicional de Energia da Terra em acertos Letais, não uma habilidade de cura única; pouca sobreposição."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Totalmente dependente de Crítico (corte de Cura Recebida ao acertar Crítico) — Gaia não tem Crítico algum no kit, então nunca dispara."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Taxa Crítica/Dano Crítico puro + dissipar ao acertar Crítico — Gaia não tem Crítico, então a base e a cláusula de 3★ são inúteis."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Taxa Crítica fixo — desperdiçado: Gaia não tem escalonamento de Crítico em parte alguma do seu kit."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Dano Crítico fixo — inútil em uma heroína não-crítica como Gaia."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "A base de Dano Final é razoável, mas o payload são acúmulos de [Caça] de Taxa Crítica/Dano Crítico — quase completamente inúteis em um tanque não-crítico."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Burst de Crítico/Dano Final ao abater aliados — centrado em Crítico e reativo; Gaia mantém os aliados VIVOS, então dispara raramente e a metade de Crítico é desperdiçada."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Base e 3★ requerem um CRÍTICO de Habilidade de Proeza para disparar o Dano Verdadeiro/Armadura Espiritual — Gaia não tem Crítico, então nunca ativa apesar das tags compatíveis."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Dano de Ataque Básico (Crítico/ataque básico) — Gaia é lançadora de habilidade/Ultimate que não usa Ataque Básico; inútil."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Acumulador de Dano de Ataque Básico com re-Ataque Básico ao abater — Gaia nunca usa Ataque Básico, então mesmo a famosa cláusula de 3★ não faz nada."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Todo valor está em Ataques Básicos (+ rider de Crítico) — Gaia não usa Ataque Básico nem Crítico, então o Dano Verdadeiro nunca dispara."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Rampa de Dano Final é boa em teoria, mas é um mirror DPS de acumulação de ataque básico/Ultimate; em um tanque é superado e o caminho de ataque básico é inútil. Fora do papel."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Adiciona acúmulos extras de [Sangramento] ao aplicar Sangramento — Gaia não aplica Sangramento; completamente inerte."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Acúmulo extra de [Infecção] ao aplicar Infecção — Gaia não aplica Infecção; nunca dispara."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro de habilidade única escalando com debuffs/Infecção — limitado a alvo único e precisa de debuffs que Gaia não aplica; fora do seu kit AoE/HP."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Chance ao ser acertada de aplicar [Sangramento] — um mirror de Sangramento; Gaia não tem sinergia com Sangramento e o chip é insignificante diante de suas necessidades."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Chance ao ser acertada de aplicar [Infecção] — payload de Infecção que Gaia não pode usar; utilidade inativa."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Precisão de Efeitos — Gaia não aplica debuffs/controle, então aumentar sua Precisão de Efeitos não faz nada."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Precisão de Efeitos + debuff [Fogo de Raposa] ao atacar — um kit de controle/precisão de efeitos que Gaia não tem uso; seus acertos não são feitos para aplicar/escalar debuffs."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "B",
+      "recommendedStar": null,
+      "reason": "Mirror de suporte de redução de dano — a redução de dano é relevante para um tanque como Gaia, oferecendo durabilidade real, embora seja um efeito de nível rare pequeno superado por Frostglow/Garvin."
+    }
+  ]
+}

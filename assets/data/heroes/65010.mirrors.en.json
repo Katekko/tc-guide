@@ -1,0 +1,490 @@
+{
+  "heroId": 65010,
+  "heroName": "Elbella",
+  "profile": "Otherworld UR Power Support / Debuff-Immune healer. Her skill and Ultimate heal allies for %ATK and apply [Dark Plume]/[Feather Blessing], cleanse debuffs, block incoming debuffs, and reduce ally DoT by 30% while she lives. She wants Heal amplification, ATK (her heals scale off it), Effect Resist, team shields, and personal survivability — she does zero personal DPS, no crit, no basic attacks, no bleed/infect, so all offensive mirrors are dead weight.",
+  "ranking": [
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Pure heal amp (+15% Heal at 5*) directly multiplies her core %ATK heals on skill and Ultimate; perfect for a dedicated healer. BiS support stat-stick."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Her own themed mirror: +Effect Resist plus stacking Effect Resist and self-heal each time a buff expires; feeds her Debuff-Immune identity and keeps her alive to hold the 30% DoT reduction aura."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Battle-start team-wide Shield scaling off her huge Max HP, stackable; adds a survivability layer her heal-only kit lacks and protects the whole team she buffs."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "All her healing and [Dark Plume] application scale off ATK; flat ATK% is one of the few stats that raise her actual output. Cheap, universal, always-on."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "A",
+      "recommendedStar": 3,
+      "reason": "On-death [Spirit Shield] to lowest-HP (and highest-ATK at 5*) ally that blocks DMG instances uncannot-dispel; team insurance if she falls. A->stronger at 3*+ (extra blocks/targets)."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+HP and stacking Healing Received as HP drops; raises her bulk (she must survive to hold the DoT aura) and self-sustain. Strong defensive keeper for a support."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Flat +30% Final DMG RED at 5*: pure survivability so she stays alive to maintain heals and the 30% ally DoT-reduction aura. Highest unconditional DR available."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Stacking Final DMG RED per hit received (up to 45%); she is a focus-fire target as a healer, so this ramps her survivability fast and keeps the aura up."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+15% HP raises her bulk and the basis of Mystic Bull-style HP-scaled shields; keeps her alive to keep healing. Reliable defensive stat for a support."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Caps burst spikes (reduces excess of big hits); protects a squishy support from assassination so her heals and DoT aura persist."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Self-revive on first death restoring large HP + turn-end regen; a fallen healer is catastrophic, so the auto-rez keeps her team-sustain online."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "When carrying any Shield, +ATK/DEF and (5*) turn-end lost-HP recovery; ATK portion helps her heals and pairs with Mystic Bull/Warding shields, but conditional. B->better at 3*+."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Big Effect Resist at turn start (removed on action); supports her anti-debuff theme but the on-action removal blunts it on a hero who acts to heal every turn."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat Effect Resist Rate reinforces her Debuff-Immune identity and protects her buffs/heals from cleansing; modest but on-theme."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Turn-start self-recovery of lost HP; passive self-sustain keeps a focus-fired support topped off, but does nothing for the team."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+DEF% is generic survivability; useful filler to keep a squishy support alive, though DEF scales her output none."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+HP% bulk filler (weaker than Albert at the same role); helps her survive to keep healing."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG RED filler; smaller than Frostglow/Garvin but still pure survivability she can use."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG RED, smaller per-tier than Frostglow but same survivability role; solid defensive bench."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED that scales as HP drops; the DR half is useful survivability for her, the Final DMG half is wasted (she does no damage)."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "+HP and lethal-hit retaliation; the HP raises her bulk, the True-DMG payload is wasted on a non-DPS. Useful only for the HP, hence bench."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "+HP is useful but the conditional DMG-when-higher-HP clause is dead on a healer who deals no damage; you only get half the mirror."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Support-type DMG reduction utility, but its DR is conditional/team-niche and weaker than the flat DR options she already has."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Crit DMG RED is narrow defensive value (only vs crit comps); minor survivability with no synergy to her kit."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Single-target heal amp helps her skill's single-target heals, but it ignores her all-ally Ultimate heal; Theresa's flat heal amp is strictly better for her."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Anti-heal-on-crit is offense utility; she never crits and deals no damage, so it almost never triggers. Dead clause, tiny stat."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Strong tank/support DR+heal mirror, but its big payoffs key off Damage-Share Status she doesn't have; only the small flat DR applies to her."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "DEF Ignore is a pure offensive stat; she deals no meaningful damage, so it is wasted."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG% is pure offense; her output is heals (which don't scale off Final DMG), so it does nothing for her."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG% offense stat with no relevance to a heal/buff support."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG% offense; wasted on a non-DPS support."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG% offense; no synergy with a healer's kit."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG + True DMG offense package; she deals neither, so it's dead."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Crit Rate; she has no crit-scaling damage, so it does nothing."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Crit DMG; non-crit, non-DPS support gains nothing."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG + Crit offense; both levers are irrelevant to her heals."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG + Crit offense; no synergy with a support."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Counter True-DMG off DEF is a tank-retaliation effect; her DEF is tiny and she isn't built to be hit-and-reflect."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Single-target ATK DMG boost is pure DPS; she deals no attack damage."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Execute-style single-attack DMG amp; she has no damaging single attacks."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "ATK DMG vs debuffed enemies is offense; she debuffs nothing and deals no damage."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Crit + basic-attack DPS package; she neither crits nor basic-attacks for damage."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Crit stat + on-crit buff-dispel; she never crits, so neither clause ever fires."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "True DMG offense; no damage in her kit to scale."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "True DMG offense; dead on a pure healer."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "AOE True DMG offense; she deals no area damage."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "AOE DMG boost; her only all-ally action is a heal, not AOE damage."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Generic DPS power package with no clause that touches healing or survivability for her."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG + shield-on-damage; the shield clause keys off dealing damage she doesn't do, so it rarely procs."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Ultimate DMG boost; her Ultimate is a heal, not damage, so this is inert."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Ultimate-DMG + basic-attack ramp; her Ultimate deals no damage and she doesn't basic-attack, so both clauses (incl. the 3* unlock) are dead."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Stacking Final DMG per attack (more on Ultimate/Feat); raises damage she doesn't deal. The 3* split clause is still pure offense, wasted on her."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Basic-attack DMG ramp + on-kill basic attack; she rarely basic-attacks and doesn't secure kills, so even the 3* on-kill clause won't fire."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Basic-attack True DMG (more on crit at 3*+); she neither basic-attacks for damage nor crits, so it's dead."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG + basic-attack offense; no basic-attack damage in her kit."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "AOE/single True DMG offense bundle; she deals no damage of any kind."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "DoT-target execute True DMG + Torment; she applies no DoT and deals no damage, so even the 3* unlock can't proc."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Feat-crit True DMG + Spirit Armor on crit; she doesn't crit, so the trigger never lands (incl. the 3* Spirit Armor clause)."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Infect + True DMG offense; she applies no infect and deals no damage."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Per-debuff True DMG on single skill attack (Infect bonus at 5*); she applies no debuffs to enemies and deals no damage."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Bleed control offense; she applies no bleed and the effect is enemy-facing."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Infect application on a support who never applies infect; dead."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "On-being-attacked chance to Infect attacker; tiny chance, enemy-debuff utility unrelated to her heal/buff role."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Bleed application; she applies no bleed and deals no damage to leverage it."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Effect Hit Rate boosts landing debuffs on enemies; she lands no offensive debuffs, so it's wasted."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "ATK DMG vs controlled enemies is offense; she neither controls nor deals damage."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Control + True DMG + Effect Hit offense bundle; none of these levers exist in her supportive kit."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG + control + Effect Hit offense; entirely offense-facing, nothing for a healer."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Final DMG + [Lethal] application on dealing damage; she deals no damage so it never procs, and Final DMG is wasted. Fully dead for her."
+    }
+  ]
+}

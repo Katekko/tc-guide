@@ -1,0 +1,490 @@
+{
+  "heroId": 65002,
+  "heroName": "Lucifer",
+  "profile": "Otherworld Assault, Magical AOE poison/execute caster. Her whole kit is built on stacking [Eternal Curse] (a DoT) across multiple enemies, amplifying damage against cursed/DoT'd targets (+20%), executing low-HP foes via an Ultimate whose True DMG scales on the target's lost HP, and applying heavy Heal Reduction. She deals M.DMG through Skills/Ultimate — she is not a basic-attacker and does not crit, tank, or heal allies. Wants: DoT/curse synergy, effect-hit, True DMG and current-HP/lost-HP scaling, debuff-amplify, and AOE damage. Avoids: basic-attack, crit, single-target-only, ally-heal/shield, and self-tank mirrors.",
+  "ranking": [
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "Her own mirror and a perfect DoT engine: True DMG vs targets with DoT (every cursed enemy qualifies), and at 3★ it adds [Torment] — Heal-Down + DoT amplification stacking 8×, exactly her win condition. B-tier at 0-2★ (1 trigger), S-tier at 3★+ (4 triggers/turn + Torment)."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Flat +8→20% ATK DMG when attacking enemies with a Debuff; she keeps the whole enemy team cursed, so this is near-100% uptime on every hit."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Passive AOE skills deal extra True DMG = % of target's current HP — her Feat/Ultimate are AOE, so this fires every turn and reinforces her execute theme."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "AOE skills deal big extra True DMG split across targets; her multi-target Feat/Ultimate are exactly the trigger — top anima AOE damage."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Skills deal +40→120% ATK True DMG to debuffed/[Infect] targets; her curses blanket the team and her skills are the delivery, so it fires reliably."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Flat +12→30% Final DMG, unconditional — the cleanest possible multiplier for a caster, always on."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Large Final DMG bonus that resets on kill — she is an AOE executioner who secures kills often, refreshing it; minor decay between kills."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "All attacks add +5→20% ATK True DMG; type-agnostic, fires on every curse-spreading hit and ignores DEF."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Ramping True DMG that pays off as she takes chip damage; at 5★ a current-HP nuke. Solid raw True-DMG scaling, no anti-synergy."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+Final DMG per self-Buff (up to 30%); her Genesis grants Shield/Heavenfall buffs, giving decent uptime on a clean multiplier."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Multi-hit same-target DMG stacking up to 60%; her Feat hits 4 randoms and Ultimate 3 heroes — overlap triggers it for strong generic DPS."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Final DMG + [Lethal] (blocks resurrection) on damage; as an executioner this seals kills, and the Final DMG is always useful."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5→20% Final DMG always on; the True-DMG bonus only fires vs Damage-Share/Transfer enemies, but the base line keeps it useful."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat Effect Hit Rate — directly raises the chance her 70%/90% curse applications land, but it is a small generic stat versus the damage mirrors above."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Effect Hit + [Fox Fire] current-HP True DMG on active attack — effect-hit helps her curse land and Fox Fire is bonus DoT, though value is modest at her stars."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Chance to add an extra [Infect] stack on infect — her curses are [Eternal Curse], not [Infect], so it won't piggyback her apply; only a generic DoT-spreader."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Extra [Bleed] on bleed application — she applies Curse, not Bleed, so no synergy with her own apply; bench DoT stat-stick."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+10→25% Area Attack DMG; her Feat/Ultimate are AOE so it applies, but it is a flat eternal stat with no extra clause — fine filler."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+DMG vs Controlled enemies; she applies Curse/DoT rather than hard Control, so uptime depends on teammates — partial, conditional."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat ATK% — generic stat-stick that feeds her ATK-based True-DMG caps; low ceiling but never dead."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG% — small clean multiplier, a weaker epic version of Firmament; bench filler."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG stacks per attack (caps 50%); the basic-attack half is wasted on a caster, but \"each attack\" still counts her skills — usable, slow to ramp."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "True DMG per Debuff — her cursed targets carry many debuffs, but the clause requires a SINGLE-target skill and her kit is AOE, so it rarely triggers."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Heal + Effect Hit; only the Effect-Hit half helps her curse land, the heal does nothing for a backline caster — half-wasted."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Effect Hit Rate on a def frame; the effect-hit helps her curse land, but it is a weak anima stat-stick — marginal."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Effect Resist Rate — defensive anti-CC that lets her keep casting if focused, but contributes zero offense."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Heal-Reduction on Crit — the Heal-Down theme matches her, but it is gated behind Crit, which she lacks, so it almost never fires."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "True DMG + Spirit Armor on Feat-Skill Crit; True-DMG theme fits but it is locked behind Crit she never lands — dead trigger."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "+Ultimate DMG only; her Ultimate hits hard but is on a 4-turn cooldown, so this buffs only one cast every few turns — narrow."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "Final DMG per attack; at 3★+ it favors Ultimate/Feat over Basic which suits her, but the ramp is slow and weaker than flat Final-DMG mirrors for her."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Final DMG + self-shield; the Final DMG helps a little, the shield is minor for a backliner — mediocre half-fit."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Final DMG base is fine, but the bonus requires Damage-Share state she has no control over — mostly just the flat 5→20%."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Final DMG base helps, but its main payload is Crit Rate/DMG [Hunt] stacks — she does not crit, so most of the mirror is wasted."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Huge Crit + Final DMG, but only when an ally dies and the Crit half is wasted on a non-crit hero; unreliable trigger."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "DEF Ignore raises her M.DMG slightly, but much of her payoff is True DMG that already ignores DEF, so it overlaps poorly."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Ultimate DMG boost that ramps via Basic Attacks at 3★; she rarely basic-attacks, so the ramp is dead and only the flat Ultimate part applies once."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Basic-Attack True DMG; a powerful True-DMG anima but every clause keys off Basic Attacks she never makes — effectively dead for a caster."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Basic-Attack DMG ramp + on-kill basic attack at 3★; she is a skill caster, so both the ramp and the re-attack rarely trigger."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Crit + Basic-Attack focused — double anti-synergy: she neither crits nor basic-attacks."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Pure Crit Rate/DMG plus a Crit-gated dispel; she does not crit, so the entire mirror is inert."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Flat Crit Rate — dead stat on a non-crit caster."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Flat Crit DMG — useless without crits, which she never lands."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Single-target ATK DMG only; her kit is AOE multi-hit, so the single-target clause almost never applies."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Single-Attack DMG vs low-HP — the execute theme fits, but it is single-target only and she is AOE, so the trigger is mismatched."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "DEF-based reflect when attacked; a tank effect on a frail backline caster with low DEF — negligible."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Applies Bleed to attackers when SHE is hit; she is backline and rarely targeted, and it spreads the wrong DoT type — marginal."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Applies Infect to attackers when hit; passive, off-class, and depends on her being attacked — minimal value."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "ATK/DEF while shielded + heal at 3★; her Genesis II self-shield can trigger the ATK part, but it is a defensive anima far below her damage options."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "HP + lethal-hit AOE True DMG; a tank-survival mirror that only pays out when she nearly dies — wrong role for a backline executioner."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED — pure defense, no offense; off-role for a glass-cannon caster."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Crit-DMG-Reduction defensive stat — zero offensive value for her."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG RED — defensive tank stat, off-role."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Big Final DMG RED — strong for a tank, dead weight on a damage caster."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Stacking Final DMG RED when attacked — defensive, off-role, and needs her to be hit repeatedly."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Caps large incoming hits — a tank survival tool, no offense for her."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Flat DEF% — a tank stat with no offensive or curse value for a backline caster."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Flat HP% — negligible survivability gain, no synergy with her damage."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Bigger flat HP% — still a pure tank stat, useless to her win condition."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Large flat HP% (eternal) — high quality but pure tank stat, dead for her."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Self heal + HP — sustain a glass-cannon caster does not need; no offensive synergy."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Increases healing done — she is not a healer; completely inert."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Self HP regen — pure sustain, no contribution to her damage or curses."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Heal anima — healing has no place in her solo-burst caster kit."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Team shields at battle start — a support effect that gives her no offense; she is not the team's shielder."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Spirit Shield to an ally on first death — pure support utility with zero value for her own damage output."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Final DMG + Final DMG RED scaling with HP lost — a bruiser/tank duelist effect; she is frail backline and cannot safely sit at low HP."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED + heal/True-DMG reduction tied to Damage-Share state — a tank/damage-sink mirror; off-role for a frail backline executioner."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Single-target heal amplification — she casts no heals; completely inert."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Damage-reduction support stat — defensive utility with no offensive or curse value for her."
+    }
+  ]
+}

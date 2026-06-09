@@ -1,0 +1,490 @@
+{
+  "heroId": 65017,
+  "heroName": "Mars",
+  "profile": "Assault do Outro Mundo (UR); bruiser físico multi-hit que usa repetidamente uma Proeza de coluna sem cooldown (3 acertos) mais um Ultimate de 6 acertos, acumula [Chama Ardente] para +VEL e em 10 acúmulos ganha +30% de Taxa Crítica e Penetração de DEF, escalando fortemente em Crítico, Ignorar DEF, Dano Verdadeiro e dano de HP% enquanto se sustenta com 20% de Roubo de Vida e aplica Debilitação/Medo como controle. Quer Crítico, Ignorar DEF, Dano Verdadeiro, amplificadores de dano por ataque repetido/multi-hit e Dano Final. Anti-sinergia forte com mirrors de ataque básico (seu kit é Proeza/Ultimate/Especial, nunca Ataque Básico) e com palitos de suporte/cura/resistência a controle puros.",
+  "ranking": [
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Seu próprio mirror temático: Dano Verdadeiro extra a cada acerto crítico de Proeza, e Mars acerta crítico constantemente com 10 acúmulos de Chama Ardente (+30% Taxa Crítica). A Proeza acerta 3x sem cooldown, então dispara muitas vezes por turno; 3★ adiciona sustentação de Armadura Espiritual. BiS desde 0★, mais forte em 3★."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "+Dano por acertar repetidamente o mesmo inimigo em um turno (até +42% em 3★, +60% em 4+). Mars é o herói exemplar de ataque repetido (Proeza de 3 hits, Ultimate de 4+2 hits), então uptime quase permanente de dano puro."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro de HP atual contra alvos com DoT; em 3★ dispara 4x/turno e aplica Tormento. Mars é multi-hit e aplicador de debuffs, então assim que qualquer DoT aterrissar isso se torna enorme Dano Verdadeiro repetido. A em 0-2★, S em 3+."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Dano Final fixo +12% a +30%, magnitude anima, zero condições. Multiplica universalmente cada instância de dano físico e Dano Verdadeiro que Mars causa; slot central seguro."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "+8% a +20% de Dano ATK contra inimigos com debuff. Mars aplica Debilitação/Medo e usa Controle com Debuff, então a condição é quase sempre cumprida; amplificação física barata, confiável, em todos os acertos."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Cada ataque causa +5% a +20% ATK como Dano Verdadeiro, aplicado a cada um dos muitos acertos de Mars. Independente de armadura e escalando com seu volume de acertos; excelente dano sem condição."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "A",
+      "recommendedStar": 3,
+      "reason": "+Taxa Crítica e Dano Crítico, mais dissipar buffs ao acertar Crítico em 3★. Mars acerta crítico com confiança em 10 acúmulos, então isso escala diretamente seu dano crítico central; claramente essencial para o perfil de Crítico."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Grande rider de Dano Verdadeiro AoE em habilidades AoE. O Ultimate de Mars acerta todos os inimigos 2x, então isso aterra; Dano Verdadeiro adicional independente de Crítico, limitado por alvo único, mas forte no geral."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Dano Final frontal que reseta ao abater. Mars mata rapidamente e seu Gênese reseta cooldowns ao abater, então o reset é alcançável; forte amplificador de Dano Final em burst."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+Ignorar DEF. Mars causa Dano Físico e ganha Penetração de DEF em 10 acúmulos; mais penetração multiplica diretamente seus acertos físicos contra inimigos resistentes."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Acúmulo de Dano Final por ataque; em 3★ o ramo Ultimate/Proeza concede mais por uso. Mars ataca com frequência então acumula, mas o teto (24-28%) e a ponderação parcial de ataque básico o mantêm em B."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Acúmulo de Dano Final por ataque/Ataque Básico até grandes totais em estrelas altas. Mars o dispara via muitos acertos, mas o enquadramento semi-orientado a Ataque Básico e o tempo de rampa o tornam preenchimento sólido, não central."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final fixo mais bônus contra inimigos escudados. A porção fixa sempre ajuda; a condicional apenas quando os inimigos carregam Escudo, então medíocre no geral."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final por Buff em si mesmo. Mars carrega buffs de Chama Ardente e Gênese para uptime parcial, mas não é um acumulador pesado de buffs próprios, então raramente atinge o teto; preenchimento decente."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5% de Dano Final fixo sempre se aplica; o grande bônus precisa de inimigos em Divisão/Transferência de Dano, o que Mars não pode criar sozinho. Baseline útil, upside dependente da equipe."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5% de Dano Final mais escalamento de Divisão de Dano própria e bloqueios de debuff. Dano fixo e resistência a efeitos ajudam, mas o grande payoff precisa que ELE esteja no estado de Divisão de Dano (fora do kit); preenchimento de baseline."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Rider de Dano Verdadeiro em habilidades AoE disparadas passivamente. O AoE de Mars é seu Ultimate ativo, não AoE passivo, então a condição de gatilho é estreita; apenas valor parcial."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "HP mais retaliação de Dano Verdadeiro AoE em acerto Letal; em 3★ adiciona acúmulos de ATK/DEF. O HP e a sobrevivência são adequados para um bruiser com Roubo de Vida, mas é um payload defensivo em vez de escalamento ofensivo."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+Dano contra inimigos controlados, até +25%. Mars aplica Medo então pode disparar, mas Medo apenas trava alvos abaixo de 60% HP, tornando o uptime inconsistente; condicional, mas temático."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Pequeno +Taxa Crítica (máx 5%). Crítico importa para Mars, mas a magnitude epic é trivial ao lado de Alucard e seu próprio +30%; apenas preenchimento inicial."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Pequeno +Dano Crítico (máx 5%). Temático, mas pequeno demais para importar quando seu perfil de Crítico está ativo; preenchimento inicial menor."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Pequeno +Dano Final (máx 5%). Estatística certa, tamanho trivial; estritamente pior que Firmament/Throat-Slitting. Preenchimento inicial."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Pequeno +ATK fixo (máx 5%). Genérico e menor; útil apenas antes de existirem mirrors DPS melhores."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano ATK de alvo único aumentado. Ajuda apenas na fase de alvo único do Ultimate; não faz nada pela Proeza de coluna ou pela fase AoE do Ultimate. Cobertura parcial."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano de Ataque Único escalando com HP perdido do alvo. Estilo execute e de alvo único, então perde o volume multi-hit/AoE de Mars; marginal."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "+Dano AoE apenas. Mars tem apenas uma fase AoE (2 acertos do Ultimate); a maioria do seu volume é em coluna/único, então a cobertura é parcial; modesto."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro de Habilidade Única por debuff. Mars usa debuffs, mas só dispara em ataques de habilidade de alvo único uma vez por turno, enquanto sua marca registrada é multi-hit/AoE; encaixe limitado."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro contra alvos Infectados. Mars não aplica Infecção, então precisa de um companheiro de equipe para configurar; condicional e fora do seu próprio kit."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Final fixo pequeno mais Letal anti-ressurreição. O +5-15% de Dano Final é utilizável, mas a utilidade de Letal é de nicho; fraco versus Firmament/Throat-Slitting."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro aumentando conforme o portador perde HP. Mars usa Roubo de Vida e permanece com HP alto, então raramente acumula [Selo Temporal]; o escalonamento briga com sua própria sustentação."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Enorme burst de Crítico/Dano Final, mas apenas quando um ALIADO morre. Ótimo tema de Crítico em teoria, mas depende de perder companheiros de equipe; pouco confiável para um carry de linha de frente."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Dano Final mais acúmulos de Crítico que crescem apenas em turnos SEM eliminação. Mars elimina rápido e reseta ao abater, então os acúmulos de [Caça] são constantemente apagados; anti-sinergia com seu ritmo."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Crítico recebido; resistência a Crítico defensiva para o portador, sem ofensividade para Mars. Fora de sua condição de vitória."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final (defensivo). Sobrevivência leve, sem ofensividade; fora do papel para um carry de dano."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Dano Final mais Redução de Dano Final que aumentam conforme o HP cai. A metade ofensiva é bem-vinda, mas quer você com pouco HP, o que briga com o Roubo de Vida de Mars; híbrido fraco para ele."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "HP mais Dano quando acima do HP do inimigo. O Dano condicional pode encaixar em um bruiser, mas é pequeno e o foco em HP está fora do escalonamento de um carry; menor."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP mais escalamento de Cura Recebida. Sustentação pura; Mars já usa Roubo de Vida e precisa de escalamento de dano, não de mais sobrevivência bruta."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP fixo apenas. Sem ofensividade; palito de estatística de tanque irrelevante para a saída de Mars."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP fixo ínfimo. Defensivo e pequeno; nada para um carry de dano."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "DEF fixo ínfimo. Mars é um carry de DEF baixo; palito defensivo sem sinergia."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Grande Redução de Dano Final (defensivo). Forte para um tanque, mas mitigação pura não faz nada pelo papel de ofensiva em primeiro lugar de Mars."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Limita dano burst recebido. Ferramenta de sobrevivência de tanque; Mars é um carry e ganha pouco."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Acúmulo de Redução de Dano Final ao ser atacado. Apenas defensivo; fora do papel para um causador de dano."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "ATK/DEF apenas enquanto carrega um Escudo. Mars não tem auto-escudo, então a condição fica sem ser cumprida; efetivamente inativo para ele."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Retaliação de Sangramento ao ser acertado. Mars não tanque nem constrói em torno de Sangramento; quase nunca relevante."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Retaliação de Infecção ao ser acertado. Fora do kit (sem sinergia com Infecção) e reativo; insignificante para um carry."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Auto-revive de única vez. Seguro de sobrevivência, não dano; baixo valor para um slot de ofensividade."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Reflexo de Dano Verdadeiro com DEF ao ser atacado. Mars tem DEF baixo e é um carry, não um tanque; o reflexo é insignificante."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Grande Dano de Ataque Básico mais Crítico de ataque básico. Mars causa dano via Proeza/Ultimate/Especial e nunca usa Ataque Básico, então o efeito inteiro falha. Anti-sinergia."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro a cada Ataque Básico com bônus ao acertar Crítico. Alto poder anima, mas totalmente dependente de Ataques Básicos, que Mars nunca usa; todo o payload é inútil para ele."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano de Ataque Básico mais Ataque Básico ao abater. Mars nunca usa Ataque Básico, então nenhuma cláusula funciona; a escolha canônica de anti-sinergia para ele."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Bônus de Dano Ultimate consumido no Ultimate, escalando com Ataques Básicos. Mars não usa Ataque Básico e não é centrado em Ultimate; ambas as metades falham."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Dano Ultimate apenas. Ignora seu dano de Proeza/Especial de volume muito maior; escolha de fase única fraca versus mirrors de Dano Final fixo."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dobra a aplicação de Sangramento. Mars aplica Debilitação/Medo, não Sangramento, então o efeito nunca dispara; peso morto."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dobra a aplicação de Infecção. Mars não aplica Infecção, então o efeito nunca dispara; peso morto."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Reduz Cura Recebida do alvo ao acertar Crítico. Mars acerta Crítico, mas anti-cura é utilidade sem escalonamento de dano para ele; não ganha nada ofensivamente."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Precisão de Efeitos. Sua Debilitação/Medo são definidos pelo kit; um pequeno buff genérico de precisão não acrescenta quase nada e zero dano."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Precisão de Efeitos mais debuff de controle Fogo de Raposa. Utilidade de controle fora da condição de vitória de dano de Mars; o Dano Verdadeiro é um DoT do próprio alvo, não seu escalonamento."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Cura realizada. Mars não é um curandeiro; estatística de suporte pura sem uso nele."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Taxa de Resistência a Efeitos. Utilidade defensiva anti-CC, sem ofensividade; fora do papel para um carry."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Aumenta habilidades de Cura de alvo único. Mars não tem habilidade de cura para amplificar; o efeito é inerte."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Auto-cura no início do turno. Sustentação menor que ele não precisa além do Roubo de Vida; sem valor de dano."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Escudo de equipe no início da batalha. Utilidade de suporte para aliados; não fornece escalonamento pessoal a Mars."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Escudo Espiritual de aliado ao morrer. Payload de suporte/morte; nada para a própria ofensividade de Mars."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Taxa de Resistência a Efeitos (anti-CC). Utilidade defensiva apenas; sem contribuição para seu dano."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Resistência a Efeitos mais cura ao expirar buff. Utilidade defensiva/de sustentação fora do papel de dano de Mars; quase zero valor ofensivo."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Estatística de suporte de redução de dano (texto de efeito vazio nos dados). Suporte defensivo puro; nada para um carry de dano."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final (defensivo). Forte mitigação para um tanque, mas sobrevivência pura não fornece escalonamento ofensivo a Mars; fora do papel para um carry."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Redução de dano mais cura mais corte de Dano Verdadeiro recebido, tudo vinculado ao papel de tanque de Divisão de Dano que Mars nunca preenche. Payload puramente defensivo/de suporte sem nenhum valor de dano pessoal."
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "heroId": 55002,
+  "heroName": "Wu Kong",
+  "profile": "Assassino Otherworld (UR); AoE Físico / Assalto de Clones. A condição de vitória é o Ultimate 'Havoc in Heaven' — consome [Life-Saving Hair] para invocar 9+ clones que cada um golpeia inimigos aleatórios (120% de Dano, 25% em golpes repetidos), gerando um enorme número de instâncias de acerto separadas. Seu kit continuamente invoca clones extras (ao receber dano, no Cosmic Strike, na morte de inimigos) e pode disparar o Ultimate automaticamente em altas contagens. Ele escala com ATK, Dano Final, Dano AoE, Dano Verdadeiro por acerto, Ignorar DEF e Dano de Ultimate; ele NÃO usa ataque básico, crítico (sem alavanca de crítico nativa), sangramento/infecção, cura, ou foco em alvo único. Mirrors que adicionam valor por acerto ou por AoE brilham; escolhas de ataque básico / alvo único / crítico / aplicador de DoT / suporte são peso morto.",
+  "ranking": [
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "O mirror temático dele: 'Todos os ataques causam Dano Verdadeiro adicional de 5%-20% do ATK.' Cada acerto de clone e instância de habilidade o ativa, de modo que seu enorme Ultimate de múltiplos acertos multiplica isso em Dano Verdadeiro massivo sem limite. Encaixe perfeito."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Habilidade AoE adiciona 100%-400% de Dano Verdadeiro ATK distribuído entre todos os alvos; seu Ultimate e Feat são AoE, então isso acerta em cada combate como Dano Verdadeiro AoE bônus. Excelente para um conjurador AoE."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "+12%-30% de Dano Final fixo, incondicional, de magnitude anima. Multiplica cada acerto de clone e todo o burst do Ultimate sem nenhuma condição."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "+10%-20% de Dano (até +60% em 5*) por atacar repetidamente o mesmo inimigo em um turno — seus clones constantemente reacertam alvos (cenário de golpes repetidos), então o teto de acumulação é facilmente atingido durante o Havoc."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Começa com +20%-45% de Dano Final, reinicia ao abater. Seu Ultimate AoE frequentemente garante abates, renovando o buff; multiplicador enorme carregado no turno de nuke."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Cada ataque acumula +3%-5% de Dano Final (até +50%). Sua saraivada de clones e kit de múltiplos acertos acumulam rapidamente; magnitude anima. Ligeiramente mais lento para atingir o pico do que Dano Final fixo."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+8%-20% de Dano de Ultimate. Seu Ultimate é a carga total (e ele tem bônus de Dano de Ultimate nativo), então isso amplifica diretamente sua condição de vitória."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+5%-15% de Ignorar DEF. Seus clones causam Dano físico; Ignorar DEF eleva o piso de cada acerto contra inimigos com armadura — DPS incondicional limpo."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+2%-5% de ATK fixo. O Dano dos clones (120% por clone) e o mirror de Dano Verdadeiro Wukong escalam com ATK, então um boost global de ATK% se compõe em cada acerto."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+3%-6% de Dano Final por buff em si mesmo (até +30%). Ele se auto-buffa (bônus de Dano de Ultimate, estados Genesis, buffs acionados pelo Life-Saving Hair), então sustenta uma boa pilha de Dano Final."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+10%-25% de Dano de Ataque em Área. Seu Ultimate e Feat são ataques em área, então uma grande fatia de seu dano é bufada — forte, apenas mais estreito do que Dano Final fixo."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Ataque básico adiciona Dano Verdadeiro (limitado a 4-6 acionamentos/turno). Wu Kong raramente usa ataque básico, então a cláusula base está quase inativa — mas o modelo de Dano Verdadeiro por acerto ainda roça seus acertos de clone e a linha de stats anima é alta; preenchimento de banco, não o sonho de ataque básico que é para auto-atacadores."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+4%-10% de Dano Final base (o bônus condicional vs-Escudo é situacional). A porção fixa sozinha é DPS incondicional decente."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+2%-5% de Dano Final fixo. Universalmente útil, mas pequeno (magnitude épica); bom preenchimento de banco atrás dos mirrors de Dano Final anima."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5%-20% de Dano Final base está sempre ativo; o grande bônus precisa de inimigos em Divisão de Dano/Transferência (situacional), então ele garante a metade fixa de forma confiável."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5%-20% de Dano Final base (o bônus de Divisão de Dano é condicional). Metade DPS fixa sólida; o rider de Resistência a Efeitos é um pequeno bônus de sobrevivência."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5%-15% de Dano Final mais uma chance de aplicar [Letal] (bloqueia ressurreição). O Dano Final é o atrativo; seus muitos acertos tornam o proc de Letal confiável em lutas longas."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Taxa Crítica e Dano Crítico. Ele tem apenas um mínimo de crítico nativo (2 clones do Genesis III com 30%), então a maioria dos acertos de clone não vai critar — o valor é principalmente o stat stick, não o motor de crítico."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro extra em habilidades AoE acionadas passivamente (1-3/turno). Suas invocações de clone são gatilhos passivos, então pode disparar — mas o limite restrito por turno o limita em um herói que lança dezenas de acertos."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+8%-20% de Dano ATK vs inimigos com Debuff. Condicional ao time aplicar debuffs; quando atendido é um boost de DPS limpo em seus acertos AoE."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Mirror de extensão de Sangramento — Wu Kong não aplica [Sangramento], então o efeito nunca ativa. Apenas os stats base mínimos se aplicam."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Mirror de extensão de Infecção — ele não aplica [Infecção], então está inativo; efeito morto, apenas stats."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro bônus apenas vs alvos com [Infecção] — ele não pode infectar, então depende inteiramente de um aliado; não confiável e uma vez/turno."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro bônus vs alvos com [Dano ao Longo do Tempo] — Wu Kong não aplica DoT, então depende de aliados; condicional e com limite."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "+8%-20% de Dano ATK de alvo único. Ele é um herói puro AoE/clone; seus clones de alvo aleatório não são foco de alvo único, então a maior parte de seu dano ignora isso."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Escala de dano de Ataque Único vs alvos com baixo HP — limitado a alvo único, anti-temático para sua saraivada de clones AoE."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Bônus de Ataque de Habilidade Único por debuff — limitado a alvo único e dependente de debuff; seu kit AoE não se encaixa em nenhuma condição."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Taxa Crítica fixa. Sem quase nenhum crítico nativo, a taxa de crítico bruta mal converte; no melhor caso um stat genérico pequeno."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Dano Crítico fixo. Inútil sem chance de crítico — seus clones raramente critam, então isso multiplica um evento que quase nunca acontece."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro em acertos CRÍTICOS da Habilidade Feat. Seu Feat é uma habilidade útil, mas a barreira de crítico o mata — ele não tem suporte de crítico, então o gatilho raramente acerta."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "+5%-20% de Dano Final (bom) mas a carga [Hunt] é acumulação pura de crítico — desperdiçado em um herói sem crítico, e [Hunt] é removido quando ELE abate, o que acontece em todo Ultimate. Resultado: fraco."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Na morte de aliado: grande Crítico + Dano Final. A metade de crítico é desperdiçada nele e requer aliados morrendo; apenas a fatia de Dano Final é utilizável, condicionalmente."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro escalando com HP perdido. Ele é um bruiser frontal-médio então pilhas se constroem, mas é lento e ele prefere multiplicadores proativos em vez de uma rampa limitada por sobrevivência."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Dano de Ataque Básico puro (+ crítico de ataque básico em 3*). O dano de Wu Kong são clones e habilidades, não ataques básicos — o efeito inteiro está morto para ele."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Buff de Dano de Ataque Básico e um ATAQUE BÁSICO ao abater. O carry canônico de ataque básico — mas Wu Kong quase não usa ataque básico, então tanto a rampa quanto o re-ataque ao abater são desperdiçados."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Dano de Ultimate que rampa via ATAQUES BÁSICOS. A escala de Ultimate se encaixa, mas ele ganha o buff por ataques básicos que nunca realiza, então permanece próximo ao seu pequeno valor base."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Dano Final por ataque — funciona na teoria — mas o valor é pequeno (eternal, não anima) e se sobrepõe estritamente de forma pior do que Wasteward/Firmament para ele; a divisão básico-vs-ultimate não adiciona nada que ele aproveite."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro de contra-ataque escalando com DEF. Ele é um Assassino ofensivo com baixo DEF, então o dano refletido é insignificante; mirror def em um DPS de vidro."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "ATK/DEF apenas ENQUANTO carrega um Escudo. Ele não tem fonte de auto-Escudo, então o buff quase nunca ativa; peso morto condicional."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP% + Dano Verdadeiro AoE ao receber um golpe Letal. Defensivo/limitado por morte; ele quer estar causando dano, não sobrevivendo a golpes letais, e o HP% faz pouco por um DPS."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Dano ATK vs inimigos sob [Controle]. Ele não aplica controle; totalmente dependente de aliados e uma janela de controle — não confiável para seu kit."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final (defensivo). Um stat de sobrevivência puro que não faz nada pelo seu dano AoE."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Crítico (defesa anti-crítico). Defensivo e irrelevante para o output de um conjurador AoE de burst."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "DEF% fixo. Stat de tanque sem valor ofensivo e magnitude mínima em um DPS de vidro."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP% fixo. Preenchimento de sobrevivência que não adiciona nada ao seu dano."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP% maior (lendário). Mais sobrevivência do que Frankenstein, mas ainda zero contribuição para seu nuke AoE."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP% + Dano quando HP maior do que o inimigo. O rider de Dano é menor e o pacote é um perfil de tanque incompatível com um assassino de burst."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP% + escala de Cura Recebida. Mirror de tanque de sustain, fora do perfil de um DPS AoE de vidro."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Dano Final + Redução de Dano que rampa com HP perdido. Metade ofensiva, mas a barreira bruiser/low-HP é lenta e mais fraca do que suas opções incondicionais de Dano Final."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final acumulável ao ser atingido. Defesa pura; sem contribuição ofensiva para sua saraivada de clones."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Redução de dano excessivo em golpes grandes. Anima de sobrevivência de tanque sem valor de DPS para ele."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "+12%-30% de Redução de Dano Final fixo. Número grande mas inteiramente defensivo — eixo errado para um DPS de burst."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final (lendário). Apenas defensivo; irrelevante para seu papel ofensivo."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Contra-Sangramento ao ser atacado. Defensivo, reativo e temático de Sangramento — ele não tanka nem se beneficia de sangramento; quase inativo."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Contra-Infecção ao ser atacado. Controle defensivo reativo que ele não consegue aproveitar ofensivamente."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Precisão de Efeitos. Ele não aplica debuffs/controle para acertar, então acurácia em efeitos é desperdiçada."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Resistência a Efeitos (defesa anti-CC). Sobrevivência menor que não faz nada pelo dano; ele já tem imunidade parcial a controle nativamente."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Buff de Resistência a Efeitos. Apenas anti-CC defensivo — sem valor ofensivo, e seu kit já resiste a controle."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Resistência a Efeitos + pequena auto-cura ao expirar buff. Utilidade defensiva/de sustain não relacionada ao seu dano AoE."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Redução de cura no CRÍTICO. Limitado por crítico (ele quase nunca crita) e aplica um debuff que ele não precisa — inativo nas duas contagens."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Precisão de Efeitos + motor de controle/DoT [Fogo de Raposa]. Ele não tem build de efeito e não aplica DoT; o pacote inteiro falha para ele."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Escudo de equipe no início da batalha — um mirror de suporte. Zero contribuição de DPS pessoal para um assassino de burst solo."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Escudo de aliado ao morrer — utilidade de suporte puro, não faz nada pela sua ofensa e requer que ele morra primeiro."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Auto-reviver ao morrer. Um apoio de sobrevivência sem valor ofensivo; fora do papel de uma slot de causador de dano."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Aumenta a cura realizada — um mirror de curandeiro. Wu Kong não realiza curas, então o efeito está completamente inativo."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Buffa habilidades de cura de alvo único. Ele não tem nenhuma; efeito inteiramente morto."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Auto-cura no início do turno. Sustain puro sem valor de dano; desperdiçado em uma slot de DPS de burst."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Mirror de suporte com Redução de Dano com texto de efeito vazio/nulo nos dados — nenhum efeito ofensivo utilizável para ele; último na lista."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final + cura/mitigação de Dano Verdadeiro, mais forte no estado de Divisão de Dano. Um mirror de tanque/suporte sem valor ofensivo para ele, e ele não é o absorvedor de dano do time; pacote defensivo fora do papel de um DPS AoE de burst."
+    }
+  ]
+}

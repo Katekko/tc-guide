@@ -1,0 +1,490 @@
+{
+  "heroId": 65014,
+  "heroName": "Nyx",
+  "profile": "Assassina Otherworld (UR); Execução AoE / Conjuradora de Feitiços AoE. Todo o dano é Mágico, entregue por seu Feat de múltiplos acertos (4-6 Flechas Estelares) e um Ultimate de alcance total; ela acumula [Stellar Seal] e o campo [Eternal Night]. Escala com ATK%, ganha Taxa Crítica no Eternal Night, ignora DEF em alvos Selados, e vence nukeando + executando toda a linha inimiga. Quer amplificadores de dano AoE, Dano Verdadeiro (especialmente % de HP atual/máximo para execução), Dano Final, Ignorar DEF e ATK%; não ganha nada de ataque básico, alvo único, cura/suporte, aplicação de sangramento/infecção ou mirrors puramente defensivos.",
+  "ranking": [
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Melhor do slot: 'Habilidade AoE causa Dano Verdadeiro adicional... distribuído entre todos os alvos' é exatamente sua condição de vitória — seu Feat e Ultimate são ambos AoE, então isso adiciona até 400% ATK como Dano Verdadeiro todo turno, ignorando DEF e a barreira de Stellar Seal."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "O mirror temático dela e pura sinergia de execução: 'Habilidades de ataque AoE ativadas passivamente causam Dano Verdadeiro extra igual a % do HP atual do alvo' — Dano Verdadeiro de HP atual em seus acertos AoE é sua identidade de execução AoE. Escala para 10% de HP atual, 3 gatilhos/turno em 5*."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "'Dano causado por Ataques em Área aumentado em 10%→25%' — amplificador AoE plano e incondicional em uma heroína cujo output de dano inteiro é Magia AoE. Sempre ativo, sem configuração."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Dano Final +12% base (melhor mirror de Dano Final bruto, anima), incondicional e multiplicativo sobre seus grandes números AoE; o amplificador de stat de maior piso que ela pode usar."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Dano Final +5%→15% MAIS 'aplicar [Letal]... impedindo ressurreição via Cristal de Alma' — parceiro perfeito de uma executora AoE: seu nuke mata toda a tela e o Letal impede a ressurreição. 100% de chance de Letal em 5*."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "'Ganhar 45% de Dano Final no início da batalha... reinicia para 45% após abater um inimigo.' Carrega seu nuke de abertura do Ultimate e reinicia nos abates (ela executa em AoE), mantendo o bônus alto. Forte mas decai entre abates."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Dano Final +5%→20%, +40% a mais e Dano Verdadeiro de HP atual vs inimigos em Divisão de Dano/Transferência. Piso confiável de Dano Final mais Dano Verdadeiro com sabor de execução; metade condicional precisa dos estados de compartilhamento inimigos."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "'Todos os ataques causam Dano Verdadeiro adicional de 5%→20% do ATK' — cada um de seus muitos acertos AoE (4-6 flechas + Ultimate) recebe Dano Verdadeiro fixo, à prova de DEF; grande sinergia de múltiplos acertos."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "'Atacar repetidamente o mesmo inimigo em um turno, Dano +10%→60%' — seu Feat dispara 4-6 Flechas Estelares que podem se acumular em alvos atingidos, e seu Awaken-4 adiciona um acerto bônus; sólido para seu padrão de múltiplos acertos."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Dano Final +6% por buff, até 30% em 5*. No Eternal Night ela carrega pilhas de Manto Cósmico + buffs de ATK/Crítico, então a contagem de buffs é real; forte escala de Dano Final."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "'Cada ataque aumenta o Dano Final em 3%→5%, até 50%' — seu Feat de múltiplos acertos e Ultimate o acionam rapidamente (a cláusula de ataque básico é irrelevante; a metade 'cada ataque' se aplica); alta rampa de Dano Final com uptime."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "ATK% fixo — seu Ultimate limita cada alvo em 400% de ATK e o Awaken/Genesis escala com ATK, então ATK% bruto é universalmente útil, apenas um número pequeno (5% em 5*)."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Ignorar DEF +5%→15%. Ela já ignora 20% de DEF em alvos com Stellar Seal (Genesis III); acumular mais Ignorar DEF multiplica diretamente sua Magia AoE contra tanques."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final +2%→5% — o mesmo amplificador incondicional limpo do Firmament mas números épicos pequenos; bom preenchimento enquanto você não tem os mirrors de Dano Final anima."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final +5%→20% é ótimo, mas as pilhas de crítico [Hunt] se autodestroem pois ela abate em AoE todo turno (pilhas removidas ao abater); ela fica principalmente com a metade de Dano Final."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano de ATAQUE BÁSICO +30% e crítico de ataque básico são desperdiçados (ela não usa ataque básico), mas no Eternal Night ela tem 20%+ de Taxa Crítica e seu Feat é de múltiplos acertos, então a cláusula de taxa crítica tem valor marginal. Principalmente um stat stick de mirror morto."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Taxa Crítica +2%→5%. Ela ganha 20% de Taxa Crítica no Eternal Night e seu Feat de múltiplos acertos pode critar, então a taxa crítica é ativa mas menor; magnitude baixa."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Crítico +2%→5%. Uma vez que ela tem crítico (Awaken) seu Feat crita, mas o bônus é pequeno e ela não tem rampa de crítico dedicada; preenchimento modesto."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Stat stick de nível B até 3*; o 'lançar um Ataque Básico' ao abater em 3* é desperdiçado (ela não tem escala de ataque básico e seu output são habilidades), e a rampa de Dano de ATAQUE BÁSICO não faz nada para uma conjuradora. Apenas os pequenos stats importam."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Em 3*+ divide em '7% de Dano Final ao usar Ultimate/Habilidade Feat' o que SE aplica a ela (ela só conjura habilidades) — Dano Final crescente até 28%. Decente mas mais lento para rampear do que mirrors de Dano Final fixo; o ramo de ataque básico está inativo."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Seu Dano Verdadeiro é inteiramente baseado em Ataque Básico, que Nyx nunca usa; a cláusula de crítico também é limitada por ataque básico. Quase inativo — apenas os stats fixos se aplicam."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "Boost de Dano de Ultimate ajuda seu nuke de abertura, mas é consumido após um Ultimate e a cláusula de crescimento em 3* é por Ataque Básico (ela não tem nenhum). Valor de dose única apenas; muito mais fraco do que seus amplificadores de Dano Final/AoE."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "'Aumenta o Dano de Ultimate em 8%→20%' — ajuda seu Ultimate, mas não faz nada pelo seu Feat (seu principal AoE repetível) e é de cláusula única; estreito."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "Baseia-se em Dano Verdadeiro de 'Ataque de Habilidade Único' por debuff — ela é AoE, não alvo único, então o gatilho raramente dispara em seu kit apesar do texto forte; a cláusula de Infecção em 3* precisa de Infecção que ela não aplica."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "'Dano ATK de alvo único +20%' — pura anti-sinergia: toda habilidade da Nyx é AoE, então isso quase nunca se aplica."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "'Ao usar Ataque Único...' rampa no estilo execução, mas ela não tem ataques de alvo único; o gatilho essencialmente nunca dispara para uma conjuradora AoE."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "+Dano vs inimigos com debuff é decente na teoria (seu Stellar Seal é um debuff), mas é Dano ATK e ela não tem fonte confiável de debuff extra além de seu próprio selo; encaixe fraco, fora do tema."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "+Dano vs inimigos com Controle — Nyx não aplica controle, então a menos que um aliado aplique CC, está inativo. Mirror de controle fora do papel."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro que rampa com a perda de HP DELA PRÓPRIA; como uma assassina de suporte nukeando com HP cheio, ela raramente perde HP suficiente para acumular [Time Seal]. Alavanca de escala errada."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Todo o valor limitado a 'quando qualquer aliado morre' — um burst de sobrevivência/crítico reativo para uma heroína que vence matando primeiro; não confiável e fora do tema para uma nuker AoE rápida."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Crítico é um stat defensivo/anti-crítico com zero valor ofensivo para ela; fora do papel."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro de contra-ataque escalando com DEF — ela é uma assassina de vidro com 108 de DEF que não é absorvedora de dano; output quase nulo."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "HP% + Dano-quando-HP-maior; ela é uma fragil de suporte com baixo HP, a condição raramente se mantém e HP não é seu stat de escala."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Híbrido de Dano Final/DR baseado em perda de HP para um bruiser; ela nuka com HP cheio então quase não ativa, e a metade de DR é desperdiçada em seu kit ofensivo."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final +10% base é razoável, mas a metade grande precisa de inimigos com [Escudo], que ela nem aplica nem encontra de forma confiável; principalmente apenas o Dano Final fixo pequeno."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final +5% fixo é utilizável, mas a maior parte (Dano Final extra + Resistência a Efeitos) requer que ELA esteja no estado de Divisão de Dano, que seu kit nunca concede; com sabor defensivo, fora do encaixe."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro forte mas APENAS vs alvos com [Infecção] — Nyx aplica Stellar Seal, não Infecção, então o gatilho está inativo sem um aliado com Infecção."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Depende de atacar alvos com [Dano ao Longo do Tempo]; Nyx não aplica DoT, então o Dano Verdadeiro e a cláusula de Tormento em 3* raramente disparam de seu próprio kit."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "'Em cada acerto crítico da Habilidade Feat' — seu Feat PODE critar no Eternal Night, então há um mínimo de encaixe, mas precisa de crítico confiável que ela não constrói totalmente, e a metade em 3* apenas restaura Armadura Espiritual (defensivo). Marginal."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Stat stick de Taxa Crítica/Dano Crítico; ela tem apenas ~20% de crítico do Awaken sem investimento em Dano Crítico, então um mirror apenas de crítico tem desempenho inferior às suas opções de Dano Final/AoE/Dano Verdadeiro. O dispel de buff em 3* é utilidade menor."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro AoE é temático, mas ativa quando ELA recebe um golpe letal — um efeito de resposta defensiva em uma nuker de vidro que não deveria receber golpes letais. Entrega errada."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Fogo de Raposa é um motor de debuff de Precisão de Efeitos/controle; Nyx não é uma aplicadora de Precisão de Efeitos e ganha pouco do loop de Dano Verdadeiro-no-Fogo de Raposa. Mirror de controle fora do papel."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Precisão de Efeitos — ela não tem debuffs que precisam acertar além de seu Stellar Seal garantido, então a precisão de efeitos é ofensa desperdiçada."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Infecção reativa ao ser atacada — fora do papel, ela não é absorvedora de dano e não tem sinergia de Infecção."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Amplificador de pilha de Sangramento; Nyx não aplica Sangramento, então nunca ativa. Inativo."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Amplificador de pilha de Infecção; Nyx não aplica Infecção, então nunca ativa. Inativo."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Sangramento reativo ao ser atacada — defensivo fora do papel, sem sinergia de Sangramento em seu kit."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final — stat defensivo sem valor ofensivo para uma nuker; fora do papel."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final, lendário — mitigação pura; irrelevante para seu output de dano."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final +12%→30% — anima defensiva forte mas zero ofensa para seu papel de vidro-canhão."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final acumulável ao receber acertos — defensivo, fora do papel de uma nuker de suporte."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de dano excessivo em grandes acertos — ferramenta de sobrevivência de tanque, inútil em seu kit ofensivo."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "DR/cura/dano verdadeiro limitados por estado de Divisão de Dano que ela nunca entra; um mirror de tanque/suporte, totalmente fora do papel para Nyx."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "DEF% — nem seu stat de escala nem seu papel; um stat de tanque em uma assassina com 108 de DEF."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "HP% (épico) — não é seu stat de escala; ofensa mínima, fora do papel de uma nuker de vidro."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "HP% (lendário) — igual ao Frankenstein, HP maior para uma heroína que não escala com HP e não deveria estar tankando."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "F",
+      "recommendedStar": 3,
+      "reason": "ATK/DEF enquanto escudada + cura em 3*; ela não tem fonte de auto-Escudo, então o gatilho nunca dispara. Inativo sem um ativador de Escudo."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "HP% + escala de Cura Recebida — um mirror de sustain/tanque sem valor ofensivo para ela."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Aumenta Cura — ela não tem curas para amplificar; completamente inativo em uma não-curandeira."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Buffa habilidades de Cura de alvo único — Nyx não tem nenhuma; completamente inativo."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Auto-cura de HP perdido — sustain puro, sem ofensa; ela vence matando rápido, não desgastando."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Resistência a Efeitos — stat de resistência defensiva, sem sinergia ofensiva."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Resistência a Efeitos (anima) — mesmo nicho defensivo; nada para seu dano."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Resistência a Efeitos + auto-cura menor — defensivo/de sustain, totalmente fora do papel."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Mirror de suporte com Redução de Dano (texto nulo, parâmetros de dr) — apenas mitigação, zero ofensa para uma nuker."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Concede Escudos a aliados no início da batalha — suporte de equipe, sem ofensa pessoal; fora do papel."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "F",
+      "recommendedStar": 3,
+      "reason": "Escudo Espiritual para aliados ao morrer — suporte de morte; não lhe dá nenhum dano e ela não deveria morrer primeiro. Fora do papel."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Auto-reviver — seguro de sobrevivência puro, sem contribuição ofensiva; um apoio defensivo, não uma slot de dano."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Redução de Cura Recebida ativada por crítico — utilidade anti-cura com ofensa insignificante; mirror de controle fora do tema."
+    }
+  ]
+}

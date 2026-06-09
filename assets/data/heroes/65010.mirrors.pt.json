@@ -1,0 +1,490 @@
+{
+  "heroId": 65010,
+  "heroName": "Elbella",
+  "profile": "Suporte de Poder UR Otherworld / Curandeira Imune a Debuffs. Sua habilidade e Ultimate curam aliados por %ATK e aplicam [Dark Plume]/[Feather Blessing], limpam debuffs, bloqueiam debuffs recebidos e reduzem o DoT dos aliados em 30% enquanto ela vive. Ela quer amplificação de Cura, ATK (suas curas escalam com ele), Resistência a Efeitos, Escudos de equipe e sobrevivência pessoal — ela não causa nenhum DPS pessoal, não crita, não usa ataque básico, não aplica sangramento/infecção, então todos os mirrors ofensivos são peso morto.",
+  "ranking": [
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Amplificação pura de cura (+15% de Cura em 5*) multiplica diretamente suas curas principais de %ATK na habilidade e Ultimate; perfeita para uma curandeira dedicada. Stat stick de suporte BiS."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "O mirror temático dela: +Resistência a Efeitos mais acumulação de Resistência a Efeitos e auto-cura cada vez que um buff expira; alimenta sua identidade Imune a Debuffs e a mantém viva para sustentar a aura de redução de DoT de 30%."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Escudo de equipe no início da batalha escalando com seu enorme HP Máximo, acumulável; adiciona uma camada de sobrevivência que seu kit de cura-apenas carece e protege todo o time que ela buffa."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Toda a cura dela e aplicação de [Dark Plume] escalam com ATK; ATK% fixo é um dos poucos stats que elevam seu output real. Barato, universal, sempre ativo."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "A",
+      "recommendedStar": 3,
+      "reason": "Ao morrer, [Escudo Espiritual] para o aliado com menor HP (e maior ATK em 5*) que bloqueia instâncias de Dano sem poder ser dispelado; seguro do time se ela cair. Mais forte em 3*+ (bloqueios/alvos extras)."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+HP e Cura Recebida acumulável conforme HP cai; eleva sua resistência (ela deve sobreviver para manter a aura de DoT) e auto-sustain. Excelente defensor para um suporte."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+30% de Redução de Dano Final fixo em 5*: sobrevivência pura para que ela permaneça viva e mantenha as curas e a aura de redução de DoT de 30% dos aliados. Maior DR incondicional disponível."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final acumulável por acerto recebido (até 45%); ela é alvo prioritário como curandeira, então isso acelera sua sobrevivência e mantém a aura ativa."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+15% de HP eleva sua resistência e a base de Escudos escaláveis por HP do estilo Mystic Bull; a mantém viva para continuar curando. Stat defensivo confiável para um suporte."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Limita picos de burst (reduz excesso de grandes golpes); protege um suporte frágil de assassinato para que suas curas e aura de DoT persistam."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Auto-reviver na primeira morte restaurando grande HP + regeneração no fim do turno; uma curandeira morta é catastrófico, então o auto-rez mantém o sustain do time ativo."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Ao carregar qualquer Escudo, +ATK/DEF e (5*) recuperação de HP perdido no fim do turno; a porção de ATK ajuda suas curas e se combina com Escudos do Mystic Bull/Warding, mas condicional. Melhor em 3*+."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Grande Resistência a Efeitos no início do turno (removida na ação); apoia seu tema anti-debuff mas a remoção na ação atenua em uma heroína que age para curar todo turno."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Resistência a Efeitos fixo reforça sua identidade Imune a Debuffs e protege seus buffs/curas de serem limpos; modesto mas temático."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Recuperação de HP perdido no início do turno; auto-sustain passivo mantém um suporte focado no topo, mas não faz nada pelo time."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+DEF% é sobrevivência genérica; preenchimento útil para manter um suporte frágil vivo, embora DEF não escale seu output nenhum."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+HP% preenchimento de resistência (mais fraco que Albert no mesmo papel); ajuda ela a sobreviver para continuar curando."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final fixo de preenchimento; menor que Frostglow/Garvin mas ainda sobrevivência pura que ela pode usar."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final fixo, menor por nível que Frostglow mas mesmo papel de sobrevivência; banco defensivo sólido."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final que escala conforme HP cai; a metade de DR é sobrevivência útil para ela, a metade de Dano Final é desperdiçada (ela não causa dano)."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "+HP e retaliação em golpe letal; o HP eleva sua resistência, a carga de Dano Verdadeiro é desperdiçada em uma não-DPS. Útil apenas pelo HP, portanto banco."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "+HP é útil mas a cláusula condicional de Dano-quando-HP-maior está inativa em uma curandeira que não causa dano; você só obtém metade do mirror."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Utilidade de redução de dano de tipo suporte, mas seu DR é condicional/nicho de equipe e mais fraco do que as opções de DR fixo que ela já tem."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Crítico é valor defensivo estreito (apenas vs comps de crítico); sobrevivência menor sem sinergia com seu kit."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Amplificação de cura de alvo único ajuda as curas de alvo único da habilidade dela, mas ignora a cura do Ultimate de todos os aliados; a amplificação de cura plana da Theresa é estritamente melhor para ela."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Anti-cura no crítico é utilidade ofensiva; ela nunca crita e não causa dano, então quase nunca ativa. Cláusula inativa, stat mínimo."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Mirror forte de tanque/suporte de DR+cura, mas seus grandes retornos dependem do Estado de Divisão de Dano que ela não tem; apenas o pequeno DR fixo se aplica a ela."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Ignorar DEF é um stat puramente ofensivo; ela não causa dano significativo, então é desperdiçado."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final% é ofensa pura; seu output são curas (que não escalam com Dano Final), então não faz nada por ela."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Stat ofensivo de Dano Final% sem relevância para um suporte de cura/buff."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final% ofensivo; desperdiçado em um suporte não-DPS."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final% ofensivo; sem sinergia com o kit de uma curandeira."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Pacote ofensivo de Dano Final + Dano Verdadeiro; ela não causa nenhum dos dois, então está inativo."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Taxa Crítica; ela não tem dano que escala com crítico, então não faz nada."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Crítico; suporte não-crítico e não-DPS não ganha nada."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final + Crítico ofensivo; ambas as alavancas são irrelevantes para suas curas."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final + Crítico ofensivo; sem sinergia com um suporte."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro de contra-ataque baseado em DEF é um efeito de retaliação de tanque; seu DEF é mínimo e ela não é construída para receber e refletir golpes."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Boost de Dano ATK de alvo único é DPS puro; ela não causa dano de ataque."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Amplificação de Dano de ataque único no estilo execução; ela não tem ataques únicos causadores de dano."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano ATK vs inimigos com debuff é ofensivo; ela não debuffa nada e não causa dano."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Pacote de DPS de Crítico + ataque básico; ela nem crita nem usa ataque básico para causar dano."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Stat de Crítico + dispel no crítico; ela nunca crita, então nenhuma cláusula ativa."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro ofensivo; não há dano em seu kit para escalar."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro ofensivo; inativo em uma curandeira pura."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro AoE ofensivo; ela não causa dano em área."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Boost de Dano AoE; sua única ação para todos os aliados é uma cura, não dano AoE."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Pacote genérico de poder de DPS sem nenhuma cláusula que toque cura ou sobrevivência para ela."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final + Escudo-ao-causar-dano; a cláusula de Escudo depende de causar dano que ela não realiza, então raramente ativa."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Boost de Dano de Ultimate; seu Ultimate é uma cura, não dano, então está inativo."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Dano de Ultimate + rampa de ataque básico; seu Ultimate não causa dano e ela não usa ataque básico, então ambas as cláusulas (incl. o desbloqueio em 3*) estão inativas."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Dano Final acumulável por ataque (mais no Ultimate/Feat); eleva dano que ela não causa. A cláusula de divisão em 3* ainda é pura ofensa, desperdiçada nela."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Rampa de Dano de ataque básico + ataque básico ao abater; ela raramente usa ataque básico e não garante abates, então mesmo a cláusula ao abater em 3* não vai disparar."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro de ataque básico (mais no crítico em 3*+); ela não usa ataque básico para dano nem crita, então está inativo."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final + ofensa de ataque básico; não há dano de ataque básico em seu kit."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Pacote ofensivo de Dano Verdadeiro AoE/alvo único; ela não causa dano de qualquer tipo."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro de execução em alvo com DoT + Tormento; ela não aplica DoT e não causa dano, então mesmo o desbloqueio em 3* não pode ativar."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro de crítico do Feat + Armadura Espiritual no crítico; ela não crita, então o gatilho nunca acerta (incl. a cláusula de Armadura Espiritual em 3*)."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro de Infecção + ofensa; ela não aplica infecção e não causa dano."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro por debuff no ataque de habilidade único (bônus de Infecção em 5*); ela não aplica debuffs a inimigos e não causa dano."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Ofensa de controle de Sangramento; ela não aplica sangramento e o efeito é voltado para inimigos."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Aplicação de Infecção em um suporte que nunca aplica infecção; inativo."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Chance ao ser atacada de Infectar o atacante; chance mínima, utilidade de debuff inimigo sem relação com seu papel de cura/buff."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Aplicação de Sangramento; ela não aplica sangramento e não causa dano para aproveitá-lo."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Precisão de Efeitos melhora o acerto de debuffs em inimigos; ela não aplica debuffs ofensivos, então é desperdiçado."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano ATK vs inimigos controlados é ofensivo; ela nem controla nem causa dano."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Pacote ofensivo de Controle + Dano Verdadeiro + Precisão de Efeitos; nenhuma dessas alavancas existe em seu kit de suporte."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Dano Final + controle + Precisão de Efeitos ofensivos; totalmente voltado para ofensa, nada para uma curandeira."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Dano Final + aplicação de [Letal] ao causar dano; ela não causa dano então nunca ativa, e Dano Final é desperdiçado. Completamente inativo para ela."
+    }
+  ]
+}

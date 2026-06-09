@@ -1,0 +1,490 @@
+{
+  "heroId": 65016,
+  "heroName": "Gaia",
+  "profile": "Supreme Gaia — Otherworld Guard tank built entirely around [Earth Energy]: 100% of damage she deals becomes Earth Energy, which grants Final DMG + Final DMG RED and is consumed on lethal hits to heal herself/allies, converting overheal to [Spirit Armor]. Her skills scale off the target's max HP and her own ATK/DEF, she deals True DMG (Genesis), and her Ultimate is AOE. She wants HP, Final DMG / Final DMG RED, True DMG, AOE damage, shields and survivability. She does NOT crit, does NOT basic-attack, and applies no bleed/infect.",
+  "ranking": [
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "Her own themed mirror: HP% + on-lethal AOE True DMG (5%->11% of max HP to all enemies) perfectly matches her tank/HP/AOE/true-dmg kit. B-ish at 0-2*, S at 3* where it jumps to 11% and adds the +5% ATK&DEF stack."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED + Healing boost is exactly the durability lever her Earth-Energy sustain wants; the Damage-Share clause is gravy and the base DR/heal alone is core for a tank."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG RED +12% — the single biggest pure survivability stat for a tank that must eat lethal hits to fuel Earth Energy. Top-tier from 0*."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "She converts overheal to [Spirit Armor], so she reliably carries a shield: +ATK&DEF while shielded (15% at 3*) plus turn-end self-heal. Strong synergy with her Spirit Armor role. A->S at 3*."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG +12% directly amplifies her max-HP% magic hits and AOE Ultimate; Final DMG is one of her two native scaling levers. Best from 0*."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED that ramps as she's attacked (up to +15%) — ideal for a tank designed to soak hits; pure defensive synergy."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "HP +15% at max — her skills deal % of target max HP but her sustain/Spirit-Armor and survivability scale off her own HP pool; large flat HP is excellent for her."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "All attacks add 5% ATK as True DMG — she's a native True-DMG dealer (Genesis) and AOE caster, so this stacks across every target she hits. Clean unconditional synergy."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Her Ultimate is AOE (hits all enemies): adds 100% ATK True DMG split across targets. True-dmg + AOE both match her kit; reliable on every Ultimate."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "HP +5% and +6% DMG while her HP exceeds the enemy's — as a high-HP tank with strong self-heal she stays above enemies, so both halves usually live."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "HP +5% plus Healing Received that grows as HP drops — directly amplifies the Earth-Energy lethal-heal that keeps her (and the team) alive."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED +15% at max — same prime tank stat as Frostglow, just a smaller legendary version; strong filler whenever the anima isn't owned."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Caps a huge hit by reducing excess over 50% max HP by 30% — helps her survive the burst spikes she intentionally tanks to trigger Earth Energy heals."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Area-attack DMG +10% boosts her AOE Ultimate, but does nothing for her single/double-target Feat; partial damage synergy only."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "AOE + current-HP% True DMG fits her damage profile, but it's gated to PASSIVELY-triggered AOE skills, which she doesn't reliably have; conditional."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG +5% base is useful, but the +15% rider needs the enemy in Damage-Share/Transfer, which Gaia doesn't apply herself; base-only value."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG +5% base helps; the bonus needs HER to be in Damage-Share state, situational on Gaia. Decent stat stick."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "On-death team Spirit Shields fit her tanky support role, but she's Lethal Immune and rarely dies, so the trigger is unreliable. B at 3*."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Battle-start team shield scaling off her large Max HP gives real team value and synergizes with her own shield theme; modest but useful."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG +4% base is fine for her; the +6% needs enemies to carry [Shield], which is matchup-dependent. Half-synergy."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG + Final DMG RED scaling with HP lost touches both her levers, but she self-heals back up so she rarely stays low; partial uptime."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "On-hit reflect True DMG scaling off DEF — a tank that gets attacked a lot triggers it often, and True DMG fits; modest chip value."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat DEF% — her Genesis V adds ATK/DEF and her hits use ATK, so DEF is a fine survivability stat, but small (epic-tier)."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat HP% — same kind of stat as Albert but a low epic value; useful filler for a tank, just small."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG RED% — correct tank stat but only an epic-tier 5% max; outclassed by Frostglow/Garvin."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG% — matches a native lever but only +5% at max (epic); strictly weaker than Firmament."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Repeat-hit-same-enemy ramp — her Feat hits two distinct targets and Ultimate is AOE, so she seldom stacks it; weak fit."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Front-loaded Final DMG that decays per attack and resets on kill — she's a slow grindy tank, not a fast killer, so it bleeds off before paying out."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Final DMG ramp on attack/Basic Attack — the Final DMG part helps a little, but it's tuned around Basic Attacks she rarely uses; mostly the half it can use is small."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Final DMG +5% base is okay, but the [Lethal] anti-revive rider is offensive utility unrelated to her tank win-condition; base-only."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "True DMG that grows with HP lost — True DMG fits, but she heals back to high HP so few [Time Seal] stacks build; mostly idle on her."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Bonus True DMG but only vs [Infect]'d targets — Gaia applies no Infect, so it depends entirely on a teammate; unreliable."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "Strong True DMG vs DoT targets, but Gaia applies no DoT herself, so the trigger leans on allies; conditional even at the 3* breakpoint."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Final DMG per self-Buff — she gains ATK/DEF and Spirit Armor but not a wide buff count, so it stays near the low end; mediocre."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "ATK DMG vs debuffed enemies — she applies no debuffs, so it relies on the team and only buffs normal ATK damage, not her HP/true-dmg core."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "ATK DMG vs controlled enemies — Gaia has no control in her kit, so the condition is teammate-dependent and off her win-condition."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Flat ATK% — her hits use ATK but she's a tank, not an ATK-scaler; tiny epic value, marginal."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "DEF Ignore boosts physical/magic but she already deals True DMG and max-HP% damage that bypass DEF; small overlap, low payoff."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Turn-start self-heal is mild sustain that overlaps her far stronger Earth-Energy healing; off-role support filler."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Revive on first death — she's Lethal Immune and self-resurrects via Earth Energy, so a one-time small revive is largely redundant."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Ultimate DMG +20% — her Ultimate is AOE so there's some value, but her damage is HP%/True-DMG based, not pure Ultimate-scaling; modest."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Ultimate DMG boost that builds via Basic Attacks she never uses — the start-of-battle chunk helps her AOE Ultimate slightly, but the 3* ramp is dead on her."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Single-target ATK DMG — she's an AOE/double-target HP%-scaler, so a single-target damage boost barely applies."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Single-attack DMG vs low-HP targets — wrong delivery (AOE, not execute) and she lacks a true single-target nuke."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Effect Resist Rate — minor survivability utility but she's already Lethal Immune with strong sustain; off her core."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Effect Resist Rate buff that's removed when she takes an action — she acts every turn, so the bonus chunk almost never persists; near-dead."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Effect Resist scaling off her buffs expiring — niche anti-CC stat with no tie to her HP/Final-DMG/True-DMG kit."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Crit DMG RED defends against crits but is a narrow epic stat; minor for a tank with much larger DR options available."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Increases Heal output — she heals via Earth Energy, but this support stat is small and off her primary tank/durability axes."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Single-target heal-skill boost — Gaia's healing is conditional Earth-Energy on lethal hits, not a single heal skill; little overlap."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Entirely crit-gated (Healing-Received cut on Crit) — Gaia has zero crit in her kit, so it never triggers."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Pure Crit Rate/Crit DMG + on-Crit dispel — Gaia does not crit, so both base and the 3* clause are dead."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Flat Crit Rate — wasted: Gaia has no crit scaling anywhere in her kit."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Flat Crit DMG — useless on a non-crit hero like Gaia."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Final DMG base is okay but the payload is Crit Rate/Crit DMG [Hunt] stacks — almost entirely dead on a non-crit tank."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "On-ally-death Crit/Final-DMG burst — crit-centric and reactive; Gaia keeps allies ALIVE, so it fires rarely and the crit half is wasted."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Both base and 3* require a Feat Skill CRIT to trigger the True DMG/Spirit-Armor — Gaia can't crit, so it never activates despite the matching tags."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Basic Attack DMG (crit/basic-atk) — Gaia is a skill/Ultimate caster who doesn't Basic Attack; dead."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Basic-Attack-DMG stacker with on-kill re-Basic-Attack — Gaia never Basic Attacks, so even the famous 3* clause does nothing."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "All value is on Basic Attacks (+ crit rider) — Gaia uses neither Basic Attacks nor crit, so the True DMG never fires."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Final DMG ramp is fine in theory, but it's a basic-atk/ultimate stacker DPS mirror; on a tank it's outclassed and the basic-atk path is dead. Off-role."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Adds extra [Bleed] stacks on applying Bleed — Gaia applies no Bleed; completely inert."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Extra [Infect] on applying Infect — Gaia applies no Infect; never triggers."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Single-skill True DMG scaling with debuffs/Infect — single-target gated and needs debuffs Gaia doesn't apply; off her AOE/HP kit."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "On-being-hit chance to apply [Bleed] — a Bleed mirror; Gaia has no Bleed synergy and the chip is negligible vs her needs."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "On-being-hit chance to apply [Infect] — Infect payload Gaia can't leverage; dead utility."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect Hit Rate — Gaia lands no debuffs/control, so improving her effect-hit does nothing."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect Hit + [Fox Fire] debuff on attack — a control/effect-hit kit Gaia has no use for; her hits aren't built to land/scale debuffs."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "B",
+      "recommendedStar": null,
+      "reason": "Support DMG-reduction mirror — damage-reduction is on-axis for a tank like Gaia, giving real durability value, though it's a small rare-tier effect outclassed by Frostglow/Garvin."
+    }
+  ]
+}

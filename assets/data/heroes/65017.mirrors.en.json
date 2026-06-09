@@ -1,0 +1,490 @@
+{
+  "heroId": 65017,
+  "heroName": "Mars",
+  "profile": "Otherworld Assault (UR); physical multi-hit bruiser who spams a no-cooldown column Feat (3 hits) plus a 6-hit Ultimate, ramps [Blazing Flame] stacks for +SPD and at 10 stacks gains +30% Crit Rate & DEF Pen, then scales hard into Crit, DEF-Ignore, True DMG and %-HP damage while self-sustaining via 20% Lifesteal and applying Cripple/Fear control. Wants Crit, DEF-Ignore, True DMG, repeat-attack/multi-hit DMG amplifiers and Final DMG. Hard anti-synergy with basic-attack mirrors (his kit is Feat/Ultimate/Special, never Basic Attacks) and with pure heal/support/control-resist sticks.",
+  "ranking": [
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "His own themed mirror: extra True DMG on every Feat crit hit, and Mars crits constantly once at 10 Blazing Flame stacks (+30% Crit Rate). Feat hits 3x with no cooldown, so this fires many times per turn; 3-star adds Spirit Armor sustain. BiS from 0-star, stronger at 3."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "+DMG for repeatedly hitting the same enemy in a turn (up to +42% at 3-star, +60% at 4+). Mars is the textbook repeat-attack hero (3-hit Feat, 4+2-hit Ultimate), so near-permanent uptime of pure damage."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "Current-HP True DMG vs DoT targets; at 3-star it triggers 4x/turn and applies Torment. Mars is multi-hit and a debuffer, so once any DoT lands this becomes huge repeated true damage. A at 0-2, S at 3+."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Flat +12% to +30% Final DMG, anima magnitude, zero conditions. Universally multiplies every physical and true-damage instance Mars throws; safe core slot."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "+8% to +20% ATK DMG vs debuffed enemies. Mars self-applies Cripple/Fear and runs Debuff Control, so the condition is near-always met; cheap, reliable, all-hits physical amp."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Every attack deals +5% to +20% ATK as True DMG, applied to each of Mars' many hits. Armor-agnostic and scales with his hit volume; excellent no-condition damage."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "A",
+      "recommendedStar": 3,
+      "reason": "+Crit Rate and Crit DMG, plus buff-dispel on Crit at 3-star. Mars reliably crits at 10 stacks, so this directly scales his core crit damage; clear keeper for the crit profile."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Large AOE True DMG rider on AOE skills. Mars' Ultimate hits all enemies 2x, so this lands; crit-independent added true damage, capped per single target but strong overall."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Front-loaded Final DMG that resets on kill. Mars kills fast and his Genesis resets cooldowns on kill, so the reset is reachable; strong burst Final DMG amplifier."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+DEF Ignore. Mars deals Physical DMG and gains DEF Pen at 10 stacks; more penetration directly multiplies his physical hits against tanky foes."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Stacking Final DMG per attack; at 3-star the Ultimate/Feat branch grants more per cast. Mars attacks often so it ramps, but the cap (24-28%) and partial basic-attack weighting keep it B-grade."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Stacking Final DMG per attack/Basic Attack to large totals at high stars. Mars triggers it via his many hits, but the half-basic-attack framing and ramp time make it solid filler, not core."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG plus a bonus vs shielded enemies. The flat portion always helps; the conditional only when foes carry Shield, so middling overall."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG per Buff on self. Mars carries Blazing Flame and Genesis buffs for partial uptime, but he is not a heavy self-buff stacker, so it rarely caps; decent filler."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5% flat Final DMG always applies; the large bonus needs enemies in Damage Share/Transfer, which Mars cannot create himself. Useful baseline, team-dependent upside."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5% Final DMG plus self Damage-Share scaling and debuff blocks. Flat DMG and effect-resist help, but the big payoff needs HIM in Damage Share state (off-kit); baseline filler."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "True DMG rider on passively-triggered AOE skills. Mars' AOE is his active Ultimate, not passive AOE, so the trigger condition is narrow; only partial value."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "HP plus lethal-hit AOE True DMG retaliation; at 3-star adds ATK/DEF stacks. The HP and survivability suit a bruiser with lifesteal, but it is a defensive payload rather than offense scaling."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+DMG vs controlled enemies, up to +25%. Mars applies Fear so it can trigger, but Fear only locks targets below 60% HP, making uptime inconsistent; conditional but on-theme."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Small +Crit Rate (max 5%). Crit matters to Mars, but the epic magnitude is trivial beside Alucard and his own +30%; early filler only."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Small +Crit DMG (max 5%). On-theme but too small to matter once his crit profile is online; minor early filler."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Small +Final DMG (max 5%). Right stat, trivial size; strictly worse than Firmament/Throat-Slitting. Early filler."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Small flat +ATK (max 5%). Generic and minor; useful only before better DPS mirrors exist."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Single-target ATK DMG up. Helps his single-target Ultimate phase only; does nothing for the column Feat or the AOE Ultimate phase. Partial coverage."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Single-Attack DMG scaling with target HP lost. Execute-style and single-target only, so it misses Mars' multi-hit/AOE bulk; marginal."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "+AOE DMG only. Mars has just one AOE phase (Ultimate's 2 hits); most of his volume is column/single, so coverage is partial; modest."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Single-Skill-Attack True DMG per debuff. Mars runs debuffs, but it triggers only on single-target skill attacks once per turn, while his hallmark is multi-hit/AOE; limited fit."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "True DMG vs Infected targets. Mars applies no Infect, so this needs a teammate to set up; conditional and off his own kit."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Small flat Final DMG plus Lethal anti-revive. The +5-15% Final DMG is usable, but the headline Lethal utility is niche; weak versus Firmament/Throat-Slitting."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "True DMG ramping as the holder loses HP. Mars lifesteals and stays high HP, so he rarely accrues [Time Seal] stacks; the scaling fights his own sustain."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Huge Crit/Final DMG burst, but only when an ALLY dies. Great crit theme in theory, yet it depends on losing teammates; unreliable for a frontline carry."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Final DMG plus Crit stacks that build only on turns with NO kill. Mars kills fast and resets on kill, so [Hunt] stacks get wiped constantly; anti-synergy with his tempo."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Crit DMG taken reduction; defensive crit-resist for the holder, no offense for Mars. Off his win condition."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Final DMG RED (defensive). Mild survivability, no offense; off-role for a damage carry."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Final DMG plus DMG RED that ramps as HP drops. The offense half is welcome, but it wants you at low HP, which fights Mars' lifesteal; weak hybrid for him."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "HP plus DMG when above enemy HP. The conditional DMG can fit a bruiser, but it is small and the HP focus is off a carry's scaling; minor."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP plus Healing-Received scaling. Pure sustain; Mars already lifesteals and needs damage scaling, not more raw survivability."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Flat HP only. No offense; a tank stat-stick irrelevant to Mars' output."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Tiny flat HP. Defensive and small; nothing for a damage carry."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Tiny flat DEF. Mars is a low-DEF carry; defensive stick with no synergy."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Large Final DMG RED (defensive). Strong for a tank, but pure mitigation does nothing for Mars' offense-first role."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Caps incoming burst damage. A tank survivability tool; Mars is a carry and gains little."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Stacking Final DMG RED when attacked. Defensive only; off-role for a damage dealer."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "ATK/DEF only while carrying a Shield. Mars has no self-shield, so the condition stays unmet; effectively dead for him."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Bleed-on-being-hit retaliation. Mars neither tanks nor builds around Bleed; almost never relevant."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Infect-on-being-hit retaliation. Off-kit (no Infect synergy) and reactive; negligible for a carry."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "One-time self-revive. Survivability insurance, not damage; low value for an offense slot."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Reflect True DMG off DEF when attacked. Mars has low DEF and is a carry, not a tank; the reflect is negligible."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Big Basic Attack DMG plus basic-attack crit. Mars deals damage via Feat/Ultimate/Special and never Basic Attacks, so the entire effect misfires. Anti-synergy."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "True DMG on every Basic Attack with on-Crit bonus. High anima power, but it is gated entirely on Basic Attacks, which Mars never uses; the whole payload is dead for him."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Basic Attack DMG plus on-kill Basic Attack. Mars never Basic Attacks, so neither clause functions; the canonical anti-synergy pick for him."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Ultimate DMG boost consumed on Ultimate, scaling with Basic Attacks. Mars does not Basic Attack and is not Ultimate-centric; both halves misfire."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Ultimate DMG only. It ignores his far higher-volume Feat/Special damage; a weak single-phase pick versus flat Final DMG mirrors."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Doubles Bleed application. Mars applies Cripple/Fear, not Bleed, so the effect never fires; dead weight."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Doubles Infect application. Mars applies no Infect, so the effect never triggers; dead weight."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "On-Crit reduces target Healing Received. Mars crits, but anti-heal is utility with no damage scaling for him; he gains nothing offensively."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Effect Hit Rate. His Cripple/Fear are kit-defined; a small generic accuracy buff adds almost nothing and zero damage."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Effect Hit plus Fox Fire control debuff. Control utility off Mars' damage win condition; its True DMG is a target self-DoT, not his scaling."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Healing done. Mars is not a healer; pure support stat with no use on him."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Effect Resist Rate. Defensive anti-CC utility, no offense; off-role for a carry."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Boosts single-target Heal skills. Mars has no heal skill to amplify; the effect is inert."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Turn-start self-heal. Minor sustain he does not need atop lifesteal; no damage value."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Team Shield at battle start. Support utility for allies; provides Mars no personal scaling."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "On-death ally Spirit Shield. A support-death payload; nothing for Mars' own offense."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "+Effect Resist Rate (anti-CC). Defensive utility only; no contribution to his damage."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Effect Resist plus heal on buff expiry. Defensive/sustain utility off Mars' damage role; near-zero offense value."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "DMG-reduction support stat (effect text empty in data). Pure defensive support; nothing for a damage carry."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Final DMG RED (defensive). Strong mitigation for a tank, but pure survivability gives Mars no offensive scaling; off-role for a carry."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "DMG-reduction plus heal plus true-DMG-taken cut, all keyed to a Damage-Share tank role Mars never fills. Pure defensive/support payload with zero personal damage value."
+    }
+  ]
+}

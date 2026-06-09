@@ -1,0 +1,490 @@
+{
+  "heroId": 65014,
+  "heroName": "Nyx",
+  "profile": "Otherworld Assassin (UR); AOE Execute / AOE Spell caster. All damage is Magic, delivered through her multi-hit Feat (4-6 Star Arrows) and a board-wide Ultimate; she stacks [Stellar Seal] and the [Eternal Night] field. Scales on ATK%, gains Crit Rate in Eternal Night, ignores DEF on Sealed targets, and wins by nuking + executing the whole enemy line. Wants AOE damage amps, True DMG (especially % current/max HP for execute), Final DMG, DEF-Ignore and ATK%; gains nothing from basic-attack, single-target, heal/support, bleed/infect-apply, or pure-defensive mirrors.",
+  "ranking": [
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Best-in-slot: 'AOE Skill additionally deals True DMG... distributed among all targets' is exactly her win-con — her Feat and Ultimate are both AOE, so this adds up to 400% ATK as True DMG every turn, ignoring DEF and Stellar Seal gating."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Her own themed mirror and pure execute synergy: 'Passively triggered AOE attack skills deal extra True DMG equal to % of target's current HP' — current-HP True DMG on her AOE hits is her AOE-Execute identity. Scales to 10% current HP, 3 triggers/turn at 5*."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "'Damage dealt by Area Attacks increased by 10%->25%' — flat, unconditional AOE amp on a hero whose entire damage output is AOE Magic. Always-on, no setup."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Final DMG +12% base (best raw Final DMG mirror, anima), unconditional and multiplicative on top of her big AOE numbers; highest-floor stat amp she can run."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Final DMG +5%->15% PLUS 'apply [Lethal]... preventing Soul Crystal resurrection' — an AOE executer's perfect partner: her nuke kills the whole board and Lethal stops them rezzing. 100% Lethal chance at 5*."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "'Gain 45% Final DMG at start of battle... resets to 45% after killing an enemy.' Front-loads her opening Ultimate nuke and resets on kills (she AOE-executes), keeping the bonus high. Strong but decays between kills."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Final DMG +5%->20%, +40% more and current-HP True DMG vs Damage-Share/Transfer enemies. Reliable Final DMG floor plus execute-flavored True DMG; conditional half needs enemy share states."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "'All attacks deal an additional 5%->20% of ATK as True DMG' — every one of her many AOE hits (4-6 arrows + Ultimate) gets flat True DMG, DEF-proof; great multi-hit synergy."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "'Repeatedly attacking same enemy within one turn, DMG +10%->60%' — her Feat fires 4-6 Star Arrows that can stack on hit targets, and her Awaken-4 adds a bonus hit; solid for her multi-hit pattern."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Final DMG +6% per buff, up to 30% at 5*. In Eternal Night she carries Cosmic Robe stacks + ATK/Crit buffs, so the buff count is real; strong scaling Final DMG."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "'Each attack increases Final DMG by 3%->5%, up to 50%' — her multi-hit Feat and Ultimate trigger it fast (basic-atk clause irrelevant; the 'each attack' half applies); high uptime Final DMG ramp."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Flat ATK% — her Ultimate caps each target at 400% of ATK and Awaken/Genesis scale off ATK, so raw ATK% is universally useful, just a small number (5% at 5*)."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "DEF Ignore +5%->15%. She already ignores 20% DEF on Stellar-Sealed targets (Genesis III); stacking more DEF Ignore directly multiplies her Magic AOE on tanks."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG +2%->5% — same clean unconditional amp as Firmament but epic-tier small numbers; fine filler while you lack the anima Final DMG mirrors."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG +5%->20% is great, but the [Hunt] crit-stacks self-destruct since she AOE-kills every turn (stacks removed on kill); she keeps mostly just the Final DMG half."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "BATK DMG +30% and basic-atk crit are wasted (she doesn't basic-attack), but in Eternal Night she has 20%+ Crit Rate and her Feat is multi-hit, so the crit-rate clause has marginal value. Mostly a dead mirror's stat-stick."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Crit Rate +2%->5%. She gains 20% Crit Rate in Eternal Night and her multi-hit Feat can crit, so crit rate is live but minor; low magnitude."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Crit DMG +2%->5%. Once she has crit (Awaken) her Feat crits benefit, but the bonus is small and she has no dedicated crit ramp; modest filler."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "B-tier stat-stick until 3*; the 3* on-kill 'launch a Basic Attack' is wasted (she has no basic-attack scaling and her output is skills), and the BATK DMG ramp does nothing for a caster. Only the small stats matter."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "At 3*+ it splits into '7% Final DMG when using Ultimate/Feat Skill' which DOES apply to her (she only casts skills) — ramping Final DMG up to 28%. Decent but slower to ramp than flat Final DMG mirrors; the basic-atk branch is dead."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Its True DMG keys entirely off Basic Attack, which Nyx never uses; the crit clause is also basic-attack-gated. Near-dead — only the flat stats apply."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "Ultimate DMG Boost helps her opening nuke, but it's consumed after one Ultimate and the 3* growth clause is per-Basic-Attack (she has none). One-shot value only; far weaker than her Final/AOE amps."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "'Increases Ultimate DMG by 8%->20%' — helps her Ultimate, but does nothing for her Feat (her main repeatable AOE) and is single-clause; narrow."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "Keys off 'Single Skill Attack' True DMG per debuff — she's AOE, not single-target, so the trigger rarely fires on her kit despite the strong text; the 3* Infect clause needs Infect she doesn't apply."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "'Single-target ATK DMG +20%' — pure anti-synergy: every Nyx skill is AOE, so this almost never applies."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "'When using Single Attack...' execute-style ramp, but she has no single-target attacks; trigger essentially never fires for an AOE caster."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "+DMG vs debuffed enemies is decent in theory (her Stellar Seal is a debuff), but it's ATK-DMG and she has no reliable extra debuff source beyond her own seal; weak fit, off-theme."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "+DMG vs enemies with Control — Nyx applies no control, so unless a teammate CCs, this is dead. Off-role control mirror."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "True DMG that ramps off HER OWN HP loss; as a backline assassin nuking from full HP, she rarely loses enough HP to stack [Time Seal]. Wrong scaling lever."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "All value gated on 'when any ally dies' — a reactive survival/crit burst for a hero who wins by killing first; unreliable and off-theme for a fast AOE nuker."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Crit DMG RED is a defensive/anti-crit stat with zero offensive value for her; off-role."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Counterattack True DMG scaling off DEF — she's a 108-DEF glass assassin who isn't a damage sink; near-zero output."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "HP% + DMG-when-HP-higher; she's a low-HP backliner, the conditional rarely holds and HP isn't her scaling stat."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "HP-loss Final DMG/RED hybrid for a bruiser; she nukes from full HP so it barely activates, and the DR half is wasted on her offensive kit."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG +10% base is okay, but the big half needs enemies with [Shield], which she neither applies nor reliably faces; mostly the small flat Final DMG."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG +5% flat is usable, but the bulk (extra Final DMG + Effect Resist) requires HER being in Damage Share state, which her kit never grants; defensive-flavored, off-fit."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Strong True DMG but ONLY vs [Infect] targets — Nyx applies Stellar Seal, not Infect, so the trigger is dead without an Infect ally."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Keys off attacking [DMG Over Time] targets; Nyx applies no DoT, so the True DMG and 3* Torment clause rarely fire from her own kit."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "'On each Feat Skill crit hit' — her Feat CAN crit in Eternal Night, so there's a sliver of fit, but it needs reliable crit she doesn't fully build, and the 3* half just restores Spirit Armor (defensive). Marginal."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Crit Rate/DMG stat-stick; she has only ~20% crit from Awaken with no crit-DMG investment, so a crit-only mirror underperforms her Final/AOE/True options. 3* buff-dispel is minor utility."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "AOE True DMG is on-theme, but it triggers on HER taking a lethal hit — a defensive death-rattle on a glass nuker who shouldn't be eating lethal hits. Wrong delivery."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Fox Fire is an Effect-Hit/control debuff engine; Nyx isn't an effect-hit applier and gains little from the True-DMG-on-Fox-Fire loop. Off-role control mirror."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Effect Hit Rate — she has no debuffs that need landing beyond her guaranteed Stellar Seal, so effect-hit is wasted offense."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Reactive Infect-on-being-attacked — off-role, she's not a damage sink and applies no Infect synergy."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Bleed-stack amplifier; Nyx applies no Bleed, so it never triggers. Dead."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Infect-stack amplifier; Nyx applies no Infect, so it never triggers. Dead."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Reactive Bleed-on-being-attacked — off-role defensive, no Bleed synergy in her kit."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED — defensive stat with no offensive value for a nuker; off-role."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED, legendary — pure mitigation; irrelevant to her damage output."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED +12%->30% — strong defensive anima but zero offense for her glass-cannon role."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Stacking Final DMG RED on taking hits — defensive, off-role for a backline nuker."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Big-hit excess-DMG reduction — tank survival tool, useless on her offensive kit."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "DMG-RED/heal/true-dmg gated on Damage-Share state she never enters; a tank/support mirror, fully off-role for Nyx."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "DEF% — neither her scaling stat nor her role; a tank stat on a 108-DEF assassin."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "HP% (epic) — not her scaling stat; minimal offense, off-role for a glass nuker."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "HP% (legendary) — same as Frankenstein, bigger HP for a hero who doesn't scale on HP and shouldn't be tanking."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "F",
+      "recommendedStar": 3,
+      "reason": "ATK/DEF while shielded + heal at 3*; she has no self-shield source, so the trigger never fires. Dead without a shield enabler."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "HP% + Healing-Received scaling — a sustain/tank mirror with no offensive value for her."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Increases Heal — she has no heals to amplify; fully dead on a non-healer."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Buffs single-target Heal skills — Nyx casts none; completely dead."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Lost-HP self-heal — pure sustain, no offense; she wins by killing fast, not grinding."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect Resist Rate — defensive resistance stat, no offensive synergy."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect Resist Rate (anima) — same defensive niche; nothing for her damage."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect Resist + minor self-heal — defensive/sustain, fully off-role."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "DMG-RED support mirror (null text, dr params) — mitigation only, zero offense for a nuker."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Grants allies shields at battle start — team-support, no personal offense; off-role."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "F",
+      "recommendedStar": 3,
+      "reason": "On-death Spirit Shield for allies — death-rattle support; provides her no damage and she shouldn't be dying first. Off-role."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Self-revive — pure survival insurance, no offensive contribution; a defensive crutch, not a damage slot."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Crit-triggered Healing-Received reduction — anti-heal utility with negligible offense; off-theme control mirror."
+    }
+  ]
+}

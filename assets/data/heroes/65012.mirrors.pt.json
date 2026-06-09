@@ -1,0 +1,490 @@
+{
+  "heroId": 65012,
+  "heroName": "Hinata Inori",
+  "profile": "Assault Física/DPS de auto-amplificação do Outro Mundo. O dano vem de seu Feat (3 golpes, conta como Ataque Normal) e Ultimate (multi-golpe + AoE), amplificados por Dano Final, Crítico (contador Genesis V = 100% de Taxa Crítica +30% de Dano Crítico) e um grande pacote de Dano Verdadeiro (Lótus Carmesim +20% de Dano Verdadeiro, Genesis com Dano Verdadeiro de %HP atual, -20% de Redução de Dano Verdadeiro inimiga). Seu loop é alimentado por gatilhos de aliados com HP baixo/morte e ela se sustenta com 30% de Lifesteal. Quer Dano Final, Crítico, Dano Verdadeiro e ATK; NÃO usa ataque básico, aplica Sangramento/Infecção, tanque, nem cura aliados.",
+  "ranking": [
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Dano Final fixo +12% a +30% sem condição; multiplica cada golpe do Feat/Ultimate. Mirror de dano incondicional de maior magnitude para ela."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "Seu próprio mirror: ao abater aliado (seu gatilho central) ganha até +80% de Taxa Crítica / +60% de Dano Final + Armadura Espiritual; em 3★+ dura 2 turnos e adiciona armadura. Encaixe perfeito com o kit."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "Seu Feat conta como Ataque Normal/Básico e causa múltiplos golpes, então o Dano Verdadeiro por golpe (até 50% ATK, mais Dano Verdadeiro on-Crit em 3★+) se acumula com seu contador de crit; forte amplificador de Dano Verdadeiro."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Mirror de Dano Final + Crítico combina exatamente com suas duas principais alavancas de escalonamento; DPS limpo e incondicional para um assault de crit/Dano Final."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Todos os ataques ganham Dano Verdadeiro (até +20% ATK cada); seus muitos multi-golpes e o tema de Dano Verdadeiro do Lótus Carmesim tornam o Dano Verdadeiro fixo por golpe excelente."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Dano Final +4% a +10% de base (o bônus de escudo é extra); somente o piso incondicional de Dano Final já é alto para ela."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Dano Final por buff próprio (até +30%); ela possui muitos buffs próprios (Lótus Carmesim, procs de mirror, estado de Brasas da Alma), então se acumula de forma confiável."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Grande Dano Final inicial que reinicia ao abater; seu burst de Ultimate e ritmo acelerado mantêm-no alto. Forte Dano Final de abertura."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "A",
+      "recommendedStar": 3,
+      "reason": "Taxa Crítica + Dano Crítico, e em 3★+ dispel de buff ao acertar Crítico; ela critica muito (Genesis V com crit garantido), então tanto os stats quanto o dispel se ativam."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "A",
+      "recommendedStar": 3,
+      "reason": "Seu Feat conta como Ataque Normal/Básico, então +30% de Dano de BATK e (em 3★+) +Taxa Crítica em ataques básicos se aplica à sua principal habilidade de 3 golpes."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "ATK% fixo escala todos os seus golpes físicos e as partes de Dano Verdadeiro limitadas por ATK do kit; simples, sempre ativo, sem anti-sinergia."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "A",
+      "recommendedStar": 3,
+      "reason": "Golpes repetidos no mesmo inimigo aumentam o Dano até +60%; seu Feat (3 golpes) e os multi-golpes do Ultimate acumulam rápido dentro de um turno."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Cada ataque aumenta o Dano Final (até +50% em 5★); seu Feat de 3 golpes e o Ultimate de multi-golpe preenchem as cargas rapidamente a cada turno. Excelente rampa de Dano Final para seu ritmo."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "O Ultimate AoE dela adiciona grande Dano Verdadeiro; útil em batalhas com múltiplos inimigos, mas o loop de Feat em alvo único ignora-o, portanto situacional."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro que escala conforme ela perde HP; ela sofre golpes e opera em torno de gatilhos de HP baixo, mas a rampa é lenta comparado aos mirrors de Dano Verdadeiro fixo."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Grande Dano Verdadeiro, mas condicional a [Infecção] no alvo, que ela mesma nunca aplica; só funciona se um companheiro infectar, portanto condicional."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano de Ataque em Área até +25% impulsiona apenas o Ultimate AoE; inativo no loop de Feat em alvo único, cobertura parcial."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro de %HP atual em AoE, mas ativado por AoE passivo; o Ultimate dela é lançado ativamente, então o encaixe do gatilho é impreciso."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Final +5% de base é razoável; o grande bônus requer inimigos em Divisão de Dano/Transferência, o que ela não configura — normalmente apenas o piso pequeno."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+8% a +20% contra inimigos com debuff; ela aplica poucos debuffs por conta própria (apenas dispel de buff), depende da equipe — uptime parcial."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro contra alvos com DoT; ela não aplica DoT, então só dispara quando aliados o fazem. Condicional, fora do seu próprio kit."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Taxa Crítica fixa; ela de fato critica (Genesis V, mirror), então funciona, mas é um stat epic pequeno comparado aos mirrors de Dano Final/Dano Verdadeiro acima."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Dano Crítico fixo; compensa dado seu contador de crit garantido e buffs de crit, mas é um valor epic menor atrás dos mirrors de maior sinergia."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Dano Final por ataque, maior para Ultimate/Feat em 3★+; seus multi-golpes acumulam, mas o teto (~28% máx.) é modesto comparado ao Firmament fixo."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Contador/Básico aumenta Dano de Ataque Básico e (em 3★+) ataque básico ao abater; seu Feat e os contadores de Genesis contam como Ataques Normais, então se aplica parcialmente — mas seu núcleo são habilidades e não spam de ataque básico, então encaixe apenas parcial."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "Dano Verdadeiro on-crit do Feat + Armadura Espiritual; ela faz crits no Feat, mas o bônus é pequeno e a armadura é menor para uma DPS."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro de contra-ataque escala com DEF, que ela quase não tem (DEF 91); output negligenciável em um assault de vidro."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "+20% de Dano do Ultimate; apenas o Ultimate se beneficia, nada do loop de Feat ou contadores, então a cobertura é estreita."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "Dano exclusivo de Ultimate que se acumula por Ataques Básicos; ela raramente usa ataques básicos e somente o Ultimate ganha, portanto fica abaixo do seu kit."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano de ATK em alvo único +20%; cobre seu Feat mas perde o Ultimate AoE, e é uma condicional simples atrás das melhores escolhas de DPS."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Escalonamento de Dano em ataque único com HP perdido do alvo; cobertura parcial (sem AoE) e rampa de execução lenta que ela não necessita."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Final mas em valores epic minúsculos (+2% a +5%); estritamente inferior ao Firmament/Daisy/Isabella para a mesma alavanca."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Dano Verdadeiro de habilidade única por debuff no alvo; ela acumula poucos debuffs por conta própria, então o multiplicador por debuff raramente se completa."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Ignorar DEF ajuda seus golpes físicos levemente, mas grande parte do seu dano já é Dano Verdadeiro (ignora DEF), tornando a alavanca redundante."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Crítico é um stat defensivo de resistência a crit; não contribui com sua ofensiva e ela não é construída como absorvedora de dano."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final é defesa pura; sobrevivência mínima, mas zero contribuição de dano para um slot de DPS."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Metade do valor (Redução de Dano Final) é defensivo; a metade de Dano Final existe, mas é condicional à perda de HP e menor do que mirrors dedicados de dano."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "DEF% fixo; ela tem DEF negligenciável e não ganha nada de ofensiva com isso."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "HP% fixo; resistência mínima apenas, sem sinergia de dano com seu perfil de DPS de auto-amplificação."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "HP% maior, mas ainda stat puro de tanque; fora do papel para um assault de vidro."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Stat de tanque de HP%; sem retorno ofensivo para ela."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Cura + HP; ela já se sustenta via Lifesteal e não ganha dano algum deste mirror de defesa."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de dano; anima defensivo sem sinergia ofensiva para ela."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de dano; mitigação pura, fora do papel para um slot de DPS."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de dano; defensivo, não contribui com nada para seu dano."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Redução de Dano Final; apenas defensivo, desperdiçado em uma build de DPS."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Anima de cura; ela se autocura via Lifesteal e isso não adiciona ofensiva."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Efeito de suporte de cura + escudo; apenas sobrevivência, sem escalonamento de dano para o kit dela."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Escudo de suporte; fora do papel, não fornece dano algum."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Mirror de suporte de Escudo; utilitário defensivo sem relação com seu loop ofensivo de auto-amplificação."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Pacote de tanque/suporte (Redução de Dano + cura + pequeno Dano Verdadeiro); fora do papel, o fragmento de Dano Verdadeiro está bem abaixo dos mirrors de DPS dedicados."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 3,
+      "reason": "Mirror defensivo de AoE/HP; a cláusula de Dano Verdadeiro é orientada a HP/DEF e está fora do seu perfil de vidro."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Efeito de suporte de redução de dano; mitigação pura sem escalonamento de dano para seu slot de DPS."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Precisão de Efeitos; ela depende de dano, não de aplicar debuffs, então não faz nada por ela."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Mistura defensiva de cura + Precisão de Efeitos; ambas as alavancas estão mortas para uma DPS física de auto-sustentação."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Aumenta o output de Cura; ela não é uma curadora, então é desperdiçado."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Impulso de cura em alvo único; ela não possui habilidades de cura, efeito morto."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Autocura no início do turno; redundante com o Lifesteal dela e não contribui com dano."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Resistência a Efeitos; stat defensivo anti-CC (ela já recebe Imunidade a Controle no Lótus Carmesim), sem ofensiva."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Mirror de controle; ela não aplica controle, o fragmento de Dano Final é minúsculo e condicional — efetivamente fora do kit."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Controle + Precisão de Efeitos; ela não aplica debuffs de controle, inútil para ela."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Dano bônus contra inimigos controlados; ela não tem controle, então a condição raramente se ativa pelo seu próprio kit."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Redução de Cura Recebida on-crit; utilitário de controle/anti-cura, não dano — marginal para ela."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Chance de Infecção ao ser atacada; ela não tanqueia de forma confiável nem constrói em torno de infecção — quase inativo."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Mirror de controle de Sangramento; ela não aplica Sangramento, o efeito nunca se ativa pelas suas ações."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Mirror de controle de Infecção; ela não aplica Infecção, efeito morto."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Mirror de defesa de Sangramento; sem Sangramento no kit e fora do papel."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Controle + Precisão de Efeitos + Dano Verdadeiro, tudo condicionado ao controle que ela não aplica; a cláusula de Dano Verdadeiro nunca dispara para ela."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Dano Final vinculado a controle/Precisão de Efeitos; as condições são baseadas em controle, que ela não possui, então permanece inativo."
+    }
+  ]
+}

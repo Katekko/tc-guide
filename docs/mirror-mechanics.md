@@ -249,6 +249,13 @@ source for them. So translation is a **separate step** from ranking: the
   (per game-owner: never "espelho/espelhos"), every **mirror proper name**
   (Frostglow, Nuwa, Garvin…), **"Ultimate"**, and the acronyms **HP, ATK, DEF,
   DoT, AoE, DPS, CC**.
+- Also keep in English (established gaming terms with no good PT equivalent):
+  **Lifesteal**, **buff/debuff**, **burst**, **stat stick**, **BiS**, **uptime**.
+- Keep **skill / status proper names verbatim** (e.g. [Linked Fates] → can be
+  rendered as [Destinos Entrelaçados] if a translation reads naturally, but the
+  bracketed game-state names like [Charm], [Lust], [Obsession], Crimson Lotus,
+  Soul Embers, Time Energy, Inferno Trigger may stay English — consistency
+  within a hero's file matters more than direction).
 - Use the glossary below for consistent terms across all heroes. (Seeded from
   Jeanne; the game-owner will refine — when a term changes, update it here and the
   translator picks it up on the next run.)
@@ -281,6 +288,13 @@ source for them. So translation is a **separate step** from ranking: the
 | tank / damage sink | tanque / absorvedora de dano |
 | filler | preenchimento / curinga |
 | uptime / buff | uptime / buff |
+| Heal Reduction / Heal-Down | Redução de Cura |
+| DEF Pen / DEF Penetration | Penetração de DEF |
+| on-kill re-attack | re-ataque ao abater |
+| glass cannon | canhão de vidro |
+| bench (tier-list sense) | bancada |
+| dispel | dissipar (buffs) |
+| ramp / ramping | acumulação / acumular |
 
 Note: the section title for the ranking is l10n key `heroMirrorRankingTitle`
 (EN "Recommended Mirrors", PT "Mirrors recomendados" — "Mirrors" kept English).

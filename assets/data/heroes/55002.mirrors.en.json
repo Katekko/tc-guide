@@ -1,0 +1,490 @@
+{
+  "heroId": 55002,
+  "heroName": "Wu Kong",
+  "profile": "Otherworld Assassin (UR); Physical AOE / Clone Assault. Win condition is the Ultimate 'Havoc in Heaven' — consumes [Life-Saving Hair] to summon 9+ clones that each strike random enemies (120% DMG, 25% on repeat hits), generating an enormous number of separate hit instances. His kit constantly spawns extra clones (on damage taken, on Cosmic Strike, on enemy deaths) and can auto-fire the Ultimate at high stacks. He scales with ATK, Final DMG, AOE-DMG, per-hit True DMG, DEF-Ignore and Ultimate DMG; he does NOT use basic attacks, crit (no native crit lever), bleed/infect, healing, or single-target focus. Mirrors that add value per-hit or per-AOE shine; basic-atk / single-target / crit / DoT-applier / support picks are dead weight.",
+  "ranking": [
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "His own themed mirror: 'All attacks deal an additional 5%-20% of ATK as True Damage.' Every clone hit and skill instance triggers it, so his huge multi-hit Ultimate multiplies this into massive uncapped True DMG. Perfect fit."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "AOE Skill adds 100%-400% ATK True DMG split across all targets; his Ultimate and Feat are AOE, so this lands every fight as bonus AOE True DMG. Top-tier for an AOE caster."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Flat +12%-30% Final DMG, unconditional, anima-tier magnitude. Multiplies every clone hit and the whole Ultimate burst with zero conditions."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "+10%-20% DMG (up to +60% at 5*) for repeatedly attacking the same enemy in a turn — his clones constantly re-hit targets (repeat hits scenario), so the stack ceiling is reached easily during Havoc."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Starts at +20%-45% Final DMG, resets on kill. His AOE Ultimate routinely secures kills, refreshing the buff; huge front-loaded multiplier on his nuke turn."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Each attack stacks +3%-5% Final DMG (up to +50%). His clone barrage and multi-hit kit ramp the stacks fast; anima magnitude. Slightly slower to peak than flat Final DMG."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+8%-20% Ultimate DMG. His Ultimate is the entire payload (and he gets an Ultimate DMG bonus natively), so this directly amplifies his win condition."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+5%-15% DEF Ignore. His clones deal physical DMG; DEF-Ignore raises the floor of every hit against armored enemies — clean unconditional DPS."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Flat +2%-5% ATK. His clone DMG (120% per clone) and the Wukong True-DMG mirror both scale off ATK, so a global ATK% boost compounds across every hit."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+3%-6% Final DMG per buff on self (up to +30%). He self-buffs (Ultimate DMG bonus, Genesis states, Life-Saving Hair-driven buffs), so he sustains a healthy stack of Final DMG."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+10%-25% Area Attack DMG. His Ultimate and Feat are area attacks, so a large slice of his damage is buffed — strong, just narrower than flat Final DMG."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Basic Attack adds True DMG (capped at 4-6 triggers/turn). Wu Kong rarely basic-attacks, so the base clause is mostly dead — but the per-hit True DMG model still grazes his clone hits and the anima stat line is high; bench filler, not the basic-atk dream it is for auto-attackers."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+4%-10% Final DMG base (the conditional vs-Shield bonus is situational). The flat portion alone is decent unconditional DPS."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat +2%-5% Final DMG. Universally useful but small (epic magnitude); fine bench filler behind the anima Final-DMG mirrors."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5%-20% Final DMG base is always on; the big bonus needs enemies in Damage Share/Transfer (situational), so he banks the flat half reliably."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5%-20% Final DMG base (Damage-Share bonus is conditional). Solid flat DPS half; the Effect-Resist rider is a minor survivability perk."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+5%-15% Final DMG plus a chance to apply [Lethal] (blocks resurrection). The Final DMG is the draw; his many hits make the Lethal proc reliable in long fights."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Crit Rate & Crit DMG. He has only a sliver of native crit (Genesis III's 2 clones at 30%), so most clone hits won't crit — value is mostly the stat stick, not the crit engine."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Extra True DMG on passively-triggered AOE skills (1-3/turn). His clone spawns are passive triggers, so it can fire — but the tight per-turn cap limits it on a hero who throws dozens of hits."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "+8%-20% ATK DMG vs enemies with a Debuff. Conditional on team applying debuffs; when met it's a clean DPS boost across his AOE hits."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Bleed-extension mirror — Wu Kong applies no [Bleed], so the effect never triggers. Only the tiny base stats apply."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Infect-extension mirror — he applies no [Infect], so it's inert; dead effect, stats only."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Bonus True DMG only vs [Infect] targets — he can't infect, so it relies entirely on a teammate; unreliable and once/turn."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Bonus True DMG vs targets with [DMG Over Time] — Wu Kong applies no DoT, so it depends on allies; conditional and capped."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "+8%-20% Single-target ATK DMG. He is a pure AOE/clone hero; his random-target clones aren't single-target focus, so most of his output ignores this."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Single Attack damage scaling vs low-HP targets — single-target gated, anti-thematic to his AOE clone barrage."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Single Skill Attack bonus per debuff — single-target gated and debuff-dependent; his AOE kit doesn't fit either condition."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Flat Crit Rate. With almost no native crit, raw crit rate barely converts; a small generic stat at best."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Flat Crit DMG. Useless without crit chance — his clones rarely crit, so this multiplies an event that almost never happens."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "True DMG on Feat Skill CRIT hits. His Feat is a useful skill, but the crit gate kills it — he has no crit support, so the trigger rarely lands."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "+5%-20% Final DMG (good) but the [Hunt] payload is pure crit stacking — wasted on a non-crit hero, and [Hunt] is removed when HE kills, which he does every Ultimate. Net: weak."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "On ally-death: big Crit + Final DMG. The crit half is wasted on him and it requires allies dying; only the Final DMG sliver is usable, conditionally."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "True DMG scaling with HP lost. He's a front-mid bruiser so stacks build, but it's slow and he prefers proactive multipliers over a survival-gated ramp."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Pure Basic Attack DMG (+ basic-attack crit at 3*). Wu Kong's damage is clones and skills, not basic attacks — the entire effect is dead for him."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Basic-Attack DMG buff and an on-kill BASIC ATTACK. The canonical basic-attack carry — but Wu Kong barely basic-attacks, so both the ramp and the on-kill re-attack are wasted."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Ultimate DMG that ramps via BASIC ATTACKS. The Ultimate scaling fits, but he gains the buff through basic attacks he never makes, so it stays near its small base value."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Final DMG per attack — workable in theory — but the value is small (eternal not anima) and overlaps strictly worse than Wasteward/Firmament for him; the basic-vs-ultimate split adds nothing he leverages."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Counter True DMG scaling off DEF. He's an offensive Assassin with low DEF, so the reflected damage is negligible; def-mirror on a glass DPS."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "ATK/DEF only WHILE carrying a Shield. He has no self-shield source, so the buff almost never activates; conditional dead weight."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP% + AOE True DMG when taking a lethal hit. Defensive/death-gated; he wants to be nuking, not surviving lethal hits, and the HP% does little for a DPS."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "ATK DMG vs enemies under [Control]. He applies no control; fully reliant on allies and a control window — unreliable for his kit."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Final DMG RED (defensive). A pure survivability stat that does nothing for his AOE damage output."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Crit DMG RED (anti-crit defense). Defensive and irrelevant to a burst AOE caster's output."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Flat DEF%. Tank stat with no offensive value and tiny magnitude on a glass DPS."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Flat HP%. Survivability filler that adds nothing to his damage."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Larger HP% (legendary). More survivability than Frankenstein but still zero contribution to his AOE nuke."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP% + DMG when HP higher than enemy. The DMG rider is minor and the package is a tank profile mismatched to a burst assassin."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "HP% + Healing Received scaling. Sustain-tank mirror, off-profile for a glass AOE DPS."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Final DMG + DMG RED that ramps with HP lost. Half offense, but the bruiser/low-HP gate is slow and weaker than his unconditional Final-DMG options."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Stacking Final DMG RED on being hit. Pure defense; no offensive contribution to his clone barrage."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Excess-DMG reduction on big hits. Tank survivability anima with no DPS value for him."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Flat +12%-30% Final DMG RED. Big number but entirely defensive — wrong axis for a burst DPS."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Final DMG RED (legendary). Defensive only; irrelevant to his offensive role."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Counter-Bleed on being attacked. Defensive, reactive, and Bleed-themed — he neither tanks nor benefits from bleed; near-dead."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Counter-Infect on being attacked. Reactive defensive control he can't leverage offensively."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Effect Hit Rate. He applies no debuffs/control to land, so accuracy on effects is wasted."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Effect Resist Rate (anti-CC defense). Minor survivability that does nothing for damage; he already has partial control immunity natively."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Effect Resist Rate buff. Defensive anti-CC only — no offensive value, and his kit already resists control."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Effect Resist + small self-heal on buff expiry. Defensive/sustain utility unrelated to his AOE damage."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Heal-reduction on CRIT. Crit-gated (he barely crits) and applies a debuff he doesn't need — dead on both counts."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Effect-Hit + [Fox Fire] control/DoT engine. He has no effect-hit build and applies no DoT; the whole package misfires for him."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Team-wide Shield at battle start — a support mirror. Zero personal DPS contribution for a solo-burst assassin."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "On-death ally Shield — pure support utility, does nothing for his offense and requires him to die first."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Self-revive on death. A survivability crutch with no offensive value; off-role for a damage-dealer slot."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Increases healing done — a healer mirror. Wu Kong does no healing, so the effect is completely inert."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Buffs single-target heal skills. He has none; entirely dead effect."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Self-heal at turn start. Pure sustain with no damage value; wasted on a burst DPS slot."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Support DMG-RED mirror with empty/null effect text in the data — no usable offensive effect for him; bottom of the list."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Final DMG RED + heal/true-DMG-mitigation, strongest while in Damage Share state. A tank/support mirror with no offensive value for him, and he is not the team damage sink; defensive package off-role for a burst AOE DPS."
+    }
+  ]
+}
