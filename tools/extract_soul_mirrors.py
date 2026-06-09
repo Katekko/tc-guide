@@ -98,13 +98,20 @@ TYPE_LABEL = {  # PropCfg f9 (translated) -> canonical type key
 PARAM_TAG = {
     'increase_dmg': 'final-dmg', 'dr': 'dmg-reduction',
     'crit': 'crit', 'crit_dmg': 'crit', 'crit_dmg_imm': 'crit-resist',
-    'heal_rate': 'heal', 'stun_rate': 'control', 'stun_imm': 'control',
-    'atk_per': 'atk', 'atk_dmg': 'atk', 'def_per': 'def', 'hp_per': 'hp',
-    'skill_dmg': 'skill-dmg', 'arp_rate': 'def-ignore',
+    'heal_rate': 'heal', 'stun_rate': 'control',
+    'atk_per': 'atk', 'def_per': 'def', 'hp_per': 'hp',
+    'arp_rate': 'def-ignore',
+    # Intentionally NOT mapped:
+    #  stun_imm  -> stun *immunity* (defensive Effect Resist), not dealing
+    #               control; already covered by the effect-hit text rule.
+    #  atk_dmg / skill_dmg -> attack/skill *damage* %, covered by the basic-atk /
+    #               single-target / ultimate text rules (not the ATK stat tag).
 }
 # (tag, regex) applied to the lowercased, combined skill text.
 TEXT_TAG = [
-    ('final-dmg', r'final d(?:mg|amage) \+\d|increase[sd]? .{0,30}final d(?:mg|amage)|final d(?:mg|amage) bonus'),
+    # "Final DMG" not followed by "RED" = a damage increase (Yin, Ananke, Jacob);
+    # "Final DMG RED" is reduction and is caught by dmg-reduction instead.
+    ('final-dmg', r'final d(?:mg|amage)(?! red)'),
     ('dmg-reduction', r'dmg red|final dmg red|reduce[sd]? .{0,25}(?:dmg|damage)'),
     ('crit', r'crit'),
     ('heal', r'\bheal|recover|revive|healing received'),
@@ -112,7 +119,7 @@ TEXT_TAG = [
     ('bleed', r'bleed'),
     ('infect', r'infect'),
     ('control', r'\bstun|\bcontrol\b|\[lethal\]'),
-    ('aoe', r'area attack|\baoe\b'),
+    ('aoe', r'area attack|\baoe\b|area damage|all enemies|distributed among all'),
     ('basic-atk', r'basic attack|\bbatk\b'),
     ('ultimate', r'ultimate'),
     ('single-target', r'single[ -](?:target|attack|skill|heal)'),
@@ -121,10 +128,10 @@ TEXT_TAG = [
     ('effect-hit', r'effect (?:hit|resist)'),
 ]
 # Stable display order for the emitted tag list.
-TAG_ORDER = ['final-dmg', 'dmg-reduction', 'crit', 'heal', 'shield', 'bleed',
-             'infect', 'control', 'aoe', 'basic-atk', 'ultimate',
-             'single-target', 'true-dmg', 'def-ignore', 'skill-dmg',
-             'crit-resist', 'effect-hit', 'atk', 'def', 'hp']
+TAG_ORDER = ['final-dmg', 'dmg-reduction', 'crit', 'crit-resist', 'heal',
+             'shield', 'bleed', 'infect', 'control', 'aoe', 'basic-atk',
+             'ultimate', 'single-target', 'true-dmg', 'def-ignore',
+             'effect-hit', 'atk', 'def', 'hp']
 
 def derive_tags(texts, raw_params):
     """Auto-derive mechanic tags from effect text + machine params."""
