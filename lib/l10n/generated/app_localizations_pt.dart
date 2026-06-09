@@ -383,6 +383,9 @@ class AppLocalizationsPt extends AppLocalizations {
   String get navSectionHeroes => 'Heróis';
 
   @override
+  String get navSectionComingSoon => 'Em Breve';
+
+  @override
   String get navHeroes => 'Todos os Heróis';
 
   @override
@@ -1411,6 +1414,9 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get navSectionHeroes => 'Heróis';
+
+  @override
+  String get navSectionComingSoon => 'Em Breve';
 
   @override
   String get navHeroes => 'Todos os Heróis';

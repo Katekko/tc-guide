@@ -771,6 +771,12 @@ abstract class AppLocalizations {
   /// **'Heroes'**
   String get navSectionHeroes;
 
+  /// No description provided for @navSectionComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming Soon'**
+  String get navSectionComingSoon;
+
   /// No description provided for @navHeroes.
   ///
   /// In en, this message translates to:

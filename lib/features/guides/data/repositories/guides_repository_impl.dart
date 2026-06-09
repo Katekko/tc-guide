@@ -2,6 +2,7 @@ import 'package:tc_flutter_web/core/router/app_routes.dart';
 import 'package:tc_flutter_web/l10n/generated/app_localizations.dart';
 
 import '../../domain/entities/guide_nav.dart';
+import '../../domain/entities/guide_status.dart';
 import '../../domain/entities/guide_step.dart';
 import '../../domain/repositories/guides_repository.dart';
 
@@ -13,6 +14,10 @@ class GuidesRepositoryImpl implements GuidesRepository {
 
   @override
   List<GuideNavEntry> navigation(AppLocalizations l10n) => [
+        // Finished sections first, in learning order: Index → Getting Started →
+        // Growth → Heroes. Everything still being written lives under a single
+        // collapsed "Coming Soon" section at the bottom so a first-time visitor
+        // lands on polished pages and can see what's planned at a glance.
         GuideNavLink(title: l10n.navGuideIndex, route: AppRoutes.intro),
         GuideNavSection(
           title: l10n.navSectionGettingStarted,
@@ -20,46 +25,18 @@ class GuidesRepositoryImpl implements GuidesRepository {
             GuideNavItem(
               title: l10n.navGettingStarted,
               route: AppRoutes.gettingStarted,
+              status: GuideStatus.current,
             ),
-            GuideNavItem(title: l10n.navReroll, route: AppRoutes.reroll),
+            GuideNavItem(
+              title: l10n.navReroll,
+              route: AppRoutes.reroll,
+              status: GuideStatus.current,
+            ),
             GuideNavItem(
               title: l10n.navStarterCarry,
               route: AppRoutes.starterCarry,
+              status: GuideStatus.current,
             ),
-          ],
-        ),
-        GuideNavSection(
-          title: l10n.navSectionResources,
-          items: [
-            GuideNavItem(
-              title: l10n.navShopPriority,
-              route: AppRoutes.shopPriority,
-            ),
-            GuideNavItem(title: l10n.navSpending, route: AppRoutes.spending),
-          ],
-        ),
-        GuideNavSection(
-          title: l10n.navSectionUr,
-          items: [
-            GuideNavItem(
-              title: l10n.navUrIntroduction,
-              route: AppRoutes.urIntroduction,
-            ),
-            GuideNavItem(title: l10n.navUrPriority, route: AppRoutes.urPriority),
-            GuideNavItem(title: l10n.navUrPlus, route: AppRoutes.urPlus),
-          ],
-        ),
-        GuideNavSection(
-          title: l10n.navSectionUrPlus,
-          items: [
-            GuideNavItem(title: l10n.navNyx, route: AppRoutes.nyx),
-          ],
-        ),
-        GuideNavSection(
-          title: l10n.navSectionGears,
-          items: [
-            GuideNavItem(title: l10n.navStats, route: AppRoutes.stats),
-            GuideNavItem(title: l10n.navGears, route: AppRoutes.gears),
           ],
         ),
         GuideNavSection(
@@ -68,13 +45,37 @@ class GuidesRepositoryImpl implements GuidesRepository {
             GuideNavItem(
               title: l10n.navSoulMirrors,
               route: AppRoutes.soulMirrors,
+              status: GuideStatus.current,
             ),
           ],
         ),
         GuideNavSection(
           title: l10n.navSectionHeroes,
           items: [
-            GuideNavItem(title: l10n.navHeroes, route: AppRoutes.heroes),
+            GuideNavItem(
+              title: l10n.navHeroes,
+              route: AppRoutes.heroes,
+              status: GuideStatus.current,
+            ),
+          ],
+        ),
+        GuideNavSection(
+          title: l10n.navSectionComingSoon,
+          items: [
+            GuideNavItem(
+              title: l10n.navShopPriority,
+              route: AppRoutes.shopPriority,
+            ),
+            GuideNavItem(title: l10n.navSpending, route: AppRoutes.spending),
+            GuideNavItem(
+              title: l10n.navUrIntroduction,
+              route: AppRoutes.urIntroduction,
+            ),
+            GuideNavItem(title: l10n.navUrPriority, route: AppRoutes.urPriority),
+            GuideNavItem(title: l10n.navUrPlus, route: AppRoutes.urPlus),
+            GuideNavItem(title: l10n.navNyx, route: AppRoutes.nyx),
+            GuideNavItem(title: l10n.navStats, route: AppRoutes.stats),
+            GuideNavItem(title: l10n.navGears, route: AppRoutes.gears),
             GuideNavItem(title: l10n.navTierList, route: AppRoutes.tierList),
             GuideNavItem(title: l10n.navTeamComps, route: AppRoutes.teamComps),
           ],

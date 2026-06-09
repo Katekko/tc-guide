@@ -4,6 +4,8 @@ import 'package:go_router/go_router.dart';
 import 'package:tc_flutter_web/core/theme/app_colors.dart';
 
 import '../../domain/entities/guide_nav.dart';
+import '../../domain/entities/guide_status.dart';
+import 'guide_status_badge.dart';
 
 /// The vertical guide navigation sidebar shown on wide screens.
 class DocsSidebar extends StatelessWidget {
@@ -36,7 +38,11 @@ class DocsSidebar extends StatelessWidget {
             switch (entry) {
               case GuideNavLink():
                 return DocsIndexTile(
-                  item: GuideNavItem(title: entry.title, route: entry.route),
+                  item: GuideNavItem(
+                    title: entry.title,
+                    route: entry.route,
+                    status: entry.status,
+                  ),
                   selected: entry.route == currentPath,
                 );
               case GuideNavSection():
@@ -136,14 +142,28 @@ class DocsIndexTile extends StatelessWidget {
           onTap: () => context.go(item.route),
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
-            child: Text(
-              item.title,
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                color: selected ? AppColors.link : AppColors.secondaryText,
-                fontSize: 14,
-                fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
-              ),
+            child: Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    item.title,
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      color:
+                          selected ? AppColors.link : AppColors.secondaryText,
+                      fontSize: 14,
+                      fontWeight:
+                          selected ? FontWeight.w700 : FontWeight.w500,
+                    ),
+                  ),
+                ),
+                // Finished pages stay clean; anything still in progress gets a
+                // small badge so readers know not to fully trust it yet.
+                if (item.status != GuideStatus.current) ...[
+                  const SizedBox(width: 8),
+                  GuideStatusBadge(status: item.status),
+                ],
+              ],
             ),
           ),
         ),

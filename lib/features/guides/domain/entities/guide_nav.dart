@@ -33,8 +33,13 @@ sealed class GuideNavEntry extends Equatable {
 
 /// A standalone sidebar link with no children (e.g. the top-level index).
 class GuideNavLink extends GuideNavEntry {
-  /// Creates a standalone nav link.
-  const GuideNavLink({required this.title, required this.route});
+  /// Creates a standalone nav link. Defaults to [GuideStatus.current] since
+  /// standalone links are typically finished index/landing pages.
+  const GuideNavLink({
+    required this.title,
+    required this.route,
+    this.status = GuideStatus.current,
+  });
 
   /// Localized display label.
   final String title;
@@ -42,8 +47,11 @@ class GuideNavLink extends GuideNavEntry {
   /// Target in-app route.
   final String route;
 
+  /// Review/freshness state shown as a badge.
+  final GuideStatus status;
+
   @override
-  List<Object?> get props => [title, route];
+  List<Object?> get props => [title, route, status];
 }
 
 /// A collapsible category grouping several [GuideNavItem]s.

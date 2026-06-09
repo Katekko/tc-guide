@@ -381,6 +381,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navSectionHeroes => 'Heroes';
 
   @override
+  String get navSectionComingSoon => 'Coming Soon';
+
+  @override
   String get navHeroes => 'All Heroes';
 
   @override
