@@ -1,0 +1,75 @@
+{
+  "id": 45013,
+  "name": "Uncle Ying",
+  "fullName": "Uncle Ying",
+  "epithet": "Exorcist Taoist",
+  "heroClass": "Assault",
+  "faction": "Demonhunter",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Magic DPS",
+    "AOE Burst"
+  ],
+  "bio": "Mysterious Taoist from the East, good at subduing demons and exorcising evil, upholding the belief of protecting humans. Wearing a yellow Taoist robe, he uses Taoist swords and talismans to walk the dangerous path for justice.<br/><br/><color=#bde141>Role: AOE Heal Reduction</color><br/><color=#bde141>Specialty: A Group Breakthrough-type hero that can deal damage to multiple enemies and apply Heal Reduction effects.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Yun Qi"
+  },
+  "baseStats": {
+    "hp": 1767,
+    "atk": 267,
+    "def": 83,
+    "spd": 1280
+  },
+  "spineId": "45013",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Heaven's Fivefold Thunder",
+      "type": "Feat",
+      "description": "Attacks 3 random targets for 160% M.DMG with 40% probability to apply [Sigil].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Exterminate Evildoers",
+      "type": "Ultimate",
+      "description": "Attacks 4 targets for total 700% M.DMG (single target cannot take more than 3.5x Uncle Ying's ATK, cannot trigger Magic Combo).",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Maoshan Arts",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Maoshan Arts",
+          "description": "Gains 1 stack of [Amulet] whenever an enemy is [Sealed]."
+        },
+        {
+          "tier": 2,
+          "name": "Maoshan Arts",
+          "description": "30% probability to gain 1 stack of [Amulet] when enemies are inflicted with [Sigil] (max 2 triggers per turn)."
+        },
+        {
+          "tier": 3,
+          "name": "Maoshan Arts",
+          "description": "At 5 stacks of [Amulet], increases Crit Rate by 50%."
+        },
+        {
+          "tier": 4,
+          "name": "Maoshan Arts",
+          "description": "Deals extra M.DMG equal to 20% of target's Max HP when attacking [Sealed] Targets."
+        }
+      ]
+    }
+  ]
+}

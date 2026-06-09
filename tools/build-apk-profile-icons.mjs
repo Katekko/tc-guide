@@ -151,14 +151,20 @@ for (const entry of index) {
 
   const atlas = await decodedAtlas(sprite.textureKey);
   const [left, top, width, height] = sprite.frame.rect;
+  // Sprites packed rotated 90° CW store their rect with the *unrotated*
+  // (w, h); the region they actually occupy in the atlas has w/h swapped, and
+  // the crop must be rotated 90° CCW (rotate(270)) to restore upright.
+  const rotated = Boolean(sprite.frame.rotated);
+  const cropWidth = rotated ? height : width;
+  const cropHeight = rotated ? width : height;
   const metadata = await sharp.default(atlas).metadata();
   if (
     left < 0 ||
     top < 0 ||
-    width <= 0 ||
-    height <= 0 ||
-    left + width > metadata.width ||
-    top + height > metadata.height
+    cropWidth <= 0 ||
+    cropHeight <= 0 ||
+    left + cropWidth > metadata.width ||
+    top + cropHeight > metadata.height
   ) {
     skipped.push({
       id,
@@ -176,10 +182,14 @@ for (const entry of index) {
   const output = join(outDir, filename);
   mkdirSync(outDir, {recursive: true});
 
-  await sharp.default(atlas)
-    .extract({left, top, width, height})
-    .png()
-    .toFile(output);
+  const pipeline = sharp.default(atlas).extract({
+    left,
+    top,
+    width: cropWidth,
+    height: cropHeight,
+  });
+  if (rotated) pipeline.rotate(270);
+  await pipeline.png().toFile(output);
 
   profiles.push({
     id,

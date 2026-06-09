@@ -1,0 +1,75 @@
+{
+  "id": 25016,
+  "name": "Orpheus",
+  "fullName": "Orpheus",
+  "epithet": "Deathwave",
+  "heroClass": "Assault",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Counter Burst",
+    "Strong DPS"
+  ],
+  "bio": "Former Rock Youth who accidentally became a zombie. He uses a guitar and music to wield dark power, protecting humans from evil forces.<br/><br/><color=#bde141>Role: AOE Counterattack</color><br/><color=#bde141>Specialty: A front-midline Breakthrough-type hero that can counterattack with AOE skills when taking active attacks; deals extra True Damage based on the number of Corrosion effects on the target. Can also apply Heal Reduction to lower the target's received healing.</color>",
+  "profile": {
+    "height": "180 cm",
+    "illustrator": "Lu Liang"
+  },
+  "baseStats": {
+    "hp": 1767,
+    "atk": 267,
+    "def": 83,
+    "spd": 1264
+  },
+  "spineId": "25016",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Improv Performance",
+      "type": "Feat",
+      "description": "Deals 80% P.DMG to all enemies, dealing additional P.DMG equal to 5% of Max HP to [Infect] targets (cannot exceed 100% of own ATK).",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Death Rock",
+      "type": "Ultimate",
+      "description": "Deals 420% P.DMG to single enemy target, ignoring 30% DEF.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Rock Rhythm",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Rock Rhythm",
+          "description": "50% chance to cast [Improv Performance] (50% reduced DMG) on all enemies when hit by Enemy Hero's active attack (triggers once per turn max)."
+        },
+        {
+          "tier": 2,
+          "name": "Rock Rhythm",
+          "description": "Gains 1 stack of [Zeal] per [Improv Performance] cast."
+        },
+        {
+          "tier": 3,
+          "name": "Rock Rhythm",
+          "description": "[Death Rock] deals additional P.DMG equal to 25% of target's lost HP (max 500% of caster's ATK)."
+        },
+        {
+          "tier": 4,
+          "name": "Rock Rhythm",
+          "description": "Increases [Improv Performance] trigger limit to 2 times per turn when hit."
+        }
+      ]
+    }
+  ]
+}

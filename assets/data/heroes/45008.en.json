@@ -1,0 +1,65 @@
+{
+  "id": 45008,
+  "name": "Lenore",
+  "fullName": "Lenore",
+  "epithet": "Dance of Frost",
+  "heroClass": "Assault",
+  "faction": "Demonhunter",
+  "rarity": "SSR",
+  "stars": 4,
+  "roles": [
+    "Spell Debuff",
+    "Power Pursuit"
+  ],
+  "bio": "Descendant of the Shadow Blade Family, she survived an evil attack and swore to fight against demons. She became an Ice Swordsman, hiding her secret crush on the protagonist and focusing on protection and adventure.<br/><br/><color=#bde141>Role: Magical Debuff</color><br/><color=#bde141>Specialty: A front-midline Breakthrough-type hero that can deal massive single-target damage and Slow; increases lifesteal efficiency against slowed units.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Xiao Taohong"
+  },
+  "baseStats": {
+    "hp": 1482,
+    "atk": 224,
+    "def": 70,
+    "spd": 1304
+  },
+  "spineId": "45008",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Everfrozen Wind",
+      "type": "Feat",
+      "description": "<color=#FFEB04>Passive</color>: Executing target triggers Pursuit Basic Attack, dealing 100% P.DMG. When actively released, deals 160% M.DMG to front/midline targets.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Absolute Zero",
+      "type": "Ultimate",
+      "description": "Attacks enemies with lowest HP for 400% P.DMG.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Awakening Power",
+      "type": "Awaken",
+      "level": 2,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Awakening Power",
+          "description": "[Absolute Zero] also splashes 2 random enemies for 30% DMG."
+        },
+        {
+          "tier": 2,
+          "name": "Awakening Power",
+          "description": "[Absolute Zero] and [Everfrozen Wind] deal 30% extra P.DMG."
+        }
+      ]
+    }
+  ]
+}

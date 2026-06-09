@@ -1,0 +1,75 @@
+{
+  "id": 65001,
+  "name": "Dark Tide",
+  "fullName": "Dark Tide",
+  "epithet": "Blackblade Knight",
+  "heroClass": "Guard",
+  "faction": "Demonhunter",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Phys. Burst",
+    "Tanky&Deadly"
+  ],
+  "bio": "Balor Demon Protector of the Demon Faction, endowed with the mission of protecting her clan since childhood. She is a solid barrier of the Demon Faction.<br/><br/><color=#bde141>Role: Physical Burst</color><br/><color=#bde141>Specialty: A front-midline Breakthrough-type hero that can deal massive damage to front-midline enemies and apply Curse and Bleed effects; can also extend enemy skill cooldowns.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Lil K"
+  },
+  "baseStats": {
+    "hp": 2325,
+    "atk": 151,
+    "def": 102,
+    "spd": 1248
+  },
+  "spineId": "65001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Cursed Fang",
+      "type": "Feat",
+      "description": "Deal Physical Damage equal to 150% ATK + 8% of self's Max HP to the 3 enemies with the highest Critical Strike Chance; 40% chance to apply 1 stack of [Seal].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Dark Lord Blade",
+      "type": "Ultimate",
+      "description": "Attack the enemy with the highest Critical Strike Chance, dealing Physical Damage equal to 400% ATK + 15% of self's Max HP, and apply 1 stack of [Seal]; then steal 20% of the target's Critical Strike Chance for 2 turns.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Invitation of Demonic Realm",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Invitation of Demonic Realm",
+          "description": "Gain [Grim Reaper's Power] when self's HP first drops below 60%."
+        },
+        {
+          "tier": 2,
+          "name": "Invitation of Demonic Realm",
+          "description": "[Demonlord's Blade] heals self for 40% of DMG dealt."
+        },
+        {
+          "tier": 3,
+          "name": "Invitation of Demonic Realm",
+          "description": "[Reaper's Power] additionally increases Final DMG RED by 20%."
+        },
+        {
+          "tier": 4,
+          "name": "Invitation of Demonic Realm",
+          "description": "[Demonlord's Blade] Cooldown -2 turns when any Character dies."
+        }
+      ]
+    }
+  ]
+}

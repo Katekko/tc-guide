@@ -1,0 +1,109 @@
+{
+  "id": 65014,
+  "name": "Nyx",
+  "fullName": "Supreme - Nyx",
+  "epithet": "Night Goddess",
+  "heroClass": "Assassin",
+  "faction": "Otherworld",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "AOE Execute",
+    "AOE Spell"
+  ],
+  "bio": "200 cm",
+  "profile": {
+    "height": "178cm",
+    "illustrator": "Qingqing Mumu"
+  },
+  "baseStats": {
+    "hp": 1944,
+    "atk": 297,
+    "def": 108,
+    "spd": 1432
+  },
+  "spineId": "65014",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Night Hunt Starshot",
+      "type": "Feat",
+      "description": "Summon 4 Star Arrows to attack enemies randomly, dealing 200% ATK as Magic Damage per arrow; 80% chance to apply [Stellar Seal]. Targets hit multiple times take only 30% damage for subsequent hits.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Divine Hell Implosion",
+      "type": "Ultimate",
+      "description": "Deal a total of 900% Magic Damage to all enemies (shared among all hit targets, with each target's damage capped at 400% of the attacker's ATK), and 100% chance to randomly distribute 6 stacks of [Stellar Seal] to all hit targets.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Stellar Vault Sunshroud",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Stellar Vault Sunshroud",
+          "description": "When casting the Ultimate Skill for the first time, change the battlefield to [Eternal Night], lasting until the end of the battle."
+        },
+        {
+          "tier": 2,
+          "name": "Stellar Vault Sunshroud",
+          "description": "In [Eternal Night], increase your ATK and Crit Rate by 20%."
+        },
+        {
+          "tier": 3,
+          "name": "Stellar Vault Sunshroud",
+          "description": "When casting [Night Hunt Star Arrow] in [Eternal Night], the number of summoned Star Arrows increases to 6."
+        },
+        {
+          "tier": 4,
+          "name": "Stellar Vault Sunshroud",
+          "description": "When casting [Divine Hell Implosion] in [Eternal Night], deal 180% ATK as Magic Damage to the enemy with the most [Stellar Seal] stacks, and 100% chance to apply 1 stack of [Stellar Seal]."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "In [Eternal Night], allies have a 25% chance to apply 1 stack of [Stellar Seal] to the target when dealing damage with attacks."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "Gain 1 stack of [Cosmic Robe] at the end of the turn in [Eternal Night].<br/><color=#FFEB04>[Cosmic Robe]</color>: Each stack increases Effect Resist Rate and True Damage Reduction by 10%; consumes 1 stack to resist control effects when affected. Lasts 2 turns, undispellable."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "Immediately replace the battlefield with [Eternal Night] at the start of battle; ignore 20% of the target's Defense when attacking enemies with [Stellar Seal]."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "The trigger condition for [Shattered Vault Formation] changes to a total of 7 actions by both allies and enemies."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "[Divine Hell Implosion] deals an additional 50% ATK as Magic Damage, 50% chance to apply 1 stack of [Stellar Seal], and is castable on the first turn; each Ultimate Skill cast permanently reduces the cooldown of all your skills by 1 turn."
+        }
+      ]
+    }
+  ]
+}

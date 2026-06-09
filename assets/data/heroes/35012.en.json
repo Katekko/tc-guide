@@ -1,0 +1,65 @@
+{
+  "id": 35012,
+  "name": "Selina",
+  "fullName": "Selina",
+  "epithet": "Midnight Witch",
+  "heroClass": "Control",
+  "faction": "Kindred",
+  "rarity": "SSR",
+  "stars": 4,
+  "roles": [
+    "AOE Spell",
+    "AOE Bleed"
+  ],
+  "bio": "Talented Vampire Mage good at high-output offensive magic. He showed a talent for magic from an early age.<br/><br/><color=#bde141>Role: High Physical Damage</color><br/><color=#bde141>Specialty: A mid-backline Breakthrough-type hero with strong comprehensive damage output; can deal extra damage based on the target's maximum HP.</color>",
+  "profile": {
+    "height": "165 cm",
+    "illustrator": "Yanyu"
+  },
+  "baseStats": {
+    "hp": 1638,
+    "atk": 204,
+    "def": 70,
+    "spd": 1384
+  },
+  "spineId": "35012",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Abyssal Shadow Dive",
+      "type": "Feat",
+      "description": "Attacks 2 enemy with highest ATK for 200% M.DMG.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Pumpkin Bomb",
+      "type": "Ultimate",
+      "description": "Attacks all enemies for 160% M.DMG.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Kindred Sorcery",
+      "type": "Awaken",
+      "level": 2,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Kindred Sorcery",
+          "description": "[Abyssal Shadow Dive] has 60% probability to apply [Bleed]."
+        },
+        {
+          "tier": 2,
+          "name": "Kindred Sorcery",
+          "description": "[Pumpkin Bomb] has 30% probability to apply [Bleed]."
+        }
+      ]
+    }
+  ]
+}

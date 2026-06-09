@@ -1,0 +1,46 @@
+{
+  "id": 33001,
+  "name": "Chloe",
+  "fullName": "Chloe",
+  "epithet": "Bodyguard of the Dead",
+  "heroClass": "Assassin",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Undead Castle Guard. Once a soldier, he became a zombie after death to guard the Vampire Castle and protect creatures that cannot coexist with humans.<br/><br/><color=#bde141>Role: Backline Single Elimination</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero that deals Physical Damage to a single enemy in the backline and has a chance to deal Critical Damage.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Xiao Taohong"
+  },
+  "baseStats": {
+    "hp": 1080,
+    "atk": 165,
+    "def": 60,
+    "spd": 960
+  },
+  "spineId": "33001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Deadly Poison Strike",
+      "type": "Feat",
+      "description": "Attacks single backline enemy target, dealing 171% P.DMG with 20% extra Crit Rate.",
+      "releaseTurn": null,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Undead's Blessing",
+      "type": "Ultimate",
+      "description": "Increases ATK by 10% and HP by 5%.",
+      "releaseTurn": null,
+      "cooldown": null
+    }
+  ]
+}

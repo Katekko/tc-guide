@@ -1,0 +1,46 @@
+{
+  "id": 45009,
+  "name": "Zhiming",
+  "fullName": "Zhiming",
+  "epithet": "Wise-Eyed Monk",
+  "heroClass": "Control",
+  "faction": "Demonhunter",
+  "rarity": "R",
+  "stars": 2,
+  "roles": [
+    "Spell Debuff",
+    null
+  ],
+  "bio": "Enlightened Monk proficient in Buddhist Dharma and control powers. Using prayer beads as weapons, he uses the power of Dharma to uphold justice and balance, bringing peace to the world.<br/><br/><color=#bde141>Role: Magical Control</color><br/><color=#bde141>Specialty: A mid-backline Control-type hero with powerful Seal Control; can break Seals to deal extra damage.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Yun Qi"
+  },
+  "baseStats": {
+    "hp": 1449,
+    "atk": 181,
+    "def": 62,
+    "spd": 1300
+  },
+  "spineId": "45009",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Seal of Reincarnation",
+      "type": "Feat",
+      "description": "Attacks backline single target for 173% M.DMG with 100% probability to apply [Sigil].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Golden Bell Shield",
+      "type": "Ultimate",
+      "description": "Applies [Golden Bell Shield] to self and highest-ATK Ally, increasing their DEF by 15% for 2 turns, with 30% probability to [Sigil] target when attacking.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

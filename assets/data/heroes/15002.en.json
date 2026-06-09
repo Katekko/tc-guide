@@ -1,0 +1,75 @@
+{
+  "id": 15002,
+  "name": "Albert",
+  "fullName": "Albert",
+  "epithet": "Naughty Pope",
+  "heroClass": "Support",
+  "faction": "Sanctuary",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Shield",
+    "Ally Blessing"
+  ],
+  "bio": "Young Pope of the Spirit Heroes Faction with extraordinary magic skills. He controls the power of light to bring hope and light to the battlefield, while protecting and supporting allies.<br/><br/><color=#bde141>Role: Shield Buff</color><br/><color=#bde141>Specialty: A mid-backline Support-type hero that provides shields for allies to resist damage; increases the damage reduction of all allies immediately after entering the battlefield.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Tang Yi"
+  },
+  "baseStats": {
+    "hp": 2046,
+    "atk": 232,
+    "def": 83,
+    "spd": 1360
+  },
+  "spineId": "15002",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Church Blessing",
+      "type": "Feat",
+      "description": "Albert grants [Blessed Shield] to 2 allies with lowest HP, absorbing 200% of Albert's ATK as DMG for 2 turns, non-stackable and undispellable.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Holy Covenant",
+      "type": "Ultimate",
+      "description": "Deals 50% M.DMG to all enemies and grants [Blessed Shield] to 3 allies with lowest HP, absorbing 200% of Albert's ATK as DMG for 2 turns, non-stackable, undispellable.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Energy Inversion",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Energy Inversion",
+          "description": "Allies with [Blessed Shield] gain 10% Final DMG RED and Effect Resist Rate."
+        },
+        {
+          "tier": 2,
+          "name": "Energy Inversion",
+          "description": "[Holy Covenant] grants [Final DMG II] to the ally with highest ATK."
+        },
+        {
+          "tier": 3,
+          "name": "Energy Inversion",
+          "description": "[Blessed Shield] deals 50% of Albert's ATK as M.DMG to 1 random enemy when disappearing, with 40% probability to inflict [Holy Seal]."
+        },
+        {
+          "tier": 4,
+          "name": "Energy Inversion",
+          "description": "[Holy Covenant] grants [Blessed Shield] to all teammates."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 15007,
+  "name": "Laird",
+  "fullName": "Laird",
+  "epithet": "Radiant Judge",
+  "heroClass": "Assault",
+  "faction": "Sanctuary",
+  "rarity": "SSR",
+  "stars": 4,
+  "roles": [
+    "Phys. Debuff",
+    "ATK Down"
+  ],
+  "bio": "Ordinary Monk who picked up an ancient cross spear after losing his comrades. He became a Spirit Heroes Breaker, using strength and faith to protect those unable to defend themselves.<br/><br/><color=#bde141>Role: Physical Debuff</color><br/><color=#bde141>Specialty: A mid-backline Breakthrough-type hero that can reduce enemy damage and disrupt enemy attack order.</color>",
+  "profile": {
+    "height": "180 cm",
+    "illustrator": "Xiao Linzi"
+  },
+  "baseStats": {
+    "hp": 1482,
+    "atk": 224,
+    "def": 70,
+    "spd": 1304
+  },
+  "spineId": "15007",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Cross Strike",
+      "type": "Feat",
+      "description": "Deals 206% P.DMG to the enemy with lowest Speed and steals 15% of their Speed for 2 turns.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Eternal Holy Light",
+      "type": "Ultimate",
+      "description": "Deals 257% P.DMG to the 2 enemies with highest ATK, with 70% probability to inflict [Wither].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Sacred Scar Mark",
+      "type": "Awaken",
+      "level": 2,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Sacred Scar Mark",
+          "description": "[Wither] Enhanced: Each stack reduces the Carrier's ATK by 10%."
+        },
+        {
+          "tier": 2,
+          "name": "Sacred Scar Mark",
+          "description": "Applies [Exhaustion] to a random enemy target after each action."
+        }
+      ]
+    }
+  ]
+}

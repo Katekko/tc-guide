@@ -1,0 +1,75 @@
+{
+  "id": 15010,
+  "name": "Aurora",
+  "fullName": "Aurora",
+  "epithet": "Opal Maiden",
+  "heroClass": "Assault",
+  "faction": "Sanctuary",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Spell",
+    "AOE Debuff"
+  ],
+  "bio": "Heavenly Light and Shadow Guardian whose life is bound to a Crystal Prism. Gained Light and Shadow Magic abilities to protect the world's light and harmony, becoming a Destroyer in the Spirit Heroes Faction.<br/><br/><color=#bde141>Role: Magical AOE</color><br/><color=#bde141>Specialty: A mid-backline Breakthrough-type hero with certain damage output ability; can also provide buffs for allies.</color>",
+  "profile": {
+    "height": "165 cm",
+    "illustrator": "So-called"
+  },
+  "baseStats": {
+    "hp": 1767,
+    "atk": 267,
+    "def": 83,
+    "spd": 1312
+  },
+  "spineId": "15010",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Ultimate Flash",
+      "type": "Feat",
+      "description": "Attacks the enemy column with most units, dealing 200% M.DMG, ignoring 30% of target's DEF for this attack.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Retribution Ray",
+      "type": "Ultimate",
+      "description": "Attacks 4 random enemy targets, dealing 200% M.DMG and applying 1 stack of [Holy Seal].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Opal Crystal",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Opal Crystal",
+          "description": "When Aurora deals DMG, has 70% probability to inflict [Light Trace] on target."
+        },
+        {
+          "tier": 2,
+          "name": "Opal Crystal",
+          "description": "When attacking enemies with [Light Trace], deals additional True DMG equal to 5% of target's Max HP (max 100% ATK)."
+        },
+        {
+          "tier": 3,
+          "name": "Opal Crystal",
+          "description": "[Ultimate Flash] deals additional 100% ATK as M.DMG to the first enemy and applies 1 additional stack of [Light Trace]."
+        },
+        {
+          "tier": 4,
+          "name": "Opal Crystal",
+          "description": "[Retribution Ray] deals additional 300% ATK as M.DMG, evenly split among all hit enemies."
+        }
+      ]
+    }
+  ]
+}

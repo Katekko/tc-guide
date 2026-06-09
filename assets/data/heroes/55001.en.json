@@ -1,0 +1,75 @@
+{
+  "id": 55001,
+  "name": "Michael",
+  "fullName": "Michael",
+  "epithet": "Blazing Wings",
+  "heroClass": "Assault",
+  "faction": "Sanctuary",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "True DMG",
+    "Divine Ascend"
+  ],
+  "bio": "High-Ranking Heavenly Warrior who joined the Spirit Heroes Faction for his dedication to justice and longing for light. He protects the world from the corruption of dark forces.<br/><br/><color=#bde141>Role: Powerful Damage Dealer</color><br/><color=#bde141>Specialty: A backline Breakthrough-type hero that can deal massive damage to enemies; its Ultimate also deals extremely high True Damage to a single target.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Qing Shang"
+  },
+  "baseStats": {
+    "hp": 1767,
+    "atk": 267,
+    "def": 83,
+    "spd": 1296
+  },
+  "spineId": "55001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Purifying Lightstrike",
+      "type": "Feat",
+      "description": "Attacks all enemy targets for a total of 600% M.DMG (each hero takes no more than 3× Caster's ATK), with a 30% chance to apply 1 stack of [Holy Seal].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Sheen Verdict",
+      "type": "Ultimate",
+      "description": "Dispels 4 Buffs from a single enemy target with 100% chance to apply 1 stack of [Holy Seal], then deals 400% ATK as M.DMG to that target.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Ascent to Divinity",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Ascent to Divinity",
+          "description": "Gains 1 stack of [Apotheosis] for each enemy that has been applied [Holy Seal] (max 1 trigger per character per turn)."
+        },
+        {
+          "tier": 2,
+          "name": "Ascent to Divinity",
+          "description": "[Sheen Verdict] deals 40% extra True DMG per Buff dispelled."
+        },
+        {
+          "tier": 3,
+          "name": "Ascent to Divinity",
+          "description": "Immediately refreshes all skill cooldowns when [Apotheosis] reaches 25 stacks."
+        },
+        {
+          "tier": 4,
+          "name": "Ascent to Divinity",
+          "description": "[Sheen Verdict] deals extra True DMG equal to 20% + 1%*[Ascend to Godhood] stacks of target's Max HP (max 8x Caster's ATK)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 23001,
+  "name": "Savage Palm",
+  "fullName": "Savage Palm",
+  "epithet": "Power of Wasteland",
+  "heroClass": "Assault",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Orc Breaker, the Power of the Wilderness. A guardian of mountains and forests who joined the Net of Secrets to protect interests with wild fists.<br/><br/><color=#bde141>Role: Physical Single Target</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero that deals Physical Damage to a single enemy and increases its own Physical Damage.</color>",
+  "profile": {
+    "height": "200 cm",
+    "illustrator": "Xiao Taohong"
+  },
+  "baseStats": {
+    "hp": 1140,
+    "atk": 172,
+    "def": 54,
+    "spd": 880
+  },
+  "spineId": "23001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Frenzied Blastfist",
+      "type": "Feat",
+      "description": "Deals 190% P.DMG to single enemy target and increases own P.DMG Boost by 10% for 2 turns.",
+      "releaseTurn": null,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Robust Body",
+      "type": "Ultimate",
+      "description": "Increases ATK by 10% and HP by 5%.",
+      "releaseTurn": null,
+      "cooldown": null
+    }
+  ]
+}

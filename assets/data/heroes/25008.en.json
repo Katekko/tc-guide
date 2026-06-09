@@ -1,0 +1,46 @@
+{
+  "id": 25008,
+  "name": "Blazer",
+  "fullName": "Blazer",
+  "epithet": "Wraithrider",
+  "heroClass": "Assault",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 4,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "A knight turned undead, who gained power through a deal with a demon. As a Wraith Rider filled with a desire for revenge, he became a member of the Demon Army to hunt down traitors.<br/><br/><color=#bde141>Role: Magical Burst</color><br/><color=#bde141>Specialty: A front-midline Breakthrough-type hero with high burst damage output and low-HP self-healing ability.</color>",
+  "profile": {
+    "height": "190 cm",
+    "illustrator": "Qing Shang"
+  },
+  "baseStats": {
+    "hp": 1140,
+    "atk": 172,
+    "def": 54,
+    "spd": 880
+  },
+  "spineId": "25008",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Specter Lash",
+      "type": "Feat",
+      "description": "Attacks the enemy column with most Heroes for 150% M.DMG with 60% probability to apply 1 stack of [Infect].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Soul Incineration",
+      "type": "Ultimate",
+      "description": "Attacks single enemy target for 280% M.DMG; gains 50% extra Crit Rate when attacking [Infect] targets.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

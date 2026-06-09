@@ -1,0 +1,75 @@
+{
+  "id": 55008,
+  "name": "Arthur",
+  "fullName": "Arthur",
+  "epithet": "Holy-Whip Hunter",
+  "heroClass": "Control",
+  "faction": "Sanctuary",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Bind",
+    "Power Pursuit"
+  ],
+  "bio": "Came to the Eerland Continent by chance. To return to his own world, he helps Kuroko search for the Sand of Time.<br/><br/><color=#bde141>Role: Group Control</color><br/><color=#bde141>Specialty: A mid-backline Blitz-type hero with considerable AOE damage output and strong Control; any target bound by the Heavenly Silk [Restraint] takes extra True Damage.</color>",
+  "profile": {
+    "height": "160 cm",
+    "illustrator": "Wind and Clouds"
+  },
+  "baseStats": {
+    "hp": 1953,
+    "atk": 244,
+    "def": 83,
+    "spd": 1400
+  },
+  "spineId": "55008",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Sacred Trace Cleanse",
+      "type": "Feat",
+      "description": "Attacks highest-ATK enemy for 300% ATK as P.DMG with 60% chance to apply [Bind].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Deliverance Granted",
+      "type": "Ultimate",
+      "description": "Attacks all enemies, dealing 160% P.DMG with a 40% chance to apply 1 stack of [Holy Seal].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Power of Apocalypse",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Power of Apocalypse",
+          "description": "20% chance to apply [Bind] when actively Attack."
+        },
+        {
+          "tier": 2,
+          "name": "Power of Apocalypse",
+          "description": "When an enemy's [Bind] is dispelled or expires, fires [Cross Dart] at Target and Arthur gains 1 stack of [Apocalypse]."
+        },
+        {
+          "tier": 3,
+          "name": "Power of Apocalypse",
+          "description": "Fires 1 [Cross Dart] at all [Bind]-affected enemies after casting [Sacred Trace Cleanse]."
+        },
+        {
+          "tier": 4,
+          "name": "Power of Apocalypse",
+          "description": "If ≤1 [Bind]-affected enemies remain after [Deliverance Granted], recasts once at 50% reduced DMG."
+        }
+      ]
+    }
+  ]
+}

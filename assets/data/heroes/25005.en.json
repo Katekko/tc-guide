@@ -1,0 +1,75 @@
+{
+  "id": 25005,
+  "name": "Ying Gou",
+  "fullName": "Ying Gou",
+  "epithet": "Lunar Shapeshift",
+  "heroClass": "Control",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Magic DPS",
+    "AOE Erosion"
+  ],
+  "bio": "Blood-Bathed Warrior from the Scarlet Feather Clan. Though unable to fly, his hard and sharp feathers are terrifying lethal weapons.<br/><br/><color=#bde141>Role: Physical Damage Dealer</color><br/><color=#bde141>Specialty: A front-midline Breakthrough-type hero with high burst damage; skills have Corrosion effects and can enhance allies' damage against Corroded enemies.</color>",
+  "profile": {
+    "height": "165 cm",
+    "illustrator": "Mango"
+  },
+  "baseStats": {
+    "hp": 1953,
+    "atk": 244,
+    "def": 83,
+    "spd": 1376
+  },
+  "spineId": "25005",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Fantasy Sword Arise",
+      "type": "Feat",
+      "description": "Deals 110% M.DMG to mid/backline enemies and randomly distributes 4 stacks of [Infect] among hit enemies (60% application chance).",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Azure Dragonshadow",
+      "type": "Ultimate",
+      "description": "Attacks 4 random enemy targets, dealing 200% P.DMG with 80% chance to apply 1 stack of [Infect].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Amulet Release",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Amulet Release",
+          "description": "Gains [Unseal] after releasing [Fantasy Sword Arise], then increases ATK by 10% for 1 turn."
+        },
+        {
+          "tier": 2,
+          "name": "Amulet Release",
+          "description": "Applies [Unseal] to highest-ATK Ally when releasing [Fantasy Sword Arise] (effect halved unless ally shares Ying Gou's faction)."
+        },
+        {
+          "tier": 3,
+          "name": "Amulet Release",
+          "description": "[Fantasy Sword Arise]'s [Infect] stacks increased to 6."
+        },
+        {
+          "tier": 4,
+          "name": "Amulet Release",
+          "description": "[Daylight Dragonshadow]'s attack range expanded to all enemies."
+        }
+      ]
+    }
+  ]
+}

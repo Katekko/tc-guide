@@ -1,0 +1,46 @@
+{
+  "id": 14002,
+  "name": "Aelia",
+  "fullName": "Aelia",
+  "epithet": "Astral Mentor",
+  "heroClass": "Assault",
+  "faction": "Sanctuary",
+  "rarity": "R",
+  "stars": 2,
+  "roles": [
+    "AOE Spell",
+    null
+  ],
+  "bio": "Starlight Fairy from the Stellar Realm, Stellar Mentor. She maintains world balance with the Heavenly Scepter and protects/heals with starlight magic.<br/><br/><color=#bde141>Role: Group Corrosion</color><br/><color=#bde141>Intro: A Physical AOE-type hero with decent area damage ability and multiple ways to corrode enemies.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Asura"
+  },
+  "baseStats": {
+    "hp": 1311,
+    "atk": 198,
+    "def": 62,
+    "spd": 1220
+  },
+  "spineId": "14002",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Bursting Fireball",
+      "type": "Feat",
+      "description": "Attacks enemy frontline and midline targets, dealing 80% M.DMG with a 30% chance to apply 1 stack of [Holy Seal].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Flamefall Strike",
+      "type": "Ultimate",
+      "description": "Attacks 3 random enemy targets, dealing 111% M.DMG. DMG against [Holy Seal]-affected targets is increased by 30%.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 15005,
+  "name": "Sariel",
+  "fullName": "Sariel",
+  "epithet": "One-Wing Knight",
+  "heroClass": "Guard",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Enemy ATK ↓",
+    "Strong Front"
+  ],
+  "bio": "Heavenly Guardian who fell to the mortal world and lost his memory. He regained his power as a mortal knight, became an Angel of the Spirit Heroes Faction, and swore to protect the Heavenly Realm and threatened lives.<br/><br/><color=#bde141>Role: Shield Protection</color><br/><color=#bde141>Specialty: A frontline Protection-type hero that can continuously provide high-value shields for itself.</color>",
+  "profile": {
+    "height": "180 cm",
+    "illustrator": "Xie Bi'an"
+  },
+  "baseStats": {
+    "hp": 2325,
+    "atk": 151,
+    "def": 102,
+    "spd": 1272
+  },
+  "spineId": "15005",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Holy Light Guardian",
+      "type": "Feat",
+      "description": "Grants a Shield equal to 20% Max HP to self and the ally with lowest DEF, lasting 2 turns.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Sword of Nemesis",
+      "type": "Ultimate",
+      "description": "Attacks all enemies, dealing 100% M.DMG with 80% probability to inflict [ATK Down I] on the column containing the enemy with highest Crit.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Holy Shield",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Holy Shield",
+          "description": "Casting [Holy Light Guardian] applies [Holy Guardian] to your army."
+        },
+        {
+          "tier": 2,
+          "name": "Holy Shield",
+          "description": "[Sword of Nemesis] deals additional M.DMG equal to 10% of self's Max HP."
+        },
+        {
+          "tier": 3,
+          "name": "Holy Shield",
+          "description": "Recovers 15% Max HP when casting [Sword of Nemesis]."
+        },
+        {
+          "tier": 4,
+          "name": "Holy Shield",
+          "description": "Dispels all Debuffs from self after receiving 9 active attacks."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 25006,
+  "name": "Heidi",
+  "fullName": "Heidi",
+  "epithet": "Avatar Doctor",
+  "heroClass": "Support",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Power Heal",
+    "Single Heal"
+  ],
+  "bio": "Former Scientist who turned into a monster after an experiment accident. He uses poison gas equipment to heal and support allies, protecting humans.<br/><br/><color=#bde141>Role: Powerful Heal</color><br/><color=#bde141>Specialty: A backline Support-type hero with strong recovery ability; an essential support for sustained combat lineups.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Ye Yangchu"
+  },
+  "baseStats": {
+    "hp": 2046,
+    "atk": 232,
+    "def": 83,
+    "spd": 1336
+  },
+  "spineId": "25006",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Chemical Party",
+      "type": "Feat",
+      "description": "Heals all ally Heroes for 80% of Heidi's ATK.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Frenzy Elixir",
+      "type": "Ultimate",
+      "description": "Heals ally with lowest HP percentage for 400% of Heidi's ATK; if target's HP is below 30%, additionally heals 20% Max HP (cannot exceed 400% of caster's ATK).",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Overdose Injection",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Overdose Injection",
+          "description": "When using [Chemical Party], additionally applies [Infection Potion] to 2 highest-ATK allies."
+        },
+        {
+          "tier": 2,
+          "name": "Overdose Injection",
+          "description": "[Infection Potion] increases target's Crit DMG by 10%."
+        },
+        {
+          "tier": 3,
+          "name": "Overdose Injection",
+          "description": "Applies [First Aid Potion] to self at battle start."
+        },
+        {
+          "tier": 4,
+          "name": "Overdose Injection",
+          "description": "Applies [First Aid Potion] to ally with highest crit rate at battle start."
+        }
+      ]
+    }
+  ]
+}

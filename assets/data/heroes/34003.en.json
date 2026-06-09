@@ -1,0 +1,46 @@
+{
+  "id": 34003,
+  "name": "Seros",
+  "fullName": "Seros",
+  "epithet": "Obsidian Golem",
+  "heroClass": "Control",
+  "faction": "Kindred",
+  "rarity": "N",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Ancient Statue turned Gargoyle, Night Dragon. He explores his identity in the Vampire Castle and fights with poison and flying power.<br/><br/><color=#bde141>Role: Debuff Silence</color><br/><color=#bde141>Intro: A Physical Control hero that can reduce enemies' Accuracy and silence frontline enemies.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Tang Yi"
+  },
+  "baseStats": {
+    "hp": 1323,
+    "atk": 165,
+    "def": 56,
+    "spd": 1130
+  },
+  "spineId": "34003",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Fist of Beast",
+      "type": "Feat",
+      "description": "Deals 140% P.DMG to random enemy target and reduces target's Effect Hit Rate by 15% for 2 turns.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Ironfisted Maul",
+      "type": "Ultimate",
+      "description": "Attacks frontline enemy targets for 122% P.DMG with 50% probability to inflict <color=#FFEB04>[Silence]</color>.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

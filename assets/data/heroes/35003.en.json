@@ -1,0 +1,75 @@
+{
+  "id": 35003,
+  "name": "Isabella",
+  "fullName": "Isabella",
+  "epithet": "Thorns of Blood",
+  "heroClass": "Assault",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Burst",
+    "Shield Breaker"
+  ],
+  "bio": "Former Princess of the Kingdom and Captain of the Knights, she fell due to betrayal and her resentment turned into a Wraith. She was revived in the Vampire Castle, became a knight under the Lord, and protects those she trusts with the Phantom Shield.<br/><br/><color=#bde141>Role: AOE Protection</color><br/><color=#bde141>Specialty: A frontline Protection-type hero that gains a high-value shield when its HP is low; its Ultimate also has high lifesteal.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Lil K"
+  },
+  "baseStats": {
+    "hp": 1767,
+    "atk": 267,
+    "def": 83,
+    "spd": 1308
+  },
+  "spineId": "35003",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Wail Echo",
+      "type": "Feat",
+      "description": "Attacks first enemy's column for 220% P.DMG with 100% probability to apply 1 stack of [Bleed] to primary target.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Thorn Ritual",
+      "type": "Ultimate",
+      "description": "Attacks all enemies, dealing total 600% P.DMG (single target max 3x ATK), and deals additional P.DMG equal to 20% of frontline enemies' Max HP (max 400% ATK).",
+      "releaseTurn": 2,
+      "cooldown": 6
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Entwined Grudges",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Entwined Grudges",
+          "description": "Releases [Thorn Ritual] to gain [Shield] equal to 150% ATK."
+        },
+        {
+          "tier": 2,
+          "name": "Entwined Grudges",
+          "description": "When attacking enemies with [Shield], deals additional M.DMG equal to 20% of target's Max HP (max 4x Caster's ATK)."
+        },
+        {
+          "tier": 3,
+          "name": "Entwined Grudges",
+          "description": "[Wail Echo] deals additional M.DMG equal to 10% of target's Max HP (max 2x ATK)."
+        },
+        {
+          "tier": 4,
+          "name": "Entwined Grudges",
+          "description": "[Thorn Ritual] deals additional M.DMG equal to 20% of target's Max HP (max: 400% of caster's ATK) when attacking enemies with [Shield]."
+        }
+      ]
+    }
+  ]
+}

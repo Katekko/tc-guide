@@ -1,0 +1,46 @@
+{
+  "id": 25009,
+  "name": "Mister",
+  "fullName": "Mister",
+  "epithet": "Meow Sage",
+  "heroClass": "Assault",
+  "faction": "Arcane Web",
+  "rarity": "R",
+  "stars": 2,
+  "roles": [
+    "Spell Erosion",
+    null
+  ],
+  "bio": "Catman Wizard who masters the mysteries of stars. Guarding the secrets of stars, he became a Star Walker of the Net of Secrets and unleashes brilliant magical attacks with the Starlight Scepter.<br/><br/><color=#bde141>Role: Magical Corrosion</color><br/><color=#bde141>Specialty: A front-midline Breakthrough-type hero that deals massive damage by stacking Corrosion effects.</color>",
+  "profile": {
+    "height": "110 cm",
+    "illustrator": "Ye Yangchu"
+  },
+  "baseStats": {
+    "hp": 1311,
+    "atk": 198,
+    "def": 62,
+    "spd": 1220
+  },
+  "spineId": "25009",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Sorcery Missile",
+      "type": "Feat",
+      "description": "Attacks 3 random enemy targets for 120% M.DMG.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Megashark Assault",
+      "type": "Ultimate",
+      "description": "Deals 120% M.DMG to all enemies.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 24002,
+  "name": "Pipit",
+  "fullName": "Pipit",
+  "epithet": "Meadow Gardener",
+  "heroClass": "Assassin",
+  "faction": "Arcane Web",
+  "rarity": "N",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Goblin Gardener, Net of Secrets Blitz Attacker. He launches fast attacks with a Hidden Hoe to protect villages from invasion.<br/><br/><color=#bde141>Role: Physical Single Elimination</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero with a certain lifesteal ability and can deal high damage to enemies with high HP.</color>",
+  "profile": {
+    "height": "120 cm",
+    "illustrator": "Wind and Clouds"
+  },
+  "baseStats": {
+    "hp": 1134,
+    "atk": 173,
+    "def": 63,
+    "spd": 1130
+  },
+  "spineId": "24002",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Tilling and Fertilizing",
+      "type": "Feat",
+      "description": "Attacks single backline enemy target, dealing 159% P.DMG while ignoring 20% of target's DEF.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Weeding Time",
+      "type": "Ultimate",
+      "description": "Deals 233% P.DMG to single backline enemy target. DMG increased by 30% against targets with HP above 50%.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

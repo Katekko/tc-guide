@@ -1,0 +1,46 @@
+{
+  "id": 35007,
+  "name": "Vivi",
+  "fullName": "Vivi",
+  "epithet": "Dancing Embers",
+  "heroClass": "Assassin",
+  "faction": "Kindred",
+  "rarity": "R",
+  "stars": 2,
+  "roles": [
+    "Phys. Burst",
+    null
+  ],
+  "bio": "Once dreamed of becoming a Demon Hunter, but was turned into a vampire. Under Celestia's guidance, he accepted his new identity and fights with Flaming Dual Blades and Vampire Magic.<br/><br/><color=#bde141>Role: Physical AOE</color><br/><color=#bde141>Specialty: A backline Blitz-type hero that prioritizes dealing massive single-target damage to Control-type heroes; triggers Invincibility when taking a lethal hit.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Nan Ze"
+  },
+  "baseStats": {
+    "hp": 1242,
+    "atk": 189,
+    "def": 69,
+    "spd": 1300
+  },
+  "spineId": "35007",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Crimson Frenzy Dance",
+      "type": "Feat",
+      "description": "Attacks enemy column with most targets for 150% P.DMG.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Crimson Lotus Blink",
+      "type": "Ultimate",
+      "description": "Attacks enemy column with most targets for 197% P.DMG.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

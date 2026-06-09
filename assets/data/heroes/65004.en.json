@@ -1,0 +1,109 @@
+{
+  "id": 65004,
+  "name": "Enchantress",
+  "fullName": "Demon - Enchantress",
+  "epithet": "Nine-Tails Kitsune",
+  "heroClass": "Control",
+  "faction": "Otherworld",
+  "rarity": "UR+",
+  "stars": 5,
+  "roles": [
+    "AOE Charm",
+    "Supreme Ctrl."
+  ],
+  "bio": "Nine-Tailed Fox Support of the Demon Faction, once a noble deity from the mysterious East. She became a core figure with her beauty and power, charming minds and supporting allies.<br/><br/><color=#bde141>Role: Control Survival</color><br/><color=#bde141>Specialty: A mid-backline Control-type hero that can steal enemy attributes and apply Hallucinogenic Toxin to reduce healing; can also revive allies when they die.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Yanyu"
+  },
+  "baseStats": {
+    "hp": 2142,
+    "atk": 267,
+    "def": 91,
+    "spd": 1385
+  },
+  "spineId": "65004",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Soul Snare",
+      "type": "Feat",
+      "description": "Attacks 2 highest-ATK enemies for 220% M.DMG, healing self and lowest-HP ally for 40% of DMG dealt.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Deadly Amorous Kiss",
+      "type": "Ultimate",
+      "description": "Attacks all enemies for 120% M.DMG, dealing 150% extra M.DMG to highest-ATK enemy with 80% probability to apply [Charm].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Soul Domination",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Soul Domination",
+          "description": "[Soul Hook] Steals 20 Speed from target (max 20 Speed per enemy, self Speed cap +80) for 2 turns."
+        },
+        {
+          "tier": 2,
+          "name": "Soul Domination",
+          "description": "At turn end, deals 150% ATK as M.DMG to 1 random enemy and heals self + lowest-HP ally for 30% of DMG dealt."
+        },
+        {
+          "tier": 3,
+          "name": "Soul Domination",
+          "description": "Each [Charm]-affected Enemy provides Enchantress with 10% Final DMG (max 30%); each [Charm]-unaffected enemy provides 5% Effect Hit Rate (max 20%)."
+        },
+        {
+          "tier": 4,
+          "name": "Soul Domination",
+          "description": "[Charm]-affected enemies deal 100% increased Basic Attack DMG and Crit Rate when attacking allies."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "[Deadly Amorous Kiss] now applies 2 stack of [Charm]."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "When [Charm]-affected enemies die, heals all allies for 150% ATK and reduces [Deadly Amorous Kiss] cooldown by 1 turn (max 1 trigger per turn)."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "[Deadly Amorous Kiss] additionally deals 150% ATK as M.DMG to another highest-ATK enemy with 80% probability to apply 1 stack of [Charm] ."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "[Soul Domination]'s end-of-turn attack now additionally hits up to 2 [Charm]-affected enemies."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "All Enchantress' attacks have 20% independent probability per hit to apply 1 stack of [Charm]."
+        }
+      ]
+    }
+  ]
+}

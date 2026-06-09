@@ -1,0 +1,75 @@
+{
+  "id": 35014,
+  "name": "Sherry",
+  "fullName": "Sherry",
+  "epithet": "Phantom Maid",
+  "heroClass": "Support",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Heal",
+    "Ally Boost"
+  ],
+  "bio": "Sage of Azure Dreams who lives in seclusion in the Royal Court. An accident in the capital Dulumu once made him the Royal Apothecary.<br/><br/><color=#bde141>Role: Heal Debuff</color><br/><color=#bde141>Specialty: A mid-backline Support-type hero that can apply [Curse] to amplify damage; its Ultimate can heal and strengthen allies; its survival increases allies' Normal Attack damage.</color>",
+  "profile": {
+    "height": "165 cm",
+    "illustrator": "Qing Shang"
+  },
+  "baseStats": {
+    "hp": 2148,
+    "atk": 232,
+    "def": 83,
+    "spd": 1344
+  },
+  "spineId": "35014",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Succubus Arrow",
+      "type": "Feat",
+      "description": "Attacks all enemies for 80% M.DMG with 70% probability to apply [Bleed].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Heartbeat Offering",
+      "type": "Ultimate",
+      "description": "Restores HP equal to 200% ATK and applies [Crit I] to 3 allies with lowest HP Ratio.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Peach-Tinted Inspiration",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Peach-Tinted Inspiration",
+          "description": "[Succubus Arrow] has 70% probability to apply [Hex]."
+        },
+        {
+          "tier": 2,
+          "name": "Peach-Tinted Inspiration",
+          "description": "While Sherry Survives, increases all allies' Basic Attack DMG by 20%."
+        },
+        {
+          "tier": 3,
+          "name": "Peach-Tinted Inspiration",
+          "description": "[Hex] will detonate immediately when DMG reaches cap during duration, then disappears."
+        },
+        {
+          "tier": 4,
+          "name": "Peach-Tinted Inspiration",
+          "description": "When [Hex] is detonated, deals additional 10% of target's Max HP as DMG and applies 1 stack of [Bleed] (cannot exceed 200% of Caster's ATK)."
+        }
+      ]
+    }
+  ]
+}

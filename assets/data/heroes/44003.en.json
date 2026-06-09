@@ -1,0 +1,46 @@
+{
+  "id": 44003,
+  "name": "Eric",
+  "fullName": "Eric",
+  "epithet": "Blade Walker",
+  "heroClass": "Guard",
+  "faction": "Demonhunter",
+  "rarity": "N",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Half-Vampire Shadow Hunter, who upholds justice with dual-wield weapons and Blood Magic. Eager for revenge, he protects humans from demon threats.<br/><br/><color=#bde141>Role: Shield Protection</color><br/><color=#bde141>Intro: A Physical Defense hero with decent Block Chance and can cast shields on allies.</color>",
+  "profile": {
+    "height": "185 cm",
+    "illustrator": "Lil K"
+  },
+  "baseStats": {
+    "hp": 1575,
+    "atk": 102,
+    "def": 69,
+    "spd": 1010
+  },
+  "spineId": "44003",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Cross Slash",
+      "type": "Feat",
+      "description": "Attacks front/midline enemies for 111% P.DMG, converting 20% of total DMG into self HP recovery.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Bloodsiphon Slash",
+      "type": "Ultimate",
+      "description": "Attacks single enemy target for 195% P.DMG and applies [Bloodsiphon] Mark to self: Final DMG RED increased by 10%, recovers HP equal to 80% ATK each time being attacked (max 3 triggers), lasts 2 turns.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

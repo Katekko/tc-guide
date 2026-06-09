@@ -1,0 +1,65 @@
+{
+  "id": 45007,
+  "name": "Mica",
+  "fullName": "Mica",
+  "epithet": "Soulcaller Miko",
+  "heroClass": "Control",
+  "faction": "Demonhunter",
+  "rarity": "SSR",
+  "stars": 4,
+  "roles": [
+    "Spell Buff",
+    "Ally Boost"
+  ],
+  "bio": "Shrine Maiden with a mission, proficient in mysterious witchcraft. She loves her mission and brings hope to people with divine power. Wearing a gorgeous shrine maiden outfit, she strengthens allies with the Divine Wood Scepter.<br/><br/><color=#bde141>Role: Magical Buff</color><br/><color=#bde141>Specialty: A mid-backline Support-type hero that can strengthen allies' Defense and control enemy heroes.</color>",
+  "profile": {
+    "height": "165 cm",
+    "illustrator": "Ye Yangchu"
+  },
+  "baseStats": {
+    "hp": 1638,
+    "atk": 204,
+    "def": 70,
+    "spd": 1352
+  },
+  "spineId": "45007",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Witchdoctor Guardian",
+      "type": "Feat",
+      "description": "Applies [Shield] to self and 1 frontline ally, absorbing 175% ATK DMG.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Exorcism Arrow",
+      "type": "Ultimate",
+      "description": "Attacks all enemies for 140% M.DMG with 30% probability to apply 1 stack of [Sigil].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Surging Mana",
+      "type": "Awaken",
+      "level": 2,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Surging Mana",
+          "description": "[Exorcism Arrow] heals ally with lowest HP for 30% of DMG dealt."
+        },
+        {
+          "tier": 2,
+          "name": "Surging Mana",
+          "description": "[Exorcism Arrow] applies [ATK I] to self and highest-ATK ally."
+        }
+      ]
+    }
+  ]
+}

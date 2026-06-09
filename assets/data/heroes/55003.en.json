@@ -1,0 +1,75 @@
+{
+  "id": 55003,
+  "name": "Raphael",
+  "fullName": "Raphael",
+  "epithet": "Healing Angel",
+  "heroClass": "Support",
+  "faction": "Sanctuary",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Power Heal",
+    "Rapid Dispel"
+  ],
+  "bio": "Former Music Messenger of the Heavenly Realm, Raphael maintained harmony between the Heavenly Realm and the mortal world with her zither and singing. After the invasion of dark forces, she endured hardships in the mortal world and finally joined the Spirit Heroes Faction.<br/><br/><color=#bde141>Role: Powerful Recovery</color><br/><color=#bde141>Specialty: A backline Support-type hero that can provide group healing and buffs for allies; can also dispel enemy buffs.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Ye Yangchu"
+  },
+  "baseStats": {
+    "hp": 2046,
+    "atk": 232,
+    "def": 83,
+    "spd": 1352
+  },
+  "spineId": "55003",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Holy Light of Healing",
+      "type": "Feat",
+      "description": "Heals all allies for 60% ATK, then extra heals ally with lowest HP once.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Seraphic Melody",
+      "type": "Ultimate",
+      "description": "Heals 3 allies with lowest HP percentage for 200% of Raphael's ATK; if target's HP is below 50%, extra heals 10% Max HP (max 2x ATK).",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Heal Song",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Heal Song",
+          "description": "Raphael dispels 2 Debuffs from highest-ATK ally after each action."
+        },
+        {
+          "tier": 2,
+          "name": "Heal Song",
+          "description": "Gains 1 stack of [Mercy] whenever ally's HP drops below 50% (max 1 trigger per Character per turn)."
+        },
+        {
+          "tier": 3,
+          "name": "Heal Song",
+          "description": "Heals the ally with lowest HP for 50% of ATK when gaining [Mercy] (max 2 triggers per turn)."
+        },
+        {
+          "tier": 4,
+          "name": "Heal Song",
+          "description": "When an ally dies, Raphael consumes 4 stacks of [Mercy] to revive them and heals for 150% of Raphael's ATK (can trigger once every 4 turns)."
+        }
+      ]
+    }
+  ]
+}

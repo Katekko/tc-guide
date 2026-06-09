@@ -201,9 +201,19 @@ god_ref = (hero.s(48) or '').strip()
 rarity = _rarity_map.get(str(hero_id),
                          'UR' if (god_ref and god_ref != '0') else 'SSR+')
 
+# Display name: prefer the fullName (f2) with its grade prefix stripped
+# ("God - Jeanne" -> "Jeanne", "Demon - Hinata Inori" -> "Hinata Inori"). The
+# short-name field (f42) is unreliable for newer 65xxx heroes (it reports a
+# sibling's name, colliding e.g. two "Nyx"); f2 is the canonical source. Falls
+# back to f42 when f2 is empty.
+import re as _re
+_full = tr(hero.s(2)) or ''
+_stripped = _re.sub(r'^[^-]+ - ', '', _full).strip() if ' - ' in _full else _full.strip()
+_name = _stripped or tr(hero.s(42))
+
 result = {
     'id': hero_id,
-    'name': tr(hero.s(42)),            # short name shown in UI ("Jeanne")
+    'name': _name,                     # short name shown in UI ("Jeanne")
     'fullName': tr(hero.s(2)),         # "God - Jeanne"
     'epithet': tr(hero.s(1)),          # "Glory Saintess"
     'heroClass': CAREER.get(hero.i(4), 'Universal'),

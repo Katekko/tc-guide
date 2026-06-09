@@ -1,0 +1,75 @@
+{
+  "id": 45010,
+  "name": "Theresa",
+  "fullName": "Theresa",
+  "epithet": "Candle of Hope",
+  "heroClass": "Support",
+  "faction": "Demonhunter",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Heal",
+    "Purify & Dispel"
+  ],
+  "bio": "Oracle Messenger of the Demon Hunter Faction, Teresa is a nun of the Main Cathedral with healing and support abilities. She is committed to sheltering and protecting teammates to ensure they carry out missions safely.<br/><br/><color=#bde141>Role: Purification Group Heal</color><br/><color=#bde141>Specialty: A backline Support-type hero that can provide recovery effects and negative status purification for allies.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Asura"
+  },
+  "baseStats": {
+    "hp": 2148,
+    "atk": 232,
+    "def": 83,
+    "spd": 1288
+  },
+  "spineId": "45010",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Soothe Pain",
+      "type": "Feat",
+      "description": "Heals 1 ally hero with lowest HP Ratio for 200% of Theresa's ATK and dispels 2 Debuffs.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Healing Prayer",
+      "type": "Ultimate",
+      "description": "Heals 3 allies with lowest HP Ratio for 200% of Theresa's ATK and applies [Demon-Sealing Power].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Demon-Sealing Flame",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Demon-Sealing Flame",
+          "description": "[Healing Prayer] also applies [Crit I] to target."
+        },
+        {
+          "tier": 2,
+          "name": "Demon-Sealing Flame",
+          "description": "[Soothe Pain] has no cooldown."
+        },
+        {
+          "tier": 3,
+          "name": "Demon-Sealing Flame",
+          "description": "[Demon-Sealing Power] additionally increases Final DMG RED by 10%."
+        },
+        {
+          "tier": 4,
+          "name": "Demon-Sealing Flame",
+          "description": "[Healing Prayer] range expanded to all allies."
+        }
+      ]
+    }
+  ]
+}

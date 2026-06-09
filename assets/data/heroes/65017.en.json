@@ -1,0 +1,109 @@
+{
+  "id": 65017,
+  "name": "Mars",
+  "fullName": "Supreme - Mars",
+  "epithet": "War God",
+  "heroClass": "Assault",
+  "faction": "Otherworld",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "Multi-hit DMG",
+    "Debuff Control"
+  ],
+  "bio": "200 cm",
+  "profile": {
+    "height": "178cm",
+    "illustrator": "Zhaoyang"
+  },
+  "baseStats": {
+    "hp": 2052,
+    "atk": 310,
+    "def": 97,
+    "spd": 1280
+  },
+  "spineId": "65017",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Battle God Barrage",
+      "type": "Feat",
+      "description": "Attack the enemy column with the most units 3 times, dealing 70% ATK Physical DMG per hit; gain 20% Lifesteal Rate when casting this skill",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Divine Aura Purge",
+      "type": "Ultimate",
+      "description": "Attack the enemy with the highest ATK 4 times, dealing Physical DMG equal to 70% ATK per hit; then attack all enemies 2 times, dealing Physical DMG equal to 70% ATK per hit.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Conquest Anthem",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Conquest Anthem",
+          "description": "Mars' attacks deal extra Physical DMG equal to 6% of target's max HP (each damage instance is calculated independently, capped at 100% of caster's ATK); Gain 1 [Blazing Flame] Stack per attack or when hit"
+        },
+        {
+          "tier": 2,
+          "name": "Conquest Anthem",
+          "description": "Each [Blazing Flame] Stack grants Speed +4"
+        },
+        {
+          "tier": 3,
+          "name": "Conquest Anthem",
+          "description": "Feat Skill: 40% chance to apply [Cripple] to target"
+        },
+        {
+          "tier": 4,
+          "name": "Conquest Anthem",
+          "description": "Feat Skill has no cooldown"
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "Ultimate Skill has 100% chance to apply <color=#FFEB04>[Fear]</color> to the enemy with highest ATK; <color=#FFEB04>[Fear]</color>: Cannot act when HP is below 60%; Undispellable; lasts 2 turns"
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "When [Blazing Flame] Stacks reach 10: Gain 30% Critical Rate & Defense Penetration"
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "Ultimate deal extra True DMG to main target, equal to [Blazing Flame] Stacks * 1% of target's current HP (per stack capped at 20% of caster's ATK); then pply [Cripple]"
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "Whenever taking damage equal to 30% of max HP, cast Special Skill once while ignoring control effects (max 4 triggers per turn)"
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "Reset cooldown when defeating an enemy with Ultimate or Special Skill; 50% chance to apply [Fear] to other enemy targets"
+        }
+      ]
+    }
+  ]
+}

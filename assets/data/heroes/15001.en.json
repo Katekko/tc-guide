@@ -1,0 +1,109 @@
+{
+  "id": 15001,
+  "name": "Daisy",
+  "fullName": "Demon - Daisy",
+  "epithet": "Envoy of Death",
+  "heroClass": "Assassin",
+  "faction": "Otherworld",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Phys. Burst",
+    "Execution"
+  ],
+  "bio": "120 cm",
+  "profile": {
+    "height": "176 cm",
+    "illustrator": "Wind and Clouds"
+  },
+  "baseStats": {
+    "hp": 1836,
+    "atk": 280,
+    "def": 102,
+    "spd": 1384
+  },
+  "spineId": "15001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Scythe of Oblivion",
+      "type": "Feat",
+      "description": "Attacks 3 enemies with lowest HP twice, each dealing 80% ATK as P.DMG with 60% probability to inflict [Rend].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Reaping Moment",
+      "type": "Ultimate",
+      "description": "Attacks the enemy with lowest HP 3 times, each dealing 140% ATK as P.DMG with 40% probability to inflict [Rend].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Death Announcement",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Death Announcement",
+          "description": "When attacking targets with [Rend], deals additional P.DMG equal to 8% of target's lost HP per hit (max 100% ATK per hit)."
+        },
+        {
+          "tier": 2,
+          "name": "Death Announcement",
+          "description": "When attacking enemies with [Rend], gains 30% additional Crit Rate."
+        },
+        {
+          "tier": 3,
+          "name": "Death Announcement",
+          "description": "Gains 1 stack of [Epitaph] at the start of per turn; gains 1 additional stack of [Epitaph] when any enemy dies."
+        },
+        {
+          "tier": 4,
+          "name": "Death Announcement",
+          "description": "When [Epitaph] reaches 9 stacks, immediately casts [Reaping Moment] once (triggers max once per battle)."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "Attacks have 100% probability to inflict 1 stack of [Judgment] on target; when enemy [Judgment] reaches 9 stacks, immediately casts Ultimate on them then removes all [Judgment]. [Judgment]: Each stack reduces DEF and Crit RES by 2% (max 9 stacks), undispellable, lasts 2 turns, refreshing duration on reapplication."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "When Ultimate kills an enemy, resets all skill Cooldowns and recovers 200% ATK as HP."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "After casting Ultimate Skill, if target's HP is below 40%, deal Physical DMG equal to 210% ATK +14% of target's missing HP to all enemies (capped at 3× caster's ATK)"
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "When [Reaping Moment] fails to kill, inflicts 3 stacks of [Judgment] on target."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "When triggering [Genesis I] effect, ignores Control Status; when [Reaping Moment] attacks an enemy with 9 stacks of [Judgment], triggers Reap if target's HP is below 100%, ignoring DEF, Splitting, Shields, Spirit Armor, and Invincible (max 2000% ATK)."
+        }
+      ]
+    }
+  ]
+}

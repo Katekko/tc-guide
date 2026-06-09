@@ -1,0 +1,75 @@
+{
+  "id": 25004,
+  "name": "Tinplate",
+  "fullName": "Tinplate",
+  "epithet": "Heart of Steel",
+  "heroClass": "Guard",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Taunt",
+    "DMG Share"
+  ],
+  "bio": "Mechanical Gargoyle Guardian of the Net of Secrets, created by a genius engineer to protect humans and the Net of Secrets from external threats.<br/><br/><color=#bde141>Role: Taunt Protection</color><br/><color=#bde141>Specialty: A frontline Protection-type hero that can protect allies and taunt enemy units; triggers a Counterattack when attacked.</color>",
+  "profile": {
+    "height": "195 cm",
+    "illustrator": "Lil K"
+  },
+  "baseStats": {
+    "hp": 2325,
+    "atk": 151,
+    "def": 102,
+    "spd": 1240
+  },
+  "spineId": "25004",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Shield Support",
+      "type": "Feat",
+      "description": "Enters [Shield Support] Status: DEF increased by 30%, Crit DMG RED increased by 20%; protects highest ATK and lowest DEF ally heroes by sharing 40% of their received DMG for 2 turns (undispellable).",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Roadbreaking Shield",
+      "type": "Ultimate",
+      "description": "Attacks the column containing enemy with highest crit rate, dealing 280% P.DMG with 80% probability to inflict [Taunt].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Shield Bash DEF",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Shield Bash DEF",
+          "description": "Triggers [Reflection] when attacked, dealing 200% of Tinplate's DEF as P.DMG to attacker."
+        },
+        {
+          "tier": 2,
+          "name": "Shield Bash DEF",
+          "description": "50% probability to apply 1 stack of [Infect] to attacker when hit (max 3 triggers per turn)."
+        },
+        {
+          "tier": 3,
+          "name": "Shield Bash DEF",
+          "description": "Recovers 8% of missing HP when attacked by [Taunt] Targets."
+        },
+        {
+          "tier": 4,
+          "name": "Shield Bash DEF",
+          "description": "[Reflection] deals additional 100% of own DEF as True DMG while in [Giant Shield Guardian] Status."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 33002,
+  "name": "Julius",
+  "fullName": "Julius",
+  "epithet": "Skeleton Wizard",
+  "heroClass": "Assassin",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Undead, Skeleton Archer. Once an archer, he became an undead after death and joined the Vampire Castle to seek restoration of his human form.<br/><br/><color=#bde141>Role: Physical Penetration</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero that deals Physical Damage to multiple enemies and ignores a certain amount of the target's Defense.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Xie Bi'an"
+  },
+  "baseStats": {
+    "hp": 1080,
+    "atk": 165,
+    "def": 60,
+    "spd": 960
+  },
+  "spineId": "33002",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Spirit Flame",
+      "type": "Feat",
+      "description": "Attacks 2 random enemy targets, dealing 122% P.DMG while ignoring 15% of targets' DEF.",
+      "releaseTurn": null,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Power of the Fallen",
+      "type": "Ultimate",
+      "description": "Increases ATK by 10% and HP by 5%.",
+      "releaseTurn": null,
+      "cooldown": null
+    }
+  ]
+}

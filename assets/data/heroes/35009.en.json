@@ -1,0 +1,46 @@
+{
+  "id": 35009,
+  "name": "Yin",
+  "fullName": "Yin",
+  "epithet": "Vengeful Girl",
+  "heroClass": "Control",
+  "faction": "Kindred",
+  "rarity": "R",
+  "stars": 2,
+  "roles": [
+    "Spell Burst",
+    null
+  ],
+  "bio": "Noble-born, he witnessed his family being destroyed by demons. He made a contract with the Moonlit Witch Celestia to gain Spirit Control Magic, abandoning his human identity to avenge his family.<br/><br/><color=#bde141>Role: Magical Single Target Control</color><br/><color=#bde141>Specialty: A backline Control-type hero good at AOE damage; has a chance to apply Tear and Parasite effects. When a parasitized enemy unit dies, it deals AOE damage.</color>",
+  "profile": {
+    "height": "145 cm",
+    "illustrator": "An Jia"
+  },
+  "baseStats": {
+    "hp": 1449,
+    "atk": 181,
+    "def": 62,
+    "spd": 1300
+  },
+  "spineId": "35009",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Puppet Breath",
+      "type": "Feat",
+      "description": "Attacks 2 enemies with lowest HP Ratio for 112% M.DMG with 60% probability to apply [Bleed].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Spirit-Wrought Frenzy",
+      "type": "Ultimate",
+      "description": "Attacks all enemies for 90% M.DMG.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

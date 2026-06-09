@@ -1,0 +1,109 @@
+{
+  "id": 65002,
+  "name": "Lucifer",
+  "fullName": "Demon - Lucifer",
+  "epithet": "Fallen Darkwing",
+  "heroClass": "Assault",
+  "faction": "Otherworld",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "AOE Execute",
+    "AOE Curse"
+  ],
+  "bio": "Former Heavenly Light Messenger who became a Fallen Angel due to betrayal. She joined the Demon Faction and upholds her own ideals in her own way, even if it means opposing her former compatriots.<br/><br/><color=#bde141>Role: Magical Group Poison</color><br/><color=#bde141>Specialty: A mid-backline Breakthrough-type hero that can apply a large number of Curses and has a strong Heal Reduction effect; its Ultimate also deals massive damage to low-HP enemies.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Zhaoyang"
+  },
+  "baseStats": {
+    "hp": 1938,
+    "atk": 293,
+    "def": 91,
+    "spd": 1288
+  },
+  "spineId": "65002",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Umbral Barrage",
+      "type": "Feat",
+      "description": "Attacks 4 random enemies, dealing 150% M.DMG and having a 70% chance to apply 1 stack of [Eternal Curse].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Darkborn Finale",
+      "type": "Ultimate",
+      "description": "Attacks 3 enemy heroes, dealing 260% M.DMG and having a 90% chance to apply 2 stacks of [Eternal Curse].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Annihilation",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Annihilation",
+          "description": "Lucifer gains 1 stack of [Heavenfall] each time she successfully applies [Eternal Curse] to an enemy (max 2 triggers per enemy per turn)."
+        },
+        {
+          "tier": 2,
+          "name": "Annihilation",
+          "description": "DMG is increased by 20% when attacking enemies affected by [Eternal Curse]."
+        },
+        {
+          "tier": 3,
+          "name": "Annihilation",
+          "description": "When an enemy affected by [Eternal Curse] dies, Lucifer gains 5 stacks of [Heavenfall] and heals herself for 100% of ATK."
+        },
+        {
+          "tier": 4,
+          "name": "Annihilation",
+          "description": "[Darkborn Finale] deals additional True DMG equal to 1.5% of the target's lost HP per [Heavenfall] stack (total DMG capped at 600% of Lucifer's ATK)."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "[Eternal Curse] deals DMG increased to 44% of Attack per turn; its stacks become unlimited. Additionally, every 3 stacks of [Eternal Curse] deal extra True DMG equal to 2% of the target's Max HP at the end of the turn (capped at 50% of Lucifer's ATK)."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "At the start of each turn, Lucifer gains a shield equal to 50% of her ATK plus 10% of her ATK per [Heavenfall] stack (capped at 200% of her ATK)."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "When an enemy with [Eternal Curse] dies, their [Eternal Curse] stacks transfer to all enemies on the opposing team."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "[Darkborn Finale] deals additional M.DMG equal to 10% of its base DMG per [Eternal Curse] stack on the target, and applies 2 extra stacks of [Eternal Curse] with a 100% chance."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "When [Heavenfall] reaches 20 stacks, Lucifer instantly casts [Darkborn Finale]; all Skills cooldowns are reduced by 1 turn."
+        }
+      ]
+    }
+  ]
+}

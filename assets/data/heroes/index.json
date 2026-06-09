@@ -1,28 +1,28 @@
 [
   {
-    "id": 55007,
-    "slug": "jeanne",
-    "name": "Jeanne",
-    "heroClass": "Guard",
-    "faction": "Otherworld",
-    "rarity": "UR",
-    "portrait": "assets/img/heroes/jeanne/profile.png",
+    "id": 24003,
+    "slug": "abyss",
+    "name": "Abyss",
+    "heroClass": "Assault",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/abyss/profile.png",
     "roles": [
-      "AOE DMG RED",
-      "AOE Heal"
+      "0",
+      "0"
     ]
   },
   {
-    "id": 15013,
-    "slug": "renais",
-    "name": "Renais",
-    "heroClass": "Assassin",
+    "id": 15006,
+    "slug": "ada",
+    "name": "Ada",
+    "heroClass": "Assault",
     "faction": "Sanctuary",
     "rarity": "SSR+",
-    "portrait": "assets/img/heroes/renais/profile.png",
+    "portrait": "assets/img/heroes/ada/profile.png",
     "roles": [
-      "Guard Counter",
-      "Battle Boost"
+      "AOE Phys.",
+      "AOE Debuff"
     ]
   },
   {
@@ -39,6 +39,496 @@
     ]
   },
   {
+    "id": 14002,
+    "slug": "aelia",
+    "name": "Aelia",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "rarity": "R",
+    "portrait": "assets/img/heroes/aelia/profile.png",
+    "roles": [
+      "AOE Spell"
+    ]
+  },
+  {
+    "id": 15002,
+    "slug": "albert",
+    "name": "Albert",
+    "heroClass": "Support",
+    "faction": "Sanctuary",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/albert/profile.png",
+    "roles": [
+      "AOE Shield",
+      "Ally Blessing"
+    ]
+  },
+  {
+    "id": 35015,
+    "slug": "alucard",
+    "name": "Alucard",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/alucard/profile.png",
+    "roles": [
+      "Burst Execute",
+      "Fiend Trans"
+    ]
+  },
+  {
+    "id": 65018,
+    "slug": "ananke",
+    "name": "Ananke",
+    "heroClass": "Assassin",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/ananke/profile.png",
+    "roles": [
+      "DMG Transfer",
+      "Multi Burst"
+    ]
+  },
+  {
+    "id": 55008,
+    "slug": "arthur",
+    "name": "Arthur",
+    "heroClass": "Control",
+    "faction": "Sanctuary",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/arthur/profile.png",
+    "roles": [
+      "AOE Bind",
+      "Power Pursuit"
+    ]
+  },
+  {
+    "id": 15010,
+    "slug": "aurora",
+    "name": "Aurora",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/aurora/profile.png",
+    "roles": [
+      "AOE Spell",
+      "AOE Debuff"
+    ]
+  },
+  {
+    "id": 15003,
+    "slug": "azmodan",
+    "name": "Azmodan",
+    "heroClass": "Guard",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/azmodan/profile.png",
+    "roles": [
+      "Tank Revive",
+      "Tanky&Deadly"
+    ]
+  },
+  {
+    "id": 35016,
+    "slug": "bathory",
+    "name": "Bathory",
+    "heroClass": "Control",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/bathory/profile.png",
+    "roles": [
+      "Magic DPS",
+      "AOE Control"
+    ]
+  },
+  {
+    "id": 24001,
+    "slug": "blackquill",
+    "name": "Blackquill",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "rarity": "N",
+    "portrait": "assets/img/heroes/blackquill/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 25008,
+    "slug": "blazer",
+    "name": "Blazer",
+    "heroClass": "Assault",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/blazer/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 35001,
+    "slug": "camilla",
+    "name": "Camilla",
+    "heroClass": "Support",
+    "faction": "Kindred",
+    "rarity": "SSR",
+    "portrait": "assets/img/heroes/camilla/profile.png",
+    "roles": [
+      "AOE Heal",
+      "AOE Buff"
+    ]
+  },
+  {
+    "id": 33001,
+    "slug": "chloe",
+    "name": "Chloe",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/chloe/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 15001,
+    "slug": "daisy",
+    "name": "Daisy",
+    "heroClass": "Assassin",
+    "faction": "Otherworld",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/daisy/profile.png",
+    "roles": [
+      "Phys. Burst",
+      "Execution"
+    ]
+  },
+  {
+    "id": 65001,
+    "slug": "dark-tide",
+    "name": "Dark Tide",
+    "heroClass": "Guard",
+    "faction": "Demonhunter",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/dark-tide/profile.png",
+    "roles": [
+      "Phys. Burst",
+      "Tanky&Deadly"
+    ]
+  },
+  {
+    "id": 65007,
+    "slug": "dracula",
+    "name": "Dracula",
+    "heroClass": "Guard",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/dracula/profile.png",
+    "roles": [
+      "Phys. DPS",
+      "Energy Boost"
+    ]
+  },
+  {
+    "id": 65010,
+    "slug": "elbella",
+    "name": "Elbella",
+    "heroClass": "Support",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/elbella/profile.png",
+    "roles": [
+      "Power Support",
+      "Debuff Immune"
+    ]
+  },
+  {
+    "id": 65006,
+    "slug": "elegy",
+    "name": "Elegy",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/elegy/profile.png",
+    "roles": [
+      "Phys. DPS",
+      "Single Killer"
+    ]
+  },
+  {
+    "id": 65004,
+    "slug": "enchantress",
+    "name": "Enchantress",
+    "heroClass": "Control",
+    "faction": "Otherworld",
+    "rarity": "UR+",
+    "portrait": "assets/img/heroes/enchantress/profile.png",
+    "roles": [
+      "AOE Charm",
+      "Supreme Ctrl."
+    ]
+  },
+  {
+    "id": 44003,
+    "slug": "eric",
+    "name": "Eric",
+    "heroClass": "Guard",
+    "faction": "Demonhunter",
+    "rarity": "N",
+    "portrait": "assets/img/heroes/eric/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 25001,
+    "slug": "frankenstein",
+    "name": "Frankenstein",
+    "heroClass": "Guard",
+    "faction": "Arcane Web",
+    "rarity": "R",
+    "portrait": "assets/img/heroes/frankenstein/profile.png",
+    "roles": [
+      "Ally Blessing"
+    ]
+  },
+  {
+    "id": 65016,
+    "slug": "gaia",
+    "name": "Gaia",
+    "heroClass": "Guard",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/gaia/profile.png",
+    "roles": [
+      "Lethal Immune",
+      "Spirit Armor"
+    ]
+  },
+  {
+    "id": 14001,
+    "slug": "galos",
+    "name": "Galos",
+    "heroClass": "Guard",
+    "faction": "Sanctuary",
+    "rarity": "R",
+    "portrait": "assets/img/heroes/galos/profile.png",
+    "roles": [
+      "Phys. Control"
+    ]
+  },
+  {
+    "id": 45014,
+    "slug": "garvin",
+    "name": "Garvin",
+    "heroClass": "Guard",
+    "faction": "Demonhunter",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/garvin/profile.png",
+    "roles": [
+      "AOE Shield",
+      "Shield Curse"
+    ]
+  },
+  {
+    "id": 35006,
+    "slug": "gorgon",
+    "name": "Gorgon",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/gorgon/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 25006,
+    "slug": "heidi",
+    "name": "Heidi",
+    "heroClass": "Support",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/heidi/profile.png",
+    "roles": [
+      "Power Heal",
+      "Single Heal"
+    ]
+  },
+  {
+    "id": 65012,
+    "slug": "hinata-inori",
+    "name": "Hinata Inori",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "rarity": "UR+",
+    "portrait": "assets/img/heroes/hinata-inori/profile.png",
+    "roles": [
+      "Phys. Assault",
+      "Self-Boost"
+    ]
+  },
+  {
+    "id": 15008,
+    "slug": "isaac",
+    "name": "Isaac",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "rarity": "SSR",
+    "portrait": "assets/img/heroes/isaac/profile.png",
+    "roles": [
+      "Phys. DPS",
+      "Single Burst"
+    ]
+  },
+  {
+    "id": 35003,
+    "slug": "isabella",
+    "name": "Isabella",
+    "heroClass": "Assault",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/isabella/profile.png",
+    "roles": [
+      "AOE Burst",
+      "Shield Breaker"
+    ]
+  },
+  {
+    "id": 35013,
+    "slug": "jacob",
+    "name": "Jacob",
+    "heroClass": "Guard",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/jacob/profile.png",
+    "roles": [
+      "BasicATK Boost",
+      "Strong Counter"
+    ]
+  },
+  {
+    "id": 55007,
+    "slug": "jeanne",
+    "name": "Jeanne",
+    "heroClass": "Guard",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/jeanne/profile.png",
+    "roles": [
+      "AOE DMG RED",
+      "AOE Heal"
+    ]
+  },
+  {
+    "id": 33002,
+    "slug": "julius",
+    "name": "Julius",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/julius/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 25003,
+    "slug": "kira",
+    "name": "Kira",
+    "heroClass": "Assassin",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/kira/profile.png",
+    "roles": [
+      "Phys. Burst",
+      "Assassination"
+    ]
+  },
+  {
+    "id": 15007,
+    "slug": "laird",
+    "name": "Laird",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "rarity": "SSR",
+    "portrait": "assets/img/heroes/laird/profile.png",
+    "roles": [
+      "Phys. Debuff",
+      "ATK Down"
+    ]
+  },
+  {
+    "id": 45008,
+    "slug": "lenore",
+    "name": "Lenore",
+    "heroClass": "Assault",
+    "faction": "Demonhunter",
+    "rarity": "SSR",
+    "portrait": "assets/img/heroes/lenore/profile.png",
+    "roles": [
+      "Spell Debuff",
+      "Power Pursuit"
+    ]
+  },
+  {
+    "id": 44001,
+    "slug": "leonard",
+    "name": "Leonard",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "rarity": "N",
+    "portrait": "assets/img/heroes/leonard/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 65005,
+    "slug": "lilith",
+    "name": "Lilith",
+    "heroClass": "Control",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/lilith/profile.png",
+    "roles": [
+      "Kill Detonate",
+      "Infect. Debuff"
+    ]
+  },
+  {
+    "id": 34001,
+    "slug": "lillian",
+    "name": "Lillian",
+    "heroClass": "Support",
+    "faction": "Kindred",
+    "rarity": "N",
+    "portrait": "assets/img/heroes/lillian/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 45001,
+    "slug": "lincoln",
+    "name": "Lincoln",
+    "heroClass": "Assault",
+    "faction": "Demonhunter",
+    "rarity": "R",
+    "portrait": "assets/img/heroes/lincoln/profile.png",
+    "roles": [
+      "Spell Debuff"
+    ]
+  },
+  {
     "id": 25013,
     "slug": "ling",
     "name": "Ling",
@@ -49,6 +539,470 @@
     "roles": [
       "Spell Burst",
       "AOE DMG"
+    ]
+  },
+  {
+    "id": 65002,
+    "slug": "lucifer",
+    "name": "Lucifer",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/lucifer/profile.png",
+    "roles": [
+      "AOE Execute",
+      "AOE Curse"
+    ]
+  },
+  {
+    "id": 55005,
+    "slug": "luna",
+    "name": "Luna",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/luna/profile.png",
+    "roles": [
+      "AOE Spell",
+      "AOE Burst"
+    ]
+  },
+  {
+    "id": 14003,
+    "slug": "marlok",
+    "name": "Marlok",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/marlok/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 65017,
+    "slug": "mars",
+    "name": "Mars",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/mars/profile.png",
+    "roles": [
+      "Multi-hit DMG",
+      "Debuff Control"
+    ]
+  },
+  {
+    "id": 45007,
+    "slug": "mica",
+    "name": "Mica",
+    "heroClass": "Control",
+    "faction": "Demonhunter",
+    "rarity": "SSR",
+    "portrait": "assets/img/heroes/mica/profile.png",
+    "roles": [
+      "Spell Buff",
+      "Ally Boost"
+    ]
+  },
+  {
+    "id": 55001,
+    "slug": "michael",
+    "name": "Michael",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/michael/profile.png",
+    "roles": [
+      "True DMG",
+      "Divine Ascend"
+    ]
+  },
+  {
+    "id": 25009,
+    "slug": "mister",
+    "name": "Mister",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "rarity": "R",
+    "portrait": "assets/img/heroes/mister/profile.png",
+    "roles": [
+      "Spell Erosion"
+    ]
+  },
+  {
+    "id": 65013,
+    "slug": "night-depths",
+    "name": "Night Depths",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "rarity": "UR+",
+    "portrait": "assets/img/heroes/night-depths/profile.png",
+    "roles": [
+      "Phys. Burst",
+      "LowHP Execute"
+    ]
+  },
+  {
+    "id": 65014,
+    "slug": "nyx",
+    "name": "Nyx",
+    "heroClass": "Assassin",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/nyx/profile.png",
+    "roles": [
+      "AOE Execute",
+      "AOE Spell"
+    ]
+  },
+  {
+    "id": 65015,
+    "slug": "n-wa",
+    "name": "Nüwa",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/n-wa/profile.png",
+    "roles": [
+      "Spirit Summon",
+      "Dual DPS"
+    ]
+  },
+  {
+    "id": 25016,
+    "slug": "orpheus",
+    "name": "Orpheus",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/orpheus/profile.png",
+    "roles": [
+      "Counter Burst",
+      "Strong DPS"
+    ]
+  },
+  {
+    "id": 24002,
+    "slug": "pipit",
+    "name": "Pipit",
+    "heroClass": "Assassin",
+    "faction": "Arcane Web",
+    "rarity": "N",
+    "portrait": "assets/img/heroes/pipit/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 25015,
+    "slug": "ramesses",
+    "name": "Ramesses",
+    "heroClass": "Guard",
+    "faction": "Arcane Web",
+    "rarity": "SSR",
+    "portrait": "assets/img/heroes/ramesses/profile.png",
+    "roles": [
+      "AOE Erosion",
+      "Death Rebirth"
+    ]
+  },
+  {
+    "id": 55003,
+    "slug": "raphael",
+    "name": "Raphael",
+    "heroClass": "Support",
+    "faction": "Sanctuary",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/raphael/profile.png",
+    "roles": [
+      "Power Heal",
+      "Rapid Dispel"
+    ]
+  },
+  {
+    "id": 15013,
+    "slug": "renais",
+    "name": "Renais",
+    "heroClass": "Assassin",
+    "faction": "Sanctuary",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/renais/profile.png",
+    "roles": [
+      "Guard Counter",
+      "Battle Boost"
+    ]
+  },
+  {
+    "id": 45006,
+    "slug": "rose",
+    "name": "Rose",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/rose/profile.png",
+    "roles": [
+      "Spell Burst",
+      "Action Synergy"
+    ]
+  },
+  {
+    "id": 43002,
+    "slug": "rylin",
+    "name": "Rylin",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "rarity": "N",
+    "portrait": "assets/img/heroes/rylin/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 15005,
+    "slug": "sariel",
+    "name": "Sariel",
+    "heroClass": "Guard",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/sariel/profile.png",
+    "roles": [
+      "Enemy ATK ↓",
+      "Strong Front"
+    ]
+  },
+  {
+    "id": 23001,
+    "slug": "savage-palm",
+    "name": "Savage Palm",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/savage-palm/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 35012,
+    "slug": "selina",
+    "name": "Selina",
+    "heroClass": "Control",
+    "faction": "Kindred",
+    "rarity": "SSR",
+    "portrait": "assets/img/heroes/selina/profile.png",
+    "roles": [
+      "AOE Spell",
+      "AOE Bleed"
+    ]
+  },
+  {
+    "id": 34003,
+    "slug": "seros",
+    "name": "Seros",
+    "heroClass": "Control",
+    "faction": "Kindred",
+    "rarity": "N",
+    "portrait": "assets/img/heroes/seros/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 35014,
+    "slug": "sherry",
+    "name": "Sherry",
+    "heroClass": "Support",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/sherry/profile.png",
+    "roles": [
+      "AOE Heal",
+      "Ally Boost"
+    ]
+  },
+  {
+    "id": 23002,
+    "slug": "squeaky",
+    "name": "Squeaky",
+    "heroClass": "Support",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/squeaky/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 45010,
+    "slug": "theresa",
+    "name": "Theresa",
+    "heroClass": "Support",
+    "faction": "Demonhunter",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/theresa/profile.png",
+    "roles": [
+      "AOE Heal",
+      "Purify & Dispel"
+    ]
+  },
+  {
+    "id": 25004,
+    "slug": "tinplate",
+    "name": "Tinplate",
+    "heroClass": "Guard",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/tinplate/profile.png",
+    "roles": [
+      "AOE Taunt",
+      "DMG Share"
+    ]
+  },
+  {
+    "id": 45013,
+    "slug": "uncle-ying",
+    "name": "Uncle Ying",
+    "heroClass": "Assault",
+    "faction": "Demonhunter",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/uncle-ying/profile.png",
+    "roles": [
+      "Magic DPS",
+      "AOE Burst"
+    ]
+  },
+  {
+    "id": 43001,
+    "slug": "valda",
+    "name": "Valda",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "rarity": "N",
+    "portrait": "assets/img/heroes/valda/profile.png",
+    "roles": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "id": 35004,
+    "slug": "valendine",
+    "name": "Valendine",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/valendine/profile.png",
+    "roles": [
+      "Phys. Burst",
+      "LowHP Execute"
+    ]
+  },
+  {
+    "id": 45005,
+    "slug": "van-helsing",
+    "name": "Van Helsing",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/van-helsing/profile.png",
+    "roles": [
+      "First Strike",
+      "Single Killer"
+    ]
+  },
+  {
+    "id": 65019,
+    "slug": "venus",
+    "name": "Venus",
+    "heroClass": "Control",
+    "faction": "Otherworld",
+    "rarity": "UR+",
+    "portrait": "assets/img/heroes/venus/profile.png",
+    "roles": [
+      "Powerful Control",
+      "AOE Spell"
+    ]
+  },
+  {
+    "id": 25002,
+    "slug": "vineshade",
+    "name": "Vineshade",
+    "heroClass": "Control",
+    "faction": "Arcane Web",
+    "rarity": "SSR",
+    "portrait": "assets/img/heroes/vineshade/profile.png",
+    "roles": [
+      "Spell Debuff",
+      "AOE Infection"
+    ]
+  },
+  {
+    "id": 35007,
+    "slug": "vivi",
+    "name": "Vivi",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "rarity": "R",
+    "portrait": "assets/img/heroes/vivi/profile.png",
+    "roles": [
+      "Phys. Burst"
+    ]
+  },
+  {
+    "id": 55002,
+    "slug": "wu-kong",
+    "name": "Wu Kong",
+    "heroClass": "Assassin",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/wu-kong/profile.png",
+    "roles": [
+      "AOE Phys.",
+      "Clone Assault"
+    ]
+  },
+  {
+    "id": 35009,
+    "slug": "yin",
+    "name": "Yin",
+    "heroClass": "Control",
+    "faction": "Kindred",
+    "rarity": "R",
+    "portrait": "assets/img/heroes/yin/profile.png",
+    "roles": [
+      "Spell Burst"
+    ]
+  },
+  {
+    "id": 25005,
+    "slug": "ying-gou",
+    "name": "Ying Gou",
+    "heroClass": "Control",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/ying-gou/profile.png",
+    "roles": [
+      "Magic DPS",
+      "AOE Erosion"
+    ]
+  },
+  {
+    "id": 45009,
+    "slug": "zhiming",
+    "name": "Zhiming",
+    "heroClass": "Control",
+    "faction": "Demonhunter",
+    "rarity": "R",
+    "portrait": "assets/img/heroes/zhiming/profile.png",
+    "roles": [
+      "Spell Debuff"
     ]
   }
 ]

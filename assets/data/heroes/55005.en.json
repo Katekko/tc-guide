@@ -1,0 +1,75 @@
+{
+  "id": 55005,
+  "name": "Luna",
+  "fullName": "Luna",
+  "epithet": "Moon Shooting",
+  "heroClass": "Assault",
+  "faction": "Sanctuary",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Spell",
+    "AOE Burst"
+  ],
+  "bio": "Angel who once guarded the edge of the Heavenly Realm alone. Lianna wields the power of the night sky with her Star Spear. After joining the Spirit Heroes Faction, she swore to use her power to resist the corruption of darkness.<br/><br/><color=#bde141>Role: Magical AOE</color><br/><color=#bde141>Specialty: A backline Breakthrough-type hero good at AOE damage; releases a [Judgment Shot] to deal True Damage after each skill cast. Has a chance to gain a Mark after each ally acts, increasing its own Defense Ignoration attribute. When Marks reach a certain number, it deals massive AOE damage to enemies.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Wind and Clouds"
+  },
+  "baseStats": {
+    "hp": 1767,
+    "atk": 267,
+    "def": 83,
+    "spd": 1320
+  },
+  "spineId": "55005",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Shining Constellation",
+      "type": "Feat",
+      "description": "Attacks 3 highest-DEF enemies, dealing 160% ATK as True DMG with a 60% chance to apply 1 stack of [Holy Seal].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Astral Effulgence",
+      "type": "Ultimate",
+      "description": "Attacks all enemies for 140% M.DMG. Deals additional 50% ATK as True DMG to frontline and midline enemies.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Moonlight Gleam",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Moonlight Gleam",
+          "description": "Gains 1 stack of [Moonlight Mark] whenever an ally Hero takes active action; releases [Constellation Fall] when reaching 15 stacks (consumes all stacks)."
+        },
+        {
+          "tier": 2,
+          "name": "Moonlight Gleam",
+          "description": "Activates [Astral Effulgence] to grant self a Shield equal to 150% ATK."
+        },
+        {
+          "tier": 3,
+          "name": "Moonlight Gleam",
+          "description": "Ignores Control effects and dispels 2 Debuffs from self when casting [Constellation Fall]."
+        },
+        {
+          "tier": 4,
+          "name": "Moonlight Gleam",
+          "description": "[Constellation Fall] deals additional True DMG equal to 15% of frontline targets' Max HP and additional M.DMG equal to 15% of mid/backline targets' current HP (max 300% of self's ATK)."
+        }
+      ]
+    }
+  ]
+}

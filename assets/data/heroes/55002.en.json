@@ -1,0 +1,109 @@
+{
+  "id": 55002,
+  "name": "Wu Kong",
+  "fullName": "God - Wu Kong",
+  "epithet": "Monkey King",
+  "heroClass": "Assassin",
+  "faction": "Otherworld",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "AOE Phys.",
+    "Clone Assault"
+  ],
+  "bio": "Sun Wukong from ancient legends, who pursued freedom and strength throughout his life. He once challenged the Heavenly Court multiple times; after going through hardships, he became a legendary warrior in the Spirit Heroes Faction.<br/><br/><color=#bde141>Role: Physical AOE</color><br/><color=#bde141>Specialty: A front-midline Breakthrough-type hero whose Ultimate can deal devastating damage to enemy groups; has certain Control Immunity ability.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Wind and Clouds"
+  },
+  "baseStats": {
+    "hp": 1836,
+    "atk": 280,
+    "def": 102,
+    "spd": 1440
+  },
+  "spineId": "55002",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Heaven-Earth Strike",
+      "type": "Feat",
+      "description": "Attacks the enemy column with the lowest-HP target twice (70% then 140% P.DMG); if only hitting one target, deals 70% extra True DMG.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Havoc in Heaven",
+      "type": "Ultimate",
+      "description": "Consumes all [Life-Saving Hair] to summon 9 + consumed stacks of clones attacking all enemies randomly (120% DMG per clone, prioritizes different targets; repeated hits on same target deal 25% DMG).",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Monkey King",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Monkey King",
+          "description": "40% probability for Sun Wukong to gain 1 stack of [Life-Saving Hair] when enemies act (max 15 triggers per turn)."
+        },
+        {
+          "tier": 2,
+          "name": "Monkey King",
+          "description": "When taking DMG exceeding 20% Max HP, consumes 1 stack of [Life-Saving Hair] to summon 1 clone attacking random enemy for 120% P.DMG with 30% Lifesteal (max 2 triggers per turn)."
+        },
+        {
+          "tier": 3,
+          "name": "Monkey King",
+          "description": "Probability to gain [Life-Saving Hair] when enemies act increased to 80%."
+        },
+        {
+          "tier": 4,
+          "name": "Monkey King",
+          "description": "Gains 20% Ultimate DMG Bonus at 9 [Life-Saving Hair] stacks (removed after use)."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "When under Control, may consume 1 stack of [Life-Saving Hair] to block the Control (max 1 trigger per turn)."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "Starts Battle with 4 stacks of [Life-Saving Hair]."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "After casting [Cosmic Strike], consumes 1 stack of [Life-Saving Hair] to Summon 2 Clones attacking random enemies for 120% P.DMG with 30% Crit, then refunds cooldown."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "Sun Wukong gains 2 stacks of [Life-Saving Hair] when enemies fall (4 if killed by Sun Wukong)."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "At 4 stacks of [Life-Saving Hair], gaining additional stacks immediately releases [Havoc in Heaven] (20% DMG increase, refunds 3 stacks; max 1 trigger per turn, ignores Control)."
+        }
+      ]
+    }
+  ]
+}

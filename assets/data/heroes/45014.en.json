@@ -1,0 +1,75 @@
+{
+  "id": 45014,
+  "name": "Garvin",
+  "fullName": "Garvin",
+  "epithet": "Bulwark of Light",
+  "heroClass": "Guard",
+  "faction": "Demonhunter",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Shield",
+    "Shield Curse"
+  ],
+  "bio": "Paladin who endured hardships, converting pain into shield power. Committed to protecting the weak and resisting evil, he became a solid barrier of the Demon Hunter Faction.<br/><br/><color=#bde141>Role: Seal Slow</color><br/><color=#bde141>Specialty: A frontline Protection-type hero that can apply Seal to multiple enemies and cast shields for itself and allies. When the Seal it applied is broken, it can reduce the speed of all enemies.</color>",
+  "profile": {
+    "height": "190 cm",
+    "illustrator": "Qing Shang"
+  },
+  "baseStats": {
+    "hp": 2325,
+    "atk": 151,
+    "def": 102,
+    "spd": 1264
+  },
+  "spineId": "45014",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Radiant Holy Shield",
+      "type": "Feat",
+      "description": "Applies [Radiant Holy Shield] to self and 1 lowest DEF Ally Hero.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Hammer of Judgment",
+      "type": "Ultimate",
+      "description": "Attacks all enemies for 18% of self's Max HP as M.DMG with 40% probability to apply [Crit Down I].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Holy Hammer",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Holy Hammer",
+          "description": "80% probability to apply [Sigil] to enemies who break [Radiant Holy Shield]."
+        },
+        {
+          "tier": 2,
+          "name": "Holy Hammer",
+          "description": "Applies [Radiant Holy Shield] to self when casting [Hammer of Judgment]."
+        },
+        {
+          "tier": 3,
+          "name": "Holy Hammer",
+          "description": "Increases DEF by 3% when receiving Heal or Shield (max 30%)."
+        },
+        {
+          "tier": 4,
+          "name": "Holy Hammer",
+          "description": "[Radiant Holy Shield] target count +1."
+        }
+      ]
+    }
+  ]
+}

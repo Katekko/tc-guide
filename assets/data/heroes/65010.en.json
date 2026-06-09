@@ -1,0 +1,109 @@
+{
+  "id": 65010,
+  "name": "Elbella",
+  "fullName": "Demon - Elbella",
+  "epithet": "White Demon",
+  "heroClass": "Support",
+  "faction": "Otherworld",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "Power Support",
+    "Debuff Immune"
+  ],
+  "bio": "200 cm",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Peachy Crow"
+  },
+  "baseStats": {
+    "hp": 2244,
+    "atk": 255,
+    "def": 91,
+    "spd": 1352
+  },
+  "spineId": "65010",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Healing Feather",
+      "type": "Feat",
+      "description": "Heals 1 lowest-HP ally and 1 highest-ATK ally for 150% of Caster's ATK and applies [Dark Plume].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Darkwing Guardian",
+      "type": "Ultimate",
+      "description": "Heals all allies for 120% of Caster's ATK and applies [Dark Plume].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Royal Guardian",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Royal Guardian",
+          "description": "While Elbella survives, allies take 30% reduced DMG Over Time."
+        },
+        {
+          "tier": 2,
+          "name": "Royal Guardian",
+          "description": "Ultimate additionally applies 2 stacks of [Dark Plume] to highest-ATK ally."
+        },
+        {
+          "tier": 3,
+          "name": "Royal Guardian",
+          "description": "Ultimate additionally applies 1 stack of [Dark Plume] to lowest-HP ally."
+        },
+        {
+          "tier": 4,
+          "name": "Royal Guardian",
+          "description": "Gains 1 stack of [Night Guardian] when [Dark Plume] reaches 4 stacks (each Hero can trigger this once per 2 turns)."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "When actively healing, dispels 1 Debuff from target and applies 1 stack of [Feather Blessing]: Each stack increases Healing Received by 4%; consumes 1 stack to block when receiving Debuffs (max 5 stacks)."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "[Healing Feather] additionally applies 1 stack of [Feather Blessing] to target."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "Apply 5 stacks of [Feather Blessing] to all allies at the start of battle"
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "Each stack of [Feather Blessing] increases Carrier's Final DMG and Final DMG RED by 4%."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "Elbella's Skill Cooldowns -2; Ultimate additionally grants 1 stack of [Feather Blessing]."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 65005,
+  "name": "Lilith",
+  "fullName": "Lilith",
+  "epithet": "Midnight Queen",
+  "heroClass": "Control",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Kill Detonate",
+    "Infect. Debuff"
+  ],
+  "bio": "Succubus Blitz Attacker of the Demon Faction, once famous at demon banquets for her beauty and dancing skills. She tears through enemy lines with agile movements.<br/><br/><color=#bde141>Role: Single Target Detonation</color><br/><color=#bde141>Specialty: A mid-backline Blitz-type hero that deals ultra-high damage to targets with negative effects; deals massive detonation damage when defeating a target.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Qing Shang"
+  },
+  "baseStats": {
+    "hp": 1953,
+    "atk": 244,
+    "def": 83,
+    "spd": 1360
+  },
+  "spineId": "65005",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Wings of Original Sin",
+      "type": "Feat",
+      "description": "Attacks the column containing lowest-HP enemy for 300% total DMG with 50% probability to apply [Infect].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Evernight Return",
+      "type": "Ultimate",
+      "description": "Attacks lowest-HP enemy for 420% M.DMG with 100% probability to apply [Infect].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Surging Desire",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Surging Desire",
+          "description": "[Evernight Return] deals 100% ATK + 15% target's Max HP as M.DMG to all other enemies if it kills the target."
+        },
+        {
+          "tier": 2,
+          "name": "Surging Desire",
+          "description": "Crit Rate and Crit DMG increased by 20% when attacking enemies below 40% HP."
+        },
+        {
+          "tier": 3,
+          "name": "Surging Desire",
+          "description": "[Evernight Return] has 100% probability to apply 1 stack of [Infect] to all enemies when killing an enemy."
+        },
+        {
+          "tier": 4,
+          "name": "Surging Desire",
+          "description": "[Evernight Return] Detonates all [Infect] DMG on target."
+        }
+      ]
+    }
+  ]
+}

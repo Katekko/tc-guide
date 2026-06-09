@@ -1,0 +1,109 @@
+{
+  "id": 65019,
+  "name": "Venus",
+  "fullName": "Supreme - Venus",
+  "epithet": "Beauty Goddess",
+  "heroClass": "Control",
+  "faction": "Otherworld",
+  "rarity": "UR+",
+  "stars": 5,
+  "roles": [
+    "Powerful Control",
+    "AOE Spell"
+  ],
+  "bio": "200 cm",
+  "profile": {
+    "height": "178cm",
+    "illustrator": "Yanyu"
+  },
+  "baseStats": {
+    "hp": 2268,
+    "atk": 283,
+    "def": 97,
+    "spd": 1385
+  },
+  "spineId": "65019",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Blooming Rose",
+      "type": "Feat",
+      "description": "Attack the 2 enemies with highest ATK, dealing 220% ATK Magical DMG. 80% chance to apply 1 stack of [Lust].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Boudoir Dreams",
+      "type": "Ultimate",
+      "description": "Attack all enemies, dealing 120% ATK Magical DMG. Additionally deal 100% ATK Magical DMG to the 3 enemies with highest ATK. 80% chance to apply 2 stacks of [Lust].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Kiss of Thorns",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Kiss of Thorns",
+          "description": "Enemies that attack Venus have 40% chance to gain 1 stack of [Lust]."
+        },
+        {
+          "tier": 2,
+          "name": "Kiss of Thorns",
+          "description": "Reduce damage taken by 20% when attacked by targets with [Lust]."
+        },
+        {
+          "tier": 3,
+          "name": "Kiss of Thorns",
+          "description": "Increase DMG dealt by 20% when attacking enemies with [Lust]."
+        },
+        {
+          "tier": 4,
+          "name": "Kiss of Thorns",
+          "description": "Apply 1 stack of [Obsession] to enemies that have 2 stacks of [Lust]."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "Both [Lust] and [Obsession] are Undispellable."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "Each enemy target with [Lust] grants Venus 25 Speed."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "Chance for enemies attacking Venus to gain [Lust] increased to 80%."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "Increase Effect Hit Rate by 30% in battle and gain immunity to [Charm]."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "When Venus is attacked by an enemy, all enemies with [Obsession] will use Normal Attack on the attacker once. This Normal Attack gains an additional 100% Crit Rate (max 1 trigger per enemy per turn)."
+        }
+      ]
+    }
+  ]
+}

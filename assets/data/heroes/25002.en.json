@@ -1,0 +1,65 @@
+{
+  "id": 25002,
+  "name": "Vineshade",
+  "fullName": "Vineshade",
+  "epithet": "Viridian Sprite",
+  "heroClass": "Control",
+  "faction": "Arcane Web",
+  "rarity": "SSR",
+  "stars": 4,
+  "roles": [
+    "Spell Debuff",
+    "AOE Infection"
+  ],
+  "bio": "Controller of the Net of Secrets, a Plantfolk born in a mysterious forest. He has a deep connection with plants and uses plant abilities to fight for the Net of Secrets.<br/><br/><color=#bde141>Role: Magical Corrosion</color><br/><color=#bde141>Specialty: A mid-backline Control-type hero that can reduce enemy damage and apply Corrosion effects; can amplify allies' Corrosion damage.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Zhaoyang"
+  },
+  "baseStats": {
+    "hp": 1638,
+    "atk": 204,
+    "def": 70,
+    "spd": 1368
+  },
+  "spineId": "25002",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Verdant Toxic Smog",
+      "type": "Feat",
+      "description": "Attacks 4 random enemy targets, dealing 130% M.DMG.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Wrath of Nature",
+      "type": "Ultimate",
+      "description": "Deals 140% M.DMG to all enemies with 30% probability to apply 1 stack of [Infect].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Toxic Aura",
+      "type": "Awaken",
+      "level": 2,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Toxic Aura",
+          "description": "Gains 20% Effect Hit Rate."
+        },
+        {
+          "tier": 2,
+          "name": "Toxic Aura",
+          "description": "[Wrath of Nature]'s [Infect] application chance increased to 40%."
+        }
+      ]
+    }
+  ]
+}

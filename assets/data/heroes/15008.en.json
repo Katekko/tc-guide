@@ -1,0 +1,65 @@
+{
+  "id": 15008,
+  "name": "Isaac",
+  "fullName": "Isaac",
+  "epithet": "Wrathfist Priest",
+  "heroClass": "Assault",
+  "faction": "Sanctuary",
+  "rarity": "SSR",
+  "stars": 4,
+  "roles": [
+    "Phys. DPS",
+    "Single Burst"
+  ],
+  "bio": "Priest of a peaceful village, endowed with the power of a mysterious holy scripture. He fights evil with the Judgment Holy Scripture and becomes a \"Violent Priest\" in the Spirit Heroes Faction.<br/><br/><color=#bde141>Role: Physical Damage Dealer</color><br/><color=#bde141>Specialty: A front-midline Breakthrough-type hero; the lower its HP, the higher the damage it deals; has a chance to stun enemy units.</color>",
+  "profile": {
+    "height": "180 cm",
+    "illustrator": "Zhaoyang"
+  },
+  "baseStats": {
+    "hp": 1482,
+    "atk": 224,
+    "def": 70,
+    "spd": 1304
+  },
+  "spineId": "15008",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Enraged Jab",
+      "type": "Feat",
+      "description": "Deals 221% P.DMG to the enemy with highest HP. If target's current HP exceeds Isaac's, has 50% probability to deal additional DMG equal to 10% of self Max HP.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Saintly King's Smite",
+      "type": "Ultimate",
+      "description": "Attacks the column containing the enemy Hero with highest ATK, dealing 195% P.DMG with a 50% chance to apply 1 stack of [Holy Seal].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Execution of Justice",
+      "type": "Awaken",
+      "level": 2,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Execution of Justice",
+          "description": "[Holy Strike of Destruction] deals additional DMG equal to 22% of Isaac's lost HP."
+        },
+        {
+          "tier": 2,
+          "name": "Execution of Justice",
+          "description": "[Enraged Jab] gains 30% additional Crit Rate."
+        }
+      ]
+    }
+  ]
+}

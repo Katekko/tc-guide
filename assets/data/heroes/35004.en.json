@@ -1,0 +1,75 @@
+{
+  "id": 35004,
+  "name": "Valendine",
+  "fullName": "Valendine",
+  "epithet": "Bloodhound",
+  "heroClass": "Assassin",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Phys. Burst",
+    "LowHP Execute"
+  ],
+  "bio": "Assassin of the \"Scarlet Phantom\" who failed in challenging Dracula. He was ordered to hunt demons to gain a second chance to fight. Wearing a tattered cloak, he fights with claw gauntlets and a musket.<br/><br/><color=#bde141>Role: Physical Execute</color><br/><color=#bde141>Specialty: A mid-backline Blitz-type hero that can continuously execute low-HP targets; has self-damage reduction ability.</color>",
+  "profile": {
+    "height": "180 cm",
+    "illustrator": "Jia Xu"
+  },
+  "baseStats": {
+    "hp": 1674,
+    "atk": 255,
+    "def": 93,
+    "spd": 1384
+  },
+  "spineId": "35004",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Phantom Raid",
+      "type": "Feat",
+      "description": "Attacks column of enemy with lowest DEF, dealing total 300% P.DMG (single target max 2.5x Caster's ATK).",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Hellish Flash Kill",
+      "type": "Ultimate",
+      "description": "Attacks enemy with lowest DEF 3 times, dealing 140% P.DMG per hit. If target is killed, attacks enemy with lowest HP again (DMG halved). Cannot trigger other Pursuit/Combo Effects.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Last-hitting Habit",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Last-hitting Habit",
+          "description": "When Ultimate leaves target below 15% HP, [Executes] target (ignores Shield/DEF/Damage Share, max 300% ATK)."
+        },
+        {
+          "tier": 2,
+          "name": "Last-hitting Habit",
+          "description": "When [Execute] triggers, recovers HP equal to 100% ATK and dispels 2 Debuffs from self."
+        },
+        {
+          "tier": 3,
+          "name": "Last-hitting Habit",
+          "description": "[Hellish Instant Kill] deals additional P.DMG equal to 5% of [Bleed] target's lost HP (max 1x ATK)."
+        },
+        {
+          "tier": 4,
+          "name": "Last-hitting Habit",
+          "description": "[Execute] trigger condition increased to 25% target HP (ignores Shield/DEF/Damage Share, max 500% ATK)."
+        }
+      ]
+    }
+  ]
+}

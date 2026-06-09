@@ -1,0 +1,46 @@
+{
+  "id": 14003,
+  "name": "Marlok",
+  "fullName": "Marlok",
+  "epithet": "Cursed Fangblade",
+  "heroClass": "Assassin",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "The Blazing Blade of Demon Nobility, who unleashes swift attacks with the Void Rending Blade. Eager to prove his strength, he became a terrifying legend in the Demon Army.<br/><br/><color=#bde141>Role: Physical Lifesteal</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero that can increase its own Lifesteal Rate and generate a shield for allies with low HP.</color>",
+  "profile": {
+    "height": "180 cm",
+    "illustrator": "Yun Qi"
+  },
+  "baseStats": {
+    "hp": 1080,
+    "atk": 165,
+    "def": 60,
+    "spd": 960
+  },
+  "spineId": "14003",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Echo of Blood",
+      "type": "Feat",
+      "description": "Attacks a single enemy, dealing 159% P.DMG while increasing own Lifesteal Rate by 15% for 2 turns.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Wicked Blade Assault",
+      "type": "Ultimate",
+      "description": "Attacks a single enemy target, dealing 233% P.DMG, converting 30% of DMG dealt into a [Shield] for the ally with lowest HP Ratio, lasting 2 turns.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

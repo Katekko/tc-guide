@@ -1,0 +1,46 @@
+{
+  "id": 24003,
+  "name": "Abyss",
+  "fullName": "Abyss",
+  "epithet": "Cursed Demon Pupil",
+  "heroClass": "Assault",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Demon Eye Princess of Demon Royalty, who manipulates spatial rifts with Abyssal Gaze. She resists control with great power and becomes a source of strength for the Net of Secrets.<br/><br/><color=#bde141>Role: Physical Lifesteal</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero with decent Defense; it restores its own HP while dealing damage.</color>",
+  "profile": {
+    "height": "165 cm",
+    "illustrator": "Aqua Lanyi"
+  },
+  "baseStats": {
+    "hp": 1140,
+    "atk": 172,
+    "def": 54,
+    "spd": 880
+  },
+  "spineId": "24003",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Demon Pupil",
+      "type": "Feat",
+      "description": "Attacks single enemy target, dealing 146% P.DMG while ignoring 30% of target's DEF.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Ghost Eye Burst",
+      "type": "Ultimate",
+      "description": "Attacks front/mid-row enemy targets, dealing 101% P.DMG and recovering HP equal to 20% of total DMG dealt.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

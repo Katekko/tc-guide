@@ -1,0 +1,75 @@
+{
+  "id": 35016,
+  "name": "Bathory",
+  "fullName": "Bathory",
+  "epithet": "Blood Baroness",
+  "heroClass": "Control",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Magic DPS",
+    "AOE Control"
+  ],
+  "bio": "The fearsome Warden of the Castle Dungeon. He developed a unique set of magic different from the Vampire Clan's based on torture techniques.<br/><br/><color=#bde141>Role: Group Control</color><br/><color=#bde141>Specialty: A mid-backline Control-type hero good at controlling enemies with Ghost Hounds. When an enemy is affected by [Burning Soul Fire], each Bleed effect causes [Burning Soul Fire] to stack one layer. When reaching 6 layers, it detonates and applies [Agony Prison], making the enemy unable to act and granting itself [Pleasure].</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Mayonnaise"
+  },
+  "baseStats": {
+    "hp": 1855,
+    "atk": 256,
+    "def": 83,
+    "spd": 1392
+  },
+  "spineId": "35016",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Death Edict",
+      "type": "Feat",
+      "description": "Launches 2 attacks, each dealing 110% M.DMG to 2 random enemies with 40% probability to apply [Bleed].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Hellhound Rend",
+      "type": "Ultimate",
+      "description": "Attacks all enemy targets for 800% Total M.DMG with 40% probability to apply [ATK Down I] (max DMG per Hero cannot exceed 400% of Caster's ATK).",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Bloodthirsty Beast",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Bloodthirsty Beast",
+          "description": "When Bathory actively attacks and deals DMG, has 40% probability to apply [Fire of Flames]."
+        },
+        {
+          "tier": 2,
+          "name": "Bloodthirsty Beast",
+          "description": "Each time [Fire of Flames] is detonated, applies 1 stack of [Euphoria] to Bathory."
+        },
+        {
+          "tier": 3,
+          "name": "Bloodthirsty Beast",
+          "description": "Increases Effect Hit Rate by 30% when attacking enemies with [Bleed]."
+        },
+        {
+          "tier": 4,
+          "name": "Bloodthirsty Beast",
+          "description": "Each time [Fire of Flames] is detonated, restores 10% HP to self and ally with lowest HP (max 2 triggers per turn)."
+        }
+      ]
+    }
+  ]
+}

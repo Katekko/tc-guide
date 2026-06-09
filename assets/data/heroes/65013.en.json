@@ -1,0 +1,109 @@
+{
+  "id": 65013,
+  "name": "Night Depths",
+  "fullName": "Demon - Night Depths",
+  "epithet": "Witch of Time",
+  "heroClass": "Assault",
+  "faction": "Otherworld",
+  "rarity": "UR+",
+  "stars": 5,
+  "roles": [
+    "Phys. Burst",
+    "LowHP Execute"
+  ],
+  "bio": "120 cm",
+  "profile": {
+    "height": "176 cm",
+    "illustrator": "Wind and Clouds"
+  },
+  "baseStats": {
+    "hp": 1744,
+    "atk": 322,
+    "def": 91,
+    "spd": 1304
+  },
+  "spineId": "65013",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Every Second Counts",
+      "type": "Feat",
+      "description": "Attacks Randomly 2 times, dealing 120% P.DMG to two Targets per hit with 24% additional Crit Rate.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Inferno Trigger",
+      "type": "Ultimate",
+      "description": "Passive: 80% of non-Ultimate Skill DMG is stored as [Time Energy]. When taking active action, consumes all [Time Energy] to attack all enemies for 1200% P.DMG (split evenly among targets, max 400% ATK per target) if [Time Energy] reaches 100%.",
+      "releaseTurn": null,
+      "cooldown": null
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Time-Devouring Moment",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Time-Devouring Moment",
+          "description": "All Attacks consume 8% current HP; deals 15% True DMG per 1% HP consumed (max 120% ATK True DMG)."
+        },
+        {
+          "tier": 2,
+          "name": "Time-Devouring Moment",
+          "description": "Uses Basic Attack against random enemy when losing 24% HP (max 3 triggers per turn)."
+        },
+        {
+          "tier": 3,
+          "name": "Time-Devouring Moment",
+          "description": "Grants 2.4% ATK and Final DMG per 10% [Time Energy] (max 24%)."
+        },
+        {
+          "tier": 4,
+          "name": "Time-Devouring Moment",
+          "description": "[Inferno Trigger] has 24% Lifesteal Rate."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "60% of DMG taken is converted into equal [Time Energy]."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "Gains 48% [Time Energy] at battle start."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "[Inferno Trigger] deals 24% of target's current HP as P.DMG (cannot exceed 500% of Caster's ATK)."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "When receiving Fatal DMG, consumes all [Time Energy] to block the DMG, heals equal amount, then dispels 3 Debuffs (once per battle)."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "[Inferno Trigger] restores 100% [Time Energy] and immediately recasts when killing (max once per turn)."
+        }
+      ]
+    }
+  ]
+}

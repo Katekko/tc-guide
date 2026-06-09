@@ -1,0 +1,75 @@
+{
+  "id": 15003,
+  "name": "Azmodan",
+  "fullName": "Azmodan",
+  "epithet": "Abyssal Baron",
+  "heroClass": "Guard",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Tank Revive",
+    "Tanky&Deadly"
+  ],
+  "bio": "Abyssal Blacksmith cursed into a warrior due to betrayal. He learned to convert pain into power, became a leader of the Demon Faction, and protects others while seeking revenge.<br/><br/><color=#bde141>Role: Shield Protection</color><br/><color=#bde141>Specialty: A frontline Protection-type hero that can revive immediately after death and has the ability to apply [Curse].</color>",
+  "profile": {
+    "height": "200 cm",
+    "illustrator": "Qing Shang"
+  },
+  "baseStats": {
+    "hp": 2325,
+    "atk": 151,
+    "def": 102,
+    "spd": 1208
+  },
+  "spineId": "15003",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Purgatory Smash",
+      "type": "Feat",
+      "description": "Attacks the enemy with highest Crit, dealing 300% ATK as P.DMG and applying 1 stack of [Cursed Armor] to self.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Doomsday Arrives",
+      "type": "Ultimate",
+      "description": "Attacks enemy frontline and midline targets, dealing 240% P.DMG plus P.DMG equal to 10% of target's Max HP (max 200% of own ATK).",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Undying Demonlord",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Undying Demonlord",
+          "description": "Revives immediately and recovers 30% Max HP when suffering Fatal DMG (triggers once per battle)."
+        },
+        {
+          "tier": 2,
+          "name": "Undying Demonlord",
+          "description": "Recovers 8% Max HP when attacks Crit."
+        },
+        {
+          "tier": 3,
+          "name": "Undying Demonlord",
+          "description": "HP recovered upon revive increased to 60% Max HP."
+        },
+        {
+          "tier": 4,
+          "name": "Undying Demonlord",
+          "description": "Immediately casts [Doom Advent] once upon revive (this effect can only trigger once per battle)."
+        }
+      ]
+    }
+  ]
+}

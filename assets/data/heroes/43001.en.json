@@ -1,0 +1,46 @@
+{
+  "id": 43001,
+  "name": "Valda",
+  "fullName": "Valda",
+  "epithet": "Temple Acolyte",
+  "heroClass": "Assault",
+  "faction": "Sanctuary",
+  "rarity": "N",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Shadow Assassin of the Demon Hunter Faction. Proficient in assassination skills, he takes it as his mission to hunt down and eliminate corrupted beings.<br/><br/><color=#bde141>Role: Physical Debuff</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero that deals Physical Damage to enemy backlines and reduces their Defense.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Tang Yi"
+  },
+  "baseStats": {
+    "hp": 1197,
+    "atk": 181,
+    "def": 56,
+    "spd": 1050
+  },
+  "spineId": "43001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Throat-Sealing Dagger",
+      "type": "Feat",
+      "description": "Attacks frontline enemies for 136% P.DMG and reduces target's DEF by 10% for 2 turns.",
+      "releaseTurn": null,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Assassin Creed",
+      "type": "Ultimate",
+      "description": "Increases ATK by 10% and HP by 5%.",
+      "releaseTurn": null,
+      "cooldown": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 35015,
+  "name": "Alucard",
+  "fullName": "Alucard",
+  "epithet": "Blade of Dusk",
+  "heroClass": "Assassin",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Burst Execute",
+    "Fiend Trans"
+  ],
+  "bio": "Child of the Vampire King, regarded as the heir to the future Castle. An idealist who dreams of building a world where humans and vampires coexist in peace. He once clashed with his father's realism; after leaving the castle, his experiences made his ideals more firm and decisive.<br/><br/><color=#bde141>Role: Burst Harvest</color><br/><color=#bde141>Specialty: A mid-backline Blitz-type hero good at countering Control lineups. When allies are controlled or defeated, it gains [Blood Will] to increase ATK and Critical Strike. After stacking 10 layers, it enters [Demon Form] to increase Critical Strike and Critical Damage, gaining powerful burst harvest ability and group Bleed application ability.</color>",
+  "profile": {
+    "height": "180 cm",
+    "illustrator": "Wind and Clouds"
+  },
+  "baseStats": {
+    "hp": 1674,
+    "atk": 255,
+    "def": 93,
+    "spd": 1432
+  },
+  "spineId": "35015",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Bloodbat Shadow",
+      "type": "Feat",
+      "description": "Attacks enemy hero with lowest DEF for 300% P.DMG with 100% probability to apply 1 stack of [Bleed].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Voidshatter Slash",
+      "type": "Ultimate",
+      "description": "Attacks enemy hero with lowest DEF, dealing 3 instances of 140% P.DMG with 30% additional Crit Rate for this attack.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Fiend Trans",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Fiend Trans",
+          "description": "When [Bleed] is applied to enemy Heroes, gains 1 stack of [Bloodlust] (max 1 trigger per target per turn)."
+        },
+        {
+          "tier": 2,
+          "name": "Fiend Trans",
+          "description": "Recovers HP equal to 20% ATK each time [Bloodlust] is gained."
+        },
+        {
+          "tier": 3,
+          "name": "Fiend Trans",
+          "description": "After active attack, releases [Vacuum Blade] at all enemies with [Bleed] (max 1 trigger per turn)."
+        },
+        {
+          "tier": 4,
+          "name": "Fiend Trans",
+          "description": "Immediately casts [Voidrive Slash] without Consumption when entering [Demonkin Form] status."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 24001,
+  "name": "Blackquill",
+  "fullName": "Blackquill",
+  "epithet": "DarkNight Gale",
+  "heroClass": "Assault",
+  "faction": "Arcane Web",
+  "rarity": "N",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Free Harpy, Night Wing Blade. She launches silent attacks at night with Moon Shadow Claw Blades and joined the Net of Secrets for revenge.<br/><br/><color=#bde141>Role: Group Bleed</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero that can apply Bleed to many front-midline enemies and increase its own Critical Strike Rate.</color>",
+  "profile": {
+    "height": "130 cm",
+    "illustrator": "Xiao Taohong"
+  },
+  "baseStats": {
+    "hp": 1197,
+    "atk": 181,
+    "def": 56,
+    "spd": 1050
+  },
+  "spineId": "24001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Banshee Whirlwind",
+      "type": "Feat",
+      "description": "Attacks 1 enemy column, dealing 113% P.DMG with 60% probability to inflict [Bleed].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Feather Bombardment",
+      "type": "Ultimate",
+      "description": "Attacks 4 random enemy targets, dealing 92% P.DMG with 20% extra Crit Rate.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

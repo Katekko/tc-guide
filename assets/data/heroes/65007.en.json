@@ -1,0 +1,75 @@
+{
+  "id": 65007,
+  "name": "Dracula",
+  "fullName": "Dracula",
+  "epithet": "Evernight Duke",
+  "heroClass": "Guard",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Phys. DPS",
+    "Energy Boost"
+  ],
+  "bio": "The oldest vampire in the world, the Night Emperor, a supreme being beyond life and death. Regarded as a calamity. Though a member of the Vampire Clan, he is seen by Demon Hunters as a more dangerous existence than demons.<br/><br/><color=#bde141>Role: Physical Damage Dealer</color><br/><color=#bde141>Specialty: A frontline Defense-type hero that accumulates Demon Energy every turn to strengthen its damage. When reaching a certain value, it gains Demon Power to increase ATK/DEF attributes and gain Control Immunity.</color>",
+  "profile": {
+    "height": "190 cm",
+    "illustrator": "Qing Shang"
+  },
+  "baseStats": {
+    "hp": 2673,
+    "atk": 128,
+    "def": 112,
+    "spd": 1216
+  },
+  "spineId": "65007",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Doomblade Execution",
+      "type": "Feat",
+      "description": "Attacks 3 highest-ATK enemies for 160% P.DMG with 80% probability to apply 1 stack of [Cowardice].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Hour of Termination",
+      "type": "Ultimate",
+      "description": "Attacks 3 highest-Crit enemies for 240% P.DMG with 60% probability to apply [Bleed].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Demon Power",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Demon Power",
+          "description": "100% of DMG dealt and received is converted into equal [Demon Energy]."
+        },
+        {
+          "tier": 2,
+          "name": "Demon Power",
+          "description": "When [Demon Energy] reaches max capacity, instantly heals 30% Max HP and gains [Demon Power]."
+        },
+        {
+          "tier": 3,
+          "name": "Demon Power",
+          "description": "Recovers 15% lost HP when attacked while below 60% HP (max 1 trigger per turn)."
+        },
+        {
+          "tier": 4,
+          "name": "Demon Power",
+          "description": "[Moment of the End] additionally deals 80% P.DMG to all enemies."
+        }
+      ]
+    }
+  ]
+}

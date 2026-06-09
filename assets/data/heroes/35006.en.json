@@ -1,0 +1,46 @@
+{
+  "id": 35006,
+  "name": "Gorgon",
+  "fullName": "Gorgon",
+  "epithet": "Mystic Vipershadow",
+  "heroClass": "Assassin",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 2,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Former Ocean Guardian, reduced to a Demon Servant. She learned to control curses and became a Demon Blitz Attacker, trapping prey with the Abyssal Orb Staff and her beauty.<br/><br/><color=#bde141>Role: Magical Damage Dealer</color><br/><color=#bde141>Specialty: A backline Blitz-type hero that deals AOE Damage to mid-backline enemies and reduces their Accuracy; marks specific targets to deal extra damage in battle.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Yu Lu"
+  },
+  "baseStats": {
+    "hp": 1080,
+    "atk": 165,
+    "def": 60,
+    "spd": 960
+  },
+  "spineId": "35006",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Serpent of Abyss",
+      "type": "Feat",
+      "description": "Attacks mid/backline enemies for 95% M.DMG with 50% probability to reduce target's Effect Hit Rate by 25% for 2 turns.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Darkness Spew",
+      "type": "Ultimate",
+      "description": "Attacks single enemy target for 280% M.DMG.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

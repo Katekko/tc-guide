@@ -1,0 +1,46 @@
+{
+  "id": 34001,
+  "name": "Lillian",
+  "fullName": "Lillian",
+  "epithet": "Blood Bloom",
+  "heroClass": "Support",
+  "faction": "Kindred",
+  "rarity": "N",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Forest Vampire, former shrine maiden accidentally turned into a Flower Sprite. She found belonging in the Vampire Castle and uses magic to protect it.<br/><br/><color=#bde141>Role: Buff Support</color><br/><color=#bde141>Intro: A Support hero that increases allies' ATK and restores HP to all allies.</color>",
+  "profile": {
+    "height": "160 cm",
+    "illustrator": "Liu Yiming"
+  },
+  "baseStats": {
+    "hp": 1386,
+    "atk": 157,
+    "def": 56,
+    "spd": 1090
+  },
+  "spineId": "34001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Heretical Prayer",
+      "type": "Feat",
+      "description": "Uses [Magic Melody] to restore HP equal to 150% ATK for highest-ATK ally and increases target's ATK by 20% for 2 turns.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Blessing of Forest",
+      "type": "Ultimate",
+      "description": "Restores HP equal to 74% ATK for all allies. If target's HP is below 50%, Healing Effect increases by 20%.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 25003,
+  "name": "Kira",
+  "fullName": "Kira",
+  "epithet": "Claw of Gale",
+  "heroClass": "Assassin",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Phys. Burst",
+    "Assassination"
+  ],
+  "bio": "Raised in a Catfolk community in a busy port, Lian showed a deep affection for the ocean and extraordinary Water Magic talent. After escaping her clan, she joined the Net of Secrets and uses her abilities and charm to carry out various secret missions.<br/><br/><color=#bde141>Role: Physical Burst</color><br/><color=#bde141>Specialty: A mid-backline Blitz-type hero with strong burst ability; increases Critical Strike and Critical Damage against assassination targets.</color>",
+  "profile": {
+    "height": "160 cm",
+    "illustrator": "Asura"
+  },
+  "baseStats": {
+    "hp": 1674,
+    "atk": 268,
+    "def": 93,
+    "spd": 1408
+  },
+  "spineId": "25003",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Meow-Meow Charge",
+      "type": "Feat",
+      "description": "Attacks single enemy target 2 times, dealing 140% P.DMG and applying 1 stack of [Scratch].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Kitty Party",
+      "type": "Ultimate",
+      "description": "Attacks single enemy target 3 times, dealing 140% P.DMG per hit and applying 1 stack of [Scratch].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Assassination List",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Assassination List",
+          "description": "At battle start, marks enemy with lowest DEF with [Assassinate]. When marked character dies, transfers [Assassinate] to enemy with lowest HP."
+        },
+        {
+          "tier": 2,
+          "name": "Assassination List",
+          "description": "Each Crit Attack deals additional 50% P.DMG."
+        },
+        {
+          "tier": 3,
+          "name": "Assassination List",
+          "description": "Gains 30% crit rate for 2 turns whenever applying [Assassinate]."
+        },
+        {
+          "tier": 4,
+          "name": "Assassination List",
+          "description": "If target has 5 stacks of [Scratch] after attack, consumes all stacks to deal 140% P.DMG and apply 3 stacks of [Infect]."
+        }
+      ]
+    }
+  ]
+}

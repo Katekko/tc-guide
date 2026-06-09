@@ -1,0 +1,75 @@
+{
+  "id": 45005,
+  "name": "Van Helsing",
+  "fullName": "Van Helsing",
+  "epithet": "Wolfblood Hunter",
+  "heroClass": "Assassin",
+  "faction": "Demonhunter",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "First Strike",
+    "Single Killer"
+  ],
+  "bio": "Demon Hunter with Werewolf bloodline, Hagen received strict training from childhood to learn to control his Werewolf bloodline. He hunts demons with great strength and hunting skills, protecting humans from evil.<br/><br/><color=#bde141>Role: Magical Damage Dealer</color><br/><color=#bde141>Specialty: A frontline Blitz-type hero that can deal large-scale skill damage and apply Seal Control; triggers Invincibility and restores a large amount of HP when taking a lethal hit.</color>",
+  "profile": {
+    "height": "180 cm",
+    "illustrator": "Lil K"
+  },
+  "baseStats": {
+    "hp": 1674,
+    "atk": 255,
+    "def": 93,
+    "spd": 1376
+  },
+  "spineId": "45005",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Rapid Fire",
+      "type": "Feat",
+      "description": "<color=#FFEB04>Passive</color>: Basic Attack becomes [Rapid Fire]; Van Helsing gains 1 stack of [Holy Silver Bolt] per enemy attack. At 4+ stacks, immediately casts [Rapid Fire] and consumes 4 stacks.",
+      "releaseTurn": null,
+      "cooldown": null
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Firepower Barrage",
+      "type": "Ultimate",
+      "description": "Attacks randomly 6 times (70% P.DMG per hit, prioritizes lowest DEF targets, max 2 hits per character), finishing with 70% P.DMG AOE; usable turn 1, 5-turn Cooldown.",
+      "releaseTurn": null,
+      "cooldown": 5
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Wolfblood Hunter",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Wolfblood Hunter",
+          "description": "50% probability to gain 1 additional stack of [Holy Silver Bolt] when enemies use Ultimates."
+        },
+        {
+          "tier": 2,
+          "name": "Wolfblood Hunter",
+          "description": "Each stack of [Holy Silver Bolt] provides 1.5% Crit Rate."
+        },
+        {
+          "tier": 3,
+          "name": "Wolfblood Hunter",
+          "description": "[Holy Silver Bolt] max stacks increased to 6, gains 1 stack at start of per turn."
+        },
+        {
+          "tier": 4,
+          "name": "Wolfblood Hunter",
+          "description": "[Rapid Fire] attacks an additional target for 50% DMG."
+        }
+      ]
+    }
+  ]
+}

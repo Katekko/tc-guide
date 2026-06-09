@@ -1,0 +1,46 @@
+{
+  "id": 43002,
+  "name": "Rylin",
+  "fullName": "Rylin",
+  "epithet": "Church Archer",
+  "heroClass": "Assault",
+  "faction": "Sanctuary",
+  "rarity": "N",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Demon-Purging Arrow, Demon Hunter Archer. He protects his homeland with precise shots and defends justice by fending off demons with arrows.<br/><br/><color=#bde141>Role: Physical Grievous Wound</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero that deals Physical Damage to multiple enemies and reduces their received healing.</color>",
+  "profile": {
+    "height": "165 cm",
+    "illustrator": "Yu Lu"
+  },
+  "baseStats": {
+    "hp": 1197,
+    "atk": 181,
+    "def": 56,
+    "spd": 1050
+  },
+  "spineId": "43002",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Arrowstorm",
+      "type": "Feat",
+      "description": "Attacks backline Enemies for 122% P.DMG and reduces target's Healing received by 15% for 2 turns.",
+      "releaseTurn": null,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Hunter Instinct",
+      "type": "Ultimate",
+      "description": "Increases ATK by 10% and HP by 5%.",
+      "releaseTurn": null,
+      "cooldown": null
+    }
+  ]
+}

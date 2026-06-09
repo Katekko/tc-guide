@@ -1,0 +1,75 @@
+{
+  "id": 65006,
+  "name": "Elegy",
+  "fullName": "Elegy",
+  "epithet": "Hell Funeral",
+  "heroClass": "Assassin",
+  "faction": "Demonhunter",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Phys. DPS",
+    "Single Killer"
+  ],
+  "bio": "Avenger of the Demon Faction who swore revenge after being betrayed. He uses guns and cannons to eliminate enemies that stand in his way.<br/><br/><color=#bde141>Role: Physical Damage Dealer</color><br/><color=#bde141>Specialty: A mid-backline Breakthrough-type hero that can launch continuous shots; deals massive damage to enemy backlines and applies Curse.</color>",
+  "profile": {
+    "height": "190 cm",
+    "illustrator": "Wind and Clouds"
+  },
+  "baseStats": {
+    "hp": 1674,
+    "atk": 255,
+    "def": 93,
+    "spd": 1416
+  },
+  "spineId": "65006",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Dawn Hunting",
+      "type": "Feat",
+      "description": "Randomly attacks mid/backline enemies 3 times for 100% P.DMG per hit with 20% additional Crit Rate.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Eternal Nightfall",
+      "type": "Ultimate",
+      "description": "Attacks 1 lowest-DEF enemy in mid/backline, dealing 3 instances of 140% P.DMG with 30% additional Crit Rate for this attack.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Shadow Sniper",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Shadow Sniper",
+          "description": "Gains 1 stack of [Sniper Focus] when attacks Crit."
+        },
+        {
+          "tier": 2,
+          "name": "Shadow Sniper",
+          "description": "Consumes all [Sniper Focus] to activate [Dawn Hunting] when [Sniper Focus] reaches 5 stacks (this effect triggers at most twice per turn)."
+        },
+        {
+          "tier": 3,
+          "name": "Shadow Sniper",
+          "description": "Has 30% probability to apply [Sigil] when attacks Crit."
+        },
+        {
+          "tier": 4,
+          "name": "Shadow Sniper",
+          "description": "Attacks gain 30% additional Crit Rate against targets below 60% HP."
+        }
+      ]
+    }
+  ]
+}

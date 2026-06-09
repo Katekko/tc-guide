@@ -1,0 +1,46 @@
+{
+  "id": 44001,
+  "name": "Leonard",
+  "fullName": "Leonard",
+  "epithet": "Black Swordsman",
+  "heroClass": "Assassin",
+  "faction": "Demonhunter",
+  "rarity": "N",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Descendant of the Shadow Blade Family, Blade of Demon Shadow. Skilled with a dual-edged greatsword, he fights with Light and Dark elements to protect humans.<br/><br/><color=#bde141>Role: Physical Seal</color><br/><color=#bde141>Intro: A Physical Damage Dealer hero that deals extra damage to Breakthrough-type enemies and can seal multiple enemies.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Lu Liang"
+  },
+  "baseStats": {
+    "hp": 1134,
+    "atk": 173,
+    "def": 63,
+    "spd": 1130
+  },
+  "spineId": "44001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Dimensional Slash",
+      "type": "Feat",
+      "description": "Deals 117% P.DMG to frontline enemies with 20% increased Crit Rate against Assault type Heroes.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Shadow Ambush",
+      "type": "Ultimate",
+      "description": "Attacks enemy with lowest HP Ratio for 233% P.DMG with 50% probability to apply [Seal].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

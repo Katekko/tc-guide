@@ -1,0 +1,75 @@
+{
+  "id": 15006,
+  "name": "Ada",
+  "fullName": "Ada",
+  "epithet": "Chaos Nun",
+  "heroClass": "Assault",
+  "faction": "Sanctuary",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "AOE Phys.",
+    "AOE Debuff"
+  ],
+  "bio": "Former Nun who longed for adventure and chaos. After gaining demon power, she transformed into the Chaos Nun, wandering the world freely and seeking the thrill of destruction with the Chaos Burst Gun.<br/><br/><color=#bde141>Role: Physical AOE</color><br/><color=#bde141>Specialty: A mid-backline Breakthrough-type hero with certain damage output ability; can also apply debuffs to enemies.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Aqua Lanyi"
+  },
+  "baseStats": {
+    "hp": 1767,
+    "atk": 267,
+    "def": 83,
+    "spd": 1256
+  },
+  "spineId": "15006",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Light Extinguished",
+      "type": "Feat",
+      "description": "Attacks 3 enemies consecutively with 75%, 120%, then 175% P.DMG, with 60% probability to inflict [Crit Down I].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Justice Shall Perish",
+      "type": "Ultimate",
+      "description": "Attacks 4 enemies, dealing 200% ATK as P.DMG and inflicting [ATK Down I].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Arcane Bullet Archer",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Arcane Bullet Archer",
+          "description": "DMG increased by 20% when attacking enemies with Debuffs."
+        },
+        {
+          "tier": 2,
+          "name": "Arcane Bullet Archer",
+          "description": "Gains 5% ATK (max 20%) whenever an enemy dies."
+        },
+        {
+          "tier": 3,
+          "name": "Arcane Bullet Archer",
+          "description": "[Light Extinguished] has 40% probability to trigger an additional time at half DMG."
+        },
+        {
+          "tier": 4,
+          "name": "Arcane Bullet Archer",
+          "description": "[Justice Shall Perish] deals additional DMG equal to 20% of target's lost HP (max 400% ATK)."
+        }
+      ]
+    }
+  ]
+}

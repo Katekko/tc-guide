@@ -1,0 +1,46 @@
+{
+  "id": 25001,
+  "name": "Frankenstein",
+  "fullName": "Frankenstein",
+  "epithet": "Science Wacko",
+  "heroClass": "Guard",
+  "faction": "Arcane Web",
+  "rarity": "R",
+  "stars": 2,
+  "roles": [
+    "Ally Blessing",
+    null
+  ],
+  "bio": "Scientifically transformed into a Cyborg. Eager for understanding and acceptance, he joined the Net of Secrets to protect humans with special abilities and find the meaning of existence.<br/><br/><color=#bde141>Role: Group Protection</color><br/><color=#bde141>Specialty: A frontline Protection-type hero that can provide shields and damage reduction to allies.</color>",
+  "profile": {
+    "height": "220 cm",
+    "illustrator": "Lil K"
+  },
+  "baseStats": {
+    "hp": 1725,
+    "atk": 112,
+    "def": 75,
+    "spd": 1180
+  },
+  "spineId": "25001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Electrotherapy",
+      "type": "Feat",
+      "description": "Attacks all enemy targets, dealing 90 P.DMG while converting 20% of DMG dealt into Shields for other Ally Heroes (lasts 2 turns).",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Scientific Modification",
+      "type": "Ultimate",
+      "description": "All allies enter [Synergy] Status - 50% of DMG taken (excluding DMG Over Time and Reflection) is transferred to other allies for 2 turns (undispellable).",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 35013,
+  "name": "Jacob",
+  "fullName": "Jacob",
+  "epithet": "Roaring Fang",
+  "heroClass": "Guard",
+  "faction": "Kindred",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "BasicATK Boost",
+    "Strong Counter"
+  ],
+  "bio": "As a member of the Werewolf Clan, Grayson is famous in the Vampire Castle for his great strength and exquisite martial arts. He was once Alucard's protector and combat coach, teaching him to dare to try and not be trapped by immediate difficulties.<br/><br/><color=#bde141>Role: Physical Counterattack</color><br/><color=#bde141>Specialty: A powerful warrior whose Ultimate has high lifesteal; has high Evasion; triggers AOE Counterattack when Evasion is activated.</color>",
+  "profile": {
+    "height": "185 cm",
+    "illustrator": "Turbid Wine"
+  },
+  "baseStats": {
+    "hp": 2673,
+    "atk": 136,
+    "def": 122,
+    "spd": 1232
+  },
+  "spineId": "35013",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Acme Fist - Wolf Howl",
+      "type": "Feat",
+      "description": "Attacks all enemies for 110% P.DMG, recovering HP equal to 20% of DMG dealt.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Mountain-Shattering Fist",
+      "type": "Ultimate",
+      "description": "Attacks enemy with highest Crit for 420% P.DMG, recovering HP equal to 30% of DMG dealt.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Power of Moonshade",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Power of Moonshade",
+          "description": "Passive: Replaces Basic Attack with [Acme Fist - Gale]."
+        },
+        {
+          "tier": 2,
+          "name": "Power of Moonshade",
+          "description": "After being attacked, releases [Acme Fist - Gale] at attacker (max 2 triggers per turn)."
+        },
+        {
+          "tier": 3,
+          "name": "Power of Moonshade",
+          "description": "Gains 2% ATK and DEF per 8% HP lost (max 20%)."
+        },
+        {
+          "tier": 4,
+          "name": "Power of Moonshade",
+          "description": "[Acme Fist - Gale] trigger count increased to 4."
+        }
+      ]
+    }
+  ]
+}

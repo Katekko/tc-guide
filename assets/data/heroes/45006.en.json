@@ -1,0 +1,75 @@
+{
+  "id": 45006,
+  "name": "Rose",
+  "fullName": "Rose",
+  "epithet": "Sinflame Rose",
+  "heroClass": "Assassin",
+  "faction": "Demonhunter",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Spell Burst",
+    "Action Synergy"
+  ],
+  "bio": "Shrine Maiden of the Pure Sight Shrine, a rare expert in Spiritual Literature. She cares deeply about matters related to her older sister and is a natural optimist.<br/><br/><color=#bde141>Role: Magical Group Control</color><br/><color=#bde141>Specialty: A mid-backline Control-type hero that can deal massive Control effects and area damage.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Zhaoyang"
+  },
+  "baseStats": {
+    "hp": 1767,
+    "atk": 267,
+    "def": 83,
+    "spd": 1392
+  },
+  "spineId": "45006",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Blade Storm",
+      "type": "Feat",
+      "description": "<color=#FFEB04>Passive</color>: Rose can trigger a Basic Attack when killing enemies. When actively released, deals 160% M.DMG to front/midline enemies with 80% probability to apply [Sigil].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Death Lotus Bloom",
+      "type": "Ultimate",
+      "description": "Attacks all enemy targets for total 600% M.DMG (each enemy cannot take more than 3x Caster's ATK), dealing extra 100% M.DMG to 2 enemies with lowest HP.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Bloodthirst Twinblades",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Bloodthirst Twinblades",
+          "description": "40% + 3*[Chill] stacks probability for allies to perform Basic Attack After attacking (max 3 triggers per turn)."
+        },
+        {
+          "tier": 2,
+          "name": "Bloodthirst Twinblades",
+          "description": "Gains 1 stack of [Chill] after each attack."
+        },
+        {
+          "tier": 3,
+          "name": "Bloodthirst Twinblades",
+          "description": "Gains 2 extra stacks of [Chill] when killing enemies."
+        },
+        {
+          "tier": 4,
+          "name": "Bloodthirst Twinblades",
+          "description": "If target's HP is below 10% after Rose deals DMG, execute target (ignores Shield, Damage Share, DEF, max 200% ATK)."
+        }
+      ]
+    }
+  ]
+}

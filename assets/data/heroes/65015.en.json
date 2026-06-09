@@ -1,0 +1,109 @@
+{
+  "id": 65015,
+  "name": "Nüwa",
+  "fullName": "Supreme - Nüwa",
+  "epithet": "All-Soul Origin",
+  "heroClass": "Assault",
+  "faction": "Otherworld",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "Spirit Summon",
+    "Dual DPS"
+  ],
+  "bio": "200 cm",
+  "profile": {
+    "height": "178cm",
+    "illustrator": "Qingqing Mumu"
+  },
+  "baseStats": {
+    "hp": 2052,
+    "atk": 310,
+    "def": 97,
+    "spd": 1304
+  },
+  "spineId": "65015",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Spiritual Aura Surge",
+      "type": "Feat",
+      "description": "Attack the enemy with the highest ATK, dealing 300% ATK as Magic Damage, 100% chance to apply 4 stacks of [Disintegration]; simultaneously restore 3 Energy to [Holy Spirit].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Myriad Spirits Succumb to Stillness",
+      "type": "Ultimate",
+      "description": "Attack 4 random enemies, dealing 220% Magic Damage, and 100% chance to randomly distribute 8 stacks of [Disintegration] to hit targets; simultaneously restore 5 Energy to [Holy Spirit].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Creation's Breath",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Creation's Breath",
+          "description": "Summon [Holy Spirit] at the start of battle, and [Holy Spirit] unlocks the Normal Attack [Cloud Piercer]."
+        },
+        {
+          "tier": 2,
+          "name": "Creation's Breath",
+          "description": "[Holy Spirit] unlocks the Special Skill [Breath]."
+        },
+        {
+          "tier": 3,
+          "name": "Creation's Breath",
+          "description": "When Nüwa is hit, 30% chance to restore 1 Energy to [Holy Spirit] (max 2 triggers per turn)."
+        },
+        {
+          "tier": 4,
+          "name": "Creation's Breath",
+          "description": "[Holy Spirit] gains 2 Energy and restores 15% of its max HP at the end of the turn, and dispels 3 debuffs from itself."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "[Holy Spirit] takes 30% of the damage dealt to Nüwa; [Holy Spirit] gains 70% True Damage Reduction and Final Damage Reduction."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "[Spiritual Aura Fluctuation] has no cooldown and deals an additional 10% of the target's current HP as True Damage (capped at 200% of Nüwa's ATK)."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "[Holy Spirit] unlocks the Ultimate Skill [Holy Spirit Garrote]; when [Holy Spirit] dies, Nüwa immediately casts an Ultimate Skill (this effect has a 4-turn cooldown).<br/><color=#FFEB04>[Holy Spirit Garrote]</color>: When Energy is 5 or more, attack the enemy with the most [Disintegration] stacks, dealing 440% ATK as True Damage, and deal 200% ATK as True Damage to all other enemies; Nüwa and itself restore HP equal to 20% of the damage dealt. Then remove 5 Energy."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "When Nüwa or [Holy Spirit] attacks enemies with [Disintegration], deal additional True Damage equal to 20% ATK × number of [Disintegration] stacks."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "[Holy Spirit] inherits 160% of Nüwa's HP and Defense, and 100% of her other attributes. When Nüwa casts an Ultimate Skill, if [Holy Spirit] is already dead, resurrect [Holy Spirit] (this effect has a 4-turn cooldown)."
+        }
+      ]
+    }
+  ]
+}

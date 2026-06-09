@@ -1,0 +1,109 @@
+{
+  "id": 65018,
+  "name": "Ananke",
+  "fullName": "Supreme - Ananke",
+  "epithet": "Goddess of Fate",
+  "heroClass": "Assassin",
+  "faction": "Otherworld",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "DMG Transfer",
+    "Multi Burst"
+  ],
+  "bio": "200 cm",
+  "profile": {
+    "height": "178cm",
+    "illustrator": "Qingqing Mumu"
+  },
+  "baseStats": {
+    "hp": 1749,
+    "atk": 326,
+    "def": 108,
+    "spd": 1440
+  },
+  "spineId": "65018",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Swift Blade Slice",
+      "type": "Feat",
+      "description": "Passive: Normal Attack enhanced to strike 2 random targets, dealing Magical DMG equal to 80% ATK + 5% of target's max HP per hit (capped at 1× caster's ATK). This attack ignores 20% of target's DEF.",
+      "releaseTurn": null,
+      "cooldown": null
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Fate Sever",
+      "type": "Ultimate",
+      "description": "Attack all enemies, dealing a total of 800% ATK Magical DMG (split equally among all hit targets; single target DMG capped at 3× caster's ATK). Additionally deal Magical DMG equal to 10% of target's current HP (capped at 2× caster's ATK). 100% chance to randomly assign 4 stacks of [Linked Fates] to enemies.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Fate Weaving",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Fate Weaving",
+          "description": "Normal Attack has 100% chance to apply [Linked Fates] to target and grants 20% Lifesteal Rate."
+        },
+        {
+          "tier": 2,
+          "name": "Fate Weaving",
+          "description": "When an enemy with [Linked Fates] is attacked, take additional True DMG equal to 3% of current HP (capped at 1× caster's ATK)."
+        },
+        {
+          "tier": 3,
+          "name": "Fate Weaving",
+          "description": "Reduce damage taken by 30% when attacked by enemies with [Linked Fates]."
+        },
+        {
+          "tier": 4,
+          "name": "Fate Weaving",
+          "description": "Additional damage taken by [Linked Fates] carriers when attacked increased to 5% of current HP."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "30% chance for allies to apply 1 stack of [Linked Fates] to target on attack (max 1 trigger per ally per turn)."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "Increase DMG dealt by 30% when attacking enemies with [Linked Fates]."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "[Linked Fates] duration increased to permanent and stackable (max 30 stacks in PVE; unlimited in PVP). Each stack increases damage transfer ratio by 3%."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "If a target takes 4 instances of transferred damage in one turn, cast [Swift Slash] on them once (max 2 triggers per target per turn; max 5 triggers per turn total)."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "[Linked Fates] damage transfer target count +1. Carriers gain 1 stack of [Linked Fates] when taking transferred damage."
+        }
+      ]
+    }
+  ]
+}

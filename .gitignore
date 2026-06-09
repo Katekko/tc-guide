@@ -1,6 +1,7 @@
 # Local-only source captures (game data extraction; not part of the app)
 raw/
 apk-extract/
+static/
 *.apk
 EXTRACTION_PLAN.md
 LOCAL_EXTRACTION_NOTES.md

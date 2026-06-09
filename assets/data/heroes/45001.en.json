@@ -1,0 +1,46 @@
+{
+  "id": 45001,
+  "name": "Lincoln",
+  "fullName": "Lincoln",
+  "epithet": "Sakura Axe",
+  "heroClass": "Assault",
+  "faction": "Demonhunter",
+  "rarity": "R",
+  "stars": 2,
+  "roles": [
+    "Spell Debuff",
+    null
+  ],
+  "bio": "After witnessing his mother being harmed by a vampire, he swore revenge. He became the President of the White House and transforms into a vampire hunter at night, upholding justice with the National Guardian Divine Axe.<br/><br/><color=#bde141>Role: Magical Debuff</color><br/><color=#bde141>Specialty: A front-midline Breakthrough-type hero that can apply debuffs like Poison; effectively counters multi-healer lineups.</color>",
+  "profile": {
+    "height": "180 cm",
+    "illustrator": "Yun Qi"
+  },
+  "baseStats": {
+    "hp": 1311,
+    "atk": 198,
+    "def": 62,
+    "spd": 1220
+  },
+  "spineId": "45001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Judgment Berserker Axe",
+      "type": "Feat",
+      "description": "Attacks a single enemy target for 176% M.DMG, with a 60% chance to apply [Poisoned].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Doom Judgment",
+      "type": "Ultimate",
+      "description": "Attacks 4 random enemy targets for 122% M.DMG with 60% probability to apply [Illusion].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}

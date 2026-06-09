@@ -1,0 +1,65 @@
+{
+  "id": 35001,
+  "name": "Camilla",
+  "fullName": "Camilla",
+  "epithet": "Castle Phantom",
+  "heroClass": "Support",
+  "faction": "Kindred",
+  "rarity": "SSR",
+  "stars": 4,
+  "roles": [
+    "AOE Heal",
+    "AOE Buff"
+  ],
+  "bio": "Vampire of the Vampire Clan, who has lived in seclusion in human society for years. He heals the wounded with Blood Magic, devoting himself to protection and support, and seeking balance between power and compassion.<br/><br/><color=#bde141>Role: Buff Acceleration</color><br/><color=#bde141>Specialty: A backline Support-type hero with powerful buff effects and group healing; enhances the team's ability to apply Bleed.</color>",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Xiao Taohong"
+  },
+  "baseStats": {
+    "hp": 1716,
+    "atk": 195,
+    "def": 70,
+    "spd": 1328
+  },
+  "spineId": "35001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Blood Healing",
+      "type": "Feat",
+      "description": "Heals ally with lowest HP for 220% ATK as HP.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Crimson Dance",
+      "type": "Ultimate",
+      "description": "Restores HP equal to 150% ATK for 4 allies with lowest HP.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Bloodshadow Empowerment",
+      "type": "Awaken",
+      "level": 2,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Bloodshadow Empowerment",
+          "description": "[Blood Healing] additionally applies [DEF I]."
+        },
+        {
+          "tier": 2,
+          "name": "Bloodshadow Empowerment",
+          "description": "[Scarlet Dance] additionally applies [DEF I]."
+        }
+      ]
+    }
+  ]
+}

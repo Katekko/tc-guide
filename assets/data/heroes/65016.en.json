@@ -1,0 +1,109 @@
+{
+  "id": 65016,
+  "name": "Gaia",
+  "fullName": "Supreme - Gaia",
+  "epithet": "Earth Goddess",
+  "heroClass": "Guard",
+  "faction": "Otherworld",
+  "rarity": "UR",
+  "stars": 5,
+  "roles": [
+    "Lethal Immune",
+    "Spirit Armor"
+  ],
+  "bio": "200 cm",
+  "profile": {
+    "height": "178cm",
+    "illustrator": "Qingqing Mumu"
+  },
+  "baseStats": {
+    "hp": 2700,
+    "atk": 175,
+    "def": 118,
+    "spd": 1280
+  },
+  "spineId": "65016",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Ghost Vine Coil",
+      "type": "Feat",
+      "description": "Attack the enemies with the highest and lowest HP, dealing 150% ATK + 15% of the target's max HP as Magic Damage (capped at 300% of the caster's ATK). This skill grants 20% Lifesteal Rate.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Rose Prison",
+      "type": "Ultimate",
+      "description": "Attack all enemies, dealing 100% ATK + 12% of the target's max HP as Magic Damage (capped at 200% of the caster's ATK). This skill ignores 25% of the target's Defense.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Earth Deity",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Earth Deity",
+          "description": "100% of the damage you deal is converted to [Earth Energy]; every 10% [Earth Energy] grants 3% Final Damage and Final Damage Reduction."
+        },
+        {
+          "tier": 2,
+          "name": "Earth Deity",
+          "description": "When [Earth Energy] is above 30%, whenever an ally takes lethal damage, you can consume 30% [Earth Energy] to restore an equal percentage of HP to them (max 2 triggers per turn)."
+        },
+        {
+          "tier": 3,
+          "name": "Earth Deity",
+          "description": "When taking lethal damage, consume all [Earth Energy] to restore equal HP; all overheal converted to [Spirit Armor] (max 10 triggers per battle)."
+        },
+        {
+          "tier": 4,
+          "name": "Earth Deity",
+          "description": "The number of times [Earth Energy] can heal allies increases to 3."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "Gain 50% [Earth Energy] at the start of battle."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "Attacks deal additional True Damage equal to 10% of [Earth Energy]. If [Earth Energy] exceeds 50%, the additional damage increases to 15%."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "Whenever you consume [Earth Energy] to heal yourself, immediately cast an Ultimate Skill (max 1 trigger per turn)."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "Whenever you consume [Earth Energy] to heal an ally, immediately cast a Special Skill."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "Restore 30% [Earth Energy] at the end of the turn and increase ATK and Defense by 5%; when the number of targets attacked by the Ultimate Skill is 3 or fewer, deal an additional 50% damage."
+        }
+      ]
+    }
+  ]
+}

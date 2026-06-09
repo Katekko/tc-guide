@@ -1,0 +1,65 @@
+{
+  "id": 25015,
+  "name": "Ramesses",
+  "fullName": "Ramesses",
+  "epithet": "Pharaoh King",
+  "heroClass": "Guard",
+  "faction": "Arcane Web",
+  "rarity": "SSR",
+  "stars": 4,
+  "roles": [
+    "AOE Erosion",
+    "Death Rebirth"
+  ],
+  "bio": "Ancient Pharaoh transformed into a Mummy, pursuing the secret of immortality. He fights for justice with dark curses and Taunt powers.<br/><br/><color=#bde141>Role: Revival Protection</color><br/><color=#bde141>Specialty: A front-midline Defense-type hero that can apply group Corrosion for continuous damage; has certain Taunt and self-healing abilities, and can automatically revive when defeated.</color>",
+  "profile": {
+    "height": "185 cm",
+    "illustrator": "Zhaoyang"
+  },
+  "baseStats": {
+    "hp": 1950,
+    "atk": 126,
+    "def": 85,
+    "spd": 1256
+  },
+  "spineId": "25015",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Grip of Nethergod",
+      "type": "Feat",
+      "description": "Attacks all enemies for 90% M.DMG.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Vengeful Spirit Storm",
+      "type": "Ultimate",
+      "description": "Attacks 3 highest Crit enemy targets for 230% M.DMG with 40% probability to apply [Taunt].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Cycle Rebirth",
+      "type": "Awaken",
+      "level": 2,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Cycle Rebirth",
+          "description": "Gains 20% HP."
+        },
+        {
+          "tier": 2,
+          "name": "Cycle Rebirth",
+          "description": "Upon death, gains [Rebirth] and recovers 20% + 5% * [Infect] stacks on enemies as Max HP (triggers once per battle max)."
+        }
+      ]
+    }
+  ]
+}

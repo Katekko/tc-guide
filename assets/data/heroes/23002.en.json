@@ -1,0 +1,46 @@
+{
+  "id": 23002,
+  "name": "Squeaky",
+  "fullName": "Squeaky",
+  "epithet": "Arcane Web Monk",
+  "heroClass": "Support",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 1,
+  "roles": [
+    "0",
+    "0"
+  ],
+  "bio": "Ratman Sage Mentor. His profound knowledge and magic make him a key supporter in the Net of Secrets.<br/><br/><color=#bde141>Role: Magical Heal</color><br/><color=#bde141>Intro: A Support hero that deals Magical Damage to a single enemy and has a certain healing ability.</color>",
+  "profile": {
+    "height": "120 cm",
+    "illustrator": "Mango"
+  },
+  "baseStats": {
+    "hp": 1320,
+    "atk": 150,
+    "def": 54,
+    "spd": 920
+  },
+  "spineId": "23002",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Hexshot Healing",
+      "type": "Feat",
+      "description": "Deals 100% M.DMG to single enemy target and recovers HP equal to 73% ATK for 2 ally targets with lowest HP Ratio.",
+      "releaseTurn": null,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Wizard Lineage",
+      "type": "Ultimate",
+      "description": "Increases HP by 10% and ATK by 5%.",
+      "releaseTurn": null,
+      "cooldown": null
+    }
+  ]
+}

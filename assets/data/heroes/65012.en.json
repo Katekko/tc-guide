@@ -1,0 +1,109 @@
+{
+  "id": 65012,
+  "name": "Hinata Inori",
+  "fullName": "Demon - Hinata Inori",
+  "epithet": "Crimson Flame",
+  "heroClass": "Assault",
+  "faction": "Otherworld",
+  "rarity": "UR+",
+  "stars": 5,
+  "roles": [
+    "Phys. Assault",
+    "Self-Boost"
+  ],
+  "bio": "200 cm",
+  "profile": {
+    "height": "170 cm",
+    "illustrator": "Peachy Crow"
+  },
+  "baseStats": {
+    "hp": 2131,
+    "atk": 278,
+    "def": 91,
+    "spd": 1304
+  },
+  "spineId": "65012",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Quick Kicks of the Blossom",
+      "type": "Feat",
+      "description": "Attack an enemy 3 times, dealing 80% ATK + 4% of the target's max HP as Physical Damage each time (capped at 1x the caster's ATK). This attack grants 30% Lifesteal Rate and counts as a Normal Attack.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Bloodstained Tornado",
+      "type": "Ultimate",
+      "description": "Attack randomly 4 times, dealing 60% ATK as Physical Damage each time (prioritizes attacking different enemies). Then attack all enemies, dealing 600% ATK as Physical Damage (damage is shared among all targets, with each target's damage capped at 2.5x the caster's ATK).",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Demonic Flames of Resentment",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Demonic Flames of Resentment",
+          "description": "When an ally's HP first drops below 40%, gain 1 stack of [Soul Embers]; when an ally dies for the first time, gain 2 stacks of [Soul Embers] (each target can trigger this effect only once)."
+        },
+        {
+          "tier": 2,
+          "name": "Demonic Flames of Resentment",
+          "description": "When [Soul Embers] reaches 10 stacks, immediately enter [Crimson Lotus] state."
+        },
+        {
+          "tier": 3,
+          "name": "Demonic Flames of Resentment",
+          "description": "Entering [Crimson Lotus] state resets the cooldown of all skills."
+        },
+        {
+          "tier": 4,
+          "name": "Demonic Flames of Resentment",
+          "description": "In [Crimson Lotus] state, all your attacks deal an additional 20% True Damage."
+        }
+      ]
+    },
+    {
+      "key": "genesis",
+      "slot": "Genesis",
+      "name": "Genesis",
+      "type": "Genesis",
+      "level": 5,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Genesis I",
+          "description": "When casting an Ultimate Skill in [Crimson Lotus] state, summon [Hundred Phantoms Scorched Earth], then deal 10% of each enemy's current HP as True Damage to all enemies (capped at 2x the caster's ATK).<br/><color=#FFEB04>[Hundred Phantoms Scorched Earth]</color>: Reduces all enemies' True Damage Reduction by 20%; at the end of the turn, deals 5% of each enemy's current HP as True Damage to all enemies (capped at 1x the caster's ATK) and dispels 1 buff. Lasts 2 turns (this effect is non-stackable; re-obtaining it resets the duration)."
+        },
+        {
+          "tier": 2,
+          "name": "Genesis II",
+          "description": "When an ally dies for the first time, immediately enter [Crimson Lotus] state (this effect can trigger only once per battle)."
+        },
+        {
+          "tier": 3,
+          "name": "Genesis III",
+          "description": "In [Crimson Lotus] state, when an ally's HP drops below 60% after being hit, launch [Quick Kicks of the Blossom] at the attacker (each ally can trigger this at most once per turn)."
+        },
+        {
+          "tier": 4,
+          "name": "Genesis IV",
+          "description": "In [Crimson Lotus] state, gain Control Immunity; if an ally dies for the first time during this state, re-enter [Crimson Lotus] state."
+        },
+        {
+          "tier": 5,
+          "name": "Genesis V",
+          "description": "When taking lethal damage in [Crimson Lotus] state, launch [Quick Kicks of the Blossom] at the attacker (this attack grants 100% Crit Rate and 30% Crit Damage); become immune to all damage until the counterattack ends. This effect triggers once per turn."
+        }
+      ]
+    }
+  ]
+}

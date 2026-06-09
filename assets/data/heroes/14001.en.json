@@ -1,0 +1,46 @@
+{
+  "id": 14001,
+  "name": "Galos",
+  "fullName": "Galos",
+  "epithet": "Guard of Light",
+  "heroClass": "Guard",
+  "faction": "Sanctuary",
+  "rarity": "R",
+  "stars": 2,
+  "roles": [
+    "Phys. Control",
+    null
+  ],
+  "bio": "Heavenly Warrior, a member of the Holy Light Crusade who fights against darkness as the Radiant Judge. Representing light and order, he fights for justice.<br/><br/><color=#bde141>Role: Physical Debuff</color><br/><color=#bde141>Intro: A Physical Control-type hero with decent Defense; can deal Physical Damage to an enemy column and stun them.</color>",
+  "profile": {
+    "height": "185 cm",
+    "illustrator": "Lil K"
+  },
+  "baseStats": {
+    "hp": 1725,
+    "atk": 112,
+    "def": 75,
+    "spd": 1180
+  },
+  "spineId": "14001",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Lightlance Thrust",
+      "type": "Feat",
+      "description": "Deals 113% P.DMG to an enemy column with 70% probability to reduce target's Hit Rate by 15% for 2 turns.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Divine Light Impact",
+      "type": "Ultimate",
+      "description": "Attacks the enemy with highest ATK, dealing 233% P.DMG with 50% probability to inflict <color=#FFEB04>[Stun]</color> for 1 turn.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    }
+  ]
+}
