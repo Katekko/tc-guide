@@ -47,9 +47,17 @@ silent on something, reason from the live data — do not invent mechanics.
    - The hero's mechanic profile (2–3 lines).
    - The full human-readable tier list, each mirror with a one-line reason and an
      explicit star breakpoint note where relevant (e.g. "A → S at 3★").
-   - End with a single ```json block (schema in the doc) so the ranking can be
-     ingested into hero data later. Include `recommendedStar` for breakpoint
+   - The ```json block (schema in the doc) with `recommendedStar` for breakpoint
      mirrors.
+7. **Write the data file** the app consumes: `assets/data/heroes/<id>.mirrors.json`
+   containing exactly the JSON object from the schema (no prose). Resolve each
+   `mirrorId` from the catalog by matching the mirror's `name` (the catalog id is
+   authoritative — never invent ids).
+8. **Self-verify before finishing (MANDATORY).** Load the catalog, collect all 69
+   ids, and assert your `ranking` contains **every one exactly once** — no dups,
+   no drops. The earlier prose-vs-JSON mismatch (3 mirrors silently missing) must
+   not recur. If any are missing, add them, then re-check. Report the final tier
+   distribution and the "69/69 present" verification.
 
 ## Quality bar
 

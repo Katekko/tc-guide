@@ -197,9 +197,19 @@ data later. Schema:
 - `tier` ∈ `S A B C D F`.
 - `recommendedStar` = the star at which the mirror is worth using (the breakpoint),
   or `0` if useful immediately. Use `null` if star-agnostic.
-- Include **every** mirror the hero could plausibly consider; you may compress a
-  long F-tier into fewer entries with a shared reason, but never silently drop
-  mirrors — if you cap the list, say so.
+- **Every mirror gets its own entry — all 69, no exceptions.** Do NOT compress the
+  F-tier into shared entries in the JSON (the app renders one chip per entry). It
+  is fine to *group* the reasoning in the human-readable list, but the JSON array
+  must hold all 69 ids exactly once. Before emitting, load the catalog and verify
+  the count is 69 with no duplicates or omissions.
+
+### C) Write the file the app reads
+
+Save the JSON object to **`assets/data/heroes/<heroId>.mirrors.json`**. The hero
+page (`HeroMirrorSection` → `HeroMirrorRepository`) loads it by hero id and renders
+the tier list; heroes without this file fall back to the bonded-mirror hint.
+`assets/data/heroes/` is already a bundled asset dir, but a **new** file requires a
+full `flutter run` relaunch (not hot reload/restart) to enter the asset manifest.
 
 ---
 
