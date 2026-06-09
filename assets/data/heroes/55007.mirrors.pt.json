@@ -1,14 +1,14 @@
 {
   "heroId": 55007,
   "heroName": "Jeanne",
-  "profile": "Guarda UR de Otherworld, uma protetora de time pura. Seu Ultimate Barreira Radiante coloca todo o time em estado de Divisão de Dano, a Bênção da Luz Divina cura com base no HP Máximo dela, e seus nós acumulam Redução de Dano Final, Resistência a Efeitos/Críticos e curas de time que escalam com HP. Ela quase não causa dano direto, nunca dá crítico e não depende de ataques básicos. Ela quer sobrevivência (HP, Redução de Dano Final, redução de dano), sinergia com Divisão de Dano, sustança/escudos de time e Resistência a Efeitos; todo espelho de crítico / ataque básico / ultimate / alvo único / AoE / DoT pessoal é peso morto nela.",
+  "profile": "Guarda UR de Otherworld, uma protetora de time pura. Seu Ultimate Barreira Radiante coloca todo o time em estado de Divisão de Dano, a Bênção da Luz Divina cura com base no HP Máximo dela, e seus nós acumulam Redução de Dano Final, Resistência a Efeitos/Críticos e curas de time que escalam com HP. Ela quase não causa dano direto, nunca dá crítico e não depende de ataques básicos. Ela quer sobrevivência (HP, Redução de Dano Final, redução de dano), sinergia com Divisão de Dano, sustança/escudos de time e Resistência a Efeitos; todo mirror de crítico / ataque básico / ultimate / alvo único / AoE / DoT pessoal é peso morto nela.",
   "ranking": [
     {
       "mirrorId": 72440,
       "name": "Jeanne",
       "tier": "S",
       "recommendedStar": 0,
-      "reason": "O espelho dela; Redução de Dano Final + Bônus de Cura (e redução de Dano Verdadeiro/DoT no 5★) enquanto em Divisão de Dano, o estado que o Ultimate dela sempre cria. Uptime de quase 100%."
+      "reason": "O mirror dela; Redução de Dano Final + Bônus de Cura (e redução de Dano Verdadeiro/DoT no 5★) enquanto em Divisão de Dano, o estado que o Ultimate dela sempre cria. Uptime de quase 100%."
     },
     {
       "mirrorId": 72449,
@@ -169,7 +169,7 @@
       "name": "Venus",
       "tier": "C",
       "recommendedStar": null,
-      "reason": "Redução de dano de suporte combinaria com o tema de sobrevivência dela, mas os dados de efeito deste espelho estão incompletos (o mais novo, ainda não disponível na maioria dos servidores)."
+      "reason": "Redução de dano de suporte combinaria com o tema de sobrevivência dela, mas os dados de efeito deste mirror estão incompletos (o mais novo, ainda não disponível na maioria dos servidores)."
     },
     {
       "mirrorId": 72144,
@@ -204,7 +204,7 @@
       "name": "Elbera‘s Soul Mirror",
       "tier": "D",
       "recommendedStar": null,
-      "reason": "Resistência a Efeitos ao perder buff; condicional e mais fraca que espelhos de Resistência a Efeitos fixa."
+      "reason": "Resistência a Efeitos ao perder buff; condicional e mais fraca que mirrors de Resistência a Efeitos fixa."
     },
     {
       "mirrorId": 72141,

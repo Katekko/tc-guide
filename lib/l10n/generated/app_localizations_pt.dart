@@ -426,7 +426,7 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
-  String get heroMirrorRankingTitle => 'Espelhos recomendados';
+  String get heroMirrorRankingTitle => 'Mirrors recomendados';
 
   @override
   String heroMirrorShowMore(Object count) {
@@ -1456,7 +1456,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   }
 
   @override
-  String get heroMirrorRankingTitle => 'Espelhos recomendados';
+  String get heroMirrorRankingTitle => 'Mirrors recomendados';
 
   @override
   String heroMirrorShowMore(Object count) {

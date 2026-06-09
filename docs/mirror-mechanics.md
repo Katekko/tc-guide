@@ -235,6 +235,58 @@ The mirror extractor is `tools/extract_soul_mirrors.py`; hero extractor is
 
 ---
 
+## 7b. Localization (translating rankings)
+
+Rankings are **authored prose**, not game strings — there is no official zh→en
+source for them. So translation is a **separate step** from ranking: the
+`mirror-expert` writes the authoritative `*.mirrors.en.json`; the
+`mirror-translator` agent later produces `*.mirrors.<lang>.json` from it.
+
+**Rules for any translation:**
+- Translate **only** `profile` and each `reason`. Copy `mirrorId`, `name`,
+  `tier`, `recommendedStar` **verbatim**. Keep the id set 1:1 with the English file.
+- **Do NOT translate** these (keep the English word): **"mirror" / "mirrors"**
+  (per game-owner: never "espelho/espelhos"), every **mirror proper name**
+  (Frostglow, Nuwa, Garvin…), **"Ultimate"**, and the acronyms **HP, ATK, DEF,
+  DoT, AoE, DPS, CC**.
+- Use the glossary below for consistent terms across all heroes. (Seeded from
+  Jeanne; the game-owner will refine — when a term changes, update it here and the
+  translator picks it up on the next run.)
+
+**PT (pt / pt_BR) glossary — seed:**
+
+| English | Portuguese |
+|---|---|
+| Final DMG RED | Redução de Dano Final |
+| Final DMG | Dano Final |
+| Damage-Share (state) | (estado de) Divisão de Dano |
+| Effect Resist | Resistência a Efeitos |
+| Effect Hit (Rate) | Precisão de Efeitos |
+| Crit / Crit Rate / Crit DMG | Crítico / Taxa Crítica / Dano Crítico |
+| Crit DMG RED | Redução de Dano Crítico |
+| True DMG | Dano Verdadeiro |
+| DEF Ignore | Ignorar DEF |
+| Heal / Healing Received | Cura / Cura Recebida |
+| Shield / Spirit Shield | Escudo / Escudo Espiritual |
+| Spirit Armor | Armadura Espiritual |
+| Bleed | Sangramento |
+| Infect / Infection | Infecção |
+| single-target | alvo único |
+| AOE / area | em área (AoE) |
+| basic attack | ataque básico |
+| on-kill / killing | ao abater |
+| Lethal | Letal |
+| Torment | Tormento |
+| Fox Fire | Fogo de Raposa |
+| tank / damage sink | tanque / absorvedora de dano |
+| filler | preenchimento / curinga |
+| uptime / buff | uptime / buff |
+
+Note: the section title for the ranking is l10n key `heroMirrorRankingTitle`
+(EN "Recommended Mirrors", PT "Mirrors recomendados" — "Mirrors" kept English).
+
+---
+
 ## 8. Appendix — full mirror reference
 
 Type / quality / bound hero / tags / first new-clause star breakpoint (best read

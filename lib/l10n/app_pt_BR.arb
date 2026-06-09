@@ -130,7 +130,7 @@
       "name": {}
     }
   },
-  "heroMirrorRankingTitle": "Espelhos recomendados",
+  "heroMirrorRankingTitle": "Mirrors recomendados",
   "heroMirrorShowMore": "Ver ranking completo ({count})",
   "@heroMirrorShowMore": {
     "placeholders": {
