@@ -424,6 +424,17 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String get heroMirrorRankingTitle => 'Recommended Mirrors';
+
+  @override
+  String heroMirrorShowMore(Object count) {
+    return 'Show full ranking ($count)';
+  }
+
+  @override
+  String get heroMirrorShowLess => 'Show less';
+
+  @override
   String get toExtractTitle => 'To Extract';
 
   @override

@@ -130,6 +130,14 @@
       "name": {}
     }
   },
+  "heroMirrorRankingTitle": "Recommended Mirrors",
+  "heroMirrorShowMore": "Show full ranking ({count})",
+  "@heroMirrorShowMore": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "heroMirrorShowLess": "Show less",
   "toExtractTitle": "To Extract",
   "statusDraft": "Status: draft",
   "statusNeedsReview": "Status: needs review",

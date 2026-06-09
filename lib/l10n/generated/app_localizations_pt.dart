@@ -426,6 +426,17 @@ class AppLocalizationsPt extends AppLocalizations {
   }
 
   @override
+  String get heroMirrorRankingTitle => 'Espelhos recomendados';
+
+  @override
+  String heroMirrorShowMore(Object count) {
+    return 'Ver ranking completo ($count)';
+  }
+
+  @override
+  String get heroMirrorShowLess => 'Ver menos';
+
+  @override
   String get toExtractTitle => 'A Extrair';
 
   @override
@@ -1443,6 +1454,17 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String heroMirrorHintsBody(Object name) {
     return 'O Espelho da Alma vinculado de $name. Toque para ver a escala completa da habilidade.';
   }
+
+  @override
+  String get heroMirrorRankingTitle => 'Espelhos recomendados';
+
+  @override
+  String heroMirrorShowMore(Object count) {
+    return 'Ver ranking completo ($count)';
+  }
+
+  @override
+  String get heroMirrorShowLess => 'Ver menos';
 
   @override
   String get toExtractTitle => 'A Extrair';

@@ -8,18 +8,37 @@ import 'soul_mirror_kit.dart';
 
 /// Shows the Soul Mirror detail modal for [mirror], mirroring the in-game popup:
 /// header, activation effect, per-star skill scaling, stat bonus and tags.
-Future<void> showSoulMirrorModal(BuildContext context, SoulMirror mirror) {
+///
+/// When opened from a hero's ranking, pass [reason] (why it sits in its tier for
+/// that hero) and [recommendedStar] (the star it becomes worth using) to surface
+/// a recommendation banner above the in-game details.
+Future<void> showSoulMirrorModal(
+  BuildContext context,
+  SoulMirror mirror, {
+  String? reason,
+  int? recommendedStar,
+}) {
   return showDialog<void>(
     context: context,
     barrierColor: Colors.black87,
-    builder: (_) => _SoulMirrorModal(mirror: mirror),
+    builder: (_) => _SoulMirrorModal(
+      mirror: mirror,
+      reason: reason,
+      recommendedStar: recommendedStar,
+    ),
   );
 }
 
 class _SoulMirrorModal extends StatelessWidget {
-  const _SoulMirrorModal({required this.mirror});
+  const _SoulMirrorModal({
+    required this.mirror,
+    this.reason,
+    this.recommendedStar,
+  });
 
   final SoulMirror mirror;
+  final String? reason;
+  final int? recommendedStar;
 
   @override
   Widget build(BuildContext context) {
@@ -50,6 +69,14 @@ class _SoulMirrorModal extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    if (reason != null && reason!.isNotEmpty) ...[
+                      _RecommendationNote(
+                        reason: reason!,
+                        recommendedStar: recommendedStar,
+                        accent: style.color,
+                      ),
+                      const SizedBox(height: 16),
+                    ],
                     if (mirror.activation.isNotEmpty) ...[
                       _SectionLabel(l.soulMirrorActivationLabel,
                           color: style.color),
@@ -173,6 +200,68 @@ class _Header extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+/// Recommendation banner shown atop the modal when opened from a hero ranking:
+/// the one-line rationale plus an optional "best from N★" breakpoint chip.
+class _RecommendationNote extends StatelessWidget {
+  const _RecommendationNote({
+    required this.reason,
+    required this.accent,
+    this.recommendedStar,
+  });
+
+  final String reason;
+  final Color accent;
+  final int? recommendedStar;
+
+  @override
+  Widget build(BuildContext context) {
+    final star = recommendedStar;
+    final breakpoint = (star != null && star > 0) ? 'Best from $star★' : null;
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.fromLTRB(12, 10, 12, 12),
+      decoration: BoxDecoration(
+        color: accent.withValues(alpha: 0.10),
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(color: accent.withValues(alpha: 0.4)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(Icons.lightbulb_outline, size: 15, color: accent),
+              const SizedBox(width: 6),
+              Text(
+                'Why this pick',
+                style: TextStyle(
+                  color: accent,
+                  fontSize: 12,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: 0.3,
+                ),
+              ),
+              if (breakpoint != null) ...[
+                const Spacer(),
+                _Pill(breakpoint, accent),
+              ],
+            ],
+          ),
+          const SizedBox(height: 6),
+          Text(
+            reason,
+            style: const TextStyle(
+              color: AppColors.bodyText,
+              fontSize: 14,
+              height: 1.4,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

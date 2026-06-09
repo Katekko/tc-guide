@@ -130,6 +130,14 @@
       "name": {}
     }
   },
+  "heroMirrorRankingTitle": "Espelhos recomendados",
+  "heroMirrorShowMore": "Ver ranking completo ({count})",
+  "@heroMirrorShowMore": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "heroMirrorShowLess": "Ver menos",
   "toExtractTitle": "A Extrair",
   "statusDraft": "Status: rascunho",
   "statusNeedsReview": "Status: precisa de revisão",

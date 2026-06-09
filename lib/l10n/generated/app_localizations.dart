@@ -849,6 +849,24 @@ abstract class AppLocalizations {
   /// **'{name}\'s bonded Soul Mirror. Tap it for the full skill scaling.'**
   String heroMirrorHintsBody(Object name);
 
+  /// No description provided for @heroMirrorRankingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommended Mirrors'**
+  String get heroMirrorRankingTitle;
+
+  /// No description provided for @heroMirrorShowMore.
+  ///
+  /// In en, this message translates to:
+  /// **'Show full ranking ({count})'**
+  String heroMirrorShowMore(Object count);
+
+  /// No description provided for @heroMirrorShowLess.
+  ///
+  /// In en, this message translates to:
+  /// **'Show less'**
+  String get heroMirrorShowLess;
+
   /// No description provided for @toExtractTitle.
   ///
   /// In en, this message translates to:
