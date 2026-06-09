@@ -34,9 +34,9 @@
     {
       "mirrorId": 72247,
       "name": "Ling",
-      "tier": "S",
+      "tier": "B",
       "recommendedStar": 0,
-      "reason": "Habilidades causam +40→120% de Dano Verdadeiro ATK a alvos com debuff/[Infecção]; suas maldições cobrem o time e suas habilidades são a entrega, então dispara de forma confiável."
+      "reason": "Habilidades causam +40→120% de Dano Verdadeiro ATK, mas SOMENTE a alvos com [Infecção]. Lucifer aplica [Maldição Eterna], não [Infecção], então isto não dispara com os debuffs dela — só funciona se um aliado aplicar Infecção. Depende do time, não é uma escolha confiável (mesmo motivo pelo qual Ying Gou fica neste tier)."
     },
     {
       "mirrorId": 72340,

@@ -55,9 +55,9 @@
     {
       "mirrorId": 72247,
       "name": "Ling",
-      "tier": "A",
+      "tier": "B",
       "recommendedStar": 0,
-      "reason": "Habilidades causam grande Dano Verdadeiro bônus em alvos com [Infecção] — ela aplica debuffs em todo o time inimigo, então em uma composição de debuff/Infecção isso adiciona dano real. Até 120% de Dano Verdadeiro de ATK em 5★."
+      "reason": "Habilidades causam +40→120% de Dano Verdadeiro ATK, mas SOMENTE a alvos com [Infecção]. Enchantress aplica [Encanto], não [Infecção], então aplicar 'muitos debuffs' não satisfaz a condição — só funciona se um aliado aplicar Infecção. Depende do time, limitada a B."
     },
     {
       "mirrorId": 72441,

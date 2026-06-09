@@ -159,6 +159,29 @@ genuine anti-synergy to name explicitly:
 - A `heal`/`support` mirror on a solo-burst DPS who never benefits from the heal.
 - A `bleed`/`infect` mirror on a hero who applies neither.
 
+### Named-debuff gate (HARD RULE — do not fudge)
+
+Distinguish a **generic** trigger from a **named** one, because the wording is
+almost identical and the difference decides the tier:
+
+- **Generic** — "when attacking enemies **with Debuff**" (Ada), "targets with
+  **[DMG Over Time]**" (Lucifer's mirror). Any debuffer / any DoT hero satisfies
+  these, so "she blankets the team in debuffs" is a *valid* synergy argument.
+- **Named** — "targets with **[Infect]**" (Ling), "enemies **with Control**"
+  (Arthur), "targets with **[Bleed]**". These fire ONLY on that exact status.
+
+For a **named** gate, the mirror synergizes only if **the hero (or a guaranteed
+teammate) applies that exact status**. "She applies lots of debuffs", "her curses
+blanket the team", or "in a debuff comp" do **NOT** satisfy a named gate — a hero
+who stacks `[Eternal Curse]` does nothing for a `[Infect]`-gated mirror.
+
+Therefore, when the hero does not self-apply the named status, **cap the mirror at
+B** (team-dependent — useful only if a teammate supplies the status) and say so in
+the reason. Never rank such a mirror S/A off a generic "lots of debuffs" argument.
+Cross-check yourself: if you tiered one named-debuff mirror low for the right
+reason (e.g. Ying Gou's `[Infect]`), every other named-`[Infect]` mirror (Ling)
+must use the same logic in the same file.
+
 ---
 
 ## 6. Output format

@@ -55,9 +55,9 @@
     {
       "mirrorId": 72247,
       "name": "Ling",
-      "tier": "A",
+      "tier": "B",
       "recommendedStar": 0,
-      "reason": "Skills deal big bonus True DMG to [Infect]'d targets - she debuffs the whole enemy team, so in a debuff/Infect comp this adds real damage. Up to 120% ATK True DMG at 5*."
+      "reason": "Skills deal +40→120% ATK True DMG, but ONLY to [Infect] targets. Enchantress applies [Charm], not [Infect], so applying 'lots of debuffs' does not satisfy the gate — it only comes online if a teammate supplies Infect. Team-dependent, capped at B."
     },
     {
       "mirrorId": 72441,

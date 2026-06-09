@@ -34,9 +34,9 @@
     {
       "mirrorId": 72247,
       "name": "Ling",
-      "tier": "S",
+      "tier": "B",
       "recommendedStar": 0,
-      "reason": "Skills deal +40→120% ATK True DMG to debuffed/[Infect] targets; her curses blanket the team and her skills are the delivery, so it fires reliably."
+      "reason": "Skills deal +40→120% ATK True DMG, but ONLY to [Infect] targets. Lucifer applies [Eternal Curse], not [Infect], so this does not fire off her own debuffs — it comes online only if a teammate applies Infect. Team-dependent, not a reliable pick (same reason Ying Gou is capped here)."
     },
     {
       "mirrorId": 72340,
