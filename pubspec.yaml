@@ -80,6 +80,8 @@ flutter:
     - assets/img/heroes/jeanne/profile.png
     - assets/data/grades.json
     - assets/data/heroes/
+    - assets/data/soul_mirrors/
+    - assets/img/soul_mirrors/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

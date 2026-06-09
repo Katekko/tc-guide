@@ -64,7 +64,7 @@ class GuidesRepositoryImpl implements GuidesRepository {
           ],
         ),
         GuideNavSection(
-          title: l10n.navSectionBeast,
+          title: l10n.navSectionGrowth,
           items: [
             GuideNavItem(
               title: l10n.navSoulMirrors,
