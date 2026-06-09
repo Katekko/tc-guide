@@ -47,7 +47,7 @@ class _HeroMirrorSectionState extends State<HeroMirrorSection> {
 
   Future<_MirrorData> _load(String code) async {
     final catalog = await sl<SoulMirrorRepository>().loadAll(code);
-    final ranking = await sl<HeroMirrorRepository>().load(widget.heroId);
+    final ranking = await sl<HeroMirrorRepository>().load(widget.heroId, code);
     return _MirrorData(
       byId: {for (final m in catalog) m.id: m},
       ranking: ranking,

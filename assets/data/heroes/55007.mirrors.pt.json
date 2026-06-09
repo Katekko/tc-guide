@@ -1,0 +1,490 @@
+{
+  "heroId": 55007,
+  "heroName": "Jeanne",
+  "profile": "Guarda UR de Otherworld, uma protetora de time pura. Seu Ultimate Barreira Radiante coloca todo o time em estado de Divisão de Dano, a Bênção da Luz Divina cura com base no HP Máximo dela, e seus nós acumulam Redução de Dano Final, Resistência a Efeitos/Críticos e curas de time que escalam com HP. Ela quase não causa dano direto, nunca dá crítico e não depende de ataques básicos. Ela quer sobrevivência (HP, Redução de Dano Final, redução de dano), sinergia com Divisão de Dano, sustança/escudos de time e Resistência a Efeitos; todo espelho de crítico / ataque básico / ultimate / alvo único / AoE / DoT pessoal é peso morto nela.",
+  "ranking": [
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "O espelho dela; Redução de Dano Final + Bônus de Cura (e redução de Dano Verdadeiro/DoT no 5★) enquanto em Divisão de Dano, o estado que o Ultimate dela sempre cria. Uptime de quase 100%."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Bônus de Divisão de Dano: Dano Final extra + Resistência a Efeitos e, no 5★, bloqueia 3 efeitos negativos por turno. Ela vive em Divisão de Dano, então está sempre ativo."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "S",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final fixa +12%→30%, incondicional. A melhor mitigação bruta para uma tanque que absorve dano."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "S",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final incondicional +5%→15%; basicamente um segundo Frostglow."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "A",
+      "recommendedStar": null,
+      "reason": "HP +5%→15%; as curas, a absorção de dano dividido e as curas de time dela escalam todas com o HP Máximo — ganho triplo."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "A",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final que cresce a cada golpe recebido (até +45%); ela é atacada o tempo todo via Divisão de Dano, então acumula rápido."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "A",
+      "recommendedStar": null,
+      "reason": "HP% + Cura Recebida conforme o HP cai; HP que ela quer mais amplificação de todas as curas dela."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "A",
+      "recommendedStar": null,
+      "reason": "Limita os grandes golpes divididos (reduz o excesso de golpes de muito HP); forte contra burst para a absorvedora de dano."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "A",
+      "recommendedStar": 3,
+      "reason": "A auto-cura do HP perdido no fim do turno desbloqueia no 3★; precisa de uma fonte de escudo ativa (ex.: Mystic Bull). Abaixo do 3★ é só ATK/DEF, fraco."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "A",
+      "recommendedStar": null,
+      "reason": "HP +2%→5%; mesma lógica de multiplicador de HP do Albert em escala menor, preenchimento barato e temático."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "B",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final por HP perdido (até +20%) é útil; a metade de Dano Final é desperdiçada e exige ela com HP baixo."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "B",
+      "recommendedStar": null,
+      "reason": "Escudo de time = 5%→20% do HP Máximo dela; escala com o HP dela e habilita o Titan Strength."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "B",
+      "recommendedStar": 3,
+      "reason": "Escudo Espiritual de time ao morrer; no 3★ adiciona um segundo alvo. Seguro condicionado à morte."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "B",
+      "recommendedStar": 5,
+      "reason": "O auto-reviver mantém viva a absorvedora de dano do time; o retorno (40% + regeneração) chega no 5★."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "B",
+      "recommendedStar": null,
+      "reason": "Resistência a Efeitos +5%→15%; soma ao tema anti-CC dela para manter a barreira de pé."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "B",
+      "recommendedStar": null,
+      "reason": "Resistência a Efeitos + um grande pico no início do turno (some ao agir); valor anti-CC."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "B",
+      "recommendedStar": null,
+      "reason": "DEF +2%→5%; mitigação menor dentro da função."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "B",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Crítico; pequena, mas sobrevivência temática contra inimigos com muito crítico."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "B",
+      "recommendedStar": null,
+      "reason": "Redução de Dano Final +2%→5%; um Garvin mais fraco, preenchimento barato."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "O contra-ataque de Dano Verdadeiro pela DEF dispara muito (ela é atacada bastante), mas a DEF dela é baixa, então o dano é insignificante."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "C",
+      "recommendedStar": 3,
+      "reason": "O HP% é bom; AoE em golpe letal + acúmulos de ATK/DEF no 3★, mas a cláusula de burst é valor de pânico uma vez por luta."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "+Cura; amplifica as curas dela, mas ela não tem uma habilidade de cura grande para potencializar."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Recuperação do HP perdido no início do turno; sustança própria genérica, nada de especial."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "C",
+      "recommendedStar": null,
+      "reason": "Redução de dano de suporte combinaria com o tema de sobrevivência dela, mas os dados de efeito deste espelho estão incompletos (o mais novo, ainda não disponível na maioria dos servidores)."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Aplica Sangramento ao ser atacada; dispara, mas ela não depende de DoT e isso não protege o time."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Aplica Infecção ao ser atacada; foge da condição de vitória de proteger o time."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "O HP% é ok, mas o bônus de dano quando o HP é maior é desperdiçado numa não-atacante."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Precisão de Efeitos não faz nada — ela não aplica debuffs."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Resistência a Efeitos ao perder buff; condicional e mais fraca que espelhos de Resistência a Efeitos fixa."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Ignorar DEF — ofensivo puro, ela quase não causa dano direto."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "ATK% — irrelevante para uma não-atacante."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Dano Final% — desperdiçado, ela quase não causa dano direto."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Multiplicador pessoal de Dano Final% — morto nela."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Bônus de Dano Final que decai por ataque / reseta no abate — ela não causa dano nem abate."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Acúmulo de dano por ataques repetidos — ela não repete ataques para causar dano."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "D",
+      "recommendedStar": null,
+      "reason": "Dano Final ao atacar / ataque básico — ela não tem cadência de ataque para usar."
+    },
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano de ataque básico + reataque no abate; ela quase não dá ataques básicos e não abate."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano de ataque básico + crítico em básico — sem kit de ataque básico ou crítico."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro em ataque básico + em crítico — ela nem ataca básico muito nem dá crítico."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano de Ultimate + escala com ataque básico; o Ultimate dela não causa dano e ela raramente ataca básico."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Taxa Crítica — sem crítico no kit dela."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Crítico — ela nunca dá crítico."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Taxa/Dano Crítico + dissipação em crítico — sem fontes de crítico."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Acúmulos de crítico/Dano Final em turnos sem abate — não dá crítico, não abate."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Pico de crítico/Dano Final na morte de aliado — inútil sem crítico ou dano."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro/Armadura Espiritual em crítico de Feat — o Feat dela não ataca com crítico."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Redução de cura em crítico — ela não dá críticos."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano de Ultimate% — o Ultimate dela é uma barreira sem dano."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano de ATK de alvo único — sem habilidade de ataque de alvo único."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Escala de execução em ataque único — ela não tem esse ataque."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano de ATK contra inimigos com debuff — ela quase não ataca."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano de ATK contra inimigos controlados — sem kit ofensivo."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro de habilidade única por debuff — sem habilidade de dano de alvo único."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro de habilidade contra [Infecção] — ela não aplica Infecção nem usa habilidade de dano."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Acúmulo de Dano Verdadeiro nos ataques dela — ela quase não causa dano."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro extra em todos os ataques — insignificante sem cadência de ataque."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano de ataque em área — ela não tem habilidade de dano em área."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Bônus de Dano Verdadeiro em habilidade de área — sem habilidade de dano em área (a barreira não causa dano)."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro passivo em ataque de área — sem ataque de área para acionar."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Final contra [Escudo] — ofensivo puro que ela não consegue usar."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Final por buff em si mesma — multiplicador ofensivo numa não-atacante."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Final contra alvos de Divisão/Transferência de Dano — dano que ela não causa."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "[Sangramento] extra ao aplicar — ela não aplica Sangramento."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "[Infecção] extra ao aplicar — ela não aplica Infecção."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "[Fogo de Raposa] em ataque ativo — ela não ataca ativamente para aplicar."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Verdadeiro contra alvos com DoT + Tormento — ela não aplica DoT e não causa dano de ataque."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Dano Final + [Letal] ao causar dano — ela raramente causa dano para aplicar."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Multiplicador de ataque básico + dano de Ultimate com cadeia de ataque no 3★ — morto numa protetora que não ataca."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": null,
+      "reason": "Bônus de habilidade de cura única — a cura dela é em área/passiva pelo HP Máximo, não habilidades de cura de alvo único."
+    }
+  ]
+}

@@ -205,11 +205,18 @@ data later. Schema:
 
 ### C) Write the file the app reads
 
-Save the JSON object to **`assets/data/heroes/<heroId>.mirrors.json`**. The hero
-page (`HeroMirrorSection` → `HeroMirrorRepository`) loads it by hero id and renders
-the tier list; heroes without this file fall back to the bonded-mirror hint.
-`assets/data/heroes/` is already a bundled asset dir, but a **new** file requires a
-full `flutter run` relaunch (not hot reload/restart) to enter the asset manifest.
+Save the JSON object to **`assets/data/heroes/<heroId>.mirrors.<lang>.json`** — one
+file per locale, mirroring the hero data convention (`<id>.en.json` / `<id>.pt.json`).
+English (`.mirrors.en.json`) is authoritative; other locales are optional and the
+app falls back to English when a locale file is missing. Only `profile` and each
+`reason` are translated — `mirrorId`/`name`/`tier`/`recommendedStar` stay identical
+across locales (keep the id set 1:1 with the English file).
+
+The hero page (`HeroMirrorSection` → `HeroMirrorRepository`) loads
+`<id>.mirrors.<lang>.json` by hero id + locale and renders the tier list; heroes
+without any file fall back to the bonded-mirror hint. `assets/data/heroes/` is
+already a bundled asset dir, but a **new** file requires a full `flutter run`
+relaunch (not hot reload/restart) to enter the asset manifest.
 
 ---
 
