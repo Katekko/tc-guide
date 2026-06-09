@@ -1,0 +1,54 @@
+[
+  {
+    "id": 55007,
+    "slug": "jeanne",
+    "name": "Jeanne",
+    "heroClass": "Guard",
+    "faction": "Otherworld",
+    "rarity": "UR",
+    "portrait": "assets/img/heroes/jeanne/profile.png",
+    "roles": [
+      "AOE DMG RED",
+      "AOE Heal"
+    ]
+  },
+  {
+    "id": 15013,
+    "slug": "renais",
+    "name": "Renais",
+    "heroClass": "Assassin",
+    "faction": "Sanctuary",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/renais/profile.png",
+    "roles": [
+      "Guard Counter",
+      "Battle Boost"
+    ]
+  },
+  {
+    "id": 45018,
+    "slug": "adele",
+    "name": "Adele",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/adele/profile.png",
+    "roles": [
+      "Core DPS",
+      "Power Pursuit"
+    ]
+  },
+  {
+    "id": 25013,
+    "slug": "ling",
+    "name": "Ling",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "rarity": "SSR+",
+    "portrait": "assets/img/heroes/ling/profile.png",
+    "roles": [
+      "Spell Burst",
+      "AOE DMG"
+    ]
+  }
+]

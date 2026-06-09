@@ -1,0 +1,75 @@
+{
+  "id": 25013,
+  "name": "Ling",
+  "fullName": "Ling",
+  "epithet": "Demonblade Hime",
+  "heroClass": "Assault",
+  "faction": "Arcane Web",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Spell Burst",
+    "AOE DMG"
+  ],
+  "bio": "Raised in an ancient Japanese Oni Clan, Aya inherited powerful combat talent. She was adopted by the Net of Secrets Faction, learning exquisite swordsmanship and Oni power control to protect humans from evil forces.<br/><br/><color=#bde141>Role: Magical Burst</color><br/><color=#bde141>Specialty: A mid-backline Breakthrough-type hero that can dispel enemy buffs; deals high damage to Corroded and Controlled targets.</color>",
+  "profile": {
+    "height": "165 cm",
+    "illustrator": "Cricket Bunny"
+  },
+  "baseStats": {
+    "hp": 1767,
+    "atk": 267,
+    "def": 83,
+    "spd": 1272
+  },
+  "spineId": "25013",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Divine Ward - Fall",
+      "type": "Feat",
+      "description": "Deals 550% total M.DMG to 4 random enemy targets (DMG distributed among targets, single target cannot exceed 3x caster's ATK); 40% chance to apply 1 stack of [Infect] and dispels 1 Buff.",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Shadow Dance: Zenith",
+      "type": "Ultimate",
+      "description": "Deals 240% M.DMG to 3 frontline enemies, dealing additional True DMG equal to 120% ATK to [Infect] targets.",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Demonblade - Soulcross",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Demonblade - Soulcross",
+          "description": "Gains 1 stack of [Battle Will] whenever an enemy Hero is inflicted with [Infect] (max 6 stacks per turn)."
+        },
+        {
+          "tier": 2,
+          "name": "Demonblade - Soulcross",
+          "description": "When [Battle Will] first reaches 8 stacks, immediately releases an Ultimate (triggers once per battle max)."
+        },
+        {
+          "tier": 3,
+          "name": "Demonblade - Soulcross",
+          "description": "When [Battle Will] first reaches 6 stacks, activates [Demonblade Domain]."
+        },
+        {
+          "tier": 4,
+          "name": "Demonblade - Soulcross",
+          "description": "When [Battle Will] first reaches 14 stacks, immediately releases an Ultimate (triggers once per battle max)."
+        }
+      ]
+    }
+  ]
+}

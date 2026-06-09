@@ -40,25 +40,25 @@ class HomeRepositoryImpl implements HomeRepository {
           name: 'Renais',
           role: l10n.roleStarterCarry,
           image: 'assets/img/heroes/renais/profile.png',
-          route: AppRoutes.starterCarry,
+          route: AppRoutes.heroPath('renais'),
         ),
         HeroItem(
           name: 'Adele',
           role: l10n.roleStarterCarry,
           image: 'assets/img/heroes/adele/profile.png',
-          route: AppRoutes.starterCarry,
+          route: AppRoutes.heroPath('adele'),
         ),
         HeroItem(
           name: 'Ling',
           role: l10n.roleStarterCarry,
           image: 'assets/img/heroes/ling/profile.png',
-          route: AppRoutes.starterCarry,
+          route: AppRoutes.heroPath('ling'),
         ),
         HeroItem(
           name: 'Jeanne',
           role: l10n.roleUrGuide,
           image: 'assets/img/heroes/jeanne/profile.png',
-          route: AppRoutes.jeanne,
+          route: AppRoutes.heroPath('jeanne'),
         ),
       ];
 

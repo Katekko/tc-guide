@@ -31,8 +31,45 @@
 
   <title>Twilight Chronicle Guides</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Match the app's dark page background so there is no white flash before
+       Flutter paints its first frame, and show a themed loading spinner. -->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #070b16;
+    }
+    #loading {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #070b16;
+      transition: opacity 0.35s ease;
+      z-index: 0;
+    }
+    #loading.loaded {
+      opacity: 0;
+      pointer-events: none;
+    }
+    #loading .spinner {
+      width: 44px;
+      height: 44px;
+      border: 4px solid rgba(244, 247, 251, 0.15);
+      border-top-color: #6ea8ff;
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
 </head>
 <body>
+  <!-- Static loader shown immediately; removed once Flutter's view mounts. -->
+  <div id="loading"><div class="spinner"></div></div>
+
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
@@ -42,5 +79,27 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+
+  <!--
+    Fade out and remove the loader as soon as Flutter mounts its view, so the
+    spinner covers the whole boot/compile window then hands off cleanly.
+  -->
+  <script>
+    (function () {
+      var loader = document.getElementById('loading');
+      if (!loader) return;
+      function dismiss() {
+        loader.classList.add('loaded');
+        setTimeout(function () { loader.remove(); }, 400);
+      }
+      var observer = new MutationObserver(function () {
+        if (document.querySelector('flutter-view, flt-glass-pane, flt-scene-host')) {
+          observer.disconnect();
+          dismiss();
+        }
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+    })();
+  </script>
 </body>
 </html>

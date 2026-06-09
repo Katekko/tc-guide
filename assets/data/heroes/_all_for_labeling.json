@@ -1,0 +1,548 @@
+[
+  {
+    "id": 24003,
+    "name": "Abyss",
+    "heroClass": "Assault",
+    "faction": "Kindred",
+    "guess": "UR"
+  },
+  {
+    "id": 15006,
+    "name": "Ada",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 45018,
+    "name": "Adele",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 14002,
+    "name": "Aelia",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 15002,
+    "name": "Albert",
+    "heroClass": "Support",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 35015,
+    "name": "Alucard",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 55008,
+    "name": "Arthur",
+    "heroClass": "Control",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 15010,
+    "name": "Aurora",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 15003,
+    "name": "Azmodan",
+    "heroClass": "Guard",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 35016,
+    "name": "Bathory",
+    "heroClass": "Control",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 24001,
+    "name": "Blackquill",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 25008,
+    "name": "Blazer",
+    "heroClass": "Assault",
+    "faction": "Kindred",
+    "guess": "UR"
+  },
+  {
+    "id": 35001,
+    "name": "Camilla",
+    "heroClass": "Support",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 33001,
+    "name": "Chloe",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "guess": "UR"
+  },
+  {
+    "id": 15001,
+    "name": "Daisy",
+    "heroClass": "Assassin",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 65001,
+    "name": "Dark Tide",
+    "heroClass": "Guard",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 65007,
+    "name": "Dracula",
+    "heroClass": "Guard",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 65010,
+    "name": "Elbella",
+    "heroClass": "Support",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 65012,
+    "name": "Elbella",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 65006,
+    "name": "Elegy",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 65004,
+    "name": "Enchantress",
+    "heroClass": "Control",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 44003,
+    "name": "Eric",
+    "heroClass": "Guard",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 25001,
+    "name": "Frankenstein",
+    "heroClass": "Guard",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 14001,
+    "name": "Galos",
+    "heroClass": "Guard",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 45014,
+    "name": "Garvin",
+    "heroClass": "Guard",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 35006,
+    "name": "Gorgon",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "guess": "UR"
+  },
+  {
+    "id": 25006,
+    "name": "Heidi",
+    "heroClass": "Support",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 15008,
+    "name": "Isaac",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 35003,
+    "name": "Isabella",
+    "heroClass": "Assault",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 35013,
+    "name": "Jacob",
+    "heroClass": "Guard",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 55007,
+    "name": "Jeanne",
+    "heroClass": "Guard",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 33002,
+    "name": "Julius",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "guess": "UR"
+  },
+  {
+    "id": 25003,
+    "name": "Kira",
+    "heroClass": "Assassin",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 15007,
+    "name": "Laird",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 45008,
+    "name": "Lenore",
+    "heroClass": "Assault",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 44001,
+    "name": "Leonard",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 65005,
+    "name": "Lilith",
+    "heroClass": "Control",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 34001,
+    "name": "Lillian",
+    "heroClass": "Support",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 45001,
+    "name": "Lincoln",
+    "heroClass": "Assault",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 25013,
+    "name": "Ling",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 65002,
+    "name": "Lucifer",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 55005,
+    "name": "Luna",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 14003,
+    "name": "Marlok",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "guess": "UR"
+  },
+  {
+    "id": 65017,
+    "name": "Mars",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 45007,
+    "name": "Mica",
+    "heroClass": "Control",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 55001,
+    "name": "Michael",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 25009,
+    "name": "Mister",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 65013,
+    "name": "Night Depths",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 65014,
+    "name": "Nyx",
+    "heroClass": "Assassin",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 65018,
+    "name": "Nyx",
+    "heroClass": "Assassin",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 65015,
+    "name": "Nüwa",
+    "heroClass": "Assault",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 65016,
+    "name": "Nüwa",
+    "heroClass": "Guard",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 25016,
+    "name": "Orpheus",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 24002,
+    "name": "Pipit",
+    "heroClass": "Assassin",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 25015,
+    "name": "Ramesses",
+    "heroClass": "Guard",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 55003,
+    "name": "Raphael",
+    "heroClass": "Support",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 15013,
+    "name": "Renais",
+    "heroClass": "Assassin",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 45006,
+    "name": "Rose",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 43002,
+    "name": "Rylin",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 15005,
+    "name": "Sariel",
+    "heroClass": "Guard",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 23001,
+    "name": "Savage Palm",
+    "heroClass": "Assault",
+    "faction": "Arcane Web",
+    "guess": "UR"
+  },
+  {
+    "id": 35012,
+    "name": "Selina",
+    "heroClass": "Control",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 34003,
+    "name": "Seros",
+    "heroClass": "Control",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 35014,
+    "name": "Sherry",
+    "heroClass": "Support",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 23002,
+    "name": "Squeaky",
+    "heroClass": "Support",
+    "faction": "Arcane Web",
+    "guess": "UR"
+  },
+  {
+    "id": 45010,
+    "name": "Theresa",
+    "heroClass": "Support",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 25004,
+    "name": "Tinplate",
+    "heroClass": "Guard",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 45013,
+    "name": "Uncle Ying",
+    "heroClass": "Assault",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 43001,
+    "name": "Valda",
+    "heroClass": "Assault",
+    "faction": "Sanctuary",
+    "guess": "SSR+"
+  },
+  {
+    "id": 35004,
+    "name": "Valendine",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 45005,
+    "name": "Van Helsing",
+    "heroClass": "Assassin",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  },
+  {
+    "id": 65019,
+    "name": "Venus",
+    "heroClass": "Control",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 25002,
+    "name": "Vineshade",
+    "heroClass": "Control",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 35007,
+    "name": "Vivi",
+    "heroClass": "Assassin",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 55002,
+    "name": "Wu Kong",
+    "heroClass": "Assassin",
+    "faction": "Otherworld",
+    "guess": "UR"
+  },
+  {
+    "id": 35009,
+    "name": "Yin",
+    "heroClass": "Control",
+    "faction": "Kindred",
+    "guess": "SSR+"
+  },
+  {
+    "id": 25005,
+    "name": "Ying Gou",
+    "heroClass": "Control",
+    "faction": "Arcane Web",
+    "guess": "SSR+"
+  },
+  {
+    "id": 45009,
+    "name": "Zhiming",
+    "heroClass": "Control",
+    "faction": "Demonhunter",
+    "guess": "SSR+"
+  }
+]

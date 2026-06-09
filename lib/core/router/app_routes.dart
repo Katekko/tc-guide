@@ -14,7 +14,6 @@ abstract final class AppRoutes {
   static const String urIntroduction = '/docs/ur/introduction';
   static const String urPriority = '/docs/ur/priority';
   static const String urPlus = '/docs/ur/ur-plus';
-  static const String jeanne = '/docs/ur/jeanne';
   static const String nyx = '/docs/ur-plus/nyx';
   static const String stats = '/docs/gears-and-stats/stats';
   static const String gears = '/docs/gears-and-stats/gears';
@@ -22,9 +21,15 @@ abstract final class AppRoutes {
   static const String teamComps = '/docs/team-comps';
   static const String tierList = '/docs/team-comps/tier-list';
 
-  /// Game-faithful hero detail screen, parameterized by TC hero id.
-  static const String heroDetail = '/hero/:id';
+  /// Heroes catalog: the browsable, filterable grid of every hero.
+  static const String heroes = '/heroes';
 
-  /// Builds the concrete [heroDetail] path for [id] (e.g. `/hero/55007`).
-  static String heroDetailPath(int id) => '/hero/$id';
+  /// Per-hero page, keyed by a shareable slug (e.g. `/heroes/jeanne`).
+  static const String heroBySlug = '/heroes/:name';
+
+  /// Builds the concrete [heroBySlug] path for [slug] (e.g. `/heroes/jeanne`).
+  static String heroPath(String slug) => '/heroes/$slug';
+
+  /// Dev-only hero-rarity labelling tool (not linked from any nav).
+  static const String heroLabelDev = '/dev/heroes-label';
 }

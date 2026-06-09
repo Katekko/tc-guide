@@ -47,7 +47,6 @@ class GuidesRepositoryImpl implements GuidesRepository {
             ),
             GuideNavItem(title: l10n.navUrPriority, route: AppRoutes.urPriority),
             GuideNavItem(title: l10n.navUrPlus, route: AppRoutes.urPlus),
-            GuideNavItem(title: l10n.navJeanne, route: AppRoutes.jeanne),
           ],
         ),
         GuideNavSection(
@@ -73,10 +72,11 @@ class GuidesRepositoryImpl implements GuidesRepository {
           ],
         ),
         GuideNavSection(
-          title: l10n.navSectionTeam,
+          title: l10n.navSectionHeroes,
           items: [
-            GuideNavItem(title: l10n.navTeamComps, route: AppRoutes.teamComps),
+            GuideNavItem(title: l10n.navHeroes, route: AppRoutes.heroes),
             GuideNavItem(title: l10n.navTierList, route: AppRoutes.tierList),
+            GuideNavItem(title: l10n.navTeamComps, route: AppRoutes.teamComps),
           ],
         ),
       ];
@@ -99,6 +99,18 @@ class GuidesRepositoryImpl implements GuidesRepository {
   String titleForRoute(AppLocalizations l10n, String route) {
     for (final item in flatItems(l10n)) {
       if (item.route == route) return item.title;
+    }
+    // Per-hero pages (`/heroes/<slug>`) aren't nav items; show the hero's
+    // name in the app bar by title-casing the slug (e.g. `adele` → `Adele`).
+    final heroesPrefix = '${AppRoutes.heroes}/';
+    if (route.startsWith(heroesPrefix)) {
+      final slug = route.substring(heroesPrefix.length);
+      if (slug.isNotEmpty) {
+        return slug
+            .split('-')
+            .map((w) => w.isEmpty ? w : '${w[0].toUpperCase()}${w.substring(1)}')
+            .join(' ');
+      }
     }
     return route;
   }

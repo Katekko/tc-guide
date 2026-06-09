@@ -1,0 +1,75 @@
+{
+  "id": 15013,
+  "name": "Renais",
+  "fullName": "Renais",
+  "epithet": "Triumphant Angel",
+  "heroClass": "Assassin",
+  "faction": "Sanctuary",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Guard Counter",
+    "Battle Boost"
+  ],
+  "bio": "Valiant Heavenly Warrior known by all for his fearlessness and tactical wisdom. He purifies enemies with a spear and illuminates lost souls with his virtue.<br/><br/><color=#bde141>Role: Physical Counterattack</color><br/><color=#bde141>Specialty: A front-midline Counterattack-type hero that can launch Counterattacks when allies take damage; gradually increases its own ATK and lifesteal as turns progress.</color>",
+  "profile": {
+    "height": "175 cm",
+    "illustrator": "Lil K"
+  },
+  "baseStats": {
+    "hp": 1674,
+    "atk": 268,
+    "def": 93,
+    "spd": 1368
+  },
+  "spineId": "15013",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Judgment Blow",
+      "type": "Feat",
+      "description": "Attacks the enemy with the highest [Quash] stacks twice, each dealing 170% P.DMG and has a 60% chance to apply [Holy Seal].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Divine Spear Verdict",
+      "type": "Ultimate",
+      "description": "<color=#FFEB04>Passive</color>: Replaces Basic Attack with [Divine Spear Verdict]; when ally heroes are attacked, Renais casts [Divine Spear Verdict].",
+      "releaseTurn": null,
+      "cooldown": null
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Lance of War God",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Lance of War God",
+          "description": "Each attack or counterattack grants 1 stack of [Momentum] to self."
+        },
+        {
+          "tier": 2,
+          "name": "Lance of War God",
+          "description": "Each attack or counterattack inflicts 1 stack of [Quash] on the target; when attacking enemies with [Quash], it deals additional P.DMG equal to 25% ATK × [Quash] stacks."
+        },
+        {
+          "tier": 3,
+          "name": "Lance of War God",
+          "description": "When attacking enemies with [Quash], this attack grants an additional 30% Crit Rate."
+        },
+        {
+          "tier": 4,
+          "name": "Lance of War God",
+          "description": "[Divine Spear Verdict]’s trigger count is increased to 5."
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:tc_flutter_web/core/di/injection_container.dart';
 import 'package:tc_flutter_web/core/theme/app_colors.dart';
 import 'package:tc_flutter_web/core/widgets/hero_spine_view.dart';
-import 'package:tc_flutter_web/features/feedback/presentation/widgets/feedback_fab.dart';
 import 'package:tc_flutter_web/l10n/generated/app_localizations.dart';
 
 import '../../domain/entities/hero_detail.dart';
@@ -20,35 +19,11 @@ class _HeroData {
   final GradeData grades;
 }
 
-/// Standalone hero detail screen at `/hero/:id` — wraps [HeroDetailView] in a
-/// scrollable, centered scaffold.
-class HeroDetailScreen extends StatelessWidget {
-  /// Creates the detail screen for the given TC hero [id].
-  const HeroDetailScreen({super.key, required this.id});
-
-  /// TC hero id (e.g. 55007 for Jeanne).
-  final int id;
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.pageBackground,
-      floatingActionButton: const FeedbackFab(),
-      body: Center(
-        child: ConstrainedBox(
-          constraints: const BoxConstraints(maxWidth: 560),
-          child: SingleChildScrollView(child: HeroDetailView(id: id)),
-        ),
-      ),
-    );
-  }
-}
-
 /// Game-faithful hero detail content: live Spine portrait, header, the four
 /// skill slots (tap for the skill modal), class/role, stats and lore.
 ///
-/// Scaffold-free so it can be embedded inside a guide page or the standalone
-/// [HeroDetailScreen]. Loads its data from [HeroDetailRepository].
+/// Scaffold-free so it can be embedded inside the per-hero page (`HeroScreen`).
+/// Loads its data from [HeroDetailRepository].
 class HeroDetailView extends StatefulWidget {
   /// Creates the detail view for the given TC hero [id].
   const HeroDetailView({super.key, required this.id});

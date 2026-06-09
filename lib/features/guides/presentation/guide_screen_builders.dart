@@ -4,8 +4,8 @@ import 'package:tc_flutter_web/core/router/app_routes.dart';
 
 import 'screens/gears_screen.dart';
 import 'screens/getting_started_screen.dart';
+import 'screens/heroes_screen.dart';
 import 'screens/intro_screen.dart';
-import 'screens/jeanne_screen.dart';
 import 'screens/nyx_screen.dart';
 import 'screens/reroll_screen.dart';
 import 'screens/shop_priority_screen.dart';
@@ -33,13 +33,13 @@ const Map<String, WidgetBuilder> guideScreenBuilders = {
   AppRoutes.urIntroduction: _urIntroduction,
   AppRoutes.urPriority: _urPriority,
   AppRoutes.urPlus: _urPlus,
-  AppRoutes.jeanne: _jeanne,
   AppRoutes.nyx: _nyx,
   AppRoutes.stats: _stats,
   AppRoutes.gears: _gears,
   AppRoutes.soulMirrors: _soulMirrors,
   AppRoutes.teamComps: _teamComps,
   AppRoutes.tierList: _tierList,
+  AppRoutes.heroes: _heroes,
 };
 
 Widget _intro(BuildContext context) => const IntroScreen();
@@ -51,10 +51,10 @@ Widget _spending(BuildContext context) => const SpendingScreen();
 Widget _urIntroduction(BuildContext context) => const UrIntroductionScreen();
 Widget _urPriority(BuildContext context) => const UrPriorityScreen();
 Widget _urPlus(BuildContext context) => const UrPlusScreen();
-Widget _jeanne(BuildContext context) => const JeanneScreen();
 Widget _nyx(BuildContext context) => const NyxScreen();
 Widget _stats(BuildContext context) => const StatsScreen();
 Widget _gears(BuildContext context) => const GearsScreen();
 Widget _soulMirrors(BuildContext context) => const SoulMirrorsScreen();
 Widget _teamComps(BuildContext context) => const TeamCompsScreen();
 Widget _tierList(BuildContext context) => const TierListScreen();
+Widget _heroes(BuildContext context) => const HeroesScreen();

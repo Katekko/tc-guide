@@ -1,0 +1,75 @@
+{
+  "id": 45018,
+  "name": "Adele",
+  "fullName": "Adele",
+  "epithet": "Midnight Thunder",
+  "heroClass": "Assassin",
+  "faction": "Demonhunter",
+  "rarity": "SSR+",
+  "stars": 5,
+  "roles": [
+    "Core DPS",
+    "Power Pursuit"
+  ],
+  "bio": "Top Demon Hunter and new Clan Leader of the Night Shadow Family. After her older sister (the former Clan Leader) went missing, she hastily took on the role of the family's leader. She carries out Demon Hunting tasks while searching for her sister's whereabouts.<br/><br/><color=#bde141>Role: Pursuit Harvest</color><br/><color=#bde141>Specialty: A mid-backline Control-type hero that can apply group Slow; deals pursuit damage to enemies whose [Seal] is broken.</color>",
+  "profile": {
+    "height": "168 cm",
+    "illustrator": "Yanyu"
+  },
+  "baseStats": {
+    "hp": 1674,
+    "atk": 255,
+    "def": 93,
+    "spd": 1400
+  },
+  "spineId": "45018",
+  "skillSlots": [
+    {
+      "key": "skills",
+      "slot": "Skills",
+      "name": "Skysunder Slash",
+      "type": "Feat",
+      "description": "Attacks lowest DEF Enemy twice (100% then 200% P.DMG), each hit has 50% probability to apply [Sigil].",
+      "releaseTurn": 1,
+      "cooldown": 2
+    },
+    {
+      "key": "ultimate",
+      "slot": "Ultimate",
+      "name": "Whirling Blade Dance",
+      "type": "Ultimate",
+      "description": "Attacks lowest DEF Enemy twice (90% P.DMG per hit), then deals 90% P.DMG to all enemies; each hit has 30% probability to apply [Sigil].",
+      "releaseTurn": 2,
+      "cooldown": 4
+    },
+    {
+      "key": "awaken",
+      "slot": "Awaken",
+      "name": "Demoncleave Waltz",
+      "type": "Awaken",
+      "level": 4,
+      "effects": [
+        {
+          "tier": 1,
+          "name": "Demoncleave Waltz",
+          "description": "50% Probability for Adele to activate [Demon Slay] after active Crit Attack (max 3 triggers per turn)."
+        },
+        {
+          "tier": 2,
+          "name": "Demoncleave Waltz",
+          "description": "Gains 1 stack of [Calm] each time [Demon Slay] is activated."
+        },
+        {
+          "tier": 3,
+          "name": "Demoncleave Waltz",
+          "description": "Crit Attacks deal Extra P.DMG equal to 10% of target's lost HP (max 2x ATK)."
+        },
+        {
+          "tier": 4,
+          "name": "Demoncleave Waltz",
+          "description": "[Demon Slay] trigger Probability increased to 80% (max 6 triggers per turn)."
+        }
+      ]
+    }
+  ]
+}

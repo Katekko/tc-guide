@@ -176,10 +176,30 @@ slots = [s for s in [
 
 # Class (career) enum from HeroCareerDesCfg: f4 -> name.
 CAREER = {1: 'Guard', 2: 'Assassin', 3: 'Control', 4: 'Assault', 5: 'Support'}
+# Faction/camp enum from HeroCampDesCfg: f3 -> name (matches the in-game codex
+# Race grouping; covers UR heroes too, unlike IllustrationHeroShowCfg).
+CAMP = {1: 'Holylight', 2: 'Arcane Web', 3: 'Kindred', 4: 'Demonhunter',
+        5: 'Sanctuary', 6: 'Fiend', 8: 'Otherworld'}
 stars = hero.i(5)                       # base star rating (5 for UR/UR+)
-# Rarity isn't a localized string (sprite in-game); derive it. 6xxxx ids are UR+.
-rarity = 'UR+' if hero_id // 10000 == 6 else \
-    {5: 'UR', 4: 'SSR', 3: 'SR', 2: 'R'}.get(stars, 'N')
+
+# Rarity (the card frame, e.g. UR vs SSR+) isn't a clean numeric field on the
+# hero record, and no rarity text token exists anywhere in the bundle.
+#
+# Source of truth: a hand-curated map `assets/data/heroes/rarity.json`
+# ({"<id>": "N|R|SSR|SSR+|UR|UR+"}), collected by labelling the in-game roster
+# (the full ladder can't be derived from data). When a hero is absent from that
+# map we fall back to the only reliable data signal — fields 48-50 hold the
+# hero's God-system reference id (populated ONLY for UR heroes, since the
+# God/ascension system is UR-exclusive): f48 != 0 -> UR, else SSR+.
+_rarity_map = {}
+try:
+    with open('assets/data/heroes/rarity.json') as _rf:
+        _rarity_map = json.load(_rf)
+except FileNotFoundError:
+    pass
+god_ref = (hero.s(48) or '').strip()
+rarity = _rarity_map.get(str(hero_id),
+                         'UR' if (god_ref and god_ref != '0') else 'SSR+')
 
 result = {
     'id': hero_id,
@@ -187,6 +207,7 @@ result = {
     'fullName': tr(hero.s(2)),         # "God - Jeanne"
     'epithet': tr(hero.s(1)),          # "Glory Saintess"
     'heroClass': CAREER.get(hero.i(4), 'Universal'),
+    'faction': CAMP.get(hero.i(3), 'Unknown'),
     'rarity': rarity,
     'stars': stars,
     'roles': [tr(hero.s(22)), tr(hero.s(23))],

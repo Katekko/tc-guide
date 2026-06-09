@@ -26,7 +26,7 @@ void main() {
       final heroes = repository.featuredHeroes(l10n);
       expect(heroes.map((h) => h.name), ['Renais', 'Adele', 'Ling', 'Jeanne']);
       expect(heroes.every((h) => h.image.endsWith('profile.png')), isTrue);
-      expect(heroes.last.route, AppRoutes.jeanne);
+      expect(heroes.last.route, AppRoutes.heroPath('jeanne'));
     });
 
     test('guideSections returns six sections', () {

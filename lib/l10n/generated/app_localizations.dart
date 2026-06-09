@@ -723,12 +723,6 @@ abstract class AppLocalizations {
   /// **'UR+'**
   String get navUrPlus;
 
-  /// No description provided for @navJeanne.
-  ///
-  /// In en, this message translates to:
-  /// **'Jeanne'**
-  String get navJeanne;
-
   /// No description provided for @navSectionUrPlus.
   ///
   /// In en, this message translates to:
@@ -771,11 +765,17 @@ abstract class AppLocalizations {
   /// **'Soul Mirrors'**
   String get navSoulMirrors;
 
-  /// No description provided for @navSectionTeam.
+  /// No description provided for @navSectionHeroes.
   ///
   /// In en, this message translates to:
-  /// **'Team Comps'**
-  String get navSectionTeam;
+  /// **'Heroes'**
+  String get navSectionHeroes;
+
+  /// No description provided for @navHeroes.
+  ///
+  /// In en, this message translates to:
+  /// **'All Heroes'**
+  String get navHeroes;
 
   /// No description provided for @navTeamComps.
   ///
@@ -788,6 +788,66 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Tier List'**
   String get navTierList;
+
+  /// No description provided for @heroesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Heroes'**
+  String get heroesTitle;
+
+  /// No description provided for @heroesIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Browse every hero, filter by class and rarity, and tap one for its full kit and recommended Soul Mirror.'**
+  String get heroesIntro;
+
+  /// No description provided for @heroSearchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search heroes by name'**
+  String get heroSearchHint;
+
+  /// No description provided for @heroFilterAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get heroFilterAll;
+
+  /// No description provided for @heroShownLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'heroes'**
+  String get heroShownLabel;
+
+  /// No description provided for @heroEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No heroes match these filters.'**
+  String get heroEmpty;
+
+  /// No description provided for @heroNotFoundTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Hero not found'**
+  String get heroNotFoundTitle;
+
+  /// No description provided for @heroNotFoundBody.
+  ///
+  /// In en, this message translates to:
+  /// **'We don\'t have a page for this hero yet. Browse the full roster from the Heroes tab.'**
+  String get heroNotFoundBody;
+
+  /// No description provided for @heroMirrorHintsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommended Soul Mirror'**
+  String get heroMirrorHintsTitle;
+
+  /// No description provided for @heroMirrorHintsBody.
+  ///
+  /// In en, this message translates to:
+  /// **'{name}\'s bonded Soul Mirror. Tap it for the full skill scaling.'**
+  String heroMirrorHintsBody(Object name);
 
   /// No description provided for @toExtractTitle.
   ///

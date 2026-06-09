@@ -139,7 +139,7 @@ class GettingStartedScreen extends StatelessWidget {
           name: t.jeanneTitle,
           description: t.jeanneSpotlightText,
           ctaLabel: t.jeanneSpotlightCta,
-          route: AppRoutes.jeanne,
+          route: AppRoutes.heroPath('jeanne'),
         ),
         GuidePanel(
           title: t.day46EventsTitle,

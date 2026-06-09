@@ -357,9 +357,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navUrPlus => 'UR+';
 
   @override
-  String get navJeanne => 'Jeanne';
-
-  @override
   String get navSectionUrPlus => 'UR+';
 
   @override
@@ -381,13 +378,50 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navSoulMirrors => 'Soul Mirrors';
 
   @override
-  String get navSectionTeam => 'Team Comps';
+  String get navSectionHeroes => 'Heroes';
+
+  @override
+  String get navHeroes => 'All Heroes';
 
   @override
   String get navTeamComps => 'Team Comps';
 
   @override
   String get navTierList => 'Tier List';
+
+  @override
+  String get heroesTitle => 'Heroes';
+
+  @override
+  String get heroesIntro =>
+      'Browse every hero, filter by class and rarity, and tap one for its full kit and recommended Soul Mirror.';
+
+  @override
+  String get heroSearchHint => 'Search heroes by name';
+
+  @override
+  String get heroFilterAll => 'All';
+
+  @override
+  String get heroShownLabel => 'heroes';
+
+  @override
+  String get heroEmpty => 'No heroes match these filters.';
+
+  @override
+  String get heroNotFoundTitle => 'Hero not found';
+
+  @override
+  String get heroNotFoundBody =>
+      'We don\'t have a page for this hero yet. Browse the full roster from the Heroes tab.';
+
+  @override
+  String get heroMirrorHintsTitle => 'Recommended Soul Mirror';
+
+  @override
+  String heroMirrorHintsBody(Object name) {
+    return '$name\'s bonded Soul Mirror. Tap it for the full skill scaling.';
+  }
 
   @override
   String get toExtractTitle => 'To Extract';

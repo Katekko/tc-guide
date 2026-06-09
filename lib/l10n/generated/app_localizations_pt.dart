@@ -359,9 +359,6 @@ class AppLocalizationsPt extends AppLocalizations {
   String get navUrPlus => 'UR+';
 
   @override
-  String get navJeanne => 'Jeanne';
-
-  @override
   String get navSectionUrPlus => 'UR+';
 
   @override
@@ -383,13 +380,50 @@ class AppLocalizationsPt extends AppLocalizations {
   String get navSoulMirrors => 'Espelhos da Alma';
 
   @override
-  String get navSectionTeam => 'Composições';
+  String get navSectionHeroes => 'Heróis';
+
+  @override
+  String get navHeroes => 'Todos os Heróis';
 
   @override
   String get navTeamComps => 'Composições';
 
   @override
   String get navTierList => 'Tier List';
+
+  @override
+  String get heroesTitle => 'Heróis';
+
+  @override
+  String get heroesIntro =>
+      'Veja todos os heróis, filtre por classe e raridade, e toque em um para ver o kit completo e o Espelho da Alma recomendado.';
+
+  @override
+  String get heroSearchHint => 'Buscar heróis por nome';
+
+  @override
+  String get heroFilterAll => 'Todos';
+
+  @override
+  String get heroShownLabel => 'heróis';
+
+  @override
+  String get heroEmpty => 'Nenhum herói corresponde a estes filtros.';
+
+  @override
+  String get heroNotFoundTitle => 'Herói não encontrado';
+
+  @override
+  String get heroNotFoundBody =>
+      'Ainda não temos uma página para este herói. Veja a lista completa na aba Heróis.';
+
+  @override
+  String get heroMirrorHintsTitle => 'Espelho da Alma recomendado';
+
+  @override
+  String heroMirrorHintsBody(Object name) {
+    return 'O Espelho da Alma vinculado de $name. Toque para ver a escala completa da habilidade.';
+  }
 
   @override
   String get toExtractTitle => 'A Extrair';
@@ -1344,9 +1378,6 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String get navUrPlus => 'UR+';
 
   @override
-  String get navJeanne => 'Jeanne';
-
-  @override
   String get navSectionUrPlus => 'UR+';
 
   @override
@@ -1368,13 +1399,50 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String get navSoulMirrors => 'Espelhos da Alma';
 
   @override
-  String get navSectionTeam => 'Composições';
+  String get navSectionHeroes => 'Heróis';
+
+  @override
+  String get navHeroes => 'Todos os Heróis';
 
   @override
   String get navTeamComps => 'Composições';
 
   @override
   String get navTierList => 'Tier List';
+
+  @override
+  String get heroesTitle => 'Heróis';
+
+  @override
+  String get heroesIntro =>
+      'Veja todos os heróis, filtre por classe e raridade, e toque em um para ver o kit completo e o Espelho da Alma recomendado.';
+
+  @override
+  String get heroSearchHint => 'Buscar heróis por nome';
+
+  @override
+  String get heroFilterAll => 'Todos';
+
+  @override
+  String get heroShownLabel => 'heróis';
+
+  @override
+  String get heroEmpty => 'Nenhum herói corresponde a estes filtros.';
+
+  @override
+  String get heroNotFoundTitle => 'Herói não encontrado';
+
+  @override
+  String get heroNotFoundBody =>
+      'Ainda não temos uma página para este herói. Veja a lista completa na aba Heróis.';
+
+  @override
+  String get heroMirrorHintsTitle => 'Espelho da Alma recomendado';
+
+  @override
+  String heroMirrorHintsBody(Object name) {
+    return 'O Espelho da Alma vinculado de $name. Toque para ver a escala completa da habilidade.';
+  }
 
   @override
   String get toExtractTitle => 'A Extrair';

@@ -1,7 +1,8 @@
 import 'package:go_router/go_router.dart';
 
 import 'package:tc_flutter_web/features/guides/presentation/guide_screen_builders.dart';
-import 'package:tc_flutter_web/features/guides/presentation/screens/hero_detail_screen.dart';
+import 'package:tc_flutter_web/features/guides/presentation/screens/hero_label_dev_screen.dart';
+import 'package:tc_flutter_web/features/guides/presentation/screens/hero_screen.dart';
 import 'package:tc_flutter_web/features/guides/presentation/widgets/guide_scaffold.dart';
 import 'package:tc_flutter_web/features/home/presentation/screens/home_screen.dart';
 
@@ -22,10 +23,8 @@ GoRouter buildRouter() {
         builder: (context, state) => const HomeScreen(),
       ),
       GoRoute(
-        path: AppRoutes.heroDetail,
-        builder: (context, state) => HeroDetailScreen(
-          id: int.parse(state.pathParameters['id']!),
-        ),
+        path: AppRoutes.heroLabelDev,
+        builder: (context, state) => const HeroLabelDevScreen(),
       ),
       ShellRoute(
         builder: (context, state, child) => DocsScaffold(
@@ -39,6 +38,14 @@ GoRouter buildRouter() {
               pageBuilder: (context, state) =>
                   NoTransitionPage(child: entry.value(context)),
             ),
+          // Per-hero page lives under the same shell so the sidebar persists.
+          // Keyed by a shareable slug rather than the numeric hero id.
+          GoRoute(
+            path: AppRoutes.heroBySlug,
+            pageBuilder: (context, state) => NoTransitionPage(
+              child: HeroScreen(slug: state.pathParameters['name']!),
+            ),
+          ),
         ],
       ),
     ],
