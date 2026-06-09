@@ -377,7 +377,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get navGears => 'Equipamentos';
 
   @override
-  String get navSectionBeast => 'Espírito Bestial';
+  String get navSectionGrowth => 'Crescimento';
 
   @override
   String get navSoulMirrors => 'Espelhos da Alma';
@@ -752,18 +752,65 @@ class AppLocalizationsPt extends AppLocalizations {
   String get soulMirrorsTitle => 'Espelhos da Alma';
 
   @override
-  String get soulMirrorsExtractOne =>
-      'Prioridades de desbloqueio e upgrade de espelhos da alma.';
+  String get soulMirrorsIntro =>
+      'Veja todos os Espelhos da Alma, filtre por tipo e efeito, e toque em um para ver a escala completa da habilidade.';
 
   @override
-  String get soulMirrorsExtractTwo => 'Primeiros espelhos recomendados.';
+  String get soulMirrorSearchHint => 'Buscar por nome';
 
   @override
-  String get soulMirrorsExtractThree => 'Espelhos situacionais por time.';
+  String get soulMirrorTypeAll => 'Todos';
 
   @override
-  String get soulMirrorsExtractFour =>
-      'Planejamento de slots de espírito bestial.';
+  String get soulMirrorTypeDps => 'DPS';
+
+  @override
+  String get soulMirrorTypeDef => 'DEF';
+
+  @override
+  String get soulMirrorTypeControl => 'Controle';
+
+  @override
+  String get soulMirrorTypeSupport => 'Suporte';
+
+  @override
+  String get soulMirrorRatingLabel => 'Avaliação';
+
+  @override
+  String get soulMirrorActivationLabel => 'Efeito de Ativação';
+
+  @override
+  String get soulMirrorSkillLabel => 'Habilidade do Espelho';
+
+  @override
+  String get soulMirrorActivateLabel => 'Ativar';
+
+  @override
+  String get soulMirrorStatsLabel => 'Bônus de Atributo';
+
+  @override
+  String get soulMirrorAnimaLabel => 'Anima';
+
+  @override
+  String get soulMirrorRareLabel => 'Raro';
+
+  @override
+  String get soulMirrorQualityEpic => 'Épico';
+
+  @override
+  String get soulMirrorQualityLegendary => 'Lendário';
+
+  @override
+  String get soulMirrorQualityEternal => 'Eterno';
+
+  @override
+  String get soulMirrorPowerLabel => 'Poder';
+
+  @override
+  String get soulMirrorShownLabel => 'exibidos';
+
+  @override
+  String get soulMirrorEmpty => 'Nenhum espelho corresponde a estes filtros.';
 
   @override
   String get teamCompsTitle => 'Composições';
@@ -1315,7 +1362,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String get navGears => 'Equipamentos';
 
   @override
-  String get navSectionBeast => 'Espírito Bestial';
+  String get navSectionGrowth => 'Crescimento';
 
   @override
   String get navSoulMirrors => 'Espelhos da Alma';
@@ -1690,18 +1737,65 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String get soulMirrorsTitle => 'Espelhos da Alma';
 
   @override
-  String get soulMirrorsExtractOne =>
-      'Prioridades de desbloqueio e upgrade de espelhos da alma.';
+  String get soulMirrorsIntro =>
+      'Veja todos os Espelhos da Alma, filtre por tipo e efeito, e toque em um para ver a escala completa da habilidade.';
 
   @override
-  String get soulMirrorsExtractTwo => 'Primeiros espelhos recomendados.';
+  String get soulMirrorSearchHint => 'Buscar por nome';
 
   @override
-  String get soulMirrorsExtractThree => 'Espelhos situacionais por time.';
+  String get soulMirrorTypeAll => 'Todos';
 
   @override
-  String get soulMirrorsExtractFour =>
-      'Planejamento de slots de espírito bestial.';
+  String get soulMirrorTypeDps => 'DPS';
+
+  @override
+  String get soulMirrorTypeDef => 'DEF';
+
+  @override
+  String get soulMirrorTypeControl => 'Controle';
+
+  @override
+  String get soulMirrorTypeSupport => 'Suporte';
+
+  @override
+  String get soulMirrorRatingLabel => 'Avaliação';
+
+  @override
+  String get soulMirrorActivationLabel => 'Efeito de Ativação';
+
+  @override
+  String get soulMirrorSkillLabel => 'Habilidade do Espelho';
+
+  @override
+  String get soulMirrorActivateLabel => 'Ativar';
+
+  @override
+  String get soulMirrorStatsLabel => 'Bônus de Atributo';
+
+  @override
+  String get soulMirrorAnimaLabel => 'Anima';
+
+  @override
+  String get soulMirrorRareLabel => 'Raro';
+
+  @override
+  String get soulMirrorQualityEpic => 'Épico';
+
+  @override
+  String get soulMirrorQualityLegendary => 'Lendário';
+
+  @override
+  String get soulMirrorQualityEternal => 'Eterno';
+
+  @override
+  String get soulMirrorPowerLabel => 'Poder';
+
+  @override
+  String get soulMirrorShownLabel => 'exibidos';
+
+  @override
+  String get soulMirrorEmpty => 'Nenhum espelho corresponde a estes filtros.';
 
   @override
   String get teamCompsTitle => 'Composições';

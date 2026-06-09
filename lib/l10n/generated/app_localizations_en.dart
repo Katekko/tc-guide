@@ -375,7 +375,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navGears => 'Gear';
 
   @override
-  String get navSectionBeast => 'Beast Spirit';
+  String get navSectionGrowth => 'Growth';
 
   @override
   String get navSoulMirrors => 'Soul Mirrors';
@@ -744,17 +744,65 @@ class AppLocalizationsEn extends AppLocalizations {
   String get soulMirrorsTitle => 'Soul Mirrors';
 
   @override
-  String get soulMirrorsExtractOne =>
-      'Soul mirror unlock and upgrade priorities.';
+  String get soulMirrorsIntro =>
+      'Browse every Soul Mirror, filter by type and effect, and tap one for its full skill scaling.';
 
   @override
-  String get soulMirrorsExtractTwo => 'Recommended first mirrors.';
+  String get soulMirrorSearchHint => 'Search by name';
 
   @override
-  String get soulMirrorsExtractThree => 'Situational mirrors by team.';
+  String get soulMirrorTypeAll => 'All';
 
   @override
-  String get soulMirrorsExtractFour => 'Beast spirit slot planning.';
+  String get soulMirrorTypeDps => 'DPS';
+
+  @override
+  String get soulMirrorTypeDef => 'DEF';
+
+  @override
+  String get soulMirrorTypeControl => 'Control';
+
+  @override
+  String get soulMirrorTypeSupport => 'Support';
+
+  @override
+  String get soulMirrorRatingLabel => 'Rating';
+
+  @override
+  String get soulMirrorActivationLabel => 'Activation Effect';
+
+  @override
+  String get soulMirrorSkillLabel => 'Soul Mirror Skill';
+
+  @override
+  String get soulMirrorActivateLabel => 'Activate';
+
+  @override
+  String get soulMirrorStatsLabel => 'Stat Bonus';
+
+  @override
+  String get soulMirrorAnimaLabel => 'Anima';
+
+  @override
+  String get soulMirrorRareLabel => 'Rare';
+
+  @override
+  String get soulMirrorQualityEpic => 'Epic';
+
+  @override
+  String get soulMirrorQualityLegendary => 'Legendary';
+
+  @override
+  String get soulMirrorQualityEternal => 'Eternal';
+
+  @override
+  String get soulMirrorPowerLabel => 'Power';
+
+  @override
+  String get soulMirrorShownLabel => 'shown';
+
+  @override
+  String get soulMirrorEmpty => 'No mirrors match these filters.';
 
   @override
   String get teamCompsTitle => 'Team Comps';

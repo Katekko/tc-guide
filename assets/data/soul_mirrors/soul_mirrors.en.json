@@ -1,0 +1,4243 @@
+[
+  {
+    "id": 72011,
+    "name": "Mister",
+    "heroId": 25009,
+    "type": "dps",
+    "quality": "epic",
+    "qualityCode": 3,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "ATK +2%."
+    ],
+    "rating": null,
+    "powerScale": 166,
+    "skill": {
+      "baseEffect": "ATK +2%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "ATK +2.5%.",
+          "effectParams": "powerdisplayscale=22,atk_per=250"
+        },
+        {
+          "star": 2,
+          "effectText": "ATK +3%.",
+          "effectParams": "powerdisplayscale=26,atk_per=300"
+        },
+        {
+          "star": 3,
+          "effectText": "ATK +3.5%.",
+          "effectParams": "powerdisplayscale=30,atk_per=350"
+        },
+        {
+          "star": 4,
+          "effectText": "ATK +4%.",
+          "effectParams": "powerdisplayscale=33,atk_per=400"
+        },
+        {
+          "star": 5,
+          "effectText": "ATK +5%.",
+          "effectParams": "powerdisplayscale=37,atk_per=500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "atk"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=18,atk_per=200",
+      "powerdisplayscale=22,atk_per=250",
+      "powerdisplayscale=26,atk_per=300",
+      "powerdisplayscale=30,atk_per=350",
+      "powerdisplayscale=33,atk_per=400",
+      "powerdisplayscale=37,atk_per=500"
+    ]
+  },
+  {
+    "id": 72012,
+    "name": "Galos",
+    "heroId": 14001,
+    "type": "def",
+    "quality": "epic",
+    "qualityCode": 3,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "DEF +2%."
+    ],
+    "rating": null,
+    "powerScale": 166,
+    "skill": {
+      "baseEffect": "DEF +2%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "DEF +2.5%.",
+          "effectParams": "powerdisplayscale=22,def_per=250"
+        },
+        {
+          "star": 2,
+          "effectText": "DEF +3%.",
+          "effectParams": "powerdisplayscale=26,def_per=300"
+        },
+        {
+          "star": 3,
+          "effectText": "DEF +3.5%.",
+          "effectParams": "powerdisplayscale=30,def_per=350"
+        },
+        {
+          "star": 4,
+          "effectText": "DEF +4%.",
+          "effectParams": "powerdisplayscale=33,def_per=400"
+        },
+        {
+          "star": 5,
+          "effectText": "DEF +5%.",
+          "effectParams": "powerdisplayscale=37,def_per=500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "def"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=18,def_per=200",
+      "powerdisplayscale=22,def_per=250",
+      "powerdisplayscale=26,def_per=300",
+      "powerdisplayscale=30,def_per=350",
+      "powerdisplayscale=33,def_per=400",
+      "powerdisplayscale=37,def_per=500"
+    ]
+  },
+  {
+    "id": 72013,
+    "name": "Frankenstein",
+    "heroId": 25001,
+    "type": "def",
+    "quality": "epic",
+    "qualityCode": 3,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "HP +2%."
+    ],
+    "rating": null,
+    "powerScale": 166,
+    "skill": {
+      "baseEffect": "HP +2%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "HP +2.5%.",
+          "effectParams": "powerdisplayscale=22,hp_per=250"
+        },
+        {
+          "star": 2,
+          "effectText": "HP +3%.",
+          "effectParams": "powerdisplayscale=26,hp_per=300"
+        },
+        {
+          "star": 3,
+          "effectText": "HP +3.5%.",
+          "effectParams": "powerdisplayscale=30,hp_per=350"
+        },
+        {
+          "star": 4,
+          "effectText": "HP +4%.",
+          "effectParams": "powerdisplayscale=33,hp_per=400"
+        },
+        {
+          "star": 5,
+          "effectText": "HP +5%.",
+          "effectParams": "powerdisplayscale=37,hp_per=500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "hp"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=18,hp_per=200",
+      "powerdisplayscale=22,hp_per=250",
+      "powerdisplayscale=26,hp_per=300",
+      "powerdisplayscale=30,hp_per=350",
+      "powerdisplayscale=33,hp_per=400",
+      "powerdisplayscale=37,hp_per=500"
+    ]
+  },
+  {
+    "id": 72014,
+    "name": "Yin",
+    "heroId": 35009,
+    "type": "dps",
+    "quality": "epic",
+    "qualityCode": 3,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Final DMG +2%."
+    ],
+    "rating": null,
+    "powerScale": 166,
+    "skill": {
+      "baseEffect": "Final DMG +2%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Final DMG +2.5%.",
+          "effectParams": "powerdisplayscale=22,increase_dmg=250"
+        },
+        {
+          "star": 2,
+          "effectText": "Final DMG +3%.",
+          "effectParams": "powerdisplayscale=26,increase_dmg=300"
+        },
+        {
+          "star": 3,
+          "effectText": "Final DMG +3.5%.",
+          "effectParams": "powerdisplayscale=30,increase_dmg=350"
+        },
+        {
+          "star": 4,
+          "effectText": "Final DMG +4%.",
+          "effectParams": "powerdisplayscale=33,increase_dmg=400"
+        },
+        {
+          "star": 5,
+          "effectText": "Final DMG +5%.",
+          "effectParams": "powerdisplayscale=37,increase_dmg=500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=18,increase_dmg=200",
+      "powerdisplayscale=22,increase_dmg=250",
+      "powerdisplayscale=26,increase_dmg=300",
+      "powerdisplayscale=30,increase_dmg=350",
+      "powerdisplayscale=33,increase_dmg=400",
+      "powerdisplayscale=37,increase_dmg=500"
+    ]
+  },
+  {
+    "id": 72015,
+    "name": "Zhiming",
+    "heroId": 45009,
+    "type": "dps",
+    "quality": "epic",
+    "qualityCode": 3,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Final DMG RED +2%."
+    ],
+    "rating": null,
+    "powerScale": 166,
+    "skill": {
+      "baseEffect": "Final DMG RED +2%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Final DMG RED +2.5%.",
+          "effectParams": "powerdisplayscale=22,dr=250"
+        },
+        {
+          "star": 2,
+          "effectText": "Final DMG RED +3%.",
+          "effectParams": "powerdisplayscale=26,dr=300"
+        },
+        {
+          "star": 3,
+          "effectText": "Final DMG RED +3.5%.",
+          "effectParams": "powerdisplayscale=30,dr=350"
+        },
+        {
+          "star": 4,
+          "effectText": "Final DMG RED +4%.",
+          "effectParams": "powerdisplayscale=33,dr=400"
+        },
+        {
+          "star": 5,
+          "effectText": "Final DMG RED +5%.",
+          "effectParams": "powerdisplayscale=37,dr=500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "dmg-reduction"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=18,dr=200",
+      "powerdisplayscale=22,dr=250",
+      "powerdisplayscale=26,dr=300",
+      "powerdisplayscale=30,dr=350",
+      "powerdisplayscale=33,dr=400",
+      "powerdisplayscale=37,dr=500"
+    ]
+  },
+  {
+    "id": 72016,
+    "name": "Vivi",
+    "heroId": 35007,
+    "type": "dps",
+    "quality": "epic",
+    "qualityCode": 3,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Crit Rate +2%."
+    ],
+    "rating": null,
+    "powerScale": 166,
+    "skill": {
+      "baseEffect": "Crit Rate +2%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Crit Rate +2.5%.",
+          "effectParams": "powerdisplayscale=22,crit=250"
+        },
+        {
+          "star": 2,
+          "effectText": "Crit Rate +3%.",
+          "effectParams": "powerdisplayscale=26,crit=300"
+        },
+        {
+          "star": 3,
+          "effectText": "Crit Rate +3.5%.",
+          "effectParams": "powerdisplayscale=30,crit=350"
+        },
+        {
+          "star": 4,
+          "effectText": "Crit Rate +4%.",
+          "effectParams": "powerdisplayscale=33,crit=400"
+        },
+        {
+          "star": 5,
+          "effectText": "Crit Rate +5%.",
+          "effectParams": "powerdisplayscale=37,crit=500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "crit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=18,crit=200",
+      "powerdisplayscale=22,crit=250",
+      "powerdisplayscale=26,crit=300",
+      "powerdisplayscale=30,crit=350",
+      "powerdisplayscale=33,crit=400",
+      "powerdisplayscale=37,crit=500"
+    ]
+  },
+  {
+    "id": 72017,
+    "name": "Aelia",
+    "heroId": 14002,
+    "type": "dps",
+    "quality": "epic",
+    "qualityCode": 3,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Crit DMG +2%."
+    ],
+    "rating": null,
+    "powerScale": 166,
+    "skill": {
+      "baseEffect": "Crit DMG +2%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Crit DMG +2.5%.",
+          "effectParams": "powerdisplayscale=22,crit_dmg=250"
+        },
+        {
+          "star": 2,
+          "effectText": "Crit DMG +3%.",
+          "effectParams": "powerdisplayscale=26,crit_dmg=300"
+        },
+        {
+          "star": 3,
+          "effectText": "Crit DMG +3.5%.",
+          "effectParams": "powerdisplayscale=30,crit_dmg=350"
+        },
+        {
+          "star": 4,
+          "effectText": "Crit DMG +4%.",
+          "effectParams": "powerdisplayscale=33,crit_dmg=400"
+        },
+        {
+          "star": 5,
+          "effectText": "Crit DMG +5%.",
+          "effectParams": "powerdisplayscale=37,crit_dmg=500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "crit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=18,crit_dmg=200",
+      "powerdisplayscale=22,crit_dmg=250",
+      "powerdisplayscale=26,crit_dmg=300",
+      "powerdisplayscale=30,crit_dmg=350",
+      "powerdisplayscale=33,crit_dmg=400",
+      "powerdisplayscale=37,crit_dmg=500"
+    ]
+  },
+  {
+    "id": 72018,
+    "name": "Lincoln",
+    "heroId": 45001,
+    "type": "dps",
+    "quality": "epic",
+    "qualityCode": 3,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Crit DMG RED +2%."
+    ],
+    "rating": null,
+    "powerScale": 166,
+    "skill": {
+      "baseEffect": "Crit DMG RED +2%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Crit DMG RED +2.5%.",
+          "effectParams": "powerdisplayscale=22,crit_dmg_imm=250"
+        },
+        {
+          "star": 2,
+          "effectText": "Crit DMG RED +3%.",
+          "effectParams": "powerdisplayscale=26,crit_dmg_imm=300"
+        },
+        {
+          "star": 3,
+          "effectText": "Crit DMG RED +3.5%.",
+          "effectParams": "powerdisplayscale=30,crit_dmg_imm=350"
+        },
+        {
+          "star": 4,
+          "effectText": "Crit DMG RED +4%.",
+          "effectParams": "powerdisplayscale=33,crit_dmg_imm=400"
+        },
+        {
+          "star": 5,
+          "effectText": "Crit DMG RED +5%.",
+          "effectParams": "powerdisplayscale=37,crit_dmg_imm=500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "dmg-reduction",
+      "crit",
+      "crit-resist"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=18,crit_dmg_imm=200",
+      "powerdisplayscale=22,crit_dmg_imm=250",
+      "powerdisplayscale=26,crit_dmg_imm=300",
+      "powerdisplayscale=30,crit_dmg_imm=350",
+      "powerdisplayscale=33,crit_dmg_imm=400",
+      "powerdisplayscale=37,crit_dmg_imm=500"
+    ]
+  },
+  {
+    "id": 72126,
+    "name": "Theresa",
+    "heroId": 45010,
+    "type": "support",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Increases Heal by 5%."
+    ],
+    "rating": null,
+    "powerScale": 336,
+    "skill": {
+      "baseEffect": "Increases Heal by 5%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases Heal by 7%.",
+          "effectParams": "powerdisplayscale=45,heal_rate=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases Heal by 9%.",
+          "effectParams": "powerdisplayscale=52,heal_rate=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Increases Heal by 11%.",
+          "effectParams": "powerdisplayscale=60,heal_rate=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Increases Heal by 13%.",
+          "effectParams": "powerdisplayscale=67,heal_rate=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Increases Heal by 15%.",
+          "effectParams": "powerdisplayscale=75,heal_rate=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "heal"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=37,heal_rate=500",
+      "powerdisplayscale=45,heal_rate=700",
+      "powerdisplayscale=52,heal_rate=900",
+      "powerdisplayscale=60,heal_rate=1100",
+      "powerdisplayscale=67,heal_rate=1300",
+      "powerdisplayscale=75,heal_rate=1500"
+    ]
+  },
+  {
+    "id": 72127,
+    "name": "Albert",
+    "heroId": 15002,
+    "type": "def",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "HP +5%."
+    ],
+    "rating": null,
+    "powerScale": 336,
+    "skill": {
+      "baseEffect": "HP +5%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "HP +7%.",
+          "effectParams": "powerdisplayscale=45,hp_per=700"
+        },
+        {
+          "star": 2,
+          "effectText": "HP +9%.",
+          "effectParams": "powerdisplayscale=52,hp_per=900"
+        },
+        {
+          "star": 3,
+          "effectText": "HP +11%.",
+          "effectParams": "powerdisplayscale=60,hp_per=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "HP +13%.",
+          "effectParams": "powerdisplayscale=67,hp_per=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "HP +15%.",
+          "effectParams": "powerdisplayscale=75,hp_per=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "hp"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=37,hp_per=500",
+      "powerdisplayscale=45,hp_per=700",
+      "powerdisplayscale=52,hp_per=900",
+      "powerdisplayscale=60,hp_per=1100",
+      "powerdisplayscale=67,hp_per=1300",
+      "powerdisplayscale=75,hp_per=1500"
+    ]
+  },
+  {
+    "id": 72128,
+    "name": "Van Helsing",
+    "heroId": 45005,
+    "type": "dps",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Gain 10% Ultimate DMG Boost at the start of battle, removed after releasing Ultimate."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "Gain 10% Ultimate DMG Boost at the start of battle, removed after releasing Ultimate.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Gain 13% Ultimate DMG Boost at the start of battle, removed after releasing Ultimate.",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "Gain 15% Ultimate DMG Boost at the start of battle, removed after releasing Ultimate.",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "Gain 17% Ultimate DMG Boost at the start of battle, removed after releasing Ultimate; each Basic Attack increases Ultimate DMG Boost by 1%, removed after releasing Ultimate.",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "Gain 20% Ultimate DMG Boost at the start of battle, removed after releasing Ultimate; each Basic Attack increases Ultimate DMG Boost by 2%, removed after releasing Ultimate.",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "Gain 25% Ultimate DMG Boost at the start of battle, removed after releasing Ultimate; each Basic Attack increases Ultimate DMG Boost by 3%, removed after releasing Ultimate.",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "basic-atk",
+      "ultimate"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72129,
+    "name": "Bathory",
+    "heroId": 35016,
+    "type": "control",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Effect Hit Rate +5%."
+    ],
+    "rating": null,
+    "powerScale": 336,
+    "skill": {
+      "baseEffect": "Effect Hit Rate +5%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Effect Hit Rate +7%.",
+          "effectParams": "powerdisplayscale=45,stun_rate=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Effect Hit Rate +9%.",
+          "effectParams": "powerdisplayscale=52,stun_rate=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Effect Hit Rate +11%.",
+          "effectParams": "powerdisplayscale=60,stun_rate=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Effect Hit Rate +13%.",
+          "effectParams": "powerdisplayscale=67,stun_rate=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Effect Hit Rate +15%.",
+          "effectParams": "powerdisplayscale=75,stun_rate=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "control",
+      "effect-hit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=37,stun_rate=500",
+      "powerdisplayscale=45,stun_rate=700",
+      "powerdisplayscale=52,stun_rate=900",
+      "powerdisplayscale=60,stun_rate=1100",
+      "powerdisplayscale=67,stun_rate=1300",
+      "powerdisplayscale=75,stun_rate=1500"
+    ]
+  },
+  {
+    "id": 72130,
+    "name": "Tinplate",
+    "heroId": 25004,
+    "type": "def",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "After being attacked, deals True DMG equal to 15% of DEF to attacker."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "After being attacked, deals True DMG equal to 15% of DEF to attacker.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "After being attacked, deals True DMG equal to 20% of DEF to attacker.",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "After being attacked, deals True DMG equal to 25% of DEF to attacker.",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "After being attacked, deals True DMG equal to 30% of DEF to attacker.",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "After being attacked, deals True DMG equal to 40% of DEF to attacker.",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "After being attacked, deals True DMG equal to 50% of DEF to attacker.",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72131,
+    "name": "Raphael",
+    "heroId": 55003,
+    "type": "support",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Effect Resist Rate +5%."
+    ],
+    "rating": null,
+    "powerScale": 336,
+    "skill": {
+      "baseEffect": "Effect Resist Rate +5%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Effect Resist Rate +7%.",
+          "effectParams": "powerdisplayscale=45,stun_imm=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Effect Resist Rate +9%.",
+          "effectParams": "powerdisplayscale=52,stun_imm=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Effect Resist Rate +11%.",
+          "effectParams": "powerdisplayscale=60,stun_imm=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Effect Resist Rate +13%.",
+          "effectParams": "powerdisplayscale=67,stun_imm=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Effect Resist Rate +15%.",
+          "effectParams": "powerdisplayscale=75,stun_imm=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "effect-hit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=37,stun_imm=500",
+      "powerdisplayscale=45,stun_imm=700",
+      "powerdisplayscale=52,stun_imm=900",
+      "powerdisplayscale=60,stun_imm=1100",
+      "powerdisplayscale=67,stun_imm=1300",
+      "powerdisplayscale=75,stun_imm=1500"
+    ]
+  },
+  {
+    "id": 72132,
+    "name": "Garvin",
+    "heroId": 45014,
+    "type": "def",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Final DMG RED +5%."
+    ],
+    "rating": null,
+    "powerScale": 336,
+    "skill": {
+      "baseEffect": "Final DMG RED +5%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Final DMG RED +7%.",
+          "effectParams": "powerdisplayscale=45,dr=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Final DMG RED +9%.",
+          "effectParams": "powerdisplayscale=52,dr=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Final DMG RED +11%.",
+          "effectParams": "powerdisplayscale=60,dr=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Final DMG RED +13%.",
+          "effectParams": "powerdisplayscale=67,dr=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Final DMG RED +15%.",
+          "effectParams": "powerdisplayscale=75,dr=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "dmg-reduction"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=37,dr=500",
+      "powerdisplayscale=45,dr=700",
+      "powerdisplayscale=52,dr=900",
+      "powerdisplayscale=60,dr=1100",
+      "powerdisplayscale=67,dr=1300",
+      "powerdisplayscale=75,dr=1500"
+    ]
+  },
+  {
+    "id": 72133,
+    "name": "Uncle Ying",
+    "heroId": 45013,
+    "type": "dps",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Increases Ultimate DMG by 8%."
+    ],
+    "rating": null,
+    "powerScale": 336,
+    "skill": {
+      "baseEffect": "Increases Ultimate DMG by 8%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases Ultimate DMG by 10%.",
+          "effectParams": "powerdisplayscale=45,skill_dmg=1000"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases Ultimate DMG by 12%.",
+          "effectParams": "powerdisplayscale=52,skill_dmg=1200"
+        },
+        {
+          "star": 3,
+          "effectText": "Increases Ultimate DMG by 14%.",
+          "effectParams": "powerdisplayscale=60,skill_dmg=1400"
+        },
+        {
+          "star": 4,
+          "effectText": "Increases Ultimate DMG by 17%.",
+          "effectParams": "powerdisplayscale=67,skill_dmg=1700"
+        },
+        {
+          "star": 5,
+          "effectText": "Increases Ultimate DMG by 20%.",
+          "effectParams": "powerdisplayscale=75,skill_dmg=2000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "ultimate"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=37,skill_dmg=800",
+      "powerdisplayscale=45,skill_dmg=1000",
+      "powerdisplayscale=52,skill_dmg=1200",
+      "powerdisplayscale=60,skill_dmg=1400",
+      "powerdisplayscale=67,skill_dmg=1700",
+      "powerdisplayscale=75,skill_dmg=2000"
+    ]
+  },
+  {
+    "id": 72134,
+    "name": "Kira",
+    "heroId": 25003,
+    "type": "dps",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Single-target ATK DMG increased by 8%"
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "Single-target ATK DMG increased by 8%",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Single-target ATK DMG increased by 10%",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "Single-target ATK DMG increased by 12%",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "Single-target ATK DMG increased by 14%",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "Single-target ATK DMG increased by 17%",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "Single-target ATK DMG increased by 20%",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "single-target"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72135,
+    "name": "Elegy",
+    "heroId": 65006,
+    "type": "control",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "When landing Crit, reduces target's Healing Received by 4%, up to 20%, lasts 2 turns."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "When landing Crit, reduces target's Healing Received by 4%, up to 20%, lasts 2 turns.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When landing Crit, reduces target's Healing Received by 5%, up to 25%, lasts 2 turns.",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "When landing Crit, reduces target's Healing Received by 6%, up to 30%, lasts 2 turns.",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "When landing Crit, reduces target's Healing Received by 7%, up to 35%, lasts 2 turns.",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "When landing Crit, reduces target's Healing Received by 8%, up to 40%, lasts 2 turns.",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "When landing Crit, reduces target's Healing Received by 10%, up to 50%, lasts 2 turns.",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "crit",
+      "heal"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72136,
+    "name": "Heidi",
+    "heroId": 25006,
+    "type": "support",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Single Heal Skill, gains extra 8% Heal."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "Single Heal Skill, gains extra 8% Heal.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Single Heal Skill, gains extra 10% Heal.",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "Single Heal Skill, gains extra 12% Heal.",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "Single Heal Skill, gains extra 14% Heal.",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "Single Heal Skill, gains extra 17% Heal.",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "Single Heal Skill, gains extra 20% Heal.",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "heal",
+      "single-target"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72137,
+    "name": "Sariel",
+    "heroId": 15005,
+    "type": "control",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "After being attacked, has 10% chance to apply [Infect] to attacker (triggers once per turn max)."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "After being attacked, has 10% chance to apply [Infect] to attacker (triggers once per turn max).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "After being attacked, has 13% chance to apply [Infect] to attacker (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "After being attacked, has 15% chance to apply [Infect] to attacker (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "After being attacked, has 20% chance to apply [Infect] to attacker (triggers twice per turn max).",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "After being attacked, has 25% chance to apply [Infect] to attacker (triggers twice per turn max).",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "After being attacked, has 30% chance to apply [Infect] to attacker (triggers 3 times per turn max).",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "infect"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72138,
+    "name": "Valendine",
+    "heroId": 35004,
+    "type": "dps",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "When using Single Attack, increases DMG dealt by 2% per 15% HP lost by target, max 10%."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "When using Single Attack, increases DMG dealt by 2% per 15% HP lost by target, max 10%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When using Single Attack, increases DMG dealt by 3% per 15% HP lost by target, max 15%.",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "When using Single Attack, increases DMG dealt by 4% per 15% HP lost by target, max 20%.",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "When using Single Attack, increases DMG dealt by 5% per 15% HP lost by target, max 25%.",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "When using Single Attack, increases DMG dealt by 6% per 15% HP lost by target, max 30%.",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "When using Single Attack, increases DMG dealt by 7% per 15% HP lost by target, max 35%.",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "single-target"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72139,
+    "name": "Orpheus",
+    "heroId": 25016,
+    "type": "support",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "At turn start, recovers 5% of lost HP."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "At turn start, recovers 5% of lost HP.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "At turn start, recovers 7% of lost HP.",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "At turn start, recovers 8% of lost HP.",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "At turn start, recovers 11% of lost HP.",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "At turn start, recovers 13% of lost HP.",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "At turn start, recovers 15% of lost HP.",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "heal"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72140,
+    "name": "Jacob",
+    "heroId": 35013,
+    "type": "def",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Gains 1.5% Final DMG and Final DMG RED for every 20% HP lost, up to 7.5%."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "Gains 1.5% Final DMG and Final DMG RED for every 20% HP lost, up to 7.5%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Gains 2% Final DMG and Final DMG RED for every 19% HP lost, up to 10%.",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "Gains 2.5% Final DMG and Final DMG RED for every 18% HP lost, up to 12.5%.",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "Gains 3% Final DMG and Final DMG RED for every 17% HP lost, up to 15%.",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "Gains 3.5% Final DMG and Final DMG RED for every 16% HP lost, up to 17.5%.",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "Gains 4% Final DMG and Final DMG RED for every 14% HP lost, up to 20%.",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg",
+      "dmg-reduction"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72141,
+    "name": "Aurora",
+    "heroId": 15010,
+    "type": "dps",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "DEF Ignore +5%."
+    ],
+    "rating": null,
+    "powerScale": 336,
+    "skill": {
+      "baseEffect": "DEF Ignore +5%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "DEF Ignore +7%.",
+          "effectParams": "powerdisplayscale=45,arp_rate=700"
+        },
+        {
+          "star": 2,
+          "effectText": "DEF Ignore +9%.",
+          "effectParams": "powerdisplayscale=52,arp_rate=900"
+        },
+        {
+          "star": 3,
+          "effectText": "DEF Ignore +11%.",
+          "effectParams": "powerdisplayscale=60,arp_rate=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "DEF Ignore +13%.",
+          "effectParams": "powerdisplayscale=67,arp_rate=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "DEF Ignore +15%.",
+          "effectParams": "powerdisplayscale=75,arp_rate=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "def-ignore"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=37,arp_rate=500",
+      "powerdisplayscale=45,arp_rate=700",
+      "powerdisplayscale=52,arp_rate=900",
+      "powerdisplayscale=60,arp_rate=1100",
+      "powerdisplayscale=67,arp_rate=1300",
+      "powerdisplayscale=75,arp_rate=1500"
+    ]
+  },
+  {
+    "id": 72142,
+    "name": "Ada",
+    "heroId": 15006,
+    "type": "dps",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "ATK DMG increased by 8% when attacking enemies with Debuff."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "ATK DMG increased by 8% when attacking enemies with Debuff.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "ATK DMG increased by 10% when attacking enemies with Debuff.",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "ATK DMG increased by 12% when attacking enemies with Debuff.",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "ATK DMG increased by 14% when attacking enemies with Debuff.",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "ATK DMG increased by 17% when attacking enemies with Debuff.",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "ATK DMG increased by 20% when attacking enemies with Debuff.",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72143,
+    "name": "Arthur",
+    "heroId": 55008,
+    "type": "control",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "ATK DMG increased by 10% when attacking enemies with Control."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "ATK DMG increased by 10% when attacking enemies with Control.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "ATK DMG increased by 13% when attacking enemies with Control.",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "ATK DMG increased by 16% when attacking enemies with Control.",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "ATK DMG increased by 19% when attacking enemies with Control.",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "ATK DMG increased by 22% when attacking enemies with Control.",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "ATK DMG increased by 25% when attacking enemies with Control.",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "control"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72144,
+    "name": "Azmodan",
+    "heroId": 15003,
+    "type": "def",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "After being attacked, has 10% chance to apply [Bleed] to attacker (triggers once per turn max)."
+    ],
+    "rating": null,
+    "powerScale": 450,
+    "skill": {
+      "baseEffect": "After being attacked, has 10% chance to apply [Bleed] to attacker (triggers once per turn max).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "After being attacked, has 13% chance to apply [Bleed] to attacker (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=60"
+        },
+        {
+          "star": 2,
+          "effectText": "After being attacked, has 15% chance to apply [Bleed] to attacker (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=70"
+        },
+        {
+          "star": 3,
+          "effectText": "After being attacked, has 20% chance to apply [Bleed] to attacker (triggers twice per turn max).",
+          "effectParams": "powerdisplayscale=80"
+        },
+        {
+          "star": 4,
+          "effectText": "After being attacked, has 25% chance to apply [Bleed] to attacker (triggers twice per turn max).",
+          "effectParams": "powerdisplayscale=90"
+        },
+        {
+          "star": 5,
+          "effectText": "After being attacked, has 30% chance to apply [Bleed] to attacker (triggers 3 times per turn max).",
+          "effectParams": "powerdisplayscale=100"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "bleed"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=50",
+      "powerdisplayscale=60",
+      "powerdisplayscale=70",
+      "powerdisplayscale=80",
+      "powerdisplayscale=90",
+      "powerdisplayscale=100"
+    ]
+  },
+  {
+    "id": 72145,
+    "name": "Isabella",
+    "heroId": 35003,
+    "type": "dps",
+    "quality": "legendary",
+    "qualityCode": 4,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Increases Final DMG by 4%, increases by additional 6% when attacking enemies with [Shield]."
+    ],
+    "rating": null,
+    "powerScale": 336,
+    "skill": {
+      "baseEffect": "Increases Final DMG by 4%, increases by additional 6% when attacking enemies with [Shield].",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases Final DMG by 5%, increases by additional 7% when attacking enemies with [Shield].",
+          "effectParams": "powerdisplayscale=45,increase_dmg=500"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases Final DMG by 6%, increases by additional 8% when attacking enemies with [Shield].",
+          "effectParams": "powerdisplayscale=52,increase_dmg=600"
+        },
+        {
+          "star": 3,
+          "effectText": "Increases Final DMG by 7%, increases by additional 10% when attacking enemies with [Shield].",
+          "effectParams": "powerdisplayscale=60,increase_dmg=700"
+        },
+        {
+          "star": 4,
+          "effectText": "Increases Final DMG by 8%, increases by additional 12% when attacking enemies with [Shield].",
+          "effectParams": "powerdisplayscale=67,increase_dmg=800"
+        },
+        {
+          "star": 5,
+          "effectText": "Increases Final DMG by 10%, increases by additional 15% when attacking enemies with [Shield].",
+          "effectParams": "powerdisplayscale=75,increase_dmg=1000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg",
+      "shield"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=37,increase_dmg=400",
+      "powerdisplayscale=45,increase_dmg=500",
+      "powerdisplayscale=52,increase_dmg=600",
+      "powerdisplayscale=60,increase_dmg=700",
+      "powerdisplayscale=67,increase_dmg=800",
+      "powerdisplayscale=75,increase_dmg=1000"
+    ]
+  },
+  {
+    "id": 72240,
+    "name": "Sherry",
+    "heroId": 35014,
+    "type": "control",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "When successfully applying [Bleed], has 20% probability to apply 1 additional stack of [Bleed]."
+    ],
+    "rating": null,
+    "powerScale": 900,
+    "skill": {
+      "baseEffect": "When successfully applying [Bleed], has 20% probability to apply 1 additional stack of [Bleed].",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When successfully applying [Bleed], has 25% probability to apply 1 additional stack of [Bleed].",
+          "effectParams": "powerdisplayscale=120"
+        },
+        {
+          "star": 2,
+          "effectText": "When successfully applying [Bleed], has 30% probability to apply 1 additional stack of [Bleed].",
+          "effectParams": "powerdisplayscale=140"
+        },
+        {
+          "star": 3,
+          "effectText": "When successfully applying [Bleed], has 40% probability to apply 1 additional stack of [Bleed].",
+          "effectParams": "powerdisplayscale=160"
+        },
+        {
+          "star": 4,
+          "effectText": "When successfully applying [Bleed], has 50% probability to apply 1 additional stack of [Bleed].",
+          "effectParams": "powerdisplayscale=180"
+        },
+        {
+          "star": 5,
+          "effectText": "When successfully applying [Bleed], has 60% probability to apply 1 additional stack of [Bleed].",
+          "effectParams": "powerdisplayscale=200"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "bleed"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=100",
+      "powerdisplayscale=120",
+      "powerdisplayscale=140",
+      "powerdisplayscale=160",
+      "powerdisplayscale=180",
+      "powerdisplayscale=200"
+    ]
+  },
+  {
+    "id": 72241,
+    "name": "Adele",
+    "heroId": 45018,
+    "type": "dps",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "BATK DMG +10%."
+    ],
+    "rating": null,
+    "powerScale": 675,
+    "skill": {
+      "baseEffect": "BATK DMG +10%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "BATK DMG +13%.",
+          "effectParams": "powerdisplayscale=90,atk_dmg=1300"
+        },
+        {
+          "star": 2,
+          "effectText": "BATK DMG +16%.",
+          "effectParams": "powerdisplayscale=105,atk_dmg=1600"
+        },
+        {
+          "star": 3,
+          "effectText": "BATK DMG +20%, Basic Attack gains 5% additional Crit Rate.",
+          "effectParams": "powerdisplayscale=120,atk_dmg=2000"
+        },
+        {
+          "star": 4,
+          "effectText": "BATK DMG +25%, Basic Attack gains 10% additional Crit Rate.",
+          "effectParams": "powerdisplayscale=135,atk_dmg=2500"
+        },
+        {
+          "star": 5,
+          "effectText": "BATK DMG +30%, Basic Attack gains 15% additional Crit Rate.",
+          "effectParams": "powerdisplayscale=150,atk_dmg=3000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "crit",
+      "basic-atk"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=75,atk_dmg=1000",
+      "powerdisplayscale=90,atk_dmg=1300",
+      "powerdisplayscale=105,atk_dmg=1600",
+      "powerdisplayscale=120,atk_dmg=2000",
+      "powerdisplayscale=135,atk_dmg=2500",
+      "powerdisplayscale=150,atk_dmg=3000"
+    ]
+  },
+  {
+    "id": 72242,
+    "name": "Luna",
+    "heroId": 55005,
+    "type": "dps",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Damage dealt by Area Attacks increased by 10%."
+    ],
+    "rating": null,
+    "powerScale": 900,
+    "skill": {
+      "baseEffect": "Damage dealt by Area Attacks increased by 10%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Damage dealt by Area Attacks increased by 12%.",
+          "effectParams": "powerdisplayscale=120"
+        },
+        {
+          "star": 2,
+          "effectText": "Damage dealt by Area Attacks increased by 14%.",
+          "effectParams": "powerdisplayscale=140"
+        },
+        {
+          "star": 3,
+          "effectText": "Damage dealt by Area Attacks increased by 17%.",
+          "effectParams": "powerdisplayscale=160"
+        },
+        {
+          "star": 4,
+          "effectText": "Damage dealt by Area Attacks increased by 20%.",
+          "effectParams": "powerdisplayscale=180"
+        },
+        {
+          "star": 5,
+          "effectText": "Damage dealt by Area Attacks increased by 25%.",
+          "effectParams": "powerdisplayscale=200"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "aoe"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=100",
+      "powerdisplayscale=120",
+      "powerdisplayscale=140",
+      "powerdisplayscale=160",
+      "powerdisplayscale=180",
+      "powerdisplayscale=200"
+    ]
+  },
+  {
+    "id": 72243,
+    "name": "Dracula",
+    "heroId": 65007,
+    "type": "def",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Increases HP by 5%; Gains 2% Healing Received for every 15% HP lost, up to 10%."
+    ],
+    "rating": null,
+    "powerScale": 675,
+    "skill": {
+      "baseEffect": "Increases HP by 5%; Gains 2% Healing Received for every 15% HP lost, up to 10%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases HP by 7%; Gains 2.5% Healing Received for every 15% HP lost, up to 12.5%.",
+          "effectParams": "powerdisplayscale=90,hp_per=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases HP by 9%; Gains 3% Healing Received for every 15% HP lost, up to 15%.",
+          "effectParams": "powerdisplayscale=105,hp_per=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Increases HP by 11%; Gains 3.5% Healing Received for every 15% HP lost, up to 17.5%.",
+          "effectParams": "powerdisplayscale=120,hp_per=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Increases HP by 13%; Gains 4% Healing Received for every 15% HP lost, up to 20%.",
+          "effectParams": "powerdisplayscale=135,hp_per=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Increases HP by 15%; Gains 5% Healing Received for every 15% HP lost, up to 25%.",
+          "effectParams": "powerdisplayscale=150,hp_per=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "heal",
+      "hp"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=75,hp_per=500",
+      "powerdisplayscale=90,hp_per=700",
+      "powerdisplayscale=105,hp_per=900",
+      "powerdisplayscale=120,hp_per=1100",
+      "powerdisplayscale=135,hp_per=1300",
+      "powerdisplayscale=150,hp_per=1500"
+    ]
+  },
+  {
+    "id": 72244,
+    "name": "Alucard",
+    "heroId": 35015,
+    "type": "dps",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Crit Rate and Crit DMG +5%"
+    ],
+    "rating": null,
+    "powerScale": 675,
+    "skill": {
+      "baseEffect": "Crit Rate and Crit DMG +5%",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Crit Rate and Crit DMG +7%",
+          "effectParams": "powerdisplayscale=90,crit=700,crit_dmg=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Crit Rate and Crit DMG +9%",
+          "effectParams": "powerdisplayscale=105,crit=900,crit_dmg=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Gains 11% Crit Rate and Crit DMG; When landing Crit, has 30% chance to dispels 1 Buff from target (triggers once per turn).",
+          "effectParams": "powerdisplayscale=120,crit=1100,crit_dmg=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Gains 13% Crit Rate and Crit DMG; When landing Crit, has 40% chance to dispels 1 Buff from target (triggers once per turn).",
+          "effectParams": "powerdisplayscale=135,crit=1300,crit_dmg=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Gains 15% Crit Rate and Crit DMG; When landing Crit, has 50% chance to dispels 1 Buff from target (triggers once per turn).",
+          "effectParams": "powerdisplayscale=150,crit=1500,crit_dmg=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "crit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=75,crit=500,crit_dmg=500",
+      "powerdisplayscale=90,crit=700,crit_dmg=700",
+      "powerdisplayscale=105,crit=900,crit_dmg=900",
+      "powerdisplayscale=120,crit=1100,crit_dmg=1100",
+      "powerdisplayscale=135,crit=1300,crit_dmg=1300",
+      "powerdisplayscale=150,crit=1500,crit_dmg=1500"
+    ]
+  },
+  {
+    "id": 72245,
+    "name": "Rose",
+    "heroId": 45006,
+    "type": "dps",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Increases own Final DMG by 1.5% after each attack, lasts 2 turns, up to 12%."
+    ],
+    "rating": null,
+    "powerScale": 900,
+    "skill": {
+      "baseEffect": "Increases own Final DMG by 1.5% after each attack, lasts 2 turns, up to 12%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases own Final DMG by 2% after each attack, lasts 2 turns, up to 16%.",
+          "effectParams": "powerdisplayscale=120"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases own Final DMG by 2.5% after each attack, lasts 2 turns, up to 20%.",
+          "effectParams": "powerdisplayscale=140"
+        },
+        {
+          "star": 3,
+          "effectText": "After each attack: Increase Final DMG by 2.5% when using Basic Attack, or 5% when using Ultimate/Feat Skill; lasts 2 turns, max 20% total increase",
+          "effectParams": "powerdisplayscale=160"
+        },
+        {
+          "star": 4,
+          "effectText": "After each attack: Increase Final DMG by 3% when using Basic Attack, or 6% when using Ultimate/Feat Skill; lasts 2 turns, max 24% total increase",
+          "effectParams": "powerdisplayscale=180"
+        },
+        {
+          "star": 5,
+          "effectText": "After each attack: Increase Final DMG by 3.5% when using Basic Attack, or 7% when using Ultimate/Feat Skill; lasts 2 turns, max 28% total increase",
+          "effectParams": "powerdisplayscale=200"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg",
+      "basic-atk",
+      "ultimate"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=100",
+      "powerdisplayscale=120",
+      "powerdisplayscale=140",
+      "powerdisplayscale=160",
+      "powerdisplayscale=180",
+      "powerdisplayscale=200"
+    ]
+  },
+  {
+    "id": 72246,
+    "name": "Ying Gou",
+    "heroId": 25005,
+    "type": "control",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "When successfully applying [Infect], has 20% probability to apply 1 additional stack of [Infect]."
+    ],
+    "rating": null,
+    "powerScale": 900,
+    "skill": {
+      "baseEffect": "When successfully applying [Infect], has 20% probability to apply 1 additional stack of [Infect].",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When successfully applying [Infect], has 25% probability to apply 1 additional stack of [Infect].",
+          "effectParams": "powerdisplayscale=120"
+        },
+        {
+          "star": 2,
+          "effectText": "When successfully applying [Infect], has 30% probability to apply 1 additional stack of [Infect].",
+          "effectParams": "powerdisplayscale=140"
+        },
+        {
+          "star": 3,
+          "effectText": "When successfully applying [Infect], has 40% probability to apply 1 additional stack of [Infect].",
+          "effectParams": "powerdisplayscale=160"
+        },
+        {
+          "star": 4,
+          "effectText": "When successfully applying [Infect], has 50% probability to apply 1 additional stack of [Infect].",
+          "effectParams": "powerdisplayscale=180"
+        },
+        {
+          "star": 5,
+          "effectText": "When successfully applying [Infect], has 60% probability to apply 1 additional stack of [Infect].",
+          "effectParams": "powerdisplayscale=200"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "infect"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=100",
+      "powerdisplayscale=120",
+      "powerdisplayscale=140",
+      "powerdisplayscale=160",
+      "powerdisplayscale=180",
+      "powerdisplayscale=200"
+    ]
+  },
+  {
+    "id": 72247,
+    "name": "Ling",
+    "heroId": 25013,
+    "type": "dps",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Skills deal additional True DMG equal to 40% of ATK to targets with [Infect] (triggers once per turn max)."
+    ],
+    "rating": null,
+    "powerScale": 900,
+    "skill": {
+      "baseEffect": "Skills deal additional True DMG equal to 40% of ATK to targets with [Infect] (triggers once per turn max).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Skills deal additional True DMG equal to 50% of ATK to targets with [Infect] (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=120"
+        },
+        {
+          "star": 2,
+          "effectText": "Skills deal additional True DMG equal to 60% of ATK to targets with [Infect] (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=140"
+        },
+        {
+          "star": 3,
+          "effectText": "Skills deal additional True DMG equal to 80% of ATK to targets with [Infect] (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=160"
+        },
+        {
+          "star": 4,
+          "effectText": "Skills deal additional True DMG equal to 100% of ATK to targets with [Infect] (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=180"
+        },
+        {
+          "star": 5,
+          "effectText": "Skills deal additional True DMG equal to 120% of ATK to targets with [Infect] (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=200"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "infect",
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=100",
+      "powerdisplayscale=120",
+      "powerdisplayscale=140",
+      "powerdisplayscale=160",
+      "powerdisplayscale=180",
+      "powerdisplayscale=200"
+    ]
+  },
+  {
+    "id": 72248,
+    "name": "Lilith",
+    "heroId": 65005,
+    "type": "control",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "When using Single Skill Attack, deals additional True DMG equal to 8% of ATK per Debuff on target, up to 40% (triggers once per turn)."
+    ],
+    "rating": null,
+    "powerScale": 900,
+    "skill": {
+      "baseEffect": "When using Single Skill Attack, deals additional True DMG equal to 8% of ATK per Debuff on target, up to 40% (triggers once per turn).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When using Single Skill Attack, deals additional True DMG equal to 10% of ATK per Debuff on target, up to 50% (triggers once per turn).",
+          "effectParams": "powerdisplayscale=120"
+        },
+        {
+          "star": 2,
+          "effectText": "When using Single Skill Attack, deals additional True DMG equal to 12% of ATK per Debuff on target, up to 60% (triggers once per turn).",
+          "effectParams": "powerdisplayscale=140"
+        },
+        {
+          "star": 3,
+          "effectText": "When using Single Skill Attack, deals additional True DMG equal to 14% of ATK per Debuff on target, up to 70%; if target has [Infect], deals additional True DMG equal to 15% of ATK (triggers once per turn).",
+          "effectParams": "powerdisplayscale=160"
+        },
+        {
+          "star": 4,
+          "effectText": "When using Single Skill Attack, deals additional True DMG equal to 16% of ATK per Debuff on target, up to 80%; if target has [Infect], deals additional True DMG equal to 20% of ATK (triggers once per turn).",
+          "effectParams": "powerdisplayscale=180"
+        },
+        {
+          "star": 5,
+          "effectText": "When using Single Skill Attack, deals additional True DMG equal to 20% of ATK per Debuff on target, up to 100%; if target has [Infect], deals additional True DMG equal to 30% of ATK (triggers once per turn).",
+          "effectParams": "powerdisplayscale=200"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "infect",
+      "single-target",
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=100",
+      "powerdisplayscale=120",
+      "powerdisplayscale=140",
+      "powerdisplayscale=160",
+      "powerdisplayscale=180",
+      "powerdisplayscale=200"
+    ]
+  },
+  {
+    "id": 72249,
+    "name": "Michael",
+    "heroId": 55001,
+    "type": "dps",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Increases Final DMG by 3% per Buff on self, up to 15%."
+    ],
+    "rating": null,
+    "powerScale": 900,
+    "skill": {
+      "baseEffect": "Increases Final DMG by 3% per Buff on self, up to 15%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases Final DMG by 3.5% per Buff on self, up to 17.5%.",
+          "effectParams": "powerdisplayscale=120"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases Final DMG by 4% per Buff on self, up to 20%.",
+          "effectParams": "powerdisplayscale=140"
+        },
+        {
+          "star": 3,
+          "effectText": "Increases Final DMG by 4.5% per Buff on self, up to 22.5%.",
+          "effectParams": "powerdisplayscale=160"
+        },
+        {
+          "star": 4,
+          "effectText": "Increases Final DMG by 5% per Buff on self, up to 25%.",
+          "effectParams": "powerdisplayscale=180"
+        },
+        {
+          "star": 5,
+          "effectText": "Increases Final DMG by 6% per Buff on self, up to 30%.",
+          "effectParams": "powerdisplayscale=200"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=100",
+      "powerdisplayscale=120",
+      "powerdisplayscale=140",
+      "powerdisplayscale=160",
+      "powerdisplayscale=180",
+      "powerdisplayscale=200"
+    ]
+  },
+  {
+    "id": 72250,
+    "name": "Renais",
+    "heroId": 15013,
+    "type": "dps",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Increases Basic Attack DMG by 3% after each Counterattack or Basic Attack, lasts 1 turn, up to 12%."
+    ],
+    "rating": null,
+    "powerScale": 900,
+    "skill": {
+      "baseEffect": "Increases Basic Attack DMG by 3% after each Counterattack or Basic Attack, lasts 1 turn, up to 12%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases Basic Attack DMG by 4% after each Counterattack or Basic Attack, lasts 1 turn, up to 16%.",
+          "effectParams": "powerdisplayscale=120"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases Basic Attack DMG by 5% after each Counterattack or Basic Attack, lasts 1 turn, up to 20%.",
+          "effectParams": "powerdisplayscale=140"
+        },
+        {
+          "star": 3,
+          "effectText": "Increases Basic Attack DMG by 5% after each Counterattack or Basic Attack, lasts 1 turn, up to 25%; When killing enemy, has 40% chance to launch a Basic Attack against a random enemy.",
+          "effectParams": "powerdisplayscale=160"
+        },
+        {
+          "star": 4,
+          "effectText": "Increases Basic Attack DMG by 6% after each Counterattack or Basic Attack, lasts 1 turn, up to 30%; When killing enemy, has 60% chance to launch a Basic Attack against a random enemy.",
+          "effectParams": "powerdisplayscale=180"
+        },
+        {
+          "star": 5,
+          "effectText": "Increases Basic Attack DMG by 8% after each Counterattack or Basic Attack, lasts 1 turn, up to 40%; When killing enemy, has 80% chance to launch a Basic Attack against a random enemy.",
+          "effectParams": "powerdisplayscale=200"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "basic-atk"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=100",
+      "powerdisplayscale=120",
+      "powerdisplayscale=140",
+      "powerdisplayscale=160",
+      "powerdisplayscale=180",
+      "powerdisplayscale=200"
+    ]
+  },
+  {
+    "id": 72251,
+    "name": "Dark Tide",
+    "heroId": 65001,
+    "type": "def",
+    "quality": "eternal",
+    "qualityCode": 8,
+    "isAnima": false,
+    "isRare": false,
+    "activationEffect": [
+      "Increases HP by 5%; DMG increased by 6% when own HP is higher than enemy's."
+    ],
+    "rating": null,
+    "powerScale": 675,
+    "skill": {
+      "baseEffect": "Increases HP by 5%; DMG increased by 6% when own HP is higher than enemy's.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases HP by 7%; DMG increased by 7% when own HP is higher than enemy's.",
+          "effectParams": "powerdisplayscale=90,hp_per=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases HP by 9%; DMG increased by 8% when own HP is higher than enemy's.",
+          "effectParams": "powerdisplayscale=105,hp_per=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Increases HP by 11%; DMG increased by 10% when own HP is higher than enemy's.",
+          "effectParams": "powerdisplayscale=120,hp_per=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Increases HP by 13%; DMG increased by 12% when own HP is higher than enemy's.",
+          "effectParams": "powerdisplayscale=135,hp_per=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Increases HP by 15%; DMG increased by 15% when own HP is higher than enemy's.",
+          "effectParams": "powerdisplayscale=150,hp_per=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "hp"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=75,hp_per=500",
+      "powerdisplayscale=90,hp_per=700",
+      "powerdisplayscale=105,hp_per=900",
+      "powerdisplayscale=120,hp_per=1100",
+      "powerdisplayscale=135,hp_per=1300",
+      "powerdisplayscale=150,hp_per=1500"
+    ]
+  },
+  {
+    "id": 72340,
+    "name": "Firmament",
+    "heroId": null,
+    "type": "dps",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "Final DMG +12%."
+    ],
+    "rating": null,
+    "powerScale": 1350,
+    "skill": {
+      "baseEffect": "Final DMG +12%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Final DMG +15%.",
+          "effectParams": "powerdisplayscale=180,increase_dmg=1500"
+        },
+        {
+          "star": 2,
+          "effectText": "Final DMG +18%.",
+          "effectParams": "powerdisplayscale=210,increase_dmg=1800"
+        },
+        {
+          "star": 3,
+          "effectText": "Final DMG +21%.",
+          "effectParams": "powerdisplayscale=240,increase_dmg=2100"
+        },
+        {
+          "star": 4,
+          "effectText": "Final DMG +25%.",
+          "effectParams": "powerdisplayscale=270,increase_dmg=2500"
+        },
+        {
+          "star": 5,
+          "effectText": "Final DMG +30%.",
+          "effectParams": "powerdisplayscale=300,increase_dmg=3000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=150,increase_dmg=1200",
+      "powerdisplayscale=180,increase_dmg=1500",
+      "powerdisplayscale=210,increase_dmg=1800",
+      "powerdisplayscale=240,increase_dmg=2100",
+      "powerdisplayscale=270,increase_dmg=2500",
+      "powerdisplayscale=300,increase_dmg=3000"
+    ]
+  },
+  {
+    "id": 72341,
+    "name": "Frostglow",
+    "heroId": null,
+    "type": "def",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "Final DMG RED +12%."
+    ],
+    "rating": null,
+    "powerScale": 1350,
+    "skill": {
+      "baseEffect": "Final DMG RED +12%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Final DMG RED +15%.",
+          "effectParams": "powerdisplayscale=180,dr=1500"
+        },
+        {
+          "star": 2,
+          "effectText": "Final DMG RED +18%.",
+          "effectParams": "powerdisplayscale=210,dr=1800"
+        },
+        {
+          "star": 3,
+          "effectText": "Final DMG RED +21%.",
+          "effectParams": "powerdisplayscale=240,dr=2100"
+        },
+        {
+          "star": 4,
+          "effectText": "Final DMG RED +25%.",
+          "effectParams": "powerdisplayscale=270,dr=2500"
+        },
+        {
+          "star": 5,
+          "effectText": "Final DMG RED +30%.",
+          "effectParams": "powerdisplayscale=300,dr=3000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "dmg-reduction"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=150,dr=1200",
+      "powerdisplayscale=180,dr=1500",
+      "powerdisplayscale=210,dr=1800",
+      "powerdisplayscale=240,dr=2100",
+      "powerdisplayscale=270,dr=2500",
+      "powerdisplayscale=300,dr=3000"
+    ]
+  },
+  {
+    "id": 72342,
+    "name": "Rock Elephant",
+    "heroId": null,
+    "type": "def",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "When receiving DMG exceeding 50% of Max HP, reduces excess DMG by 30% (triggers once per turn max)."
+    ],
+    "rating": null,
+    "powerScale": 1800,
+    "skill": {
+      "baseEffect": "When receiving DMG exceeding 50% of Max HP, reduces excess DMG by 30% (triggers once per turn max).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When receiving DMG exceeding 40% of Max HP, reduces excess DMG by 30% (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=240"
+        },
+        {
+          "star": 2,
+          "effectText": "When receiving DMG exceeding 30% of Max HP, reduces excess DMG by 30% (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=280"
+        },
+        {
+          "star": 3,
+          "effectText": "When receiving DMG exceeding 30% of Max HP, reduces excess DMG by 40% (triggers once per turn max).",
+          "effectParams": "powerdisplayscale=320"
+        },
+        {
+          "star": 4,
+          "effectText": "When receiving DMG exceeding 25% of Max HP, reduces excess DMG by 40% (triggers up to 2 times per turn).",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 5,
+          "effectText": "When receiving DMG exceeding 20% of Max HP, reduces excess DMG by 50% (triggers up to 2 times per turn).",
+          "effectParams": "powerdisplayscale=400"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "dmg-reduction"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=200",
+      "powerdisplayscale=240",
+      "powerdisplayscale=280",
+      "powerdisplayscale=320",
+      "powerdisplayscale=360",
+      "powerdisplayscale=400"
+    ]
+  },
+  {
+    "id": 72343,
+    "name": "Mystic Bull",
+    "heroId": null,
+    "type": "support",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "At battle start, grants all allies Shield equal to 5% of self's Max HP, lasts 2 turns (Shields from this Soul Mirror can stack)."
+    ],
+    "rating": null,
+    "powerScale": 1800,
+    "skill": {
+      "baseEffect": "At battle start, grants all allies Shield equal to 5% of self's Max HP, lasts 2 turns (Shields from this Soul Mirror can stack).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "At battle start, grants all allies Shield equal to 7% of self's Max HP, lasts 2 turns (Shields from this Soul Mirror can stack).",
+          "effectParams": "powerdisplayscale=240"
+        },
+        {
+          "star": 2,
+          "effectText": "At battle start, grants all allies Shield equal to 10% of self's Max HP, lasts 2 turns (Shields from this Soul Mirror can stack).",
+          "effectParams": "powerdisplayscale=280"
+        },
+        {
+          "star": 3,
+          "effectText": "At battle start, grants all allies Shield equal to 13% of self's Max HP, lasts 2 turns (Shields from this Soul Mirror can stack).",
+          "effectParams": "powerdisplayscale=320"
+        },
+        {
+          "star": 4,
+          "effectText": "At battle start, grants all allies Shield equal to 15% of self's Max HP, lasts 2 turns (Shields from this Soul Mirror can stack).",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 5,
+          "effectText": "At battle start, grants all allies Shield equal to 20% of self's Max HP, lasts 2 turns (Shields from this Soul Mirror can stack).",
+          "effectParams": "powerdisplayscale=400"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "shield"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=200",
+      "powerdisplayscale=240",
+      "powerdisplayscale=280",
+      "powerdisplayscale=320",
+      "powerdisplayscale=360",
+      "powerdisplayscale=400"
+    ]
+  },
+  {
+    "id": 72344,
+    "name": "Scale-Splitting",
+    "heroId": null,
+    "type": "dps",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "Basic Attack deals additional True DMG equal to 15% of ATK (triggers up to 4 times per turn)."
+    ],
+    "rating": null,
+    "powerScale": 1800,
+    "skill": {
+      "baseEffect": "Basic Attack deals additional True DMG equal to 15% of ATK (triggers up to 4 times per turn).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Basic Attack deals additional True DMG equal to 20% of ATK (triggers up to 4 times per turn).",
+          "effectParams": "powerdisplayscale=240"
+        },
+        {
+          "star": 2,
+          "effectText": "Basic Attack deals additional True DMG equal to 25% of ATK (triggers up to 4 times per turn).",
+          "effectParams": "powerdisplayscale=280"
+        },
+        {
+          "star": 3,
+          "effectText": "Basic Attack deals additional True DMG equal to 30% of ATK; on Crit, deals additional True DMG equal to 15% of ATK (triggers up to 4 times per turn).",
+          "effectParams": "powerdisplayscale=320"
+        },
+        {
+          "star": 4,
+          "effectText": "Basic Attack deals additional True DMG equal to 40% of ATK; on Crit, deals additional True DMG equal to 20% of ATK (triggers up to 5 times per turn).",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 5,
+          "effectText": "Basic Attack deals additional True DMG equal to 50% of ATK; on Crit, deals additional True DMG equal to 25% of ATK (triggers up to 6 times per turn).",
+          "effectParams": "powerdisplayscale=400"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "crit",
+      "basic-atk",
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=200",
+      "powerdisplayscale=240",
+      "powerdisplayscale=280",
+      "powerdisplayscale=320",
+      "powerdisplayscale=360",
+      "powerdisplayscale=400"
+    ]
+  },
+  {
+    "id": 72345,
+    "name": "Flame Dawn",
+    "heroId": null,
+    "type": "def",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "Immediately revives upon first death and recovers 5% of Max HP."
+    ],
+    "rating": null,
+    "powerScale": 1800,
+    "skill": {
+      "baseEffect": "Immediately revives upon first death and recovers 5% of Max HP.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Immediately revives upon first death and recovers 10% of Max HP.",
+          "effectParams": "powerdisplayscale=240"
+        },
+        {
+          "star": 2,
+          "effectText": "Immediately revives upon first death and recovers 15% of Max HP.",
+          "effectParams": "powerdisplayscale=280"
+        },
+        {
+          "star": 3,
+          "effectText": "Immediately revives upon first death and recovers 20% of Max HP, then recovers 5% HP at turn end for 2 turns.",
+          "effectParams": "powerdisplayscale=320"
+        },
+        {
+          "star": 4,
+          "effectText": "Immediately revives upon first death and recovers 30% of Max HP, then recovers 5% HP at turn end for 2 turns.",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 5,
+          "effectText": "Immediately revives upon first death and recovers 40% of Max HP, then recovers 10% HP at turn end for 2 turns.",
+          "effectParams": "powerdisplayscale=400"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "heal"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=200",
+      "powerdisplayscale=240",
+      "powerdisplayscale=280",
+      "powerdisplayscale=320",
+      "powerdisplayscale=360",
+      "powerdisplayscale=400"
+    ]
+  },
+  {
+    "id": 72346,
+    "name": "Horde-Assault",
+    "heroId": null,
+    "type": "dps",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "AOE Skill additionally deals True DMG equal to 100% of ATK, distributed among all targets (single target receives max 50% of ATK as DMG, triggers once per turn max)."
+    ],
+    "rating": null,
+    "powerScale": 2025,
+    "skill": {
+      "baseEffect": "AOE Skill additionally deals True DMG equal to 100% of ATK, distributed among all targets (single target receives max 50% of ATK as DMG, triggers once per turn max).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "AOE Skill additionally deals True DMG equal to 150% of ATK, distributed among all targets (single target receives max 50% of ATK as DMG, triggers once per turn max).",
+          "effectParams": "powerdisplayscale=270"
+        },
+        {
+          "star": 2,
+          "effectText": "AOE Skill additionally deals True DMG equal to 200% of ATK, distributed among all targets (single target receives max 50% of ATK as DMG, triggers once per turn max).",
+          "effectParams": "powerdisplayscale=315"
+        },
+        {
+          "star": 3,
+          "effectText": "AOE Skill additionally deals True DMG equal to 250% of ATK, distributed among all targets (single target receives max 75% of ATK as DMG, triggers once per turn max).",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 4,
+          "effectText": "AOE Skill additionally deals True DMG equal to 300% of ATK, distributed among all targets (single target receives max 100% of ATK as DMG, triggers once per turn max).",
+          "effectParams": "powerdisplayscale=405"
+        },
+        {
+          "star": 5,
+          "effectText": "AOE Skill additionally deals True DMG equal to 400% of ATK, distributed among all targets (single target receives max 100% of ATK as DMG, triggers once per turn max).",
+          "effectParams": "powerdisplayscale=450"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "aoe",
+      "single-target",
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=225",
+      "powerdisplayscale=270",
+      "powerdisplayscale=315",
+      "powerdisplayscale=360",
+      "powerdisplayscale=405",
+      "powerdisplayscale=450"
+    ]
+  },
+  {
+    "id": 72347,
+    "name": "Warding Blessing",
+    "heroId": null,
+    "type": "support",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "Upon first death, grants ally with lowest HP [Spirit Shield] that blocks 3 instances of DMG, lasts 2 turns, cannot be dispelled."
+    ],
+    "rating": null,
+    "powerScale": 2025,
+    "skill": {
+      "baseEffect": "Upon first death, grants ally with lowest HP [Spirit Shield] that blocks 3 instances of DMG, lasts 2 turns, cannot be dispelled.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Upon first death, grants ally with lowest HP [Spirit Shield] that blocks 4 instances of DMG, lasts 2 turns, cannot be dispelled.",
+          "effectParams": "powerdisplayscale=270"
+        },
+        {
+          "star": 2,
+          "effectText": "Upon first death, grants ally with lowest HP [Spirit Shield] that blocks 5 instances of DMG, lasts 2 turns, cannot be dispelled.",
+          "effectParams": "powerdisplayscale=315"
+        },
+        {
+          "star": 3,
+          "effectText": "Upon first death, grants ally with lowest HP [Spirit Shield] that blocks 5 instances of DMG; grants ally with highest ATK [Spirit Shield] that blocks 3 instances of DMG, lasts 2 turns, cannot be dispelled.",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 4,
+          "effectText": "Upon first death, grants Allies with lowest HP and highest ATK [Spirit Shield] that blocks 5 instances of DMG, lasts 2 turns, cannot be dispelled.",
+          "effectParams": "powerdisplayscale=405"
+        },
+        {
+          "star": 5,
+          "effectText": "Upon first death, grants Allies with lowest HP and highest ATK [Spirit Shield] that blocks 6 instances of DMG, lasts 2 turns, cannot be dispelled.",
+          "effectParams": "powerdisplayscale=450"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "shield"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=225",
+      "powerdisplayscale=270",
+      "powerdisplayscale=315",
+      "powerdisplayscale=360",
+      "powerdisplayscale=405",
+      "powerdisplayscale=450"
+    ]
+  },
+  {
+    "id": 72348,
+    "name": "Wasteward",
+    "heroId": null,
+    "type": "dps",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "each attack or Basic Attack increases Final DMG by 3%, triggers 3 times per turn max, lasts 2 turns, stacks up to 18%."
+    ],
+    "rating": null,
+    "powerScale": 2025,
+    "skill": {
+      "baseEffect": "each attack or Basic Attack increases Final DMG by 3%, triggers 3 times per turn max, lasts 2 turns, stacks up to 18%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "each attack or Basic Attack increases Final DMG by 3.5%, triggers 3 times per turn max, lasts 2 turns, stacks up to 21%.",
+          "effectParams": "powerdisplayscale=270"
+        },
+        {
+          "star": 2,
+          "effectText": "each attack or Basic Attack increases Final DMG by 4%, triggers 3 times per turn max, lasts 2 turns, stacks up to 24%.",
+          "effectParams": "powerdisplayscale=315"
+        },
+        {
+          "star": 3,
+          "effectText": "each attack or Basic Attack increases Final DMG by 4%, triggers 4 times per turn max, lasts 2 turns, stacks up to 32%.",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 4,
+          "effectText": "each attack or Basic Attack increases Final DMG by 5%, triggers 4 times per turn max, lasts 2 turns, stacks up to 40%.",
+          "effectParams": "powerdisplayscale=405"
+        },
+        {
+          "star": 5,
+          "effectText": "each attack or Basic Attack increases Final DMG by 5%, triggers 5 times per turn max, lasts 3 turns, stacks up to 50%.",
+          "effectParams": "powerdisplayscale=450"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg",
+      "basic-atk"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=225",
+      "powerdisplayscale=270",
+      "powerdisplayscale=315",
+      "powerdisplayscale=360",
+      "powerdisplayscale=405",
+      "powerdisplayscale=450"
+    ]
+  },
+  {
+    "id": 72349,
+    "name": "Royal Awe",
+    "heroId": null,
+    "type": "dps",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "When repeatedly attacking same enemy within one turn, DMG increases by 10%, stacking up to 20%."
+    ],
+    "rating": null,
+    "powerScale": 2025,
+    "skill": {
+      "baseEffect": "When repeatedly attacking same enemy within one turn, DMG increases by 10%, stacking up to 20%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When repeatedly attacking same enemy within one turn, DMG increases by 12%, stacking up to 24%.",
+          "effectParams": "powerdisplayscale=270"
+        },
+        {
+          "star": 2,
+          "effectText": "When repeatedly attacking same enemy within one turn, DMG increases by 14%, stacking up to 28%.",
+          "effectParams": "powerdisplayscale=315"
+        },
+        {
+          "star": 3,
+          "effectText": "When repeatedly attacking same enemy within one turn, DMG increases by 14%, stacking up to 42%.",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 4,
+          "effectText": "When repeatedly attacking same enemy within one turn, DMG increases by 15%, stacking up to 60%.",
+          "effectParams": "powerdisplayscale=405"
+        },
+        {
+          "star": 5,
+          "effectText": "When repeatedly attacking same enemy within one turn, DMG increases by 20%, stacking up to 60%.",
+          "effectParams": "powerdisplayscale=450"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [],
+    "rawStarParams": [
+      "powerdisplayscale=225",
+      "powerdisplayscale=270",
+      "powerdisplayscale=315",
+      "powerdisplayscale=360",
+      "powerdisplayscale=405",
+      "powerdisplayscale=450"
+    ]
+  },
+  {
+    "id": 72350,
+    "name": "Baleful Omen",
+    "heroId": null,
+    "type": "control",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "Increase Final Damage by 5%; 30% chance to apply [Lethal] when dealing damage, preventing the target from triggering Soul Crystal resurrection effects for 2 turns."
+    ],
+    "rating": null,
+    "powerScale": 1516,
+    "skill": {
+      "baseEffect": "Increase Final Damage by 5%; 30% chance to apply [Lethal] when dealing damage, preventing the target from triggering Soul Crystal resurrection effects for 2 turns.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increase Final Damage by 7%; 40% chance to apply [Lethal] when dealing damage, preventing the target from triggering Soul Crystal resurrection effects for 2 turns.",
+          "effectParams": "powerdisplayscale=202,increase_dmg=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Increase Final Damage by 9%; 50% chance to apply [Lethal] when dealing damage, preventing the target from triggering Soul Crystal resurrection effects for 2 turns.",
+          "effectParams": "powerdisplayscale=236,increase_dmg=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Increase Final Damage by 11%; 65% chance to apply [Lethal] when dealing damage, preventing the target from triggering Soul Crystal resurrection effects for 2 turns.",
+          "effectParams": "powerdisplayscale=270,increase_dmg=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Increase Final Damage by 13%; 80% chance to apply [Lethal] when dealing damage, preventing the target from triggering Soul Crystal resurrection effects for 2 turns.",
+          "effectParams": "powerdisplayscale=303,increase_dmg=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Increase Final Damage by 15%; 100% chance to apply [Lethal] when dealing damage, preventing the target from triggering Soul Crystal resurrection effects for 2 turns.",
+          "effectParams": "powerdisplayscale=337,increase_dmg=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg",
+      "control"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=168,increase_dmg=500",
+      "powerdisplayscale=202,increase_dmg=700",
+      "powerdisplayscale=236,increase_dmg=900",
+      "powerdisplayscale=270,increase_dmg=1100",
+      "powerdisplayscale=303,increase_dmg=1300",
+      "powerdisplayscale=337,increase_dmg=1500"
+    ]
+  },
+  {
+    "id": 72351,
+    "name": "Throat-Slitting",
+    "heroId": null,
+    "type": "dps",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "Gain 20% Final DMG Bonus at the start of battle, decreases by 10% per attack; resets to 20% after killing an enemy."
+    ],
+    "rating": null,
+    "powerScale": 2025,
+    "skill": {
+      "baseEffect": "Gain 20% Final DMG Bonus at the start of battle, decreases by 10% per attack; resets to 20% after killing an enemy.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Gain 25% Final DMG Bonus at the start of battle, decreases by 10% per attack; resets to 25% after killing an enemy.",
+          "effectParams": "powerdisplayscale=270"
+        },
+        {
+          "star": 2,
+          "effectText": "Gain 30% Final DMG Bonus at the start of battle, decreases by 10% per attack; resets to 30% after killing an enemy.",
+          "effectParams": "powerdisplayscale=315"
+        },
+        {
+          "star": 3,
+          "effectText": "Gain 30% Final DMG Bonus at the start of battle, decreases by 5% per attack; resets to 30% after killing an enemy.",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 4,
+          "effectText": "Gain 35% Final DMG Bonus at the start of battle, decreases by 5% per attack; resets to 35% after killing an enemy.",
+          "effectParams": "powerdisplayscale=405"
+        },
+        {
+          "star": 5,
+          "effectText": "Gain 45% Final DMG Bonus at the start of battle, decreases by 5% per attack; resets to 45% after killing an enemy.",
+          "effectParams": "powerdisplayscale=450"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=225",
+      "powerdisplayscale=270",
+      "powerdisplayscale=315",
+      "powerdisplayscale=360",
+      "powerdisplayscale=405",
+      "powerdisplayscale=450"
+    ]
+  },
+  {
+    "id": 72352,
+    "name": "Eternal Stand",
+    "heroId": null,
+    "type": "def",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "Increases Final DMG RED by 5%; gains additional 5% per attack received, lasts 1 turn, stacking up to 15%."
+    ],
+    "rating": null,
+    "powerScale": 1516,
+    "skill": {
+      "baseEffect": "Increases Final DMG RED by 5%; gains additional 5% per attack received, lasts 1 turn, stacking up to 15%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases Final DMG RED by 7%; gains additional 7% per attack received, lasts 1 turn, stacking up to 21%.",
+          "effectParams": "powerdisplayscale=202,dr=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases Final DMG RED by 9%; gains additional 9% per attack received, lasts 1 turn, stacking up to 27%.",
+          "effectParams": "powerdisplayscale=236,dr=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Increases Final DMG RED by 11%; gains additional 11% per attack received, lasts 1 turn, stacking up to 33%.",
+          "effectParams": "powerdisplayscale=270,dr=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Increases Final DMG RED by 13%; gains additional 13% per attack received, lasts 1 turn, stacking up to 39%.",
+          "effectParams": "powerdisplayscale=303,dr=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Increases Final DMG RED by 15%; gains additional 15% per attack received, lasts 1 turn, stacking up to 45%.",
+          "effectParams": "powerdisplayscale=337,dr=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "dmg-reduction"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=168,dr=500",
+      "powerdisplayscale=202,dr=700",
+      "powerdisplayscale=236,dr=900",
+      "powerdisplayscale=270,dr=1100",
+      "powerdisplayscale=303,dr=1300",
+      "powerdisplayscale=337,dr=1500"
+    ]
+  },
+  {
+    "id": 72353,
+    "name": "Titan Strength",
+    "heroId": null,
+    "type": "def",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "When carrying any [Shield], increases ATK and DEF by 8%."
+    ],
+    "rating": null,
+    "powerScale": 2025,
+    "skill": {
+      "baseEffect": "When carrying any [Shield], increases ATK and DEF by 8%.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When carrying any [Shield], increases ATK and DEF by 10%.",
+          "effectParams": "powerdisplayscale=270"
+        },
+        {
+          "star": 2,
+          "effectText": "When carrying any [Shield], increases ATK and DEF by 12%.",
+          "effectParams": "powerdisplayscale=315"
+        },
+        {
+          "star": 3,
+          "effectText": "When carrying any [Shield], increases ATK and DEF by 15%; and recovers 5% of lost HP at turn end.",
+          "effectParams": "powerdisplayscale=360"
+        },
+        {
+          "star": 4,
+          "effectText": "When carrying any [Shield], increases ATK and DEF by 20%; and recovers 7% of lost HP at turn end.",
+          "effectParams": "powerdisplayscale=405"
+        },
+        {
+          "star": 5,
+          "effectText": "When carrying any [Shield], increases ATK and DEF by 25%; and recovers 10% of lost HP at turn end.",
+          "effectParams": "powerdisplayscale=450"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "heal",
+      "shield"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=225",
+      "powerdisplayscale=270",
+      "powerdisplayscale=315",
+      "powerdisplayscale=360",
+      "powerdisplayscale=405",
+      "powerdisplayscale=450"
+    ]
+  },
+  {
+    "id": 72354,
+    "name": "Alluring Gaze",
+    "heroId": null,
+    "type": "def",
+    "quality": "anima",
+    "qualityCode": 11,
+    "isAnima": true,
+    "isRare": false,
+    "activationEffect": [
+      "Increases Effect Resist Rate by 5%; gains 10% Effect Resist Rate at turn start, removed after taking active action."
+    ],
+    "rating": null,
+    "powerScale": 1516,
+    "skill": {
+      "baseEffect": "Increases Effect Resist Rate by 5%; gains 10% Effect Resist Rate at turn start, removed after taking active action.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increases Effect Resist Rate by 7%; gains 14% Effect Resist Rate at turn start, removed after taking active action.",
+          "effectParams": "powerdisplayscale=202,stun_imm=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Increases Effect Resist Rate by 9%; gains 18% Effect Resist Rate at turn start, removed after taking active action.",
+          "effectParams": "powerdisplayscale=236,stun_imm=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Increases Effect Resist Rate by 11%; gains 22% Effect Resist Rate at turn start, removed after taking active action.",
+          "effectParams": "powerdisplayscale=270,stun_imm=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Increases Effect Resist Rate by 13%; gains 26% Effect Resist Rate at turn start, removed after taking active action.",
+          "effectParams": "powerdisplayscale=303,stun_imm=1300"
+        },
+        {
+          "star": 5,
+          "effectText": "Increases Effect Resist Rate by 15%; gains 45% Effect Resist Rate at turn start, removed after taking active action.",
+          "effectParams": "powerdisplayscale=337,stun_imm=1500"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "effect-hit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=168,stun_imm=500",
+      "powerdisplayscale=202,stun_imm=700",
+      "powerdisplayscale=236,stun_imm=900",
+      "powerdisplayscale=270,stun_imm=1100",
+      "powerdisplayscale=303,stun_imm=1300",
+      "powerdisplayscale=337,stun_imm=1500"
+    ]
+  },
+  {
+    "id": 72440,
+    "name": "Jeanne",
+    "heroId": 55007,
+    "type": "def",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "Final DMG RED +5%; while under Damage Share Status, additionally gains 10% Final DMG RED and Healed Boost."
+    ],
+    "rating": null,
+    "powerScale": 2191,
+    "skill": {
+      "baseEffect": "Final DMG RED +5%; while under Damage Share Status, additionally gains 10% Final DMG RED and Healed Boost.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Final DMG RED +7%; while under Damage Share Status, additionally gains 13% Final DMG RED and Healed Boost.",
+          "effectParams": "powerdisplayscale=292,dr=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Final DMG RED +9%; while under Damage Share Status, additionally gains 16% Final DMG RED and Healed Boost.",
+          "effectParams": "powerdisplayscale=341,dr=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Final DMG RED +11%; while under Damage Share Status, additionally gains 20% Final DMG RED and Healed Boost; True DMG and DMG Over Time taken reduced by 10%.",
+          "effectParams": "powerdisplayscale=390,dr=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Final DMG RED +15%; while under Damage Share Status, additionally gains 25% Final DMG RED and Healed Boost; True DMG and DMG Over Time taken reduced by 15%.",
+          "effectParams": "powerdisplayscale=438,dr=1500"
+        },
+        {
+          "star": 5,
+          "effectText": "Final DMG RED +20%; while under Damage Share Status, additionally gains 30% Final DMG RED and Healed Boost; True DMG and DMG Over Time taken reduced by 20%.",
+          "effectParams": "powerdisplayscale=487,dr=2000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "dmg-reduction",
+      "heal",
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=243,dr=500",
+      "powerdisplayscale=292,dr=700",
+      "powerdisplayscale=341,dr=900",
+      "powerdisplayscale=390,dr=1100",
+      "powerdisplayscale=438,dr=1500",
+      "powerdisplayscale=487,dr=2000"
+    ]
+  },
+  {
+    "id": 72441,
+    "name": "Lucifer",
+    "heroId": 65002,
+    "type": "dps",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "When attacking targets with [DMG Over Time] Status, additionally deals True DMG equal to 5% of target's current HP (not exceeding 50% of Caster's ATK, triggers once per turn)."
+    ],
+    "rating": null,
+    "powerScale": 2925,
+    "skill": {
+      "baseEffect": "When attacking targets with [DMG Over Time] Status, additionally deals True DMG equal to 5% of target's current HP (not exceeding 50% of Caster's ATK, triggers once per turn).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When attacking targets with [DMG Over Time] Status, additionally deals True DMG equal to 7% of target's current HP (not exceeding 70% of Caster's ATK, triggers once per turn).",
+          "effectParams": "powerdisplayscale=390"
+        },
+        {
+          "star": 2,
+          "effectText": "When attacking targets with [DMG Over Time] Status, additionally deals True DMG equal to 9% of target's current HP (not exceeding 90% of Caster's ATK, triggers once per turn).",
+          "effectParams": "powerdisplayscale=455"
+        },
+        {
+          "star": 3,
+          "effectText": "When attacking targets with [DMG Over Time] Status, additionally deals True DMG equal to 11% of target's current HP (not exceeding 110% of Caster's ATK, triggers 4 times per turn); 30% probability to apply [Torment]: Healing Taken Down 5%, DMG Over Time increased 5%, Max 8 stacks, lasts 3 turns.",
+          "effectParams": "powerdisplayscale=520"
+        },
+        {
+          "star": 4,
+          "effectText": "When attacking targets with [DMG Over Time] Status, additionally deals True DMG equal to 13% of target's current HP (not exceeding 130% of Caster's ATK, triggers 4 times per turn); 50% probability to apply [Torment]: Healing Taken Down 5%, DMG Over Time increased 5%, Max 8 stacks, lasts 3 turns.",
+          "effectParams": "powerdisplayscale=585"
+        },
+        {
+          "star": 5,
+          "effectText": "When attacking targets with [DMG Over Time] Status, additionally deals True DMG equal to 15% of target's current HP (not exceeding 150% of Caster's ATK, triggers 4 times per turn); 70% probability to apply [Torment]: Healing Taken Down 5%, DMG Over Time increased 5%, Max 8 stacks, lasts 3 turns.",
+          "effectParams": "powerdisplayscale=650"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "heal",
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=325",
+      "powerdisplayscale=390",
+      "powerdisplayscale=455",
+      "powerdisplayscale=520",
+      "powerdisplayscale=585",
+      "powerdisplayscale=650"
+    ]
+  },
+  {
+    "id": 72442,
+    "name": "Enchantress",
+    "heroId": 65004,
+    "type": "control",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "Increase Effect Hit Rate by 5%; 20% chance to apply [Fox Fire] on active attack: Each stack reduces Effect Resist Rate by 4%; takes 1% of current HP as True Damage at the end of the turn (capped at 1.5x the caster's ATK); when attacked by an ally, takes additional True Damage equal to 2% of its current HP × [Fox Fire] stacks (capped at 3x the caster's ATK). Max 5 stacks."
+    ],
+    "rating": null,
+    "powerScale": 2191,
+    "skill": {
+      "baseEffect": "Increase Effect Hit Rate by 5%; 20% chance to apply [Fox Fire] on active attack: Each stack reduces Effect Resist Rate by 4%; takes 1% of current HP as True Damage at the end of the turn (capped at 1.5x the caster's ATK); when attacked by an ally, takes additional True Damage equal to 2% of its current HP × [Fox Fire] stacks (capped at 3x the caster's ATK). Max 5 stacks.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increase Effect Hit Rate by 7%; 25% chance to apply [Fox Fire] on active attack: Each stack reduces Effect Resist Rate by 4%; takes 1% of current HP as True Damage at the end of the turn (capped at 1.5x the caster's ATK); when attacked by an ally, takes additional True Damage equal to 2% of its current HP × [Fox Fire] stacks (capped at 3x the caster's ATK). Max 5 stacks.",
+          "effectParams": "powerdisplayscale=292,stun_rate=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Increase Effect Hit Rate by 9%; 30% chance to apply [Fox Fire] on active attack: Each stack reduces Effect Resist Rate by 4%; takes 1% of current HP as True Damage at the end of the turn (capped at 1.5x the caster's ATK); when attacked by an ally, takes additional True Damage equal to 2% of its current HP × [Fox Fire] stacks (capped at 3x the caster's ATK). Max 5 stacks.",
+          "effectParams": "powerdisplayscale=341,stun_rate=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Increase Effect Hit Rate by 11%; 45% chance to apply [Fox Fire] on active attack: Each stack reduces Effect Resist Rate by 4%; takes 1.5% of current HP as True Damage at the end of the turn (capped at 1.5x the caster's ATK); when attacked by an ally, takes additional True Damage equal to 3% of its current HP × [Fox Fire] stacks (capped at 3x the caster's ATK). Max 5 stacks.",
+          "effectParams": "powerdisplayscale=390,stun_rate=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Increase Effect Hit Rate by 15%; 65% chance to apply [Fox Fire] on active attack: Each stack reduces Effect Resist Rate by 5%; takes 2% of current HP as True Damage at the end of the turn (capped at 1.5x the caster's ATK); when attacked by an ally, takes additional True Damage equal to 4% of its current HP × [Fox Fire] stacks (capped at 3x the caster's ATK). Max 5 stacks.",
+          "effectParams": "powerdisplayscale=438,stun_rate=1500"
+        },
+        {
+          "star": 5,
+          "effectText": "Increase Effect Hit Rate by 20%; 90% chance to apply [Fox Fire] on active attack: Each stack reduces Effect Resist Rate by 6%; takes 3% of current HP as True Damage at the end of the turn (capped at 1.5x the caster's ATK); when attacked by an ally, takes additional True Damage equal to 6% of its current HP × [Fox Fire] stacks (capped at 3x the caster's ATK). Max 5 stacks.",
+          "effectParams": "powerdisplayscale=487,stun_rate=2000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "control",
+      "true-dmg",
+      "effect-hit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=243,stun_rate=500",
+      "powerdisplayscale=292,stun_rate=700",
+      "powerdisplayscale=341,stun_rate=900",
+      "powerdisplayscale=390,stun_rate=1100",
+      "powerdisplayscale=438,stun_rate=1500",
+      "powerdisplayscale=487,stun_rate=2000"
+    ]
+  },
+  {
+    "id": 72443,
+    "name": "Wukong",
+    "heroId": 55002,
+    "type": "dps",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "All attacks deal an additional 5% of ATK as True Damage."
+    ],
+    "rating": null,
+    "powerScale": 2925,
+    "skill": {
+      "baseEffect": "All attacks deal an additional 5% of ATK as True Damage.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "All attacks deal an additional 6% of ATK as True Damage.",
+          "effectParams": "powerdisplayscale=390"
+        },
+        {
+          "star": 2,
+          "effectText": "All attacks deal an additional 8% of ATK as True Damage.",
+          "effectParams": "powerdisplayscale=455"
+        },
+        {
+          "star": 3,
+          "effectText": "All attacks deal an additional 11% of ATK as True Damage.",
+          "effectParams": "powerdisplayscale=520"
+        },
+        {
+          "star": 4,
+          "effectText": "All attacks deal an additional 15% of ATK as True Damage.",
+          "effectParams": "powerdisplayscale=585"
+        },
+        {
+          "star": 5,
+          "effectText": "All attacks deal an additional 20% of ATK as True Damage.",
+          "effectParams": "powerdisplayscale=650"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=325",
+      "powerdisplayscale=390",
+      "powerdisplayscale=455",
+      "powerdisplayscale=520",
+      "powerdisplayscale=585",
+      "powerdisplayscale=650"
+    ]
+  },
+  {
+    "id": 72444,
+    "name": "Night Depths",
+    "heroId": 65013,
+    "type": "dps",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "For every 20% HP lost, gain 1 stack of [Time Seal]: Each stack increases True Damage by 1% (max 10 stacks)."
+    ],
+    "rating": null,
+    "powerScale": 2925,
+    "skill": {
+      "baseEffect": "For every 20% HP lost, gain 1 stack of [Time Seal]: Each stack increases True Damage by 1% (max 10 stacks).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "For every 20% HP lost, gain 1 stack of [Time Seal]: Each stack increases True Damage by 1.5% (max 10 stacks).",
+          "effectParams": "powerdisplayscale=390"
+        },
+        {
+          "star": 2,
+          "effectText": "For every 15% HP lost, gain 1 stack of [Time Seal]: Each stack increases True Damage by 1.5% (max 10 stacks).",
+          "effectParams": "powerdisplayscale=455"
+        },
+        {
+          "star": 3,
+          "effectText": "For every 13% HP lost, gain 1 stack of [Time Seal]: Each stack increases True Damage by 2% (max 10 stacks). At 10 stacks of [Time Seal], the next attack deals additional True Damage equal to 5% of the target’s max HP (capped at 1.5x the caster’s ATK) and removes 8 stacks of [Time Seal] (this effect triggers only once per turn).",
+          "effectParams": "powerdisplayscale=520"
+        },
+        {
+          "star": 4,
+          "effectText": "For every 10% HP lost, gain 1 stack of [Time Seal]: Each stack increases True Damage by 2.5% (max 10 stacks). At 10 stacks of [Time Seal], the next attack deals additional True Damage equal to 7% of the target’s max HP (capped at 1.5x the caster’s ATK) and removes 7 stacks of [Time Seal] (this effect triggers only once per turn).",
+          "effectParams": "powerdisplayscale=585"
+        },
+        {
+          "star": 5,
+          "effectText": "For every 10% HP lost, gain 1 stack of [Time Seal]: Each stack increases True Damage by 3% (max 10 stacks). At 10 stacks of [Time Seal], the next attack deals additional True Damage equal to 10% of the target’s max HP (capped at 1.5x the caster’s ATK) and removes 6 stacks of [Time Seal] (this effect triggers only once per turn).",
+          "effectParams": "powerdisplayscale=650"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=325",
+      "powerdisplayscale=390",
+      "powerdisplayscale=455",
+      "powerdisplayscale=520",
+      "powerdisplayscale=585",
+      "powerdisplayscale=650"
+    ]
+  },
+  {
+    "id": 72445,
+    "name": "Elbera‘s Soul Mirror",
+    "heroId": 65010,
+    "type": "def",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "Increase Effect Resist Rate by 5%; gain 1% Effect Resist Rate each time your own buff disappears (max 10% total increase)."
+    ],
+    "rating": null,
+    "powerScale": 2191,
+    "skill": {
+      "baseEffect": "Increase Effect Resist Rate by 5%; gain 1% Effect Resist Rate each time your own buff disappears (max 10% total increase).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increase Effect Resist Rate by 7%; gain 1.5% Effect Resist Rate each time your own buff disappears (max 15% total increase).",
+          "effectParams": "powerdisplayscale=292,stun_imm=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Increase Effect Resist Rate by 9%; gain 2% Effect Resist Rate each time your own buff disappears (max 20% total increase).",
+          "effectParams": "powerdisplayscale=341,stun_imm=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Increase Effect Resist Rate by 11%; gain 2.5% Effect Resist Rate and restore 5% of lost HP each time your own buff disappears (healing effect triggers once per turn, max 25% total Effect Resist Rate increase).",
+          "effectParams": "powerdisplayscale=390,stun_imm=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Increase Effect Resist Rate by 15%; gain 3% Effect Resist Rate and restore 6% of lost HP each time your own buff disappears (healing effect triggers twice per turn, max 30% total Effect Resist Rate increase).",
+          "effectParams": "powerdisplayscale=438,stun_imm=1500"
+        },
+        {
+          "star": 5,
+          "effectText": "Increase Effect Resist Rate by 20%; gain 4% Effect Resist Rate and restore 7% of lost HP each time your own buff disappears (healing effect triggers three times per turn, max 40% total Effect Resist Rate increase).",
+          "effectParams": "powerdisplayscale=487,stun_imm=2000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "heal",
+      "effect-hit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=243,stun_imm=500",
+      "powerdisplayscale=292,stun_imm=700",
+      "powerdisplayscale=341,stun_imm=900",
+      "powerdisplayscale=390,stun_imm=1100",
+      "powerdisplayscale=438,stun_imm=1500",
+      "powerdisplayscale=487,stun_imm=2000"
+    ]
+  },
+  {
+    "id": 72446,
+    "name": "Daisy",
+    "heroId": 15001,
+    "type": "dps",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "Increase Final Damage by 5%; if no kills are made in the turn, gain 1 stack of [Hunt] at the end of the turn (each stack increases Crit Rate and Crit Damage by 5%, max 3 stacks, undispellable; removed when an enemy is killed)."
+    ],
+    "rating": null,
+    "powerScale": 2191,
+    "skill": {
+      "baseEffect": "Increase Final Damage by 5%; if no kills are made in the turn, gain 1 stack of [Hunt] at the end of the turn (each stack increases Crit Rate and Crit Damage by 5%, max 3 stacks, undispellable; removed when an enemy is killed).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Increase Final Damage by 7%; if no kills are made in the turn, gain 1 stack of [Hunt] at the end of the turn (each stack increases Crit Rate and Crit Damage by 6%, max 3 stacks, undispellable; removed when an enemy is killed).",
+          "effectParams": "powerdisplayscale=292,increase_dmg=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Increase Final Damage by 9%; if no kills are made in the turn, gain 1 stack of [Hunt] at the end of the turn (each stack increases Crit Rate and Crit Damage by 7%, max 3 stacks, undispellable; removed when an enemy is killed).",
+          "effectParams": "powerdisplayscale=341,increase_dmg=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Increase Final Damage by 11%; if no kills are made in the turn, gain 1 stack of [Hunt] at the end of the turn (each stack increases Crit Rate and Crit Damage by 8%, undispellable; 3 stacks removed when an enemy is killed).",
+          "effectParams": "powerdisplayscale=390,increase_dmg=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Increase Final Damage by 15%; if no kills are made in the turn, gain 1 stack of [Hunt] at the end of the turn (each stack increases Crit Rate and Crit Damage by 9%, undispellable; 2 stacks removed when an enemy is killed).",
+          "effectParams": "powerdisplayscale=438,increase_dmg=1500"
+        },
+        {
+          "star": 5,
+          "effectText": "Increase Final Damage by 20%; if no kills are made in the turn, gain 1 stack of [Hunt] at the end of the turn (each stack increases Crit Rate and Crit Damage by 10%, undispellable; 1 stack removed when an enemy is killed).",
+          "effectParams": "powerdisplayscale=487,increase_dmg=2000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg",
+      "crit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=243,increase_dmg=500",
+      "powerdisplayscale=292,increase_dmg=700",
+      "powerdisplayscale=341,increase_dmg=900",
+      "powerdisplayscale=390,increase_dmg=1100",
+      "powerdisplayscale=438,increase_dmg=1500",
+      "powerdisplayscale=487,increase_dmg=2000"
+    ]
+  },
+  {
+    "id": 72447,
+    "name": "Hinata Inori",
+    "heroId": 65012,
+    "type": "dps",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "When any ally dies, restore 5% of your max HP, increase Crit Rate by 20% and Final Damage by 10% for 1 turn (non-stackable)."
+    ],
+    "rating": null,
+    "powerScale": 2925,
+    "skill": {
+      "baseEffect": "When any ally dies, restore 5% of your max HP, increase Crit Rate by 20% and Final Damage by 10% for 1 turn (non-stackable).",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "When any ally dies, restore 6% of your max HP, increase Crit Rate by 30% and Final Damage by 15% for 1 turn (non-stackable).",
+          "effectParams": "powerdisplayscale=390"
+        },
+        {
+          "star": 2,
+          "effectText": "When any ally dies, restore 7% of your max HP, increase Crit Rate by 40% and Final Damage by 20% for 1 turn (non-stackable).",
+          "effectParams": "powerdisplayscale=455"
+        },
+        {
+          "star": 3,
+          "effectText": "When any ally dies, restore Spirit Armor and HP equal to 7% of your max HP, increase Crit Rate by 40% and Final Damage by 30% for 2 turns (non-stackable).",
+          "effectParams": "powerdisplayscale=520"
+        },
+        {
+          "star": 4,
+          "effectText": "When any ally dies, restore Spirit Armor and HP equal to 9% of your max HP, increase Crit Rate by 60% and Final Damage by 45% for 2 turns (non-stackable).",
+          "effectParams": "powerdisplayscale=585"
+        },
+        {
+          "star": 5,
+          "effectText": "When any ally dies, restore Spirit Armor and HP equal to 12% of your max HP, increase Crit Rate by 80% and Final Damage by 60% for 2 turns (non-stackable).",
+          "effectParams": "powerdisplayscale=650"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg",
+      "crit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=325",
+      "powerdisplayscale=390",
+      "powerdisplayscale=455",
+      "powerdisplayscale=520",
+      "powerdisplayscale=585",
+      "powerdisplayscale=650"
+    ]
+  },
+  {
+    "id": 72448,
+    "name": "Nyx Soul Mirror",
+    "heroId": 65014,
+    "type": "dps",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "Passively triggered AOE attack skills deal extra True DMG equal to 3% of target's current HP (capped at 100% of caster's ATK); max 1 trigger per turn"
+    ],
+    "rating": null,
+    "powerScale": 2925,
+    "skill": {
+      "baseEffect": "Passively triggered AOE attack skills deal extra True DMG equal to 3% of target's current HP (capped at 100% of caster's ATK); max 1 trigger per turn",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Passively triggered AOE attack skills deal extra True DMG equal to 4% of target's current HP (capped at 100% of caster's ATK); max 1 trigger per turn",
+          "effectParams": "powerdisplayscale=390"
+        },
+        {
+          "star": 2,
+          "effectText": "Passively triggered AOE attack skills deal extra True DMG equal to 5% of target's current HP (capped at 100% of caster's ATK); max 1 trigger per turn",
+          "effectParams": "powerdisplayscale=455"
+        },
+        {
+          "star": 3,
+          "effectText": "Passively triggered AOE attack skills deal extra True DMG equal to 6% of target's current HP (capped at 150% of caster's ATK); max 2 triggers per turn",
+          "effectParams": "powerdisplayscale=520"
+        },
+        {
+          "star": 4,
+          "effectText": "Passively triggered AOE attack skills deal extra True DMG equal to 8% of target's current HP (capped at 150% of caster's ATK); max 2 triggers per turn",
+          "effectParams": "powerdisplayscale=585"
+        },
+        {
+          "star": 5,
+          "effectText": "Passively triggered AOE attack skills deal extra True DMG equal to 10% of target's current HP (capped at 150% of caster's ATK); max 3 triggers per turn",
+          "effectParams": "powerdisplayscale=650"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "aoe",
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=325",
+      "powerdisplayscale=390",
+      "powerdisplayscale=455",
+      "powerdisplayscale=520",
+      "powerdisplayscale=585",
+      "powerdisplayscale=650"
+    ]
+  },
+  {
+    "id": 72449,
+    "name": "Nuwa Soul Mirror",
+    "heroId": 65015,
+    "type": "dps",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "Final DMG +5%; while in Damage Share state, gain an additional 10% Final DMG & Effect Resist Rate."
+    ],
+    "rating": null,
+    "powerScale": 2191,
+    "skill": {
+      "baseEffect": "Final DMG +5%; while in Damage Share state, gain an additional 10% Final DMG & Effect Resist Rate.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Final DMG +7%; while in Damage Share state, gain an additional 13% Final DMG & Effect Resist Rate.",
+          "effectParams": "powerdisplayscale=292,increase_dmg=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Final DMG +9%; while in Damage Share state, gain an additional 16% Final DMG & Effect Resist Rate.",
+          "effectParams": "powerdisplayscale=341,increase_dmg=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Final DMG +11%; while in Damage Share state, gain an additional 20% Final DMG & Effect Resist Rate. Block 1 negative effect per turn.",
+          "effectParams": "powerdisplayscale=390,increase_dmg=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Final DMG +15%; while in Damage Share state, gain an additional 25% Final DMG & Effect Resist Rate. Block 2 negative effect per turn.",
+          "effectParams": "powerdisplayscale=438,increase_dmg=1500"
+        },
+        {
+          "star": 5,
+          "effectText": "Final DMG +20%; while in Damage Share state, gain an additional 30% Final DMG & Effect Resist Rate. Block 3 negative effect per turn; if you are the ally with the highest ATK, block an additional 1 control effect.",
+          "effectParams": "powerdisplayscale=487,increase_dmg=2000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg",
+      "control",
+      "effect-hit"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=243,increase_dmg=500",
+      "powerdisplayscale=292,increase_dmg=700",
+      "powerdisplayscale=341,increase_dmg=900",
+      "powerdisplayscale=390,increase_dmg=1100",
+      "powerdisplayscale=438,increase_dmg=1500",
+      "powerdisplayscale=487,increase_dmg=2000"
+    ]
+  },
+  {
+    "id": 72450,
+    "name": "Gaia Soul Mirror",
+    "heroId": 65016,
+    "type": "def",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "HP +5%, When taking a lethal hit, Deal 5% of own max HP as True DMG to all enemies (max 1 trigger per turn)"
+    ],
+    "rating": null,
+    "powerScale": 2191,
+    "skill": {
+      "baseEffect": "HP +5%, When taking a lethal hit, Deal 5% of own max HP as True DMG to all enemies (max 1 trigger per turn)",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "HP +7%, When taking a lethal hit, Deal 7% of own max HP as True DMG to all enemies (max 1 trigger per turn)",
+          "effectParams": "powerdisplayscale=292,hp_per=700"
+        },
+        {
+          "star": 2,
+          "effectText": "HP +9%, When taking a lethal hit, Deal 9% of own max HP as True DMG to all enemies (max 1 trigger per turn)",
+          "effectParams": "powerdisplayscale=341,hp_per=900"
+        },
+        {
+          "star": 3,
+          "effectText": "HP +11%, When taking a lethal hit, Deal 11% of own max HP as True DMG to all enemies (max 1 trigger per turn); gain ATK & DEF +5% (max 1 stack)",
+          "effectParams": "powerdisplayscale=390,hp_per=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "HP +15%, When taking a lethal hit, Deal 15% of own max HP as True DMG to all enemies (max 1 trigger per turn); gain ATK & DEF +5% (max 2 stacks)",
+          "effectParams": "powerdisplayscale=438,hp_per=1500"
+        },
+        {
+          "star": 5,
+          "effectText": "HP +20%, When taking a lethal hit, Deal 20% of own max HP as True DMG to all enemies (max 2 triggers per turn); gain ATK & DEF +5% (max 4 stacks)",
+          "effectParams": "powerdisplayscale=487,hp_per=2000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "aoe",
+      "true-dmg",
+      "hp"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=243,hp_per=500",
+      "powerdisplayscale=292,hp_per=700",
+      "powerdisplayscale=341,hp_per=900",
+      "powerdisplayscale=390,hp_per=1100",
+      "powerdisplayscale=438,hp_per=1500",
+      "powerdisplayscale=487,hp_per=2000"
+    ]
+  },
+  {
+    "id": 72451,
+    "name": "Mars Soul Mirror",
+    "heroId": 65017,
+    "type": "dps",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "On each Feat Skill crit hit: Deal extra True DMG equal to 15% of ATK"
+    ],
+    "rating": null,
+    "powerScale": 2925,
+    "skill": {
+      "baseEffect": "On each Feat Skill crit hit: Deal extra True DMG equal to 15% of ATK",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "On each Feat Skill crit hit: Deal extra True DMG equal to 20% of ATK",
+          "effectParams": "powerdisplayscale=390"
+        },
+        {
+          "star": 2,
+          "effectText": "On each Feat Skill crit hit: Deal extra True DMG equal to 25% of ATK",
+          "effectParams": "powerdisplayscale=455"
+        },
+        {
+          "star": 3,
+          "effectText": "On each Feat Skill crit hit: Deal extra True DMG equal to 30% of ATK; Restore Spirit Armor equal to 3% of own max HP (Spirit Armor recovery can trigger up to 3 times per turn)",
+          "effectParams": "powerdisplayscale=520"
+        },
+        {
+          "star": 4,
+          "effectText": "On each Feat Skill crit hit: Deal extra True DMG equal to 35% of ATK; Restore Spirit Armor equal to 4% of own max HP (Spirit Armor recovery can trigger up to 3 times per turn)",
+          "effectParams": "powerdisplayscale=585"
+        },
+        {
+          "star": 5,
+          "effectText": "On each Feat Skill crit hit: Deal extra True DMG equal to 40% of ATK; Restore Spirit Armor equal to 5% of own max HP (Spirit Armor recovery can trigger up to 3 times per turn)",
+          "effectParams": "powerdisplayscale=650"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "crit",
+      "heal",
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=325",
+      "powerdisplayscale=390",
+      "powerdisplayscale=455",
+      "powerdisplayscale=520",
+      "powerdisplayscale=585",
+      "powerdisplayscale=650"
+    ]
+  },
+  {
+    "id": 72452,
+    "name": "Ananke Soul Mirror",
+    "heroId": 65018,
+    "type": "dps",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [
+      "Final DMG +5%; while attacking enemies in Damage Share or Damage Transfer state, gain an additional 15% Final DMG."
+    ],
+    "rating": null,
+    "powerScale": 2191,
+    "skill": {
+      "baseEffect": "Final DMG +5%; while attacking enemies in Damage Share or Damage Transfer state, gain an additional 15% Final DMG.",
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": "Final DMG +7%; while attacking enemies in Damage Share or Damage Transfer state, gain an additional 20% Final DMG.",
+          "effectParams": "powerdisplayscale=292,increase_dmg=700"
+        },
+        {
+          "star": 2,
+          "effectText": "Final DMG +9%; while attacking enemies in Damage Share or Damage Transfer state, gain an additional 25% Final DMG.",
+          "effectParams": "powerdisplayscale=341,increase_dmg=900"
+        },
+        {
+          "star": 3,
+          "effectText": "Final DMG +11%; while attacking enemies in Damage Share or Damage Transfer state, gain an additional 30% Final DMG and deal True DMG equal to 3% of the target's current HP (capped at 50% of the caster's ATK).",
+          "effectParams": "powerdisplayscale=390,increase_dmg=1100"
+        },
+        {
+          "star": 4,
+          "effectText": "Final DMG +15%; while attacking enemies in Damage Share or Damage Transfer state, gain an additional 35% Final DMG and deal True DMG equal to 4% of the target's current HP (capped at 60% of the caster's ATK).",
+          "effectParams": "powerdisplayscale=438,increase_dmg=1500"
+        },
+        {
+          "star": 5,
+          "effectText": "Final DMG +20%; while attacking enemies in Damage Share or Damage Transfer state, gain an additional 40% Final DMG and deal True DMG equal to 5% of the target's current HP (capped at 75% of the caster's ATK).",
+          "effectParams": "powerdisplayscale=487,increase_dmg=2000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "final-dmg",
+      "true-dmg"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=243,increase_dmg=500",
+      "powerdisplayscale=292,increase_dmg=700",
+      "powerdisplayscale=341,increase_dmg=900",
+      "powerdisplayscale=390,increase_dmg=1100",
+      "powerdisplayscale=438,increase_dmg=1500",
+      "powerdisplayscale=487,increase_dmg=2000"
+    ]
+  },
+  {
+    "id": 72453,
+    "name": "Venus",
+    "heroId": 65019,
+    "type": "support",
+    "quality": "rare",
+    "qualityCode": 14,
+    "isAnima": false,
+    "isRare": true,
+    "activationEffect": [],
+    "rating": null,
+    "powerScale": 2191,
+    "skill": {
+      "baseEffect": null,
+      "perStar": [
+        {
+          "star": 1,
+          "effectText": null,
+          "effectParams": "powerdisplayscale=292,dr=700"
+        },
+        {
+          "star": 2,
+          "effectText": null,
+          "effectParams": "powerdisplayscale=341,dr=900"
+        },
+        {
+          "star": 3,
+          "effectText": null,
+          "effectParams": "powerdisplayscale=390,dr=1100"
+        },
+        {
+          "star": 4,
+          "effectText": null,
+          "effectParams": "powerdisplayscale=438,dr=1500"
+        },
+        {
+          "star": 5,
+          "effectText": null,
+          "effectParams": "powerdisplayscale=487,dr=2000"
+        }
+      ]
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 10,
+      "def": 3
+    },
+    "tags": [
+      "dmg-reduction"
+    ],
+    "rawStarParams": [
+      "powerdisplayscale=243,dr=500",
+      "powerdisplayscale=292,dr=700",
+      "powerdisplayscale=341,dr=900",
+      "powerdisplayscale=390,dr=1100",
+      "powerdisplayscale=438,dr=1500",
+      "powerdisplayscale=487,dr=2000"
+    ]
+  }
+]

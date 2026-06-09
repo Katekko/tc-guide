@@ -759,11 +759,11 @@ abstract class AppLocalizations {
   /// **'Gear'**
   String get navGears;
 
-  /// No description provided for @navSectionBeast.
+  /// No description provided for @navSectionGrowth.
   ///
   /// In en, this message translates to:
-  /// **'Beast Spirit'**
-  String get navSectionBeast;
+  /// **'Growth'**
+  String get navSectionGrowth;
 
   /// No description provided for @navSoulMirrors.
   ///
@@ -1425,29 +1425,125 @@ abstract class AppLocalizations {
   /// **'Soul Mirrors'**
   String get soulMirrorsTitle;
 
-  /// No description provided for @soulMirrorsExtractOne.
+  /// No description provided for @soulMirrorsIntro.
   ///
   /// In en, this message translates to:
-  /// **'Soul mirror unlock and upgrade priorities.'**
-  String get soulMirrorsExtractOne;
+  /// **'Browse every Soul Mirror, filter by type and effect, and tap one for its full skill scaling.'**
+  String get soulMirrorsIntro;
 
-  /// No description provided for @soulMirrorsExtractTwo.
+  /// No description provided for @soulMirrorSearchHint.
   ///
   /// In en, this message translates to:
-  /// **'Recommended first mirrors.'**
-  String get soulMirrorsExtractTwo;
+  /// **'Search by name'**
+  String get soulMirrorSearchHint;
 
-  /// No description provided for @soulMirrorsExtractThree.
+  /// No description provided for @soulMirrorTypeAll.
   ///
   /// In en, this message translates to:
-  /// **'Situational mirrors by team.'**
-  String get soulMirrorsExtractThree;
+  /// **'All'**
+  String get soulMirrorTypeAll;
 
-  /// No description provided for @soulMirrorsExtractFour.
+  /// No description provided for @soulMirrorTypeDps.
   ///
   /// In en, this message translates to:
-  /// **'Beast spirit slot planning.'**
-  String get soulMirrorsExtractFour;
+  /// **'DPS'**
+  String get soulMirrorTypeDps;
+
+  /// No description provided for @soulMirrorTypeDef.
+  ///
+  /// In en, this message translates to:
+  /// **'DEF'**
+  String get soulMirrorTypeDef;
+
+  /// No description provided for @soulMirrorTypeControl.
+  ///
+  /// In en, this message translates to:
+  /// **'Control'**
+  String get soulMirrorTypeControl;
+
+  /// No description provided for @soulMirrorTypeSupport.
+  ///
+  /// In en, this message translates to:
+  /// **'Support'**
+  String get soulMirrorTypeSupport;
+
+  /// No description provided for @soulMirrorRatingLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Rating'**
+  String get soulMirrorRatingLabel;
+
+  /// No description provided for @soulMirrorActivationLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Activation Effect'**
+  String get soulMirrorActivationLabel;
+
+  /// No description provided for @soulMirrorSkillLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Soul Mirror Skill'**
+  String get soulMirrorSkillLabel;
+
+  /// No description provided for @soulMirrorActivateLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate'**
+  String get soulMirrorActivateLabel;
+
+  /// No description provided for @soulMirrorStatsLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Stat Bonus'**
+  String get soulMirrorStatsLabel;
+
+  /// No description provided for @soulMirrorAnimaLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Anima'**
+  String get soulMirrorAnimaLabel;
+
+  /// No description provided for @soulMirrorRareLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Rare'**
+  String get soulMirrorRareLabel;
+
+  /// No description provided for @soulMirrorQualityEpic.
+  ///
+  /// In en, this message translates to:
+  /// **'Epic'**
+  String get soulMirrorQualityEpic;
+
+  /// No description provided for @soulMirrorQualityLegendary.
+  ///
+  /// In en, this message translates to:
+  /// **'Legendary'**
+  String get soulMirrorQualityLegendary;
+
+  /// No description provided for @soulMirrorQualityEternal.
+  ///
+  /// In en, this message translates to:
+  /// **'Eternal'**
+  String get soulMirrorQualityEternal;
+
+  /// No description provided for @soulMirrorPowerLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Power'**
+  String get soulMirrorPowerLabel;
+
+  /// No description provided for @soulMirrorShownLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'shown'**
+  String get soulMirrorShownLabel;
+
+  /// No description provided for @soulMirrorEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No mirrors match these filters.'**
+  String get soulMirrorEmpty;
 
   /// No description provided for @teamCompsTitle.
   ///
