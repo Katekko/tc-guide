@@ -57,6 +57,16 @@ class GuidesRepositoryImpl implements GuidesRepository {
               route: AppRoutes.heroes,
               status: GuideStatus.current,
             ),
+            GuideNavItem(
+              title: l10n.navHeroesStarUp,
+              route: AppRoutes.heroesStarUp,
+              status: GuideStatus.current,
+            ),
+            GuideNavItem(
+              title: l10n.navTeamComps,
+              route: AppRoutes.teamComps,
+              status: GuideStatus.current,
+            ),
           ],
         ),
         GuideNavSection(
@@ -77,7 +87,6 @@ class GuidesRepositoryImpl implements GuidesRepository {
             GuideNavItem(title: l10n.navStats, route: AppRoutes.stats),
             GuideNavItem(title: l10n.navGears, route: AppRoutes.gears),
             GuideNavItem(title: l10n.navTierList, route: AppRoutes.tierList),
-            GuideNavItem(title: l10n.navTeamComps, route: AppRoutes.teamComps),
           ],
         ),
       ];

@@ -1,0 +1,861 @@
+{
+  "nodes": [
+    {
+      "palace": 4,
+      "subgroup": null,
+      "statIndex": 1,
+      "statKey": "atk_per",
+      "nameZh": "攻击加成",
+      "name": "ATK Bonus",
+      "maxLevel": 20,
+      "_f11": 20,
+      "_f12": 70
+    },
+    {
+      "palace": 4,
+      "subgroup": null,
+      "statIndex": 2,
+      "statKey": "crit",
+      "nameZh": "暴击率",
+      "name": "Crit Rate",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 70
+    },
+    {
+      "palace": 4,
+      "subgroup": null,
+      "statIndex": 3,
+      "statKey": "stun_rate",
+      "nameZh": "效果命中",
+      "name": "Effect Hit Rate",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 70
+    },
+    {
+      "palace": 2,
+      "subgroup": null,
+      "statIndex": 1,
+      "statKey": "def_per",
+      "nameZh": "防御加成",
+      "name": "DEF Bonus",
+      "maxLevel": 20,
+      "_f11": 20,
+      "_f12": 70
+    },
+    {
+      "palace": 2,
+      "subgroup": null,
+      "statIndex": 2,
+      "statKey": "crit_imm",
+      "nameZh": "抗暴率",
+      "name": "Crit Resist Rate",
+      "maxLevel": 20,
+      "_f11": 60,
+      "_f12": 70
+    },
+    {
+      "palace": 2,
+      "subgroup": null,
+      "statIndex": 3,
+      "statKey": "be_heal_rate",
+      "nameZh": "受疗加成",
+      "name": "Healed Boost",
+      "maxLevel": 20,
+      "_f11": 60,
+      "_f12": 70
+    },
+    {
+      "palace": 3,
+      "subgroup": null,
+      "statIndex": 1,
+      "statKey": "hp_per",
+      "nameZh": "生命加成",
+      "name": "HP Bonus",
+      "maxLevel": 20,
+      "_f11": 20,
+      "_f12": 70
+    },
+    {
+      "palace": 3,
+      "subgroup": null,
+      "statIndex": 2,
+      "statKey": "holy_imm",
+      "nameZh": "真伤免伤",
+      "name": "True DMG RED",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 70
+    },
+    {
+      "palace": 3,
+      "subgroup": null,
+      "statIndex": 3,
+      "statKey": "stun_imm",
+      "nameZh": "效果抵抗",
+      "name": "Effect Resist Rate",
+      "maxLevel": 20,
+      "_f11": 60,
+      "_f12": 70
+    },
+    {
+      "palace": 1,
+      "subgroup": 1,
+      "statIndex": 1,
+      "statKey": "increase_dmg",
+      "nameZh": "最终伤害",
+      "name": "Final DMG",
+      "maxLevel": 20,
+      "_f11": 20,
+      "_f12": 141
+    },
+    {
+      "palace": 1,
+      "subgroup": 1,
+      "statIndex": 2,
+      "statKey": "crit_dmg",
+      "nameZh": "暴击伤害",
+      "name": "Crit DMG",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 141
+    },
+    {
+      "palace": 1,
+      "subgroup": 1,
+      "statIndex": 3,
+      "statKey": "skill_dmg",
+      "nameZh": "必杀技伤害",
+      "name": "Ultimate DMG",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 141
+    },
+    {
+      "palace": 1,
+      "subgroup": 2,
+      "statIndex": 1,
+      "statKey": "dr",
+      "nameZh": "最终免伤",
+      "name": "Final DMG RED",
+      "maxLevel": 20,
+      "_f11": 20,
+      "_f12": 141
+    },
+    {
+      "palace": 1,
+      "subgroup": 2,
+      "statIndex": 2,
+      "statKey": "crit_dmg_imm",
+      "nameZh": "暴击免伤",
+      "name": "Crit DMG RED",
+      "maxLevel": 20,
+      "_f11": 60,
+      "_f12": 141
+    },
+    {
+      "palace": 1,
+      "subgroup": 2,
+      "statIndex": 3,
+      "statKey": "skill_imm",
+      "nameZh": "必杀技免伤",
+      "name": "Ultimate DMG RED",
+      "maxLevel": 20,
+      "_f11": 60,
+      "_f12": 141
+    },
+    {
+      "palace": 4,
+      "subgroup": null,
+      "statIndex": 1,
+      "statKey": "atk_per",
+      "nameZh": "攻击加成",
+      "name": "ATK Bonus",
+      "maxLevel": 20,
+      "_f11": 15,
+      "_f12": 29
+    },
+    {
+      "palace": 4,
+      "subgroup": null,
+      "statIndex": 2,
+      "statKey": "crit",
+      "nameZh": "暴击率",
+      "name": "Crit Rate",
+      "maxLevel": 20,
+      "_f11": 30,
+      "_f12": 29
+    },
+    {
+      "palace": 4,
+      "subgroup": null,
+      "statIndex": 3,
+      "statKey": "stun_rate",
+      "nameZh": "效果命中",
+      "name": "Effect Hit Rate",
+      "maxLevel": 20,
+      "_f11": 30,
+      "_f12": 29
+    },
+    {
+      "palace": 2,
+      "subgroup": null,
+      "statIndex": 1,
+      "statKey": "def_per",
+      "nameZh": "防御加成",
+      "name": "DEF Bonus",
+      "maxLevel": 20,
+      "_f11": 15,
+      "_f12": 29
+    },
+    {
+      "palace": 2,
+      "subgroup": null,
+      "statIndex": 2,
+      "statKey": "crit_imm",
+      "nameZh": "抗暴率",
+      "name": "Crit Resist Rate",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 29
+    },
+    {
+      "palace": 2,
+      "subgroup": null,
+      "statIndex": 3,
+      "statKey": "be_heal_rate",
+      "nameZh": "受疗加成",
+      "name": "Healed Boost",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 29
+    },
+    {
+      "palace": 3,
+      "subgroup": null,
+      "statIndex": 1,
+      "statKey": "hp_per",
+      "nameZh": "生命加成",
+      "name": "HP Bonus",
+      "maxLevel": 20,
+      "_f11": 15,
+      "_f12": 29
+    },
+    {
+      "palace": 3,
+      "subgroup": null,
+      "statIndex": 2,
+      "statKey": "holy_imm",
+      "nameZh": "真伤免伤",
+      "name": "True DMG RED",
+      "maxLevel": 20,
+      "_f11": 30,
+      "_f12": 29
+    },
+    {
+      "palace": 3,
+      "subgroup": null,
+      "statIndex": 3,
+      "statKey": "stun_imm",
+      "nameZh": "效果抵抗",
+      "name": "Effect Resist Rate",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 29
+    },
+    {
+      "palace": 1,
+      "subgroup": 1,
+      "statIndex": 1,
+      "statKey": "increase_dmg",
+      "nameZh": "最终伤害",
+      "name": "Final DMG",
+      "maxLevel": 20,
+      "_f11": 15,
+      "_f12": 40
+    },
+    {
+      "palace": 1,
+      "subgroup": 1,
+      "statIndex": 2,
+      "statKey": "crit_dmg",
+      "nameZh": "暴击伤害",
+      "name": "Crit DMG",
+      "maxLevel": 20,
+      "_f11": 30,
+      "_f12": 40
+    },
+    {
+      "palace": 1,
+      "subgroup": 1,
+      "statIndex": 3,
+      "statKey": "skill_dmg",
+      "nameZh": "必杀技伤害",
+      "name": "Ultimate DMG",
+      "maxLevel": 20,
+      "_f11": 30,
+      "_f12": 40
+    },
+    {
+      "palace": 1,
+      "subgroup": 2,
+      "statIndex": 1,
+      "statKey": "dr",
+      "nameZh": "最终免伤",
+      "name": "Final DMG RED",
+      "maxLevel": 20,
+      "_f11": 15,
+      "_f12": 40
+    },
+    {
+      "palace": 1,
+      "subgroup": 2,
+      "statIndex": 2,
+      "statKey": "crit_dmg_imm",
+      "nameZh": "暴击免伤",
+      "name": "Crit DMG RED",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 40
+    },
+    {
+      "palace": 1,
+      "subgroup": 2,
+      "statIndex": 3,
+      "statKey": "skill_imm",
+      "nameZh": "必杀技免伤",
+      "name": "Ultimate DMG RED",
+      "maxLevel": 20,
+      "_f11": 40,
+      "_f12": 40
+    }
+  ],
+  "nodeSkills": [
+    {
+      "palace": 1,
+      "nodeCode": 101,
+      "totalLevelRequired": 20,
+      "tier": 1,
+      "skillId": 1210151
+    },
+    {
+      "palace": 1,
+      "nodeCode": 102,
+      "totalLevelRequired": 40,
+      "tier": 1,
+      "skillId": 1210101
+    },
+    {
+      "palace": 1,
+      "nodeCode": 103,
+      "totalLevelRequired": 60,
+      "tier": 1,
+      "skillId": 1210061
+    },
+    {
+      "palace": 1,
+      "nodeCode": 101,
+      "totalLevelRequired": 80,
+      "tier": 2,
+      "skillId": 1210152
+    },
+    {
+      "palace": 1,
+      "nodeCode": 102,
+      "totalLevelRequired": 100,
+      "tier": 2,
+      "skillId": 1210102
+    },
+    {
+      "palace": 1,
+      "nodeCode": 103,
+      "totalLevelRequired": 120,
+      "tier": 2,
+      "skillId": 1210062
+    },
+    {
+      "palace": 1,
+      "nodeCode": 101,
+      "totalLevelRequired": 140,
+      "tier": 3,
+      "skillId": 1210153
+    },
+    {
+      "palace": 1,
+      "nodeCode": 102,
+      "totalLevelRequired": 160,
+      "tier": 3,
+      "skillId": 1210103
+    },
+    {
+      "palace": 1,
+      "nodeCode": 103,
+      "totalLevelRequired": 180,
+      "tier": 3,
+      "skillId": 1210063
+    },
+    {
+      "palace": 1,
+      "nodeCode": 101,
+      "totalLevelRequired": 200,
+      "tier": 4,
+      "skillId": 1210154
+    },
+    {
+      "palace": 1,
+      "nodeCode": 102,
+      "totalLevelRequired": 220,
+      "tier": 4,
+      "skillId": 1210104
+    },
+    {
+      "palace": 1,
+      "nodeCode": 103,
+      "totalLevelRequired": 240,
+      "tier": 4,
+      "skillId": 1210064
+    },
+    {
+      "palace": 1,
+      "nodeCode": 101,
+      "totalLevelRequired": 260,
+      "tier": 5,
+      "skillId": 1210155
+    },
+    {
+      "palace": 1,
+      "nodeCode": 102,
+      "totalLevelRequired": 280,
+      "tier": 5,
+      "skillId": 1210105
+    },
+    {
+      "palace": 1,
+      "nodeCode": 103,
+      "totalLevelRequired": 300,
+      "tier": 5,
+      "skillId": 1210065
+    },
+    {
+      "palace": 2,
+      "nodeCode": 201,
+      "totalLevelRequired": 20,
+      "tier": 1,
+      "skillId": 1210131
+    },
+    {
+      "palace": 2,
+      "nodeCode": 202,
+      "totalLevelRequired": 40,
+      "tier": 1,
+      "skillId": 1210051
+    },
+    {
+      "palace": 2,
+      "nodeCode": 203,
+      "totalLevelRequired": 60,
+      "tier": 1,
+      "skillId": 1210041
+    },
+    {
+      "palace": 2,
+      "nodeCode": 201,
+      "totalLevelRequired": 80,
+      "tier": 2,
+      "skillId": 1210132
+    },
+    {
+      "palace": 2,
+      "nodeCode": 202,
+      "totalLevelRequired": 100,
+      "tier": 2,
+      "skillId": 1210052
+    },
+    {
+      "palace": 2,
+      "nodeCode": 203,
+      "totalLevelRequired": 120,
+      "tier": 2,
+      "skillId": 1210042
+    },
+    {
+      "palace": 2,
+      "nodeCode": 201,
+      "totalLevelRequired": 140,
+      "tier": 3,
+      "skillId": 1210133
+    },
+    {
+      "palace": 2,
+      "nodeCode": 202,
+      "totalLevelRequired": 160,
+      "tier": 3,
+      "skillId": 1210053
+    },
+    {
+      "palace": 2,
+      "nodeCode": 203,
+      "totalLevelRequired": 180,
+      "tier": 3,
+      "skillId": 1210043
+    },
+    {
+      "palace": 2,
+      "nodeCode": 201,
+      "totalLevelRequired": 200,
+      "tier": 4,
+      "skillId": 1210134
+    },
+    {
+      "palace": 2,
+      "nodeCode": 202,
+      "totalLevelRequired": 220,
+      "tier": 4,
+      "skillId": 1210054
+    },
+    {
+      "palace": 2,
+      "nodeCode": 203,
+      "totalLevelRequired": 240,
+      "tier": 4,
+      "skillId": 1210044
+    },
+    {
+      "palace": 2,
+      "nodeCode": 201,
+      "totalLevelRequired": 260,
+      "tier": 5,
+      "skillId": 1210135
+    },
+    {
+      "palace": 2,
+      "nodeCode": 202,
+      "totalLevelRequired": 280,
+      "tier": 5,
+      "skillId": 1210055
+    },
+    {
+      "palace": 2,
+      "nodeCode": 203,
+      "totalLevelRequired": 300,
+      "tier": 5,
+      "skillId": 1210045
+    },
+    {
+      "palace": 3,
+      "nodeCode": 301,
+      "totalLevelRequired": 20,
+      "tier": 1,
+      "skillId": 1210121
+    },
+    {
+      "palace": 3,
+      "nodeCode": 302,
+      "totalLevelRequired": 40,
+      "tier": 1,
+      "skillId": 1210021
+    },
+    {
+      "palace": 3,
+      "nodeCode": 303,
+      "totalLevelRequired": 60,
+      "tier": 1,
+      "skillId": 1210081
+    },
+    {
+      "palace": 3,
+      "nodeCode": 301,
+      "totalLevelRequired": 80,
+      "tier": 2,
+      "skillId": 1210122
+    },
+    {
+      "palace": 3,
+      "nodeCode": 302,
+      "totalLevelRequired": 100,
+      "tier": 2,
+      "skillId": 1210022
+    },
+    {
+      "palace": 3,
+      "nodeCode": 303,
+      "totalLevelRequired": 120,
+      "tier": 2,
+      "skillId": 1210082
+    },
+    {
+      "palace": 3,
+      "nodeCode": 301,
+      "totalLevelRequired": 140,
+      "tier": 3,
+      "skillId": 1210123
+    },
+    {
+      "palace": 3,
+      "nodeCode": 302,
+      "totalLevelRequired": 160,
+      "tier": 3,
+      "skillId": 1210023
+    },
+    {
+      "palace": 3,
+      "nodeCode": 303,
+      "totalLevelRequired": 180,
+      "tier": 3,
+      "skillId": 1210083
+    },
+    {
+      "palace": 3,
+      "nodeCode": 301,
+      "totalLevelRequired": 200,
+      "tier": 4,
+      "skillId": 1210124
+    },
+    {
+      "palace": 3,
+      "nodeCode": 302,
+      "totalLevelRequired": 220,
+      "tier": 4,
+      "skillId": 1210024
+    },
+    {
+      "palace": 3,
+      "nodeCode": 303,
+      "totalLevelRequired": 240,
+      "tier": 4,
+      "skillId": 1210084
+    },
+    {
+      "palace": 3,
+      "nodeCode": 301,
+      "totalLevelRequired": 260,
+      "tier": 5,
+      "skillId": 1210125
+    },
+    {
+      "palace": 3,
+      "nodeCode": 302,
+      "totalLevelRequired": 280,
+      "tier": 5,
+      "skillId": 1210025
+    },
+    {
+      "palace": 3,
+      "nodeCode": 303,
+      "totalLevelRequired": 300,
+      "tier": 5,
+      "skillId": 1210085
+    },
+    {
+      "palace": 4,
+      "nodeCode": 401,
+      "totalLevelRequired": 20,
+      "tier": 1,
+      "skillId": 1210111
+    },
+    {
+      "palace": 4,
+      "nodeCode": 402,
+      "totalLevelRequired": 40,
+      "tier": 1,
+      "skillId": 1210011
+    },
+    {
+      "palace": 4,
+      "nodeCode": 403,
+      "totalLevelRequired": 60,
+      "tier": 1,
+      "skillId": 1210031
+    },
+    {
+      "palace": 4,
+      "nodeCode": 401,
+      "totalLevelRequired": 80,
+      "tier": 2,
+      "skillId": 1210112
+    },
+    {
+      "palace": 4,
+      "nodeCode": 402,
+      "totalLevelRequired": 100,
+      "tier": 2,
+      "skillId": 1210012
+    },
+    {
+      "palace": 4,
+      "nodeCode": 403,
+      "totalLevelRequired": 120,
+      "tier": 2,
+      "skillId": 1210032
+    },
+    {
+      "palace": 4,
+      "nodeCode": 401,
+      "totalLevelRequired": 140,
+      "tier": 3,
+      "skillId": 1210113
+    },
+    {
+      "palace": 4,
+      "nodeCode": 402,
+      "totalLevelRequired": 160,
+      "tier": 3,
+      "skillId": 1210013
+    },
+    {
+      "palace": 4,
+      "nodeCode": 403,
+      "totalLevelRequired": 180,
+      "tier": 3,
+      "skillId": 1210033
+    },
+    {
+      "palace": 4,
+      "nodeCode": 401,
+      "totalLevelRequired": 200,
+      "tier": 4,
+      "skillId": 1210114
+    },
+    {
+      "palace": 4,
+      "nodeCode": 402,
+      "totalLevelRequired": 220,
+      "tier": 4,
+      "skillId": 1210014
+    },
+    {
+      "palace": 4,
+      "nodeCode": 403,
+      "totalLevelRequired": 240,
+      "tier": 4,
+      "skillId": 1210034
+    },
+    {
+      "palace": 4,
+      "nodeCode": 401,
+      "totalLevelRequired": 260,
+      "tier": 5,
+      "skillId": 1210115
+    },
+    {
+      "palace": 4,
+      "nodeCode": 402,
+      "totalLevelRequired": 280,
+      "tier": 5,
+      "skillId": 1210015
+    },
+    {
+      "palace": 4,
+      "nodeCode": 403,
+      "totalLevelRequired": 300,
+      "tier": 5,
+      "skillId": 1210035
+    },
+    {
+      "palace": 5,
+      "nodeCode": 501,
+      "totalLevelRequired": 20,
+      "tier": 1,
+      "skillId": 1210201
+    },
+    {
+      "palace": 5,
+      "nodeCode": 502,
+      "totalLevelRequired": 40,
+      "tier": 1,
+      "skillId": 1210091
+    },
+    {
+      "palace": 5,
+      "nodeCode": 503,
+      "totalLevelRequired": 60,
+      "tier": 1,
+      "skillId": 1210071
+    },
+    {
+      "palace": 5,
+      "nodeCode": 501,
+      "totalLevelRequired": 80,
+      "tier": 2,
+      "skillId": 1210202
+    },
+    {
+      "palace": 5,
+      "nodeCode": 502,
+      "totalLevelRequired": 100,
+      "tier": 2,
+      "skillId": 1210092
+    },
+    {
+      "palace": 5,
+      "nodeCode": 503,
+      "totalLevelRequired": 120,
+      "tier": 2,
+      "skillId": 1210072
+    },
+    {
+      "palace": 5,
+      "nodeCode": 501,
+      "totalLevelRequired": 140,
+      "tier": 3,
+      "skillId": 1210203
+    },
+    {
+      "palace": 5,
+      "nodeCode": 502,
+      "totalLevelRequired": 160,
+      "tier": 3,
+      "skillId": 1210093
+    },
+    {
+      "palace": 5,
+      "nodeCode": 503,
+      "totalLevelRequired": 180,
+      "tier": 3,
+      "skillId": 1210073
+    },
+    {
+      "palace": 5,
+      "nodeCode": 501,
+      "totalLevelRequired": 200,
+      "tier": 4,
+      "skillId": 1210204
+    },
+    {
+      "palace": 5,
+      "nodeCode": 502,
+      "totalLevelRequired": 220,
+      "tier": 4,
+      "skillId": 1210094
+    },
+    {
+      "palace": 5,
+      "nodeCode": 503,
+      "totalLevelRequired": 240,
+      "tier": 4,
+      "skillId": 1210074
+    },
+    {
+      "palace": 5,
+      "nodeCode": 501,
+      "totalLevelRequired": 260,
+      "tier": 5,
+      "skillId": 1210205
+    },
+    {
+      "palace": 5,
+      "nodeCode": 502,
+      "totalLevelRequired": 280,
+      "tier": 5,
+      "skillId": 1210095
+    },
+    {
+      "palace": 5,
+      "nodeCode": 503,
+      "totalLevelRequired": 300,
+      "tier": 5,
+      "skillId": 1210075
+    }
+  ]
+}

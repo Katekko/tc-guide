@@ -151,6 +151,8 @@ flutter:
     - assets/data/grades.json
     - assets/data/heroes/
     - assets/data/soul_mirrors/
+    - assets/data/team_comps/
+    - assets/data/grade_costs/
     - assets/img/soul_mirrors/
 
   # An image asset can refer to one or more resolution-specific "variants", see

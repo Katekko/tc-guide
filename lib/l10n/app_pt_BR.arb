@@ -114,10 +114,30 @@
   "navSectionHeroes": "Heróis",
   "navSectionComingSoon": "Em Breve",
   "navHeroes": "Todos os Heróis",
+  "navHeroesStarUp": "Star-Up",
   "navTeamComps": "Composições",
   "navTierList": "Tier List",
   "heroesTitle": "Heróis",
   "heroesIntro": "Veja todos os heróis, filtre por classe e raridade, e toque em um para ver o kit completo e o Espelho da Alma recomendado.",
+  "heroesStarUpTitle": "Custos de Star-Up (SSR+ → Opal 5★)",
+  "heroesStarUpIntro": "Exatamente quantas cópias e fodder você precisa para levar um herói SSR+ até Opal 5★. Os custos são os mesmos para todos os heróis.",
+  "heroesStarUpTotal": "{copies} cópias no total ({duplicates} duplicatas + 1 base)",
+  "@heroesStarUpTotal": {
+    "placeholders": {
+      "copies": {
+        "type": "int"
+      },
+      "duplicates": {
+        "type": "int"
+      }
+    }
+  },
+  "heroesStarUpDuplicatesLabel": "duplicatas",
+  "heroesStarUpBaseCopy": "+ cópia base",
+  "heroesStarUpMostExpensive": "Tier mais cara",
+  "heroesStarUpFodderLabel": "Fodder",
+  "heroesStarUpTipsLabel": "Dicas",
+  "heroesStarUpSourceLabel": "Fonte",
   "heroSearchHint": "Buscar heróis por nome",
   "heroFilterAll": "Todos",
   "heroShownLabel": "heróis",
@@ -273,10 +293,39 @@
   "soulMirrorShownLabel": "exibidos",
   "soulMirrorEmpty": "Nenhum espelho corresponde a estes filtros.",
   "teamCompsTitle": "Composições",
-  "teamCompsExtractOne": "Orientação de linha de frente.",
-  "teamCompsExtractTwo": "Uso de tanque.",
-  "teamCompsExtractThree": "Escolhas centrais de DPS/suporte.",
-  "teamCompsExtractFour": "Times de exemplo por estágio de progressão.",
+  "teamCompsIntro": "Núcleos de time testados em batalha no Twilight Chronicle: escolha seu motor, entenda por que funciona e adapte aos heróis que você tem.",
+  "teamCompsBasicsTitle": "Montagem de time 101",
+  "teamCompsBasicsSlots": "Você escala 6 heróis: 1 na frente, 2 na linha do meio e 3 atrás.",
+  "teamCompsBasicsLines": "Os buffs de linha vêm do primeiro Destiny Star Gate (os gates seguintes não são por linha) — só a linha do meio recebe Taxa de Crítico, então DPS de crítico vão para o meio; o slot da frente recebe os maiores buffs defensivos, então o tanque vai lá.",
+  "teamCompsBasicsRace": "Heróis da mesma facção dão um bônus de atributos para o time, mas trate isso como brinde, não como objetivo: NUNCA deixe um herói mais forte de fora para perseguir o bônus de facção. Ajuda nos primeiros dias; no longo prazo, qualidade do herói e sinergia de kit vencem.",
+  "teamCompsBasicsOtherworld": "Heróis de Otherworld (todos os URs) contam como QUALQUER facção para esse bônus e ficam fora da roda de counter de facções — então um time endgame forte normalmente ganha o bônus de raça de graça.",
+  "teamCompsBasicsEngine": "Um bom time é um motor de debuffs: empilhe heróis que aplicam e exploram a mesma mecânica — [Holy Seal], [Infect], [Sigil] ou [Bleed].",
+  "teamCompsVariantEndgame": "Endgame",
+  "teamCompsVariantBudget": "Econômico",
+  "teamCompsLineFront": "Frente",
+  "teamCompsLineMid": "Meio",
+  "teamCompsLineBack": "Trás",
+  "teamCompsWhyItWorks": "Por que funciona",
+  "teamCompsViewBuild": "Ver build",
+  "teamCompsRaceBonus": "{count}× {faction}: ATK +{atk}% · DEF +{def}% · HP +{hp}%",
+  "@teamCompsRaceBonus": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "faction": {},
+      "atk": {
+        "type": "int"
+      },
+      "def": {
+        "type": "int"
+      },
+      "hp": {
+        "type": "int"
+      }
+    }
+  },
+  "teamCompsRaceBonusOtherworld": "6× Otherworld: ATK +20% · DEF +15% · HP +30% · Final DMG +15%",
   "tierListTitle": "Tier List",
   "tierListExtractOne": "Definições de tier.",
   "tierListExtractTwo": "Ressalvas de ordem de construção.",

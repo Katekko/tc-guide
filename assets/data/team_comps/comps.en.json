@@ -1,0 +1,158 @@
+{
+  "comps": [
+    {
+      "id": "quash-renais",
+      "tier": "S",
+      "name": "Quash — Renais Core",
+      "engine": "Quash",
+      "summary": "The standard all-content team. Renais is a self-contained counter engine; everyone else just needs to keep enemies attacking her.",
+      "whyItWorks": "Renais's real engine is [Quash], not [Holy Seal]: every attack and counter stacks [Quash] on the target, and she deals +25% ATK × [Quash] stacks plus +30% Crit Rate against Quash'd enemies. Her passive turns her Basic Attack into Divine Spear Verdict and fires it whenever an ally is hit — so the more the enemy acts, the more she counters and the harder she hits. She sits in the midline for the Star Gate crit-rate buffs. The endgame version surrounds her with 5 Otherworld URs: they keep the full 6× Sanctuary race bonus (Otherworld is a wildcard), sit outside the counter wheel, and bring control so enemies keep feeding her counters. The budget version uses a Sanctuary light team where Michael exploits the [Holy Seal] Renais also applies (Apotheosis → cooldown refresh + True DMG).",
+      "mirrorNote": "Renais wants counter/crit mirrors — open her hero page for the full ranking.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 55007, "role": "Tank", "why": "AOE damage reduction + team heal keeps the line alive; as Otherworld she still completes the 6× Sanctuary race bonus." },
+            { "slot": 2, "line": "mid", "heroId": 15013, "role": "Carry", "why": "The engine. Counters every hit on your team, stacking [Quash] for +dmg and +30% crit; midline gives her the Star Gate crit buffs." },
+            { "slot": 3, "line": "mid", "heroId": 65002, "role": "DPS", "why": "AOE execute + [Eternal Curse]; second beneficiary of the midline crit buffs." },
+            { "slot": 4, "line": "back", "heroId": 65014, "role": "DPS", "why": "Backline AOE execute that finishes targets Renais and Lucifer soften." },
+            { "slot": 5, "line": "back", "heroId": 65004, "role": "Control", "why": "AOE [Charm] turns enemy turns into your turns — and charmed enemies still trigger Renais's counters." },
+            { "slot": 6, "line": "back", "heroId": 65019, "role": "Control", "why": "Premium control + spell pressure; stacks with Enchantress to lock the enemy ultimate cycle." }
+          ]
+        },
+        {
+          "key": "budget",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 15005, "role": "Tank", "why": "Drops enemy ATK and holds the front. She's Arcane Web, costing one race tier — swap to a Sanctuary guard or Jeanne when available." },
+            { "slot": 2, "line": "mid", "heroId": 15013, "role": "Carry", "why": "The engine. Counters every hit, stacking [Quash] for +dmg and +30% crit; midline crit buffs apply." },
+            { "slot": 3, "line": "mid", "heroId": 55001, "role": "DPS", "why": "Exploits [Holy Seal] Renais applies: Apotheosis stacks refresh cooldowns and add True DMG. True damage ignores most defense." },
+            { "slot": 4, "line": "back", "heroId": 15010, "role": "DPS", "why": "AOE spell + debuffs; also applies [Holy Seal] to feed Michael." },
+            { "slot": 5, "line": "back", "heroId": 55005, "role": "DPS", "why": "AOE burst caster that cleans up the softened enemy line." },
+            { "slot": 6, "line": "back", "heroId": 15002, "role": "Support", "why": "Shields and blessings keep Renais alive so the counter engine never stops." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infect-ling",
+      "tier": "A",
+      "name": "Infect — Ling Core",
+      "engine": "Infect",
+      "summary": "Spread [Infect] across the whole enemy team to feed Ling free Ultimates. Snowballs harder the wider the infection.",
+      "whyItWorks": "Ying Gou is the applier — her skill scatters 4–6 stacks of [Infect] across mid/backline enemies. Ling is the exploiter: her Ultimate adds True DMG (120% ATK) to infected targets, and she gains [Battle Will] for every infected enemy (max 6/turn), triggering a free Ultimate at 8 stacks and again at 14. So the plan is wide, fast infection → Ling chain-ults. Orpheus adds %Max-HP damage to infected targets as a third exploiter. The budget version is mono Arcane Web (full 6× race bonus); the endgame version keeps the Ling + Ying Gou applier pair and fills the rest with Otherworld URs for the wildcard race bonus and control.",
+      "mirrorNote": "Ling and Ying Gou want [Infect]-gated mirrors — see their hero pages.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 55007, "role": "Tank", "why": "Survivable Otherworld front that completes the 6× Arcane Web race bonus." },
+            { "slot": 2, "line": "mid", "heroId": 25013, "role": "Carry", "why": "The engine. Converts team-wide [Infect] into free Ultimates ([Battle Will] at 8/14 stacks)." },
+            { "slot": 3, "line": "mid", "heroId": 65002, "role": "DPS", "why": "AOE execute that capitalizes on enemies softened by Infect True DMG; takes the midline crit buffs." },
+            { "slot": 4, "line": "back", "heroId": 25005, "role": "Applier", "why": "The fuel. Scatters 4–6 [Infect] stacks per cast across mid/back — keeps Ling's [Battle Will] topped up." },
+            { "slot": 5, "line": "back", "heroId": 25016, "role": "Exploiter", "why": "Adds %Max-HP damage to [Infect] targets; a second source of infection payoff." },
+            { "slot": 6, "line": "back", "heroId": 65004, "role": "Control", "why": "AOE [Charm] keeps the enemy alive-but-helpless so the infection ticks and Ling keeps ulting." }
+          ]
+        },
+        {
+          "key": "budget",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 25004, "role": "Tank", "why": "Arcane Web taunt + damage-share guard; keeps the whole team mono-faction for the full 6× bonus." },
+            { "slot": 2, "line": "mid", "heroId": 25013, "role": "Carry", "why": "The engine. Free Ultimates from team-wide [Infect]; midline crit buffs apply." },
+            { "slot": 3, "line": "mid", "heroId": 25016, "role": "Exploiter", "why": "Counter-burst that adds %Max-HP damage to infected enemies." },
+            { "slot": 4, "line": "back", "heroId": 25005, "role": "Applier", "why": "The fuel — 4–6 [Infect] stacks per cast across the enemy back line." },
+            { "slot": 5, "line": "back", "heroId": 65005, "role": "Applier", "why": "Lilith adds more [Infect] plus kill-detonation, widening the infection and cleaning low-HP targets." },
+            { "slot": 6, "line": "back", "heroId": 25006, "role": "Support", "why": "Arcane Web healer that keeps the squishy casters alive without breaking the race bonus." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bleed-alucard",
+      "tier": "A",
+      "name": "Bleed — Alucard Core",
+      "engine": "Bleed",
+      "summary": "Spread [Bleed] across the enemy team, then let Alucard rake every bleeding target each turn.",
+      "whyItWorks": "Sherry is the AOE applier (70% [Bleed] to all enemies); Alucard is the engine — he applies [Bleed] on the lowest-DEF target (100%), gains [Bloodlust] per application, and re-hits ALL bleeding enemies with [Vacuum Blade] every active turn. The more enemies bleeding, the more his Vacuum Blade hits. The budget version is mono Kindred (full 6× race bonus); the endgame version keeps the Alucard + Sherry pair and fills with Otherworld URs.",
+      "mirrorNote": "Alucard scales with crit and execute mirrors — see his hero page.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 55007, "role": "Tank", "why": "Otherworld front that completes the 6× Kindred race bonus." },
+            { "slot": 2, "line": "mid", "heroId": 35015, "role": "Carry", "why": "The engine. Re-hits every bleeding enemy with [Vacuum Blade] each turn; midline crit buffs apply." },
+            { "slot": 3, "line": "mid", "heroId": 65014, "role": "DPS", "why": "AOE execute that finishes bleeding, softened targets." },
+            { "slot": 4, "line": "back", "heroId": 35014, "role": "Applier", "why": "Mass [Bleed] applier (70% to all) and team healer — fuels Alucard's whole-team rake." },
+            { "slot": 5, "line": "back", "heroId": 65002, "role": "DPS", "why": "AOE execute + curse; layers more pressure on the bleeding line." },
+            { "slot": 6, "line": "back", "heroId": 65004, "role": "Control", "why": "AOE [Charm] keeps enemies in place to keep bleeding." }
+          ]
+        },
+        {
+          "key": "budget",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 35013, "role": "Tank", "why": "Kindred counter-guard; keeps the team mono-faction for the full 6× bonus." },
+            { "slot": 2, "line": "mid", "heroId": 35015, "role": "Carry", "why": "The engine. [Vacuum Blade] rakes every bleeding enemy each turn." },
+            { "slot": 3, "line": "mid", "heroId": 35003, "role": "DPS", "why": "AOE burst + shield breaker to crack tanky enemy fronts." },
+            { "slot": 4, "line": "back", "heroId": 35014, "role": "Applier", "why": "Mass [Bleed] + AOE heal — the fuel and the sustain in one slot." },
+            { "slot": 5, "line": "back", "heroId": 35016, "role": "Control", "why": "AOE control keeps enemies locked while they bleed out." },
+            { "slot": 6, "line": "back", "heroId": 35004, "role": "DPS", "why": "Low-HP execute that closes out targets the bleed has chipped." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigil-demonhunter",
+      "tier": "A",
+      "name": "Sigil — Demonhunter Core",
+      "engine": "Sigil",
+      "summary": "Adele and Rose blanket the enemy in [Sigil]; the Demonhunter board converts it into burst.",
+      "whyItWorks": "Adele and Rose are the [Sigil] appliers (50–80% chance across their multi-hits), and Rose's passive triggers extra ally Basic Attacks on kills — so a Demonhunter board keeps acting and re-applying. Exploiters like Uncle Ying gain [Amulet] off [Sigil] application, and the Sigil payoff scales through the rest of the Demonhunter roster. The budget version is mono Demonhunter (full 6× race bonus); the endgame version keeps Adele + Rose and fills with Otherworld URs.",
+      "mirrorNote": "Adele and Rose want [Sigil]/crit mirrors — see their hero pages.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 55007, "role": "Tank", "why": "Otherworld front that completes the 6× Demonhunter race bonus." },
+            { "slot": 2, "line": "mid", "heroId": 45018, "role": "Carry", "why": "Core DPS + [Sigil] applier; the midline crit buffs power her multi-hit bursts." },
+            { "slot": 3, "line": "mid", "heroId": 55002, "role": "DPS", "why": "Wu Kong's clone assault adds a second crit-scaling hitter in the crit lane." },
+            { "slot": 4, "line": "back", "heroId": 45006, "role": "Applier", "why": "Rose blankets [Sigil] and triggers extra ally Basic Attacks on kills — the action-economy fuel." },
+            { "slot": 5, "line": "back", "heroId": 65002, "role": "DPS", "why": "AOE execute that converts the softened, Sigil'd enemy line into kills." },
+            { "slot": 6, "line": "back", "heroId": 65004, "role": "Control", "why": "AOE [Charm] buys the Demonhunter board the turns it needs to stack [Sigil]." }
+          ]
+        },
+        {
+          "key": "budget",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 45014, "role": "Tank", "why": "Garvin's AOE shield + shield curse holds the front and keeps the team mono-Demonhunter for the 6× bonus." },
+            { "slot": 2, "line": "mid", "heroId": 45018, "role": "Carry", "why": "Core DPS + [Sigil] applier; midline crit buffs power her bursts." },
+            { "slot": 3, "line": "mid", "heroId": 45005, "role": "DPS", "why": "Van Helsing first-strikes and single-kills priority targets in the crit lane." },
+            { "slot": 4, "line": "back", "heroId": 45006, "role": "Applier", "why": "Rose blankets [Sigil] and fuels extra ally Basic Attacks on kills." },
+            { "slot": 5, "line": "back", "heroId": 45013, "role": "Exploiter", "why": "Uncle Ying gains [Amulet] off [Sigil] application and adds AOE magic burst." },
+            { "slot": 6, "line": "back", "heroId": 45010, "role": "Support", "why": "Theresa's AOE heal + dispel keeps the board alive and clean." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otherworld-ur",
+      "tier": "S",
+      "name": "Otherworld — Pure UR Core",
+      "engine": "Otherworld",
+      "summary": "Six Otherworld URs: the dedicated 6× Otherworld bonus (with Final DMG) and zero faction-counter risk. The whale endgame default.",
+      "whyItWorks": "Fielding 6 Otherworld heroes triggers the dedicated race tier — ATK +20% / DEF +15% / HP +30% AND Final DMG +15% — and because every hero is Otherworld, the team sits entirely outside the faction-counter wheel (it can never be Strong-Struck). With no SSR+ carry to protect, every slot is a maxed UR, so this is pure stat-and-kit power: a tank, two crit DPS in the mid lane, and a control+execute back line. It needs deep UR investment, which is why it's the endgame/whale default rather than a budget option.",
+      "mirrorNote": "Each UR has its own mirror ranking — open their hero pages.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 65016, "role": "Tank", "why": "Gaia's lethal-immunity + Spirit Armor make her the sturdiest Otherworld front." },
+            { "slot": 2, "line": "mid", "heroId": 65014, "role": "Carry", "why": "Nyx's AOE execute scales with the midline crit buffs." },
+            { "slot": 3, "line": "mid", "heroId": 65002, "role": "DPS", "why": "Lucifer's AOE execute + curse shares the crit lane and the Final DMG bonus." },
+            { "slot": 4, "line": "back", "heroId": 65004, "role": "Control", "why": "Enchantress's AOE [Charm] is the premier lockdown — supreme control." },
+            { "slot": 5, "line": "back", "heroId": 65019, "role": "Control", "why": "Venus stacks more control + spell pressure to freeze the enemy ult cycle." },
+            { "slot": 6, "line": "back", "heroId": 65017, "role": "DPS", "why": "Mars's multi-hit + debuff control adds sustained backline damage." }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -783,6 +783,12 @@ abstract class AppLocalizations {
   /// **'All Heroes'**
   String get navHeroes;
 
+  /// No description provided for @navHeroesStarUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Star-Up'**
+  String get navHeroesStarUp;
+
   /// No description provided for @navTeamComps.
   ///
   /// In en, this message translates to:
@@ -806,6 +812,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Browse every hero, filter by class and rarity, and tap one for its full kit and recommended Soul Mirror.'**
   String get heroesIntro;
+
+  /// No description provided for @heroesStarUpTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Star-Up Costs (SSR+ → Opal 5★)'**
+  String get heroesStarUpTitle;
+
+  /// No description provided for @heroesStarUpIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Exactly how many copies and fodder you need to take an SSR+ hero all the way to Opal 5★. Same costs for every hero.'**
+  String get heroesStarUpIntro;
+
+  /// No description provided for @heroesStarUpTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'{copies} copies total ({duplicates} duplicates + 1 base)'**
+  String heroesStarUpTotal(int copies, int duplicates);
+
+  /// No description provided for @heroesStarUpDuplicatesLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'duplicates'**
+  String get heroesStarUpDuplicatesLabel;
+
+  /// No description provided for @heroesStarUpBaseCopy.
+  ///
+  /// In en, this message translates to:
+  /// **'+ base copy'**
+  String get heroesStarUpBaseCopy;
+
+  /// No description provided for @heroesStarUpMostExpensive.
+  ///
+  /// In en, this message translates to:
+  /// **'Priciest tier'**
+  String get heroesStarUpMostExpensive;
+
+  /// No description provided for @heroesStarUpFodderLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Fodder'**
+  String get heroesStarUpFodderLabel;
+
+  /// No description provided for @heroesStarUpTipsLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Tips'**
+  String get heroesStarUpTipsLabel;
+
+  /// No description provided for @heroesStarUpSourceLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Source'**
+  String get heroesStarUpSourceLabel;
 
   /// No description provided for @heroSearchHint.
   ///
@@ -1635,29 +1695,107 @@ abstract class AppLocalizations {
   /// **'Team Comps'**
   String get teamCompsTitle;
 
-  /// No description provided for @teamCompsExtractOne.
+  /// No description provided for @teamCompsIntro.
   ///
   /// In en, this message translates to:
-  /// **'Frontline guidance.'**
-  String get teamCompsExtractOne;
+  /// **'Battle-tested team cores for Twilight Chronicle: pick your engine, see why it works, and adapt it to the heroes you own.'**
+  String get teamCompsIntro;
 
-  /// No description provided for @teamCompsExtractTwo.
+  /// No description provided for @teamCompsBasicsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Tank usage.'**
-  String get teamCompsExtractTwo;
+  /// **'Team building 101'**
+  String get teamCompsBasicsTitle;
 
-  /// No description provided for @teamCompsExtractThree.
+  /// No description provided for @teamCompsBasicsSlots.
   ///
   /// In en, this message translates to:
-  /// **'Core DPS/support choices.'**
-  String get teamCompsExtractThree;
+  /// **'You deploy 6 heroes: 1 in the front, 2 in the mid line and 3 in the back.'**
+  String get teamCompsBasicsSlots;
 
-  /// No description provided for @teamCompsExtractFour.
+  /// No description provided for @teamCompsBasicsLines.
   ///
   /// In en, this message translates to:
-  /// **'Example teams by progression stage.'**
-  String get teamCompsExtractFour;
+  /// **'Lane buffs come from the first Destiny Star Gate (the later gates are not lane-based) — only the midline gets Crit Rate, so crit DPS go mid; the front slot gets the heaviest defensive buffs, so the tank goes there.'**
+  String get teamCompsBasicsLines;
+
+  /// No description provided for @teamCompsBasicsRace.
+  ///
+  /// In en, this message translates to:
+  /// **'Same-faction heroes add a team-wide stat bonus, but treat it as a freebie, not a goal: NEVER bench a stronger hero to chase the faction bonus. It helps in your first days; in the long run hero quality and kit synergy win.'**
+  String get teamCompsBasicsRace;
+
+  /// No description provided for @teamCompsBasicsOtherworld.
+  ///
+  /// In en, this message translates to:
+  /// **'Otherworld heroes (all URs) count as ANY faction for that bonus and sit outside the faction-counter wheel — so a strong endgame team usually gets the race bonus for free anyway.'**
+  String get teamCompsBasicsOtherworld;
+
+  /// No description provided for @teamCompsBasicsEngine.
+  ///
+  /// In en, this message translates to:
+  /// **'A good team is a debuff engine: stack heroes that apply and exploit the same mechanic — [Holy Seal], [Infect], [Sigil] or [Bleed].'**
+  String get teamCompsBasicsEngine;
+
+  /// No description provided for @teamCompsVariantEndgame.
+  ///
+  /// In en, this message translates to:
+  /// **'Endgame'**
+  String get teamCompsVariantEndgame;
+
+  /// No description provided for @teamCompsVariantBudget.
+  ///
+  /// In en, this message translates to:
+  /// **'Budget'**
+  String get teamCompsVariantBudget;
+
+  /// No description provided for @teamCompsLineFront.
+  ///
+  /// In en, this message translates to:
+  /// **'Front'**
+  String get teamCompsLineFront;
+
+  /// No description provided for @teamCompsLineMid.
+  ///
+  /// In en, this message translates to:
+  /// **'Mid'**
+  String get teamCompsLineMid;
+
+  /// No description provided for @teamCompsLineBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Back'**
+  String get teamCompsLineBack;
+
+  /// No description provided for @teamCompsWhyItWorks.
+  ///
+  /// In en, this message translates to:
+  /// **'Why it works'**
+  String get teamCompsWhyItWorks;
+
+  /// No description provided for @teamCompsViewBuild.
+  ///
+  /// In en, this message translates to:
+  /// **'View build'**
+  String get teamCompsViewBuild;
+
+  /// No description provided for @teamCompsRaceBonus.
+  ///
+  /// In en, this message translates to:
+  /// **'{count}× {faction}: ATK +{atk}% · DEF +{def}% · HP +{hp}%'**
+  String teamCompsRaceBonus(
+    int count,
+    Object faction,
+    int atk,
+    int def,
+    int hp,
+  );
+
+  /// No description provided for @teamCompsRaceBonusOtherworld.
+  ///
+  /// In en, this message translates to:
+  /// **'6× Otherworld: ATK +20% · DEF +15% · HP +30% · Final DMG +15%'**
+  String get teamCompsRaceBonusOtherworld;
 
   /// No description provided for @tierListTitle.
   ///

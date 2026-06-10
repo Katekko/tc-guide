@@ -1,0 +1,1648 @@
+[
+  {
+    "id": 1,
+    "name": null,
+    "nameZh": "何为正义",
+    "heroIds": [
+      15003,
+      15010,
+      15004
+    ],
+    "heroNames": [
+      "Azmodan",
+      "Aurora",
+      "15004"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": null,
+    "nameZh": "调皮捣蛋",
+    "heroIds": [
+      15005,
+      15006
+    ],
+    "heroNames": [
+      "Sariel",
+      "Ada"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": null,
+    "nameZh": "沐血斗士",
+    "heroIds": [
+      25004,
+      25001,
+      25005
+    ],
+    "heroNames": [
+      "Tinplate",
+      "Frankenstein",
+      "Ying Gou"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": null,
+    "nameZh": "烈日灼心",
+    "heroIds": [
+      25002,
+      25009
+    ],
+    "heroNames": [
+      "Vineshade",
+      "Mister"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": null,
+    "nameZh": "永茂之心",
+    "heroIds": [
+      35003,
+      35006,
+      35005
+    ],
+    "heroNames": [
+      "Isabella",
+      "Gorgon",
+      "35005"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Intimate Bond",
+    "nameZh": "亲密无间",
+    "heroIds": [
+      35007,
+      35012
+    ],
+    "heroNames": [
+      "Vivi",
+      "Selina"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": null,
+    "nameZh": "凶神恶煞",
+    "heroIds": [
+      45005,
+      45003,
+      45008
+    ],
+    "heroNames": [
+      "Van Helsing",
+      "45003",
+      "Lenore"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": null,
+    "nameZh": "净见神社",
+    "heroIds": [
+      45006,
+      45007
+    ],
+    "heroNames": [
+      "Rose",
+      "Mica"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": null,
+    "nameZh": "丛原之殇",
+    "heroIds": [
+      25008,
+      35004
+    ],
+    "heroNames": [
+      "Blazer",
+      "Valendine"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": null,
+    "nameZh": "琼浆之友",
+    "heroIds": [
+      45001,
+      15008
+    ],
+    "heroNames": [
+      "Lincoln",
+      "Isaac"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": null,
+    "nameZh": "猫的魅力",
+    "heroIds": [
+      25003,
+      35009
+    ],
+    "heroNames": [
+      "Kira",
+      "Yin"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": null,
+    "nameZh": "机械恶鬼",
+    "heroIds": [
+      15007,
+      45009
+    ],
+    "heroNames": [
+      "Laird",
+      "Zhiming"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": null,
+    "nameZh": "逝去之人",
+    "heroIds": [
+      45010,
+      65002
+    ],
+    "heroNames": [
+      "Theresa",
+      "Lucifer"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": null,
+    "nameZh": "自我救赎",
+    "heroIds": [
+      65003,
+      15011
+    ],
+    "heroNames": [
+      "65003",
+      "15011"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": null,
+    "nameZh": "远古之音",
+    "heroIds": [
+      25006,
+      55003
+    ],
+    "heroNames": [
+      "Heidi",
+      "Raphael"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": null,
+    "nameZh": "生命之恩",
+    "heroIds": [
+      55001,
+      35001
+    ],
+    "heroNames": [
+      "Michael",
+      "Camilla"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": null,
+    "nameZh": "正邪两立",
+    "heroIds": [
+      65001,
+      55002
+    ],
+    "heroNames": [
+      "Dark Tide",
+      "Wu Kong"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": null,
+    "nameZh": "守护之誓",
+    "heroIds": [
+      65004,
+      15001
+    ],
+    "heroNames": [
+      "Enchantress",
+      "Daisy"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": null,
+    "nameZh": "强者信念",
+    "heroIds": [
+      65005,
+      55007
+    ],
+    "heroNames": [
+      "Lilith",
+      "Jeanne"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": null,
+    "nameZh": "恩师门下",
+    "heroIds": [
+      25015,
+      25013
+    ],
+    "heroNames": [
+      "Ramesses",
+      "Ling"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": null,
+    "nameZh": "潜龙在渊",
+    "heroIds": [
+      35013,
+      45013
+    ],
+    "heroNames": [
+      "Jacob",
+      "Uncle Ying"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "unlockThreshold": 5,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "def_per",
+            "value": 100,
+            "percent": 1.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 100,
+            "percent": 1.0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "unlockThreshold": 7,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "def_per",
+            "value": 300,
+            "percent": 3.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 300,
+            "percent": 3.0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "unlockThreshold": 9,
+        "bonus": [
+          {
+            "stat": "atk_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "def_per",
+            "value": 500,
+            "percent": 5.0
+          },
+          {
+            "stat": "hp_per",
+            "value": 500,
+            "percent": 5.0
+          }
+        ]
+      }
+    ]
+  }
+]

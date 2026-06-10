@@ -10,18 +10,19 @@ void main() {
   const repository = GuidesRepositoryImpl();
 
   group('GuidesRepositoryImpl', () {
-    test('navigation starts with the index link followed by seven sections',
+    test('navigation starts with the index link followed by four sections',
         () {
       final nav = repository.navigation(l10n);
       expect(nav.first, isA<GuideNavLink>());
       expect((nav.first as GuideNavLink).route, AppRoutes.intro);
-      expect(nav.whereType<GuideNavSection>(), hasLength(7));
+      // Getting Started, Growth, Heroes, Coming Soon.
+      expect(nav.whereType<GuideNavSection>(), hasLength(4));
     });
 
-    test('flatItems contains all sixteen guide routes without duplicates', () {
+    test('flatItems contains all seventeen guide routes without duplicates', () {
       final routes = repository.flatItems(l10n).map((i) => i.route).toList();
-      expect(routes, hasLength(16));
-      expect(routes.toSet(), hasLength(16));
+      expect(routes, hasLength(17));
+      expect(routes.toSet(), hasLength(17));
     });
 
     test('titleForRoute resolves a known route and falls back otherwise', () {
@@ -39,9 +40,10 @@ void main() {
       ]);
     });
 
-    test('navigable items default to draft status', () {
+    test('navigable items are either current (polished) or draft (coming soon)',
+        () {
       final statuses = repository.flatItems(l10n).map((i) => i.status).toSet();
-      expect(statuses, {GuideStatus.draft});
+      expect(statuses, {GuideStatus.current, GuideStatus.draft});
     });
   });
 }

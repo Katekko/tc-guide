@@ -1,0 +1,158 @@
+{
+  "comps": [
+    {
+      "id": "quash-renais",
+      "tier": "S",
+      "name": "Quash — Núcleo da Renais",
+      "engine": "Quash",
+      "summary": "O time padrão para todo conteúdo. A Renais é um motor de contra-ataque autossuficiente; o resto só precisa manter os inimigos batendo nela.",
+      "whyItWorks": "O verdadeiro motor da Renais é o [Quash], não o [Holy Seal]: cada ataque e contra-ataque acumula [Quash] no alvo, e ela causa +25% ATK × acúmulos de [Quash] mais +30% de Taxa de Crítico contra inimigos com Quash. O passivo dela troca o Ataque Básico por Divine Spear Verdict e o dispara sempre que um aliado é atingido — quanto mais o inimigo age, mais ela contra-ataca e mais forte bate. Ela fica na linha do meio pelos buffs de crítico do Star Gate. A versão endgame a cerca de 5 URs de Otherworld: eles mantêm o bônus de raça 6× Sanctuary completo (Otherworld é coringa), ficam fora da roda de counter e trazem controle. A versão econômica usa um time de luz de Sanctuary onde o Michael explora o [Holy Seal] que a Renais também aplica (Apotheosis → reset de cooldown + Dano Verdadeiro).",
+      "mirrorNote": "A Renais quer mirrors de contra-ataque/crítico — abra a página dela para o ranking completo.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 55007, "role": "Tanque", "why": "Redução de dano em área + cura mantém a linha viva; sendo Otherworld, ela ainda completa o bônus de raça 6× Sanctuary." },
+            { "slot": 2, "line": "mid", "heroId": 15013, "role": "Carry", "why": "O motor. Contra-ataca cada golpe, acumulando [Quash] para +dano e +30% de crítico; a linha do meio dá os buffs de crítico." },
+            { "slot": 3, "line": "mid", "heroId": 65002, "role": "DPS", "why": "Execução em área + [Eternal Curse]; segundo beneficiado pelos buffs de crítico do meio." },
+            { "slot": 4, "line": "back", "heroId": 65014, "role": "DPS", "why": "Execução em área pela retaguarda que finaliza alvos enfraquecidos por Renais e Lucifer." },
+            { "slot": 5, "line": "back", "heroId": 65004, "role": "Controle", "why": "[Charm] em área transforma turnos inimigos nos seus — e inimigos encantados ainda ativam os contra-ataques da Renais." },
+            { "slot": 6, "line": "back", "heroId": 65019, "role": "Controle", "why": "Controle e pressão mágica de elite; combina com a Enchantress para travar o ciclo de ultimates inimigo." }
+          ]
+        },
+        {
+          "key": "budget",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 15005, "role": "Tanque", "why": "Reduz o ATK inimigo e segura a frente. É de Arcane Web, custando um nível de raça — troque por um guardião de Sanctuary ou pela Jeanne quando puder." },
+            { "slot": 2, "line": "mid", "heroId": 15013, "role": "Carry", "why": "O motor. Contra-ataca cada golpe, acumulando [Quash] para +dano e +30% de crítico; buffs de crítico do meio se aplicam." },
+            { "slot": 3, "line": "mid", "heroId": 55001, "role": "DPS", "why": "Explora o [Holy Seal] que a Renais aplica: acúmulos de Apotheosis resetam cooldowns e somam Dano Verdadeiro, que ignora a maior parte da defesa." },
+            { "slot": 4, "line": "back", "heroId": 15010, "role": "DPS", "why": "Magia em área + debuffs; também aplica [Holy Seal] para alimentar o Michael." },
+            { "slot": 5, "line": "back", "heroId": 55005, "role": "DPS", "why": "Conjuradora de burst em área que limpa a linha inimiga enfraquecida." },
+            { "slot": 6, "line": "back", "heroId": 15002, "role": "Suporte", "why": "Escudos e bênçãos mantêm a Renais viva para o motor de contra-ataque nunca parar." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infect-ling",
+      "tier": "A",
+      "name": "Infect — Núcleo da Ling",
+      "engine": "Infect",
+      "summary": "Espalhe [Infect] por todo o time inimigo para dar Ultimates grátis à Ling. Cresce quanto mais ampla a infecção.",
+      "whyItWorks": "A Ying Gou é a aplicadora — a skill dela espalha 4–6 acúmulos de [Infect] pelos inimigos do meio/trás. A Ling é a exploradora: o Ultimate dela soma Dano Verdadeiro (120% ATK) em alvos infectados, e ela ganha [Battle Will] por inimigo infectado (máx 6/turno), liberando um Ultimate grátis em 8 acúmulos e de novo em 14. Então o plano é infecção ampla e rápida → Ling encadeia ultimates. O Orpheus soma dano de %HP Máx em alvos infectados como terceiro explorador. A versão econômica é mono Arcane Web (bônus de raça 6× completo); a endgame mantém a dupla aplicadora Ling + Ying Gou e completa com URs de Otherworld.",
+      "mirrorNote": "Ling e Ying Gou querem mirrors com gate de [Infect] — veja as páginas delas.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 55007, "role": "Tanque", "why": "Frente resistente de Otherworld que completa o bônus de raça 6× Arcane Web." },
+            { "slot": 2, "line": "mid", "heroId": 25013, "role": "Carry", "why": "O motor. Converte [Infect] do time todo em Ultimates grátis ([Battle Will] em 8/14 acúmulos)." },
+            { "slot": 3, "line": "mid", "heroId": 65002, "role": "DPS", "why": "Execução em área que aproveita inimigos enfraquecidos pelo Dano Verdadeiro do Infect; pega os buffs de crítico do meio." },
+            { "slot": 4, "line": "back", "heroId": 25005, "role": "Aplicadora", "why": "O combustível. Espalha 4–6 acúmulos de [Infect] por cast no meio/trás — mantém o [Battle Will] da Ling cheio." },
+            { "slot": 5, "line": "back", "heroId": 25016, "role": "Explorador", "why": "Soma dano de %HP Máx em alvos com [Infect]; segunda fonte de payoff da infecção." },
+            { "slot": 6, "line": "back", "heroId": 65004, "role": "Controle", "why": "[Charm] em área mantém o inimigo vivo-mas-indefeso para a infecção tickar e a Ling continuar ultando." }
+          ]
+        },
+        {
+          "key": "budget",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 25004, "role": "Tanque", "why": "Guardião de Arcane Web com provocação + compartilhamento de dano; mantém o time mono-facção para o bônus 6× completo." },
+            { "slot": 2, "line": "mid", "heroId": 25013, "role": "Carry", "why": "O motor. Ultimates grátis pelo [Infect] do time todo; buffs de crítico do meio se aplicam." },
+            { "slot": 3, "line": "mid", "heroId": 25016, "role": "Explorador", "why": "Contra-burst que soma dano de %HP Máx em inimigos infectados." },
+            { "slot": 4, "line": "back", "heroId": 25005, "role": "Aplicadora", "why": "O combustível — 4–6 acúmulos de [Infect] por cast na retaguarda inimiga." },
+            { "slot": 5, "line": "back", "heroId": 65005, "role": "Aplicadora", "why": "A Lilith soma mais [Infect] e detonação por abate, ampliando a infecção e limpando alvos com pouca vida." },
+            { "slot": 6, "line": "back", "heroId": 25006, "role": "Suporte", "why": "Curandeira de Arcane Web que mantém os conjuradores frágeis vivos sem quebrar o bônus de raça." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bleed-alucard",
+      "tier": "A",
+      "name": "Bleed — Núcleo do Alucard",
+      "engine": "Bleed",
+      "summary": "Espalhe [Bleed] pelo time inimigo e deixe o Alucard dilacerar todo alvo sangrando a cada turno.",
+      "whyItWorks": "A Sherry é a aplicadora em área (70% de [Bleed] em todos); o Alucard é o motor — aplica [Bleed] no alvo de menor DEF (100%), ganha [Bloodlust] por aplicação e re-acerta TODOS os inimigos sangrando com [Vacuum Blade] a cada turno ativo. Quanto mais inimigos sangrando, mais o Vacuum Blade acerta. A versão econômica é mono Kindred (bônus de raça 6× completo); a endgame mantém a dupla Alucard + Sherry e completa com URs de Otherworld.",
+      "mirrorNote": "O Alucard escala com mirrors de crítico e execução — veja a página dele.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 55007, "role": "Tanque", "why": "Frente de Otherworld que completa o bônus de raça 6× Kindred." },
+            { "slot": 2, "line": "mid", "heroId": 35015, "role": "Carry", "why": "O motor. Re-acerta cada inimigo sangrando com [Vacuum Blade] a cada turno; buffs de crítico do meio se aplicam." },
+            { "slot": 3, "line": "mid", "heroId": 65014, "role": "DPS", "why": "Execução em área que finaliza alvos sangrando e enfraquecidos." },
+            { "slot": 4, "line": "back", "heroId": 35014, "role": "Aplicadora", "why": "Aplicadora de [Bleed] em massa (70% em todos) e curandeira — alimenta a dilaceração do time toda da Alucard." },
+            { "slot": 5, "line": "back", "heroId": 65002, "role": "DPS", "why": "Execução em área + maldição; soma pressão na linha sangrando." },
+            { "slot": 6, "line": "back", "heroId": 65004, "role": "Controle", "why": "[Charm] em área prende os inimigos no lugar para continuarem sangrando." }
+          ]
+        },
+        {
+          "key": "budget",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 35013, "role": "Tanque", "why": "Guardião de contra-ataque Kindred; mantém o time mono-facção para o bônus 6× completo." },
+            { "slot": 2, "line": "mid", "heroId": 35015, "role": "Carry", "why": "O motor. [Vacuum Blade] dilacera cada inimigo sangrando a cada turno." },
+            { "slot": 3, "line": "mid", "heroId": 35003, "role": "DPS", "why": "Burst em área + quebra-escudo para rachar frentes inimigas resistentes." },
+            { "slot": 4, "line": "back", "heroId": 35014, "role": "Aplicadora", "why": "[Bleed] em massa + cura em área — combustível e sustentação num slot só." },
+            { "slot": 5, "line": "back", "heroId": 35016, "role": "Controle", "why": "Controle em área prende os inimigos enquanto sangram até o fim." },
+            { "slot": 6, "line": "back", "heroId": 35004, "role": "DPS", "why": "Execução de pouca vida que fecha alvos já desgastados pelo sangramento." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigil-demonhunter",
+      "tier": "A",
+      "name": "Sigil — Núcleo Demonhunter",
+      "engine": "Sigil",
+      "summary": "Adele e Rose cobrem o inimigo de [Sigil]; o board Demonhunter converte isso em burst.",
+      "whyItWorks": "Adele e Rose são as aplicadoras de [Sigil] (50–80% de chance nos golpes múltiplos), e o passivo da Rose ativa Ataques Básicos extras de aliados em abates — então um board Demonhunter continua agindo e reaplicando. Exploradores como o Uncle Ying ganham [Amulet] pela aplicação de [Sigil], e o payoff do Sigil escala pelo resto do elenco Demonhunter. A versão econômica é mono Demonhunter (bônus de raça 6× completo); a endgame mantém Adele + Rose e completa com URs de Otherworld.",
+      "mirrorNote": "Adele e Rose querem mirrors de [Sigil]/crítico — veja as páginas delas.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 55007, "role": "Tanque", "why": "Frente de Otherworld que completa o bônus de raça 6× Demonhunter." },
+            { "slot": 2, "line": "mid", "heroId": 45018, "role": "Carry", "why": "Core DPS + aplicadora de [Sigil]; os buffs de crítico do meio potencializam os bursts múltiplos dela." },
+            { "slot": 3, "line": "mid", "heroId": 55002, "role": "DPS", "why": "O assalto de clones do Wu Kong soma um segundo bater de crítico na linha de crítico." },
+            { "slot": 4, "line": "back", "heroId": 45006, "role": "Aplicadora", "why": "A Rose cobre de [Sigil] e ativa Ataques Básicos extras em abates — o combustível de economia de ação." },
+            { "slot": 5, "line": "back", "heroId": 65002, "role": "DPS", "why": "Execução em área que converte a linha inimiga enfraquecida e com Sigil em abates." },
+            { "slot": 6, "line": "back", "heroId": 65004, "role": "Controle", "why": "[Charm] em área compra para o board Demonhunter os turnos que ele precisa para acumular [Sigil]." }
+          ]
+        },
+        {
+          "key": "budget",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 45014, "role": "Tanque", "why": "O escudo em área + maldição de escudo do Garvin segura a frente e mantém o time mono-Demonhunter para o bônus 6×." },
+            { "slot": 2, "line": "mid", "heroId": 45018, "role": "Carry", "why": "Core DPS + aplicadora de [Sigil]; buffs de crítico do meio potencializam os bursts." },
+            { "slot": 3, "line": "mid", "heroId": 45005, "role": "DPS", "why": "Van Helsing dá o primeiro golpe e abate alvos prioritários na linha de crítico." },
+            { "slot": 4, "line": "back", "heroId": 45006, "role": "Aplicadora", "why": "A Rose cobre de [Sigil] e alimenta Ataques Básicos extras em abates." },
+            { "slot": 5, "line": "back", "heroId": 45013, "role": "Explorador", "why": "O Uncle Ying ganha [Amulet] pela aplicação de [Sigil] e soma burst mágico em área." },
+            { "slot": 6, "line": "back", "heroId": 45010, "role": "Suporte", "why": "A cura em área + dispel da Theresa mantém o board vivo e limpo." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otherworld-ur",
+      "tier": "S",
+      "name": "Otherworld — Núcleo Puro de UR",
+      "engine": "Otherworld",
+      "summary": "Seis URs de Otherworld: o bônus dedicado 6× Otherworld (com Final DMG) e zero risco de counter de facção. O padrão endgame de whale.",
+      "whyItWorks": "Escalar 6 heróis de Otherworld ativa o nível de raça dedicado — ATK +20% / DEF +15% / HP +30% E Final DMG +15% — e como todos são de Otherworld, o time fica totalmente fora da roda de counter de facções (nunca pode sofrer Strong Strike). Sem um carry SSR+ para proteger, cada slot é um UR maximizado, então é poder puro de stats e kit: um tanque, dois DPS de crítico na linha do meio e uma retaguarda de controle+execução. Exige investimento profundo em URs, por isso é o padrão endgame/whale e não uma opção econômica.",
+      "mirrorNote": "Cada UR tem seu próprio ranking de mirrors — abra as páginas deles.",
+      "variants": [
+        {
+          "key": "endgame",
+          "slots": [
+            { "slot": 1, "line": "front", "heroId": 65016, "role": "Tanque", "why": "A imunidade letal + Spirit Armor da Gaia fazem dela a frente de Otherworld mais resistente." },
+            { "slot": 2, "line": "mid", "heroId": 65014, "role": "Carry", "why": "A execução em área da Nyx escala com os buffs de crítico do meio." },
+            { "slot": 3, "line": "mid", "heroId": 65002, "role": "DPS", "why": "A execução em área + maldição do Lucifer divide a linha de crítico e o bônus de Final DMG." },
+            { "slot": 4, "line": "back", "heroId": 65004, "role": "Controle", "why": "O [Charm] em área da Enchantress é o melhor lockdown — controle supremo." },
+            { "slot": 5, "line": "back", "heroId": 65019, "role": "Controle", "why": "A Venus soma mais controle + pressão mágica para congelar o ciclo de ultimate inimigo." },
+            { "slot": 6, "line": "back", "heroId": 65017, "role": "DPS", "why": "Os múltiplos golpes + controle de debuff do Mars somam dano sustentado pela retaguarda." }
+          ]
+        }
+      ]
+    }
+  ]
+}

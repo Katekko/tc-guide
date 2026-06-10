@@ -24,6 +24,10 @@ abstract final class AppRoutes {
   /// Heroes catalog: the browsable, filterable grid of every hero.
   static const String heroes = '/heroes';
 
+  /// Heroes → Star-Up sub-tab: the universal grade star-up cost reference.
+  /// Registered before [heroBySlug] so the static path wins over the slug param.
+  static const String heroesStarUp = '/heroes/star-up';
+
   /// Per-hero page, keyed by a shareable slug (e.g. `/heroes/jeanne`).
   static const String heroBySlug = '/heroes/:name';
 

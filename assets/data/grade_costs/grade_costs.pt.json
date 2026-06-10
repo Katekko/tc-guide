@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "totalCopies": 18,
+    "duplicates": 17,
+    "base": 1,
+    "note": "Custo total para levar um herói SSR+ do zero até Opal 5★."
+  },
+  "source": "Discord da comunidade Twilight Chronicles: Idle RPG — \"Character Star Up Guide\" por @reyy. Contagem de duplicatas por faixa conferida (2+2+3+10 = 17 + 1 base = 18).",
+  "fodderNote": "O fodder precisa ser da mesma facção do herói, exceto as linhas marcadas como \"qualquer facção\".",
+  "bands": [
+    {
+      "tier": "Dawn",
+      "range": "Dawn 1★ → Dawn 5★ (6★–10★)",
+      "duplicates": 2,
+      "needsBaseCopy": true,
+      "fodder": [
+        "3× unidade 5★ da mesma facção",
+        "2× fodder Dawn 1 da mesma facção",
+        "1× fodder Dawn 3 da mesma facção"
+      ]
+    },
+    {
+      "tier": "Eternal",
+      "range": "Eternal 1★ → Eternal 5★ (11★–15★)",
+      "duplicates": 2,
+      "needsBaseCopy": false,
+      "fodder": [
+        "3× fodder Dawn 1 da mesma facção",
+        "3× fodder Dawn 3 da mesma facção"
+      ]
+    },
+    {
+      "tier": "Anima",
+      "range": "Anima 1★ → Anima 5★ (16★–20★)",
+      "duplicates": 3,
+      "needsBaseCopy": false,
+      "mostExpensive": true,
+      "fodder": [
+        "3× fodder Dawn 1 da mesma facção",
+        "2× fodder Dawn 3 da mesma facção",
+        "2× fodder Dawn 5 da mesma facção",
+        "1× fodder Dawn 3 de qualquer facção",
+        "1× fodder Dawn 5 de qualquer facção"
+      ]
+    },
+    {
+      "tier": "Opal",
+      "range": "Opal 1★ → Opal 5★ (21★–25★)",
+      "duplicates": 10,
+      "needsBaseCopy": false,
+      "fodder": [
+        "1× fodder Dawn 1 da mesma facção",
+        "8× fodder Dawn 5 de qualquer facção"
+      ]
+    }
+  ],
+  "tips": [
+    "Distribua recursos pelo time — não jogue tudo em uma só unidade, seja em níveis ou estrelas.",
+    "Anima é a tier mais cara para evoluir; planeje o fodder antes de começá-la.",
+    "Opal custa 10 duplicatas da própria unidade — a parede do late-game."
+  ]
+}

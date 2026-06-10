@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "totalCopies": 18,
+    "duplicates": 17,
+    "base": 1,
+    "note": "Total cost to take one SSR+ unit from base all the way to Opal 5★."
+  },
+  "source": "Twilight Chronicles: Idle RPG community Discord — \"Character Star Up Guide\" by @reyy. Per-band duplicate counts cross-checked (2+2+3+10 = 17 + 1 base = 18).",
+  "fodderNote": "Fodder must match the hero's own faction, except the lines marked \"any faction\".",
+  "bands": [
+    {
+      "tier": "Dawn",
+      "range": "Dawn 1★ → Dawn 5★ (6★–10★)",
+      "duplicates": 2,
+      "needsBaseCopy": true,
+      "fodder": [
+        "3× 5★ same-faction unit",
+        "2× same-faction Dawn 1 fodder",
+        "1× same-faction Dawn 3 fodder"
+      ]
+    },
+    {
+      "tier": "Eternal",
+      "range": "Eternal 1★ → Eternal 5★ (11★–15★)",
+      "duplicates": 2,
+      "needsBaseCopy": false,
+      "fodder": [
+        "3× same-faction Dawn 1 fodder",
+        "3× same-faction Dawn 3 fodder"
+      ]
+    },
+    {
+      "tier": "Anima",
+      "range": "Anima 1★ → Anima 5★ (16★–20★)",
+      "duplicates": 3,
+      "needsBaseCopy": false,
+      "mostExpensive": true,
+      "fodder": [
+        "3× same-faction Dawn 1 fodder",
+        "2× same-faction Dawn 3 fodder",
+        "2× same-faction Dawn 5 fodder",
+        "1× any-faction Dawn 3 fodder",
+        "1× any-faction Dawn 5 fodder"
+      ]
+    },
+    {
+      "tier": "Opal",
+      "range": "Opal 1★ → Opal 5★ (21★–25★)",
+      "duplicates": 10,
+      "needsBaseCopy": false,
+      "fodder": [
+        "1× same-faction Dawn 1 fodder",
+        "8× any-faction Dawn 5 fodder"
+      ]
+    }
+  ],
+  "tips": [
+    "Spread resources across your team — don't dump everything into one unit, whether levels or stars.",
+    "Anima is the most expensive tier to promote out of; plan fodder before starting it.",
+    "Opal costs 10 duplicates of the unit itself — the late-game wall."
+  ]
+}

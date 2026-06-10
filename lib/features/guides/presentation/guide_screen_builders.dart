@@ -5,6 +5,7 @@ import 'package:tc_flutter_web/core/router/app_routes.dart';
 import 'screens/gears_screen.dart';
 import 'screens/getting_started_screen.dart';
 import 'screens/heroes_screen.dart';
+import 'screens/heroes_star_up_screen.dart';
 import 'screens/intro_screen.dart';
 import 'screens/nyx_screen.dart';
 import 'screens/reroll_screen.dart';
@@ -40,6 +41,7 @@ const Map<String, WidgetBuilder> guideScreenBuilders = {
   AppRoutes.teamComps: _teamComps,
   AppRoutes.tierList: _tierList,
   AppRoutes.heroes: _heroes,
+  AppRoutes.heroesStarUp: _heroesStarUp,
 };
 
 Widget _intro(BuildContext context) => const IntroScreen();
@@ -58,3 +60,4 @@ Widget _soulMirrors(BuildContext context) => const SoulMirrorsScreen();
 Widget _teamComps(BuildContext context) => const TeamCompsScreen();
 Widget _tierList(BuildContext context) => const TierListScreen();
 Widget _heroes(BuildContext context) => const HeroesScreen();
+Widget _heroesStarUp(BuildContext context) => const HeroesStarUpScreen();

@@ -387,6 +387,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navHeroes => 'All Heroes';
 
   @override
+  String get navHeroesStarUp => 'Star-Up';
+
+  @override
   String get navTeamComps => 'Team Comps';
 
   @override
@@ -398,6 +401,36 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get heroesIntro =>
       'Browse every hero, filter by class and rarity, and tap one for its full kit and recommended Soul Mirror.';
+
+  @override
+  String get heroesStarUpTitle => 'Star-Up Costs (SSR+ → Opal 5★)';
+
+  @override
+  String get heroesStarUpIntro =>
+      'Exactly how many copies and fodder you need to take an SSR+ hero all the way to Opal 5★. Same costs for every hero.';
+
+  @override
+  String heroesStarUpTotal(int copies, int duplicates) {
+    return '$copies copies total ($duplicates duplicates + 1 base)';
+  }
+
+  @override
+  String get heroesStarUpDuplicatesLabel => 'duplicates';
+
+  @override
+  String get heroesStarUpBaseCopy => '+ base copy';
+
+  @override
+  String get heroesStarUpMostExpensive => 'Priciest tier';
+
+  @override
+  String get heroesStarUpFodderLabel => 'Fodder';
+
+  @override
+  String get heroesStarUpTipsLabel => 'Tips';
+
+  @override
+  String get heroesStarUpSourceLabel => 'Source';
 
   @override
   String get heroSearchHint => 'Search heroes by name';
@@ -856,16 +889,67 @@ class AppLocalizationsEn extends AppLocalizations {
   String get teamCompsTitle => 'Team Comps';
 
   @override
-  String get teamCompsExtractOne => 'Frontline guidance.';
+  String get teamCompsIntro =>
+      'Battle-tested team cores for Twilight Chronicle: pick your engine, see why it works, and adapt it to the heroes you own.';
 
   @override
-  String get teamCompsExtractTwo => 'Tank usage.';
+  String get teamCompsBasicsTitle => 'Team building 101';
 
   @override
-  String get teamCompsExtractThree => 'Core DPS/support choices.';
+  String get teamCompsBasicsSlots =>
+      'You deploy 6 heroes: 1 in the front, 2 in the mid line and 3 in the back.';
 
   @override
-  String get teamCompsExtractFour => 'Example teams by progression stage.';
+  String get teamCompsBasicsLines =>
+      'Lane buffs come from the first Destiny Star Gate (the later gates are not lane-based) — only the midline gets Crit Rate, so crit DPS go mid; the front slot gets the heaviest defensive buffs, so the tank goes there.';
+
+  @override
+  String get teamCompsBasicsRace =>
+      'Same-faction heroes add a team-wide stat bonus, but treat it as a freebie, not a goal: NEVER bench a stronger hero to chase the faction bonus. It helps in your first days; in the long run hero quality and kit synergy win.';
+
+  @override
+  String get teamCompsBasicsOtherworld =>
+      'Otherworld heroes (all URs) count as ANY faction for that bonus and sit outside the faction-counter wheel — so a strong endgame team usually gets the race bonus for free anyway.';
+
+  @override
+  String get teamCompsBasicsEngine =>
+      'A good team is a debuff engine: stack heroes that apply and exploit the same mechanic — [Holy Seal], [Infect], [Sigil] or [Bleed].';
+
+  @override
+  String get teamCompsVariantEndgame => 'Endgame';
+
+  @override
+  String get teamCompsVariantBudget => 'Budget';
+
+  @override
+  String get teamCompsLineFront => 'Front';
+
+  @override
+  String get teamCompsLineMid => 'Mid';
+
+  @override
+  String get teamCompsLineBack => 'Back';
+
+  @override
+  String get teamCompsWhyItWorks => 'Why it works';
+
+  @override
+  String get teamCompsViewBuild => 'View build';
+
+  @override
+  String teamCompsRaceBonus(
+    int count,
+    Object faction,
+    int atk,
+    int def,
+    int hp,
+  ) {
+    return '$count× $faction: ATK +$atk% · DEF +$def% · HP +$hp%';
+  }
+
+  @override
+  String get teamCompsRaceBonusOtherworld =>
+      '6× Otherworld: ATK +20% · DEF +15% · HP +30% · Final DMG +15%';
 
   @override
   String get tierListTitle => 'Tier List';

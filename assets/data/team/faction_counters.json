@@ -1,0 +1,155 @@
+[
+  {
+    "camp": 1,
+    "campName": "Holylight",
+    "versusCamp": 3,
+    "versusCampName": "Kindred",
+    "relation": "counters",
+    "critMod": [
+      {
+        "stat": "crit",
+        "value": 1000,
+        "percent": 10.0
+      }
+    ],
+    "triggerChance": 5000,
+    "damageEffect": 3000,
+    "description": "When ally hero's faction Counters target: Crit Rate <color=#8cb946>+10%</color>, <color=#8cb946>50%</color> probability to trigger <color=#8cb946>Strong Strike</color>: DMG Effect <color=#8cb946>+30%</color>"
+  },
+  {
+    "camp": 2,
+    "campName": "Arcane Web",
+    "versusCamp": 4,
+    "versusCampName": "Demonhunter",
+    "relation": "counters",
+    "critMod": [
+      {
+        "stat": "crit",
+        "value": 1000,
+        "percent": 10.0
+      }
+    ],
+    "triggerChance": 5000,
+    "damageEffect": 3000,
+    "description": "When ally hero's faction Counters target: Crit Rate <color=#8cb946>+10%</color>, <color=#8cb946>50%</color> probability to trigger <color=#8cb946>Strong Strike</color>: DMG Effect <color=#8cb946>+30%</color>"
+  },
+  {
+    "camp": 3,
+    "campName": "Kindred",
+    "versusCamp": 2,
+    "versusCampName": "Arcane Web",
+    "relation": "counters",
+    "critMod": [
+      {
+        "stat": "crit",
+        "value": 1000,
+        "percent": 10.0
+      }
+    ],
+    "triggerChance": 5000,
+    "damageEffect": 3000,
+    "description": "When ally hero's faction Counters target: Crit Rate <color=#8cb946>+10%</color>, <color=#8cb946>50%</color> probability to trigger <color=#8cb946>Strong Strike</color>: DMG Effect <color=#8cb946>+30%</color>"
+  },
+  {
+    "camp": 4,
+    "campName": "Demonhunter",
+    "versusCamp": 5,
+    "versusCampName": "Sanctuary",
+    "relation": "counters",
+    "critMod": [
+      {
+        "stat": "crit",
+        "value": 1000,
+        "percent": 10.0
+      }
+    ],
+    "triggerChance": 5000,
+    "damageEffect": 3000,
+    "description": "When ally hero's faction Counters target: Crit Rate <color=#8cb946>+10%</color>, <color=#8cb946>50%</color> probability to trigger <color=#8cb946>Strong Strike</color>: DMG Effect <color=#8cb946>+30%</color>"
+  },
+  {
+    "camp": 5,
+    "campName": "Sanctuary",
+    "versusCamp": 3,
+    "versusCampName": "Kindred",
+    "relation": "counters",
+    "critMod": [
+      {
+        "stat": "crit",
+        "value": 1000,
+        "percent": 10.0
+      }
+    ],
+    "triggerChance": 5000,
+    "damageEffect": 3000,
+    "description": "When ally hero's faction Counters target: Crit Rate <color=#8cb946>+10%</color>, <color=#8cb946>50%</color> probability to trigger <color=#8cb946>Strong Strike</color>: DMG Effect <color=#8cb946>+30%</color>"
+  },
+  {
+    "camp": 2,
+    "campName": "Arcane Web",
+    "versusCamp": 3,
+    "versusCampName": "Kindred",
+    "relation": "countered_by",
+    "critMod": [
+      {
+        "stat": "crit",
+        "value": -1000,
+        "percent": -10.0
+      }
+    ],
+    "triggerChance": 5000,
+    "damageEffect": 3000,
+    "description": "When Ally hero's Faction is Countered by target: Crit Rate <color=#f02e2e>-10%</color>, <color=#8cb946>50%</color> probability to trigger <color=#f02e2e>Weak Strike</color>: DMG Effect <color=#f02e2e>-30%</color>"
+  },
+  {
+    "camp": 3,
+    "campName": "Kindred",
+    "versusCamp": 5,
+    "versusCampName": "Sanctuary",
+    "relation": "countered_by",
+    "critMod": [
+      {
+        "stat": "crit",
+        "value": -1000,
+        "percent": -10.0
+      }
+    ],
+    "triggerChance": 5000,
+    "damageEffect": 3000,
+    "description": "When Ally hero's Faction is Countered by target: Crit Rate <color=#f02e2e>-10%</color>, <color=#8cb946>50%</color> probability to trigger <color=#f02e2e>Weak Strike</color>: DMG Effect <color=#f02e2e>-30%</color>"
+  },
+  {
+    "camp": 4,
+    "campName": "Demonhunter",
+    "versusCamp": 2,
+    "versusCampName": "Arcane Web",
+    "relation": "countered_by",
+    "critMod": [
+      {
+        "stat": "crit",
+        "value": -1000,
+        "percent": -10.0
+      }
+    ],
+    "triggerChance": 5000,
+    "damageEffect": 3000,
+    "description": "When Ally hero's Faction is Countered by target: Crit Rate <color=#f02e2e>-10%</color>, <color=#8cb946>50%</color> probability to trigger <color=#f02e2e>Weak Strike</color>: DMG Effect <color=#f02e2e>-30%</color>"
+  },
+  {
+    "camp": 5,
+    "campName": "Sanctuary",
+    "versusCamp": 4,
+    "versusCampName": "Demonhunter",
+    "relation": "countered_by",
+    "critMod": [
+      {
+        "stat": "crit",
+        "value": -1000,
+        "percent": -10.0
+      }
+    ],
+    "triggerChance": 5000,
+    "damageEffect": 3000,
+    "description": "When Ally hero's Faction is Countered by target: Crit Rate <color=#f02e2e>-10%</color>, <color=#8cb946>50%</color> probability to trigger <color=#f02e2e>Weak Strike</color>: DMG Effect <color=#f02e2e>-30%</color>"
+  }
+]

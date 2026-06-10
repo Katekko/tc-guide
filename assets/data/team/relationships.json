@@ -1,0 +1,623 @@
+[
+  {
+    "id": 1,
+    "heroIds": [
+      25013,
+      25005
+    ],
+    "heroNames": [
+      "Ling",
+      "Ying Gou"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 2,
+    "heroIds": [
+      65005,
+      25004
+    ],
+    "heroNames": [
+      "Lilith",
+      "Tinplate"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 3,
+    "heroIds": [
+      25003,
+      25006
+    ],
+    "heroNames": [
+      "Kira",
+      "Heidi"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "def_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 4,
+    "heroIds": [
+      25016,
+      15005
+    ],
+    "heroNames": [
+      "Orpheus",
+      "Sariel"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "hp_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 5,
+    "heroIds": [
+      35015,
+      35014
+    ],
+    "heroNames": [
+      "Alucard",
+      "Sherry"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 6,
+    "heroIds": [
+      65007,
+      35016
+    ],
+    "heroNames": [
+      "Dracula",
+      "Bathory"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 7,
+    "heroIds": [
+      35013,
+      35004
+    ],
+    "heroNames": [
+      "Jacob",
+      "Valendine"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "hp_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 8,
+    "heroIds": [
+      35003,
+      15003
+    ],
+    "heroNames": [
+      "Isabella",
+      "Azmodan"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "def_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 9,
+    "heroIds": [
+      45018,
+      65001
+    ],
+    "heroNames": [
+      "Adele",
+      "Dark Tide"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "def_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 10,
+    "heroIds": [
+      45006,
+      45005
+    ],
+    "heroNames": [
+      "Rose",
+      "Van Helsing"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 11,
+    "heroIds": [
+      45010,
+      45014
+    ],
+    "heroNames": [
+      "Theresa",
+      "Garvin"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 12,
+    "heroIds": [
+      65006,
+      45013
+    ],
+    "heroNames": [
+      "Elegy",
+      "Uncle Ying"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "hp_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 13,
+    "heroIds": [
+      15013,
+      55003
+    ],
+    "heroNames": [
+      "Renais",
+      "Raphael"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "hp_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 14,
+    "heroIds": [
+      55001,
+      15002
+    ],
+    "heroNames": [
+      "Michael",
+      "Albert"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 15,
+    "heroIds": [
+      55008,
+      15006
+    ],
+    "heroNames": [
+      "Arthur",
+      "Ada"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 16,
+    "heroIds": [
+      55005,
+      15010
+    ],
+    "heroNames": [
+      "Luna",
+      "Aurora"
+    ],
+    "kind": "pair",
+    "bonus": [
+      {
+        "stat": "def_per",
+        "value": 1500,
+        "percent": 15.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 17,
+    "heroIds": [
+      55002
+    ],
+    "heroNames": [
+      "Wu Kong"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2000,
+        "percent": 20.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 18,
+    "heroIds": [
+      55007
+    ],
+    "heroNames": [
+      "Jeanne"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "def_per",
+        "value": 2000,
+        "percent": 20.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 19,
+    "heroIds": [
+      65002
+    ],
+    "heroNames": [
+      "Lucifer"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2000,
+        "percent": 20.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 20,
+    "heroIds": [
+      65004
+    ],
+    "heroNames": [
+      "Enchantress"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2000,
+        "percent": 20.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 21,
+    "heroIds": [
+      65010
+    ],
+    "heroNames": [
+      "Elbella"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "def_per",
+        "value": 2000,
+        "percent": 20.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 22,
+    "heroIds": [
+      15001
+    ],
+    "heroNames": [
+      "Daisy"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2000,
+        "percent": 20.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 23,
+    "heroIds": [
+      65011
+    ],
+    "heroNames": [
+      "65011"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2000,
+        "percent": 20.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 24,
+    "heroIds": [
+      65013
+    ],
+    "heroNames": [
+      "Night Depths"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2000,
+        "percent": 20.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 25,
+    "heroIds": [
+      65012
+    ],
+    "heroNames": [
+      "Hinata Inori"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2000,
+        "percent": 20.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 26,
+    "heroIds": [
+      65014
+    ],
+    "heroNames": [
+      "Nyx"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2500,
+        "percent": 25.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 27,
+    "heroIds": [
+      65015
+    ],
+    "heroNames": [
+      "Nüwa"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2500,
+        "percent": 25.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 28,
+    "heroIds": [
+      65016
+    ],
+    "heroNames": [
+      "Gaia"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2500,
+        "percent": 25.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 29,
+    "heroIds": [
+      65017
+    ],
+    "heroNames": [
+      "Mars"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2500,
+        "percent": 25.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 30,
+    "heroIds": [
+      65018
+    ],
+    "heroNames": [
+      "Ananke"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2500,
+        "percent": 25.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  },
+  {
+    "id": 31,
+    "heroIds": [
+      65019
+    ],
+    "heroNames": [
+      "Venus"
+    ],
+    "kind": "solo",
+    "bonus": [
+      {
+        "stat": "atk_per",
+        "value": 2500,
+        "percent": 25.0
+      }
+    ],
+    "soloUnlockGradeIndex": 14,
+    "soloUnlockGrade": "Anima 1★"
+  }
+]
