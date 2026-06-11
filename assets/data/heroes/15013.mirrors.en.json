@@ -1,0 +1,490 @@
+{
+  "heroId": 15013,
+  "heroName": "Renais",
+  "profile": "Sanctuary Assassin, Physical Counterattack. His Ultimate is a passive that replaces Basic Attack with [Divine Spear Verdict] and re-casts it as a counterattack whenever an ally is attacked (Awaken raises the trigger count to 5), so his entire damage output is a high-volume stream of basic-attack/counter hits. Every attack/counter grants [Momentum] (ramping self ATK + Lifesteal over turns) and stacks [Quash]; attacking [Quash] targets adds 25% ATK x stacks and a guaranteed +30% Crit Rate, so he crits hard and kills repeatedly. He WANTS basic-attack DMG, crit, on-kill re-attacks, True DMG and Final DMG riders on attacks, and ATK%/ramp; he does NOT want ultimate-only, AoE-skill-only, heal-output, control, effect-hit, or pure-tank effects.",
+  "ranking": [
+    {
+      "mirrorId": 72250,
+      "name": "Renais",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "His own mirror and the canonical breakpoint case: stacking Basic Attack DMG (up to 25%/40%) on every counter/basic attack, which is literally all he does. B-tier stat-stick at 0-2; S-tier at 3+ where 'when killing an enemy, 40%/60%/80% chance to launch a Basic Attack against a random enemy' chains into his kill-heavy volume playstyle."
+    },
+    {
+      "mirrorId": 72344,
+      "name": "Scale-Splitting",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Basic Attack deals additional True DMG (up to 50% ATK) and every hit he throws IS a Basic Attack, so it fires across his whole counter stream (4-6 times/turn). 3 adds on-Crit True DMG and he crits constantly vs [Quash]; perfect mechanic plus anima ceiling."
+    },
+    {
+      "mirrorId": 72241,
+      "name": "Adele",
+      "tier": "S",
+      "recommendedStar": 3,
+      "reason": "Flat Basic Attack DMG (+10-30%) directly multiplies his Divine Spear Verdict spam. A -> S at 3 where Basic Attack gains +5-15% Crit Rate, which compounds with his guaranteed-crit [Quash] engine."
+    },
+    {
+      "mirrorId": 72348,
+      "name": "Wasteward",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Each attack/Basic Attack stacks Final DMG; his many counters per turn ramp it to the 32-50% cap fast, and Final DMG multiplies every hit. anima magnitude, basic-atk tagged, ideal for a multi-hit counter hero."
+    },
+    {
+      "mirrorId": 72443,
+      "name": "Wukong",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "All attacks deal additional %-ATK True DMG (up to 20%), unconditional, firing on every counter and basic hit. True DMG also bypasses tanky targets; pure, reliable damage on his volume kit from 0."
+    },
+    {
+      "mirrorId": 72244,
+      "name": "Alucard",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Flat Crit Rate AND Crit DMG (+5-15% each). He already forces crits via +30% Crit Rate vs [Quash], so added Crit DMG converts directly into damage on every hit; 3 adds an on-crit buff-dispel. Best raw crit mirror."
+    },
+    {
+      "mirrorId": 72340,
+      "name": "Firmament",
+      "tier": "S",
+      "recommendedStar": 0,
+      "reason": "Flat +12-30% Final DMG, no conditions, multiplies every counter, basic attack and Feat hit. The best generic damage multiplier in the pool and it works from 0 stars."
+    },
+    {
+      "mirrorId": 72349,
+      "name": "Royal Awe",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "DMG ramps when repeatedly attacking the same enemy within a turn (up to 42-60%). His Divine Spear Verdict counters and Feat double-hit pound the same target repeatedly, so it stacks well; pure multiplicative damage."
+    },
+    {
+      "mirrorId": 72142,
+      "name": "Ada",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "+ATK DMG (up to 20%) vs enemies with any Debuff. He self-applies [Quash] and [Holy Seal] on nearly every target, so this generic-debuff gate is almost always live; large, low-condition physical amp."
+    },
+    {
+      "mirrorId": 72351,
+      "name": "Throat-Slitting",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Big front-loaded Final DMG that RESETS on kill. He kills frequently and his on-kill chain (own mirror) helps reset uptime, so the bonus stays high through fights; strong on a kill-heavy attacker."
+    },
+    {
+      "mirrorId": 72017,
+      "name": "Aelia",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Flat Crit DMG%. He crits reliably via [Quash], so every point of Crit DMG is realized; cheap epic but pure synergy with his guaranteed-crit engine. Second-string crit behind Alucard."
+    },
+    {
+      "mirrorId": 72245,
+      "name": "Rose",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Stacking Final DMG after each attack; his many attacks/turn ramp it fast. Even at 3+ where Basic Attack gives the smaller per-hit value, his sheer hit count (counters x5) keeps it near cap; reliable ramp damage."
+    },
+    {
+      "mirrorId": 72016,
+      "name": "Vivi",
+      "tier": "A",
+      "recommendedStar": 0,
+      "reason": "Flat Crit Rate%. He wants to crit on every hit and only the +30% vs [Quash] is guaranteed; extra base Crit Rate helps first hits and off-[Quash] targets. Small epic numbers keep it just under Alucard/Aelia."
+    },
+    {
+      "mirrorId": 72141,
+      "name": "Aurora",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "DEF Ignore (+5-15%) raises his physical counter/basic-attack damage vs tanky targets. A real but flat gain that does nothing for his True-DMG riders; solid bench filler."
+    },
+    {
+      "mirrorId": 72249,
+      "name": "Michael",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Final DMG per Buff on self (up to 30%). His [Momentum] ramp and other self-buffs give him several stacks, so it scales decently; pure damage, dependent on buff count."
+    },
+    {
+      "mirrorId": 72134,
+      "name": "Kira",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat single-target ATK DMG (+8-20%). His Divine Spear Verdict and Feat are single-target hits, so it applies, but it does nothing for off-target counter spread; good when he focuses one enemy."
+    },
+    {
+      "mirrorId": 72014,
+      "name": "Yin",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Plain Final DMG% (+2-5%). A universally useful multiplier on his every hit, but small epic numbers; reliable filler behind Firmament/Wasteward."
+    },
+    {
+      "mirrorId": 72011,
+      "name": "Mister",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat ATK%. His [Quash] bonus (25% ATK x stacks), Lifesteal and True-DMG riders all scale off ATK, so ATK% touches nearly everything he does; small numbers keep it filler."
+    },
+    {
+      "mirrorId": 72138,
+      "name": "Valendine",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Single-attack DMG scaling with target's lost HP (up to 35%). His Divine Spear Verdict is a single attack and he grinds targets down over many counters, so the bonus grows; narrow to single hits only."
+    },
+    {
+      "mirrorId": 72145,
+      "name": "Isabella",
+      "tier": "B",
+      "recommendedStar": 0,
+      "reason": "Flat Final DMG + bonus vs [Shield] enemies. The base Final DMG always helps every hit; the shield clause is situational. Reasonable damage filler."
+    },
+    {
+      "mirrorId": 72133,
+      "name": "Uncle Ying",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Ultimate DMG up. His Ultimate is a passive (Divine Spear Verdict counter), not a scalable active nuke, so a flat Ultimate-DMG buff has little/no application to his basic-attack stream; off-fit."
+    },
+    {
+      "mirrorId": 72128,
+      "name": "Van Helsing",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Ultimate-DMG boost that builds via Basic Attacks. He basic-attacks a lot (so it would build), but his Ultimate is a passive counter, not a discrete cast it can amplify; the basic-atk half is wasted on a payoff he can't use."
+    },
+    {
+      "mirrorId": 72350,
+      "name": "Baleful Omen",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Small Final DMG (+5-15%) plus [Lethal] revive-block. The Final DMG portion helps every hit, but it is modest and the control rider is niche; usable filler, not a damage core."
+    },
+    {
+      "mirrorId": 72346,
+      "name": "Horde-Assault",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "AoE-skill True DMG, split among targets, capped per target. He has no real AoE attack skill (his kit is single-target counters + Feat), so the trigger rarely matches; mostly dead despite the True-DMG theme."
+    },
+    {
+      "mirrorId": 72242,
+      "name": "Luna",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Area-attack DMG only. His damage is single-target Divine Spear Verdict + Feat, so an AoE-only buff finds little to amplify; low-priority."
+    },
+    {
+      "mirrorId": 72441,
+      "name": "Lucifer",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "%-current-HP True DMG vs targets with [DMG Over Time]. He applies [Quash]/[Holy Seal], not a DoT, so the generic-DoT gate is rarely satisfied by his own kit; only good with a DoT teammate."
+    },
+    {
+      "mirrorId": 72451,
+      "name": "Mars Soul Mirror",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Extra True DMG on Feat-Skill crit. His Feat (Judgment Blow) crits vs [Quash], so it triggers, but only on that one cooldown skill, not his counter stream; narrow True-DMG slice."
+    },
+    {
+      "mirrorId": 72446,
+      "name": "Daisy",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Final DMG + crit stacks that build only when he does NOT kill. Anti-synergistic with a kill-heavy counter hero (his own mirror chains on kills); the base Final DMG is the only reliable part."
+    },
+    {
+      "mirrorId": 72447,
+      "name": "Hinata Inori",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "On ally death: heal + big Crit Rate + Final DMG burst. He profits from crit/Final DMG and heal, but it needs an ally to die to fire; conditional and out of his hands."
+    },
+    {
+      "mirrorId": 72247,
+      "name": "Ling",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Big True DMG gated on the target having [Infect], which he never applies. Dead without an Infect teammate, hence C despite the True-DMG theme (named-[Infect] gate, not a generic debuff)."
+    },
+    {
+      "mirrorId": 72452,
+      "name": "Ananke Soul Mirror",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Final DMG, big only vs Damage-Share/Transfer targets which he never creates; the unconditional +5-20% Final DMG portion still helps every hit, so it scrapes into C as flat damage filler."
+    },
+    {
+      "mirrorId": 72448,
+      "name": "Nyx Soul Mirror",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "True DMG only on passively-triggered AoE skills. His passive procs (Divine Spear Verdict) are single-target counters, not AoE, so the gate misfires; theme fits but trigger doesn't."
+    },
+    {
+      "mirrorId": 72243,
+      "name": "Dracula",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "HP + Healing-Received when low HP. His [Momentum] Lifesteal gives heal-amp slight synergy when low, but it is defensive with no offense; bench at best."
+    },
+    {
+      "mirrorId": 72251,
+      "name": "Dark Tide",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "HP + DMG when his HP is higher than enemy's. He fights at the front and takes hits to counter, so the condition is inconsistent; the DMG clause is small and it's a def mirror, so C."
+    },
+    {
+      "mirrorId": 72140,
+      "name": "Jacob",
+      "tier": "C",
+      "recommendedStar": 0,
+      "reason": "Final DMG + Final DMG RED scaling as HP is lost. He often takes damage at the front, so the offensive half can turn on, but numbers are small and it is a def mirror; modest."
+    },
+    {
+      "mirrorId": 72015,
+      "name": "Zhiming",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Pure Final DMG RED. He is a front counterattacker so a little survivability isn't useless, but it adds zero offense; he'd rather slot damage."
+    },
+    {
+      "mirrorId": 72353,
+      "name": "Titan Strength",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "ATK and DEF only while carrying a [Shield] (heal at 3). He has no self-shield in his kit, so it usually sits inactive; the ATK part is wasted without a shield enabler."
+    },
+    {
+      "mirrorId": 72450,
+      "name": "Gaia Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "HP + AoE True DMG on a lethal hit. His Lifesteal/ramp keeps him alive and he rarely takes a clean lethal hit, so the retaliation seldom fires; mostly a stat stick for him."
+    },
+    {
+      "mirrorId": 72341,
+      "name": "Frostglow",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Pure Final DMG RED (anima). Strong survivability but offers nothing to his offense; only if he must survive a specific spike at the front."
+    },
+    {
+      "mirrorId": 72342,
+      "name": "Rock Elephant",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Excess-DMG reduction. Defensive only; keeps him alive to keep countering but adds no damage and competes with offensive slots."
+    },
+    {
+      "mirrorId": 72352,
+      "name": "Eternal Stand",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Stacking Final DMG RED on being hit. He is attacked often (good trigger), but it is purely defensive with no offense; off his damage plan."
+    },
+    {
+      "mirrorId": 72127,
+      "name": "Albert",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Flat HP%. Pure survivability with no damage; a front counter-DPS would rather run offense in every slot."
+    },
+    {
+      "mirrorId": 72013,
+      "name": "Frankenstein",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Flat HP% (epic) - same as Albert but weaker; bench survivability only."
+    },
+    {
+      "mirrorId": 72012,
+      "name": "Galos",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Flat DEF%. Minimal value on a low-DEF Assassin who wins by attacking; no offense."
+    },
+    {
+      "mirrorId": 72130,
+      "name": "Tinplate",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Counter True DMG scaling off DEF. He does get attacked and counter, but he has almost no DEF (def 93), so the DEF-scaled True DMG is tiny; tag fits, numbers don't."
+    },
+    {
+      "mirrorId": 72444,
+      "name": "Night Depths",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "True DMG that scales with HP lost ([Time Seal] per 20-10% HP lost), and the 10-stack %-max-HP execute also needs heavy self-damage. He has no HP-loss engine and sustains via Lifesteal, so the stacks barely build and the execute rarely arms; off-engine despite the True-DMG tag."
+    },
+    {
+      "mirrorId": 72018,
+      "name": "Lincoln",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Crit DMG RED. Defensive anti-crit utility; gives him no offense."
+    },
+    {
+      "mirrorId": 72132,
+      "name": "Garvin",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG RED (legendary). Defensive only; off-role for his damage plan."
+    },
+    {
+      "mirrorId": 72144,
+      "name": "Azmodan",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Reflects [Bleed] when attacked. He is attacked at the front, but a chance-to-Bleed reflect adds trivial damage and no synergy with his physical crit kit; near-dead."
+    },
+    {
+      "mirrorId": 72137,
+      "name": "Sariel",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Reflects [Infect] when attacked. Control/tank mirror with no offense for him and an [Infect] he never wants; weak."
+    },
+    {
+      "mirrorId": 72143,
+      "name": "Arthur",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "+DMG vs enemies with Control. He applies no Control himself ([Quash]/[Holy Seal] are not control), so it only works behind a CC ally; conditional and off-kit."
+    },
+    {
+      "mirrorId": 72135,
+      "name": "Elegy",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "On Crit, reduce target Healing-Received. He crits, so it triggers, but it is a control/debuff with no damage payoff for him; situational utility only."
+    },
+    {
+      "mirrorId": 72449,
+      "name": "Nuwa Soul Mirror",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "Final DMG meaningful mainly in Damage-Share state, which he never enters; the unconditional portion is small and the rest is anti-control utility; mostly dead for him."
+    },
+    {
+      "mirrorId": 72440,
+      "name": "Jeanne",
+      "tier": "D",
+      "recommendedStar": 0,
+      "reason": "DMG-RED/heal tank mirror keyed to Damage-Share - a guard kit he has nothing to do with; defensive and off-plan."
+    },
+    {
+      "mirrorId": 72129,
+      "name": "Bathory",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect Hit Rate. His damage doesn't hinge on accuracy investment and he lands no high-value debuffs needing it; inert stat for him."
+    },
+    {
+      "mirrorId": 72131,
+      "name": "Raphael",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect Resist Rate. Pure defensive anti-CC stat, zero offense; dead slot for a damage counter-hero."
+    },
+    {
+      "mirrorId": 72354,
+      "name": "Alluring Gaze",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect Resist Rate buff. Survivability/anti-control only; contributes nothing to his damage."
+    },
+    {
+      "mirrorId": 72445,
+      "name": "Elbera‘s Soul Mirror",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect Resist + minor heal on buff expiry. Defensive utility with no damage; off-role."
+    },
+    {
+      "mirrorId": 72442,
+      "name": "Enchantress",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Effect-Hit/[Fox Fire] control package. He isn't a debuff-control hero, so the engine never builds; wrong toolkit."
+    },
+    {
+      "mirrorId": 72240,
+      "name": "Sherry",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Extra [Bleed] on applying Bleed. He applies no Bleed, so it literally never triggers."
+    },
+    {
+      "mirrorId": 72246,
+      "name": "Ying Gou",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Extra [Infect] on applying Infect. He applies no Infect; dead trigger (named-status gate)."
+    },
+    {
+      "mirrorId": 72248,
+      "name": "Lilith",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Single-skill True DMG per Debuff on target, but the gate wants stacked debuffs he doesn't pile on, and it only fires on one skill; scaling stays near zero, F for him."
+    },
+    {
+      "mirrorId": 72126,
+      "name": "Theresa",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Increases Heal output. He is not a healer; the effect does nothing for his counter-DPS."
+    },
+    {
+      "mirrorId": 72136,
+      "name": "Heidi",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Single-target heal-skill amp. He has no heal skill to amplify; fully wasted."
+    },
+    {
+      "mirrorId": 72139,
+      "name": "Orpheus",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Recover lost HP at turn start. Pure sustain with no offense; his own [Momentum] Lifesteal already heals him, so this is redundant and damage-dead."
+    },
+    {
+      "mirrorId": 72345,
+      "name": "Flame Dawn",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Revive on death. Pure survival utility with no damage; off-plan for a front DPS who sustains via Lifesteal."
+    },
+    {
+      "mirrorId": 72343,
+      "name": "Mystic Bull",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Team Shield at battle start. A support effect with no personal damage; off-role for his counter-DPS."
+    },
+    {
+      "mirrorId": 72347,
+      "name": "Warding Blessing",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "Grants allies Spirit Shield on his death. Pure support payoff that requires him to die; nothing for his own damage."
+    },
+    {
+      "mirrorId": 72453,
+      "name": "Venus",
+      "tier": "F",
+      "recommendedStar": 0,
+      "reason": "DMG-RED support mirror with no offensive text at all; defensive filler, dead for a damage hero."
+    }
+  ]
+}
