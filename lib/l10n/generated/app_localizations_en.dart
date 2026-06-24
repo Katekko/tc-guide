@@ -445,6 +445,39 @@ class AppLocalizationsEn extends AppLocalizations {
   String get heroEmpty => 'No heroes match these filters.';
 
   @override
+  String get heroModeSearch => 'Search';
+
+  @override
+  String get heroModePuzzle => 'Daily Hero';
+
+  @override
+  String get heroPuzzleHelp =>
+      'Daily-event helper: enter how many letters the name has and any letter you already know, and we\'ll list the heroes that fit.';
+
+  @override
+  String get heroPuzzleLetterCount => 'Letters';
+
+  @override
+  String get heroPuzzleKnownLetters => 'Known letters';
+
+  @override
+  String get heroPuzzleKnownHint => 'e.g. a r n';
+
+  @override
+  String get heroPuzzleCountSpaces => 'Count spaces';
+
+  @override
+  String get heroPuzzleClear => 'Clear';
+
+  @override
+  String get heroPuzzlePrompt =>
+      'Enter the number of letters or a known letter to see the heroes that match.';
+
+  @override
+  String get heroPuzzleNoMatch =>
+      'No hero matches. Try toggling \"Count spaces\" or double-check the letters.';
+
+  @override
   String get heroNotFoundTitle => 'Hero not found';
 
   @override

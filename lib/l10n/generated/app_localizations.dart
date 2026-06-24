@@ -891,6 +891,66 @@ abstract class AppLocalizations {
   /// **'No heroes match these filters.'**
   String get heroEmpty;
 
+  /// No description provided for @heroModeSearch.
+  ///
+  /// In en, this message translates to:
+  /// **'Search'**
+  String get heroModeSearch;
+
+  /// No description provided for @heroModePuzzle.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily Hero'**
+  String get heroModePuzzle;
+
+  /// No description provided for @heroPuzzleHelp.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily-event helper: enter how many letters the name has and any letter you already know, and we\'ll list the heroes that fit.'**
+  String get heroPuzzleHelp;
+
+  /// No description provided for @heroPuzzleLetterCount.
+  ///
+  /// In en, this message translates to:
+  /// **'Letters'**
+  String get heroPuzzleLetterCount;
+
+  /// No description provided for @heroPuzzleKnownLetters.
+  ///
+  /// In en, this message translates to:
+  /// **'Known letters'**
+  String get heroPuzzleKnownLetters;
+
+  /// No description provided for @heroPuzzleKnownHint.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. a r n'**
+  String get heroPuzzleKnownHint;
+
+  /// No description provided for @heroPuzzleCountSpaces.
+  ///
+  /// In en, this message translates to:
+  /// **'Count spaces'**
+  String get heroPuzzleCountSpaces;
+
+  /// No description provided for @heroPuzzleClear.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear'**
+  String get heroPuzzleClear;
+
+  /// No description provided for @heroPuzzlePrompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the number of letters or a known letter to see the heroes that match.'**
+  String get heroPuzzlePrompt;
+
+  /// No description provided for @heroPuzzleNoMatch.
+  ///
+  /// In en, this message translates to:
+  /// **'No hero matches. Try toggling \"Count spaces\" or double-check the letters.'**
+  String get heroPuzzleNoMatch;
+
   /// No description provided for @heroNotFoundTitle.
   ///
   /// In en, this message translates to:

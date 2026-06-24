@@ -447,6 +447,39 @@ class AppLocalizationsPt extends AppLocalizations {
   String get heroEmpty => 'Nenhum herói corresponde a estes filtros.';
 
   @override
+  String get heroModeSearch => 'Buscar';
+
+  @override
+  String get heroModePuzzle => 'Personagem do Dia';
+
+  @override
+  String get heroPuzzleHelp =>
+      'Ajuda do evento diário: informe quantas letras o nome tem e qualquer letra que você já saiba, que listamos os heróis que encaixam.';
+
+  @override
+  String get heroPuzzleLetterCount => 'Nº de letras';
+
+  @override
+  String get heroPuzzleKnownLetters => 'Letras conhecidas';
+
+  @override
+  String get heroPuzzleKnownHint => 'ex: a r n';
+
+  @override
+  String get heroPuzzleCountSpaces => 'Contar espaços';
+
+  @override
+  String get heroPuzzleClear => 'Limpar';
+
+  @override
+  String get heroPuzzlePrompt =>
+      'Informe o número de letras ou uma letra conhecida para ver os heróis que correspondem.';
+
+  @override
+  String get heroPuzzleNoMatch =>
+      'Nenhum herói corresponde. Tente ligar/desligar \"Contar espaços\" ou revise as letras.';
+
+  @override
   String get heroNotFoundTitle => 'Herói não encontrado';
 
   @override
@@ -1561,6 +1594,39 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get heroEmpty => 'Nenhum herói corresponde a estes filtros.';
+
+  @override
+  String get heroModeSearch => 'Buscar';
+
+  @override
+  String get heroModePuzzle => 'Personagem do Dia';
+
+  @override
+  String get heroPuzzleHelp =>
+      'Ajuda do evento diário: informe quantas letras o nome tem e qualquer letra que você já saiba, que listamos os heróis que encaixam.';
+
+  @override
+  String get heroPuzzleLetterCount => 'Nº de letras';
+
+  @override
+  String get heroPuzzleKnownLetters => 'Letras conhecidas';
+
+  @override
+  String get heroPuzzleKnownHint => 'ex: a r n';
+
+  @override
+  String get heroPuzzleCountSpaces => 'Contar espaços';
+
+  @override
+  String get heroPuzzleClear => 'Limpar';
+
+  @override
+  String get heroPuzzlePrompt =>
+      'Informe o número de letras ou uma letra conhecida para ver os heróis que correspondem.';
+
+  @override
+  String get heroPuzzleNoMatch =>
+      'Nenhum herói corresponde. Tente ligar/desligar \"Contar espaços\" ou revise as letras.';
 
   @override
   String get heroNotFoundTitle => 'Herói não encontrado';
